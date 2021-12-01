@@ -9,35 +9,26 @@ describe('Navigation on main page', () =>{
     let remote: RemoteLocation
     let checkTitle = "Персональные данные";
 
-    beforeEach(async () => {
-        browser = await chromium.launch({
+    test ('Click on start business registration as entrepreneur', async () => {
+        const browser = await chromium.launch({
             headless: false
         });
-        context = await browser.newContext()
+        const context = await browser.newContext({
+            recordVideo: {
+                dir: "./videos/",
+                size: {
+                    width: 800,
+                    height: 600
+                }
+            }
+        });
         page = await context.newPage();
         await page.goto("https://rbo.uat.dasreda.ru");
-    })
 
-    test ('Click on start business registration as entrepreneur', async () => {
         await page.click("#test-landing-upper-ip_button");
         const title = await page.$("h1");
         expect(await title.textContent()).toContain(checkTitle);
-    })
 
-    test ('Click on start business registration as legal entity', async () => {
-        await page.click("#test-landing-upper-ooo_button");
-        const title = await page.$("h1");
-        expect(await title.textContent()).toContain(checkTitle);
-    })
-
-    test ('Clicking on FAQ button', async () => {
-        await page.click("text='Вопрос-ответ'");
-        await page.waitForNavigation();
-        const title = await page.$("h1");
-        expect(await title.textContent()).toContain("Вопрос-ответ");
-    })
-
-    afterEach(async () => {
         await page.close()
         await context.close()
         await browser.close()
