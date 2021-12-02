@@ -1,19 +1,16 @@
 import {Browser, BrowserContext, chromium, Page} from "playwright";
-import {Protocol} from "playwright/types/protocol";
-import RemoteLocation = Protocol.Target.RemoteLocation;
 
-describe('Navigation on main page', () =>{
+describe('Navigation on main page', () => {
     let browser: Browser;
     let context: BrowserContext;
     let page: Page;
-    let remote: RemoteLocation
     let checkTitle = "Персональные данные";
 
     beforeEach(async () => {
         browser = await chromium.launch({
             headless: false
         });
-        context = await browser.newContext()
+        context = await browser.newContext();
         page = await context.newPage();
         await page.goto("https://rbo.uat.dasreda.ru");
     })
@@ -35,6 +32,13 @@ describe('Navigation on main page', () =>{
         await page.waitForNavigation();
         const title = await page.$("h1");
         expect(await title.textContent()).toContain("Вопрос-ответ");
+    })
+
+    test ('Clicking on Feedback button', async () => {
+        await page.click("text='Обратная связь'");
+        await page.waitForNavigation();
+        const title = await page.$("h1");
+        expect(await title.textContent()).toContain("Обратная связь");
     })
 
     afterEach(async () => {
