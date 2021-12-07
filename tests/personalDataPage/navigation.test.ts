@@ -33,9 +33,41 @@ describe('Navigation on personal data page', () =>{
         expect(await title.textContent()).toContain("Вопрос-ответ");
     });
 
+    test ('Clicking on FAQ button', async () => {
+        await page.goto(url + "ip/1");
+        await page.click("//div[contains(@class, 'topmenu-logo-pic')]");
+        await page.waitForNavigation();
+        const title = await page.$("#test-landing-header-text");
+        expect(await title.textContent()).toContain("бизнес легко и быстро");
+    });
+
+    test ('Clicking on FAQ button', async () => {
+        await page.goto(url + "ooo/1");
+        await page.click("//div[contains(@class, 'topmenu-logo-pic')]");
+        await page.waitForNavigation();
+        const title = await page.$("#test-landing-header-text");
+        expect(await title.textContent()).toContain("бизнес легко и быстро");
+    });
+
+    test ('Clicking on login through SberId button', async () => {
+        await page.goto(url + "ip/1");
+        await page.click("//button[contains(@class, 'SberIdButton')]");
+        await page.waitForNavigation();
+        const title = await page.$("h1");
+        expect(await title.textContent()).toContain("Деловая среда");
+    });
+
+    test ('Clicking on login through SberId button', async () => {
+        await page.goto(url + "ooo/1");
+        await page.click("//button[contains(@class, 'SberIdButton')]");
+        await page.waitForNavigation();
+        const title = await page.$("h1");
+        expect(await title.textContent()).toContain("Деловая среда");
+    });
+
     afterEach(async () => {
         await page.close()
         await context.close()
         await browser.close()
-    })
+    });
 })

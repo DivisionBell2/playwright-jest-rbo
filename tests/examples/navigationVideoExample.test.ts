@@ -1,12 +1,8 @@
-import {Browser, BrowserContext, chromium, Page} from "playwright";
+import {chromium, Page} from "playwright";
 import {Protocol} from "playwright/types/protocol";
-import RemoteLocation = Protocol.Target.RemoteLocation;
 
 describe('Navigation on main page', () =>{
-    let browser: Browser;
-    let context: BrowserContext;
     let page: Page;
-    let remote: RemoteLocation
     let checkTitle = "Персональные данные";
 
     test ('Click on start business registration as entrepreneur', async () => {
