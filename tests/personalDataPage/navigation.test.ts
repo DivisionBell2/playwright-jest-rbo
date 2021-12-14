@@ -7,6 +7,10 @@ describe('Navigation on personal data page', () =>{
     let context: BrowserContext;
     let page: Page;
 
+    let faqTitle = "Вопрос-ответ";
+    let landingTitle = "бизнес легко и быстро";
+    let dsTitle = "Деловая среда";
+
     const url = "https://rbo.uat.dasreda.ru/rbidos/personal-information/";
 
     beforeEach(async () => {
@@ -22,7 +26,7 @@ describe('Navigation on personal data page', () =>{
         await page.click("text='Вопрос-ответ'");
         await page.waitForNavigation();
         const title = await page.$("h1");
-        expect(await title.textContent()).toContain("Вопрос-ответ");
+        expect(await title.textContent()).toContain(faqTitle);
     });
 
     test ('Clicking on FAQ button', async () => {
@@ -30,7 +34,7 @@ describe('Navigation on personal data page', () =>{
         await page.click("text='Вопрос-ответ'");
         await page.waitForNavigation();
         const title = await page.$("h1");
-        expect(await title.textContent()).toContain("Вопрос-ответ");
+        expect(await title.textContent()).toContain(faqTitle);
     });
 
     test ('Clicking on FAQ button', async () => {
@@ -38,7 +42,7 @@ describe('Navigation on personal data page', () =>{
         await page.click("//div[contains(@class, 'topmenu-logo-pic')]");
         await page.waitForNavigation();
         const title = await page.$("#test-landing-header-text");
-        expect(await title.textContent()).toContain("бизнес легко и быстро");
+        expect(await title.textContent()).toContain(landingTitle);
     });
 
     test ('Clicking on FAQ button', async () => {
@@ -46,7 +50,7 @@ describe('Navigation on personal data page', () =>{
         await page.click("//div[contains(@class, 'topmenu-logo-pic')]");
         await page.waitForNavigation();
         const title = await page.$("#test-landing-header-text");
-        expect(await title.textContent()).toContain("бизнес легко и быстро");
+        expect(await title.textContent()).toContain(landingTitle);
     });
 
     test ('Clicking on login through SberId button', async () => {
@@ -54,7 +58,7 @@ describe('Navigation on personal data page', () =>{
         await page.click("//button[contains(@class, 'SberIdButton')]");
         await page.waitForNavigation();
         const title = await page.$("h1");
-        expect(await title.textContent()).toContain("Деловая среда");
+        expect(await title.textContent()).toContain(dsTitle);
     });
 
     test ('Clicking on login through SberId button', async () => {
@@ -62,12 +66,29 @@ describe('Navigation on personal data page', () =>{
         await page.click("//button[contains(@class, 'SberIdButton')]");
         await page.waitForNavigation();
         const title = await page.$("h1");
-        expect(await title.textContent()).toContain("Деловая среда");
+        expect(await title.textContent()).toContain(dsTitle);
     });
+
+    test ('Clicking on feedback button', async () => {
+        await page.goto(url + "ip/1");
+        await page.click("text='Обратная связь'");
+        await page.waitForNavigation();
+        const title = await page.$("h1");
+        expect(await title.textContent()).toContain("Обратная связь");
+    });
+
+    test ('Clicking on feedback button', async () => {
+        await page.goto(url + "ooo/1");
+        await page.click("text='Обратная связь'");
+        await page.waitForNavigation();
+        const title = await page.$("h1");
+        expect(await title.textContent()).toContain("Обратная связь");
+    });
+
 
     afterEach(async () => {
-        await page.close()
-        await context.close()
-        await browser.close()
+        await page.close();
+        await context.close();
+        await browser.close();
     });
 })
