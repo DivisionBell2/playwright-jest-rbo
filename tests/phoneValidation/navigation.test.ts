@@ -1,6 +1,8 @@
 import {Browser, BrowserContext, chromium, Page} from "playwright";
+import {Protocol} from "playwright/types/protocol";
+import RemoteLocation = Protocol.Target.RemoteLocation;
 
-describe("Registration new business process", () => {
+describe('Navigation on personal data page', () => {
     let browser: Browser;
     let context: BrowserContext;
     let page: Page;
@@ -8,14 +10,20 @@ describe("Registration new business process", () => {
     let email = "autotest+" + new Date().getTime() + "@dasredatest.ru";
     let password = "Qwerty123";
     let username = "Автотест";
-    let checkTitle = "Персональные данные";
 
-    test("registration new business", async () => {
+    let faqTitle = "Вопрос-ответ";
+    let landingTitle = "бизнес легко и быстро";
+    let dsTitle = "Деловая среда";
+
+    const url = "https://rbo.uat.dasreda.ru/rbidos/personal-information/";
+
+    beforeEach(async () => {
         browser = await chromium.launch({
             headless: false
         });
-        context = await browser.newContext();
+        context = await browser.newContext()
         page = await context.newPage();
+
         await page.goto("https://rbo.uat.dasreda.ru");
         await page.click("text='Войти'");
         await page.click("text='Зарегистрироваться'");
@@ -34,11 +42,11 @@ describe("Registration new business process", () => {
         await page.fill("#username", email);
         await page.fill("#password", password);
         await page.click("#test-loginForm-singIn");
+    })
 
+    test ('Clicking on logo in ip/2 page', async () => {
         await page.waitForSelector("#test-landing-navPanel-logedIn");
         await page.click("#test-landing-upper-ip_button");
-        const title = await page.$("h1");
-        expect(await title.textContent()).toContain(checkTitle);
 
         await page.waitForSelector("//input[@id='lastName' and @value='" + username + "']");
         const pageEmail = await page.$('//div[contains(@class, "PersonalInformation")]//p');
@@ -46,26 +54,29 @@ describe("Registration new business process", () => {
         await page.waitForSelector("//button[contains(., 'Продолжить')]");
         await page.click("//button[contains(., 'Продолжить')]");
 
-        await page.waitForSelector("//div[contains(@class, 'request-number-hint')]");
-        await page.click("//button[contains(., 'Я регистрируюсь сам')]");
-        await page.fill("//input[@name='phone']", "9992222222");
-        await page.waitForTimeout(5000);
-        await page.click("#test-send_sms");
-        await page.click("#agreement-conditions");
-        await page.click("#agreementPersonalData");
-        await page.fill("#code", "123123");
+        await page.click("//div[contains(@class, 'topmenu-logo-pic')]");
+        const title = await page.$("#test-landing-header-text");
+        expect(await title.textContent()).toContain(landingTitle);
+    });
+
+    test ('Clicking on logo in ooo/2 page', async () => {
+        await page.waitForSelector("#test-landing-navPanel-logedIn");
+        await page.click("#test-landing-upper-ooo_button");
+
+        await page.waitForSelector("//input[@id='lastName' and @value='" + username + "']");
+        const pageEmail = await page.$('//div[contains(@class, "PersonalInformation")]//p');
+        expect(await pageEmail.textContent()).toContain(email);
+        await page.waitForSelector("//button[contains(., 'Продолжить')]");
         await page.click("//button[contains(., 'Продолжить')]");
 
-        await page.click("//input[@name='hasSbol' and @value='1']");
-        await page.click("//input[@name='hasBioPassport' and @value='1']");
-        await page.click("#osName");
-        await page.click("//li[text()='Android']");
-        await page.click("//li[contains(@class, 'PersonalInformation')]//input[@type='checkbox']");
-        await page.click("//button[contains(., 'Продолжить')]");
-        await page.waitForTimeout(5000);
+        await page.click("//div[contains(@class, 'topmenu-logo-pic')]");
+        const title = await page.$("#test-landing-header-text");
+        expect(await title.textContent()).toContain(landingTitle);
+    });
 
+    afterEach(async () => {
         await page.close();
         await context.close();
         await browser.close();
     });
-});
+})

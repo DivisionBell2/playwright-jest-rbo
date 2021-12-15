@@ -37,7 +37,7 @@ describe('Navigation on personal data page', () =>{
         expect(await title.textContent()).toContain(faqTitle);
     });
 
-    test ('Clicking on FAQ button', async () => {
+    test ('Clicking on logo', async () => {
         await page.goto(url + "ip/1");
         await page.click("//div[contains(@class, 'topmenu-logo-pic')]");
         await page.waitForNavigation();
@@ -45,7 +45,7 @@ describe('Navigation on personal data page', () =>{
         expect(await title.textContent()).toContain(landingTitle);
     });
 
-    test ('Clicking on FAQ button', async () => {
+    test ('Clicking on logo', async () => {
         await page.goto(url + "ooo/1");
         await page.click("//div[contains(@class, 'topmenu-logo-pic')]");
         await page.waitForNavigation();
