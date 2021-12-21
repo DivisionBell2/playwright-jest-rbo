@@ -10,6 +10,7 @@ describe('Navigation on personal data page', () =>{
     let faqTitle = "Вопрос-ответ";
     let landingTitle = "бизнес легко и быстро";
     let dsTitle = "Деловая среда";
+    let sberbankOnlineUrl = "online.sberbank.ru";
 
     const url = "https://rbo.uat.dasreda.ru/rbidos/personal-information/";
 
@@ -83,6 +84,22 @@ describe('Navigation on personal data page', () =>{
         await page.waitForNavigation();
         const title = await page.$("h1");
         expect(await title.textContent()).toContain("Обратная связь");
+    });
+
+    test ('Clicking on sberId Button', async () => {
+        await page.goto(url + "ip/1");
+        await page.click("//button[contains(@class, 'sberId')]");
+        await page.waitForNavigation();
+        const currentUrl = await page.url();
+        expect(await currentUrl.valueOf()).toContain(sberbankOnlineUrl);
+    });
+
+    test ('Clicking on sberId Button', async () => {
+        await page.goto(url + "ooo/1");
+        await page.click("//button[contains(@class, 'sberId')]");
+        await page.waitForNavigation();
+        const currentUrl = await page.url();
+        expect(await currentUrl.valueOf()).toContain(sberbankOnlineUrl);
     });
 
 
