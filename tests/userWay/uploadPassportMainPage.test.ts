@@ -49,7 +49,6 @@ describe("Registration new business process", () => {
         await page.waitForSelector("//div[contains(@class, 'request-number-hint')]");
         await page.click("//button[contains(., 'Я регистрируюсь сам')]");
         await page.fill("//input[@name='phone']", "9992222222");
-        await page.waitForTimeout(5000);
         await page.click("#test-send_sms");
         await page.click("#agreement-conditions");
         await page.click("#agreementPersonalData");
@@ -62,7 +61,9 @@ describe("Registration new business process", () => {
         await page.click("//li[text()='Android']");
         await page.click("//li[contains(@class, 'PersonalInformation')]//input[@type='checkbox']");
         await page.click("//button[contains(., 'Продолжить')]");
-        await page.waitForTimeout(5000);
+
+        await page.setInputFiles("//div[@id='UserPasportMain']//input[@type='file']", "tests/examples/pictures/picture.jpg");
+        await page.isVisible("//div[contains(@class, 'uploader-delete')]");
 
         await page.close();
         await context.close();
