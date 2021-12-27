@@ -22,7 +22,7 @@ describe('Navigation on personal data page', () =>{
         page = await context.newPage();
     })
 
-    test ('Clicking on FAQ button', async () => {
+    test ('Clicking on FAQ button for Entrepreneur request', async () => {
         await page.goto(url + "ip/1");
         await page.click("text='Вопрос-ответ'");
         await page.waitForNavigation();
@@ -30,7 +30,7 @@ describe('Navigation on personal data page', () =>{
         expect(await title.textContent()).toContain(faqTitle);
     });
 
-    test ('Clicking on FAQ button', async () => {
+    test ('Clicking on FAQ button for Legal Entity request', async () => {
         await page.goto(url + "ooo/1");
         await page.click("text='Вопрос-ответ'");
         await page.waitForNavigation();
@@ -38,7 +38,7 @@ describe('Navigation on personal data page', () =>{
         expect(await title.textContent()).toContain(faqTitle);
     });
 
-    test ('Clicking on logo', async () => {
+    test ('Clicking on logo for Entrepreneur request', async () => {
         await page.goto(url + "ip/1");
         await page.click("//div[contains(@class, 'topmenu-logo-pic')]");
         await page.waitForNavigation();
@@ -46,7 +46,7 @@ describe('Navigation on personal data page', () =>{
         expect(await title.textContent()).toContain(landingTitle);
     });
 
-    test ('Clicking on logo', async () => {
+    test ('Clicking on logo for Legal Entity request', async () => {
         await page.goto(url + "ooo/1");
         await page.click("//div[contains(@class, 'topmenu-logo-pic')]");
         await page.waitForNavigation();
@@ -54,7 +54,7 @@ describe('Navigation on personal data page', () =>{
         expect(await title.textContent()).toContain(landingTitle);
     });
 
-    test ('Clicking on login through SberId button', async () => {
+    test ('Clicking on login through SberId button for Entrepreneur request', async () => {
         await page.goto(url + "ip/1");
         await page.click("//button[contains(@class, 'SberIdButton')]");
         await page.waitForNavigation();
@@ -62,7 +62,7 @@ describe('Navigation on personal data page', () =>{
         expect(await title.textContent()).toContain(dsTitle);
     });
 
-    test ('Clicking on login through SberId button', async () => {
+    test ('Clicking on login through SberId button for Legal Entity request', async () => {
         await page.goto(url + "ooo/1");
         await page.click("//button[contains(@class, 'SberIdButton')]");
         await page.waitForNavigation();
@@ -70,7 +70,7 @@ describe('Navigation on personal data page', () =>{
         expect(await title.textContent()).toContain(dsTitle);
     });
 
-    test ('Clicking on feedback button', async () => {
+    test ('Clicking on feedback button for Entrepreneur request', async () => {
         await page.goto(url + "ip/1");
         await page.click("text='Обратная связь'");
         await page.waitForNavigation();
@@ -78,7 +78,7 @@ describe('Navigation on personal data page', () =>{
         expect(await title.textContent()).toContain("Обратная связь");
     });
 
-    test ('Clicking on feedback button', async () => {
+    test ('Clicking on feedback button for Legal Entity request', async () => {
         await page.goto(url + "ooo/1");
         await page.click("text='Обратная связь'");
         await page.waitForNavigation();
@@ -86,7 +86,7 @@ describe('Navigation on personal data page', () =>{
         expect(await title.textContent()).toContain("Обратная связь");
     });
 
-    test ('Clicking on sberId Button', async () => {
+    test ('Clicking on sberId Button for Entrepreneur request', async () => {
         await page.goto(url + "ip/1");
         await page.click("//button[contains(@class, 'sberId')]");
         await page.waitForNavigation();
@@ -94,7 +94,7 @@ describe('Navigation on personal data page', () =>{
         expect(await currentUrl.valueOf()).toContain(sberbankOnlineUrl);
     });
 
-    test ('Clicking on sberId Button', async () => {
+    test ('Clicking on sberId Button for Legal Entity request', async () => {
         await page.goto(url + "ooo/1");
         await page.click("//button[contains(@class, 'sberId')]");
         await page.waitForNavigation();
@@ -102,6 +102,21 @@ describe('Navigation on personal data page', () =>{
         expect(await currentUrl.valueOf()).toContain(sberbankOnlineUrl);
     });
 
+    test ('Clicking on dasreda.ru link for Entrepreneur request', async () => {
+        await page.goto(url + "ip/1");
+        await page.click("//div[contains(@class, 'PersonalInformation__hint-blockquote')]/a[contains(., dasreda.ru)]");
+        await Promise.all([context.waitForEvent("page")]);
+        expect(page.context().pages()[1].url()).toContain('https://dasreda.ru/');
+        await page.context().pages()[1].close();
+    });
+
+    test ('Clicking on dasreda.ru link for Legal Entity request', async () => {
+        await page.goto(url + "ooo/1");
+        await page.click("//div[contains(@class, 'PersonalInformation__hint-blockquote')]/a[contains(., dasreda.ru)]");
+        await Promise.all([context.waitForEvent("page")]);
+        expect(page.context().pages()[1].url()).toContain('https://dasreda.ru/');
+        await page.context().pages()[1].close();
+    });
 
     afterEach(async () => {
         await page.close();
