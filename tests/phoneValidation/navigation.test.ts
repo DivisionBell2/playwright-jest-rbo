@@ -11,8 +11,8 @@ describe('Navigation on personal data page', () => {
     let password = "Qwerty123";
     let username = "Автотест";
     let faqTitle = "Вопрос-ответ";
+    let feedbackTitle = "Обратная связь";
     let landingTitle = "бизнес легко и быстро";
-    let dsTitle = "Деловая среда";
 
     const url = "https://rbo.uat.dasreda.ru";
 
@@ -72,6 +72,22 @@ describe('Navigation on personal data page', () => {
         await page.waitForNavigation();
         const title = await page.$("h1");
         expect(await title.textContent()).toContain(faqTitle);
+    });
+
+    test ('Clicking on feedback button in ip/2 page', async () => {
+        await page.goto(url + "/rbidos/personal-information/ip/2");
+        await page.click("text='Обратная связь'");
+        await page.waitForNavigation();
+        const title = await page.$("h1");
+        expect(await title.textContent()).toContain(feedbackTitle);
+    });
+
+    test ('Clicking on feedback button in ooo/2 page', async () => {
+        await page.goto(url + "/rbidos/personal-information/ooo/2");
+        await page.click("text='Обратная связь'");
+        await page.waitForNavigation();
+        const title = await page.$("h1");
+        expect(await title.textContent()).toContain(feedbackTitle);
     });
 
     afterAll(async () => {
