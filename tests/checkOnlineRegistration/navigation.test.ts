@@ -56,6 +56,22 @@ describe('Navigation tests for check online registration page', () => {
         expect(await title.textContent()).toContain(landingTitle);
     });
 
+    test ('Clicking on FAQ button in ip/3 page', async () => {
+        await page.goto(url + "/rbidos/personal-information/ip/3");
+        await page.click("text='Вопрос-ответ'");
+        await page.waitForNavigation();
+        const title = await page.$("h1");
+        expect(await title.textContent()).toContain(faqTitle);
+    });
+
+    test ('Clicking on FAQ button in ooo/3 page', async () => {
+        await page.goto(url + "/rbidos/personal-information/ooo/3");
+        await page.click("text='Вопрос-ответ'");
+        await page.waitForNavigation();
+        const title = await page.$("h1");
+        expect(await title.textContent()).toContain(faqTitle);
+    });
+
     afterAll(async () => {
         await page.close();
         await context.close();
