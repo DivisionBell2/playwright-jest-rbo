@@ -70,6 +70,21 @@ describe('Navigation on main page', () => {
         expect(page.context().pages()[1].url()).toContain('sberbank.ru');
     });
 
+    test('Open youtube frame from header', async () => {
+        await page.click("//span[@role='button' and contains(., 'Видеоинструкция')]");
+        const frame = page.frame("//iframe[@title='YouTube video player']");
+        await page.click("//i[@aria-label='icon: close']");
+    });
+
+    test('Clicking on SberIcon and go to sberbank.ru', async () => {
+        await page.click("//a[contains(., 'Оферты')]");
+        const [newWindow] = await Promise.all([
+            context.waitForEvent("page"),
+        ]);
+        await newWindow.waitForLoadState();
+        expect(page.context().pages()[1].url()).toContain('oferta_rbidos');
+    });
+
     afterEach(async () => {
         await page.close();
         await context.close();
