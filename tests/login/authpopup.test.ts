@@ -22,9 +22,14 @@ describe ("Functional tests on auth popup", () => {
         await page.isHidden("//div[@class='ant-modal-content']");
     });
 
+    test ('Clicking on login through SberId button', async () => {
+        await page.click("//button[contains(@class, 'SberIdButton')]");
+        await page.waitForSelector("//h1[text()='Деловая среда']");
+    });
+
     afterEach( async () => {
-        await page.close()
-        await context.close()
-        await browser.close()
+        await page.close();
+        await context.close();
+        await browser.close();
     });
 })

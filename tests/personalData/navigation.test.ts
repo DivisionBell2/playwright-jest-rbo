@@ -9,7 +9,6 @@ describe('Navigation on personal data page', () =>{
 
     let faqTitle = "Вопрос-ответ";
     let landingTitle = "бизнес легко и быстро";
-    let dsTitle = "Деловая среда";
     let sberbankOnlineUrl = "online.sberbank.ru";
 
     const url = "https://rbo.uat.dasreda.ru/rbidos/personal-information/";
@@ -20,7 +19,7 @@ describe('Navigation on personal data page', () =>{
         });
         context = await browser.newContext()
         page = await context.newPage();
-    })
+    });
 
     test ('Clicking on FAQ button for Entrepreneur request', async () => {
         await page.goto(url + "ip/1");
@@ -57,17 +56,13 @@ describe('Navigation on personal data page', () =>{
     test ('Clicking on login through SberId button for Entrepreneur request', async () => {
         await page.goto(url + "ip/1");
         await page.click("//button[contains(@class, 'SberIdButton')]");
-        await page.waitForNavigation();
-        const title = await page.$("h1");
-        expect(await title.textContent()).toContain(dsTitle);
+        await page.waitForSelector("//h1[text()='Деловая среда']")
     });
 
     test ('Clicking on login through SberId button for Legal Entity request', async () => {
         await page.goto(url + "ooo/1");
         await page.click("//button[contains(@class, 'SberIdButton')]");
-        await page.waitForNavigation();
-        const title = await page.$("h1");
-        expect(await title.textContent()).toContain(dsTitle);
+        await page.waitForSelector("//h1[text()='Деловая среда']")
     });
 
     test ('Clicking on feedback button for Entrepreneur request', async () => {
@@ -115,6 +110,22 @@ describe('Navigation on personal data page', () =>{
         await page.click("//div[contains(@class, 'PersonalInformation__hint-blockquote')]/a[contains(., dasreda.ru)]");
         await Promise.all([context.waitForEvent("page")]);
         expect(page.context().pages()[1].url()).toContain('https://dasreda.ru/');
+        await page.context().pages()[1].close();
+    });
+
+    test ('Clicking on agreement link for Entrepreneur request', async () => {
+        await page.goto(url + "ip/1");
+        await page.click("//span[contains(@class, 'PersonalInformation')]/a[contains(., 'Согласие')]");
+        await Promise.all([context.waitForEvent("page")]);
+        expect(page.context().pages()[1].url()).toContain('soglasie_na_rbidos');
+        await page.context().pages()[1].close();
+    });
+
+    test ('Clicking on agreement link for Legal Entity request', async () => {
+        await page.goto(url + "ooo/1");
+        await page.click("//span[contains(@class, 'PersonalInformation')]/a[contains(., 'Согласие')]");
+        await Promise.all([context.waitForEvent("page")]);
+        expect(page.context().pages()[1].url()).toContain('soglasie_na_rbidos');
         await page.context().pages()[1].close();
     });
 
