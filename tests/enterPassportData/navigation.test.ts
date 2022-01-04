@@ -73,7 +73,7 @@ requestTypes.forEach(requestType => {
             await page.click("//button[contains(., 'Продолжить')]");
         });
     
-        test ('Clicking on logo for Entrepreneur request', async () => {
+        test ('Clicking on logo', async () => {
             await page.click("//div[contains(@class, 'topmenu-logo-pic')]");
             //await page.waitForNavigation();
             const title = await page.$("#test-landing-header-text");
