@@ -31,6 +31,6 @@
       "json",
       "node"
     ],
-    "testTimeout": 7000
+    "testTimeout": 15000
   }
 }
