@@ -1,12 +1,12 @@
 import {Browser, BrowserContext, chromium, Page} from "playwright";
 
-const requestTypes = [
-    "#test-landing-upper-ip_button",
-    "#test-landing-upper-ooo_button"
+const requestPathes = [
+    "rbidos/personal-information/ip/",
+    "rbidos/personal-information/ooo/"
 ];
 
-requestTypes.forEach(requestType => {
-    describe('Navigation on main page for ' + requestType, () => {
+requestPathes.forEach(requestPath => {
+    describe('Navigation on main page for ' + requestPath, () => {
         let browser: Browser;
         let context: BrowserContext;
         let page: Page;
@@ -26,7 +26,7 @@ requestTypes.forEach(requestType => {
             });
             context = await browser.newContext();
             page = await context.newPage();
-            await page.goto("https://rbo.uat.dasreda.ru");
+            await page.goto(url);
             await page.click("text='Войти'");
             await page.click("text='Зарегистрироваться'");
     
@@ -44,20 +44,21 @@ requestTypes.forEach(requestType => {
             await page.fill("#username", email);
             await page.fill("#password", password);
             await page.click("#test-loginForm-singIn");
-    
+        });
+
+        beforeEach(async() => {
             await page.waitForSelector("#test-landing-navPanel-logedIn");
-            await page.click(requestType);
-            const title = await page.$("h1");
-            expect(await title.textContent()).toContain(checkTitle);
-    
-            await page.waitForSelector("//input[@id='lastName' and @value='" + username + "']");
-            const pageEmail = await page.$('//div[contains(@class, "PersonalInformation")]//p');
-            expect(await pageEmail.textContent()).toContain(email);
-            await page.waitForSelector("//button[contains(., 'Продолжить')]");
-            await page.click("//button[contains(., 'Продолжить')]");
-    
+            await page.goto(url + requestPath + 2);
             await page.waitForSelector("//div[contains(@class, 'request-number-hint')]");
             await page.click("//button[contains(., 'Я регистрируюсь сам')]");
+
+            // После внедрения паттерна PageObject вынести ожидание в отдельную функцию и вызывать для каждого теста отдельно.
+            if (await page.isVisible("//div[contains(text(), 'На вашем аккаунте уже есть заявка')]")) {
+                page.click("//button[contains(., 'Выбрать')][1]");
+                
+                await page.waitForTimeout(15000);
+            }
+
             await page.fill("//input[@name='phone']", "9992222222");
             await page.click("#test-send_sms");
             await page.click("#agreement-conditions");
@@ -71,13 +72,17 @@ requestTypes.forEach(requestType => {
             await page.click("//li[text()='Android']");
             await page.click("//li[contains(@class, 'PersonalInformation')]//input[@type='checkbox']");
             await page.click("//button[contains(., 'Продолжить')]");
-        });
+        })
     
         test ('Clicking on logo', async () => {
             await page.click("//div[contains(@class, 'topmenu-logo-pic')]");
-            //await page.waitForNavigation();
-            const title = await page.$("#test-landing-header-text");
-            expect(await title.textContent()).toContain(landingTitle);
+            await page.waitForLoadState();
+            expect(await (await page.waitForSelector("#test-landing-header-text")).isVisible()).toBe(true);
+        });
+
+        test ('Open youtube frame from header', async () => {
+            await page.click("//span[@role='button' and contains(., 'Видеоинструкция')]");
+            expect(await (await page.$("//iframe[@title='YouTube video player']")).isVisible()).toBe(true);
         });
     
         afterAll(async () => {
