@@ -76,13 +76,22 @@ describe('Navigation on main page', () => {
         await page.click("//i[@aria-label='icon: close']");
     });
 
-    test('Clicking on SberIcon and go to sberbank.ru', async () => {
+    test('Clicking on Oferta link and go to oferta document', async () => {
         await page.click("//a[contains(., 'Оферты')]");
         const [newWindow] = await Promise.all([
             context.waitForEvent("page"),
         ]);
         await newWindow.waitForLoadState();
         expect(page.context().pages()[1].url()).toContain('oferta_rbidos');
+    });
+
+    test('Clicking on Agreement link and go to agreement document', async () => {
+        await page.click("//a[contains(., 'Согласие')]");
+        const [newWindow] = await Promise.all([
+            context.waitForEvent("page"),
+        ]);
+        await newWindow.waitForLoadState();
+        expect(page.context().pages()[1].url()).toContain('soglasie_na_rbidos');
     });
 
     afterEach(async () => {
