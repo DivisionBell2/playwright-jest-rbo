@@ -27,6 +27,15 @@ describe ("Functional tests on auth popup", () => {
         await page.waitForSelector("//h1[text()='Деловая среда']");
     });
 
+    test ('Change viewing of password in password input', async () => {
+        await page.click("//span[@class='ant-input-suffix']");
+        let passwordInputType = await (await page.$("#password")).getAttribute("type");
+        expect(passwordInputType).toBe("text");
+        await page.click("//span[@class='ant-input-suffix']");
+        passwordInputType = await (await page.$("#password")).getAttribute("type");
+        expect(passwordInputType).toBe("password");
+    });
+
     afterEach( async () => {
         await page.close();
         await context.close();
