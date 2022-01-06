@@ -81,7 +81,7 @@ requestPathes.forEach(requestPath => {
             await page.context().pages()[1].close();
         });
     
-        test ('Clicking on offerta link in footer', async () => {
+        test ('Clicking on oferta link in footer', async () => {
             await page.goto(url + requestPath);
             await page.click("//a[contains(., 'Договор оферты')]");
             await Promise.all([context.waitForEvent("page")]);

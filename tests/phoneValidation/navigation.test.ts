@@ -51,14 +51,14 @@ requestPathes.forEach(requestPath => {
             await page.waitForSelector("#test-landing-navPanel-logedIn");
         });
     
-        test ('Clicking on logo', async () => {
+        test('Clicking on logo', async () => {
             await page.goto(url + requestPath);
             await page.click("//div[contains(@class, 'topmenu-logo-pic')]");
             const title = await page.$("#test-landing-header-text");
             expect(await title.textContent()).toContain(landingTitle);
         });
     
-        test ('Clicking on FAQ button', async () => {
+        test('Clicking on FAQ button', async () => {
             await page.goto(url + requestPath);
             await page.click("text='Вопрос-ответ'");
             await page.waitForNavigation();
@@ -66,7 +66,7 @@ requestPathes.forEach(requestPath => {
             expect(await title.textContent()).toContain(faqTitle);
         });
     
-        test ('Clicking on feedback button', async () => {
+        test('Clicking on feedback button', async () => {
             await page.goto(url + requestPath);
             await page.click("text='Обратная связь'");
             await page.waitForNavigation();
@@ -74,11 +74,19 @@ requestPathes.forEach(requestPath => {
             expect(await title.textContent()).toContain(feedbackTitle);
         });
     
-        test ('Clicking on change data link', async () => {
+        test('Clicking on change data link', async () => {
             await page.goto(url + requestPath);
             await page.click("//div[@role='button' and contains(text(), 'Изменить данные')]");
             const title = await page.$("h2");
             expect(await title.textContent()).toContain(personalDataPageTitle);
+        });
+
+        test('Clicking on oferta link in footer', async () => {
+            await page.goto(url + requestPath);
+            await page.click("//a[contains(., 'Договор оферты')]");
+            await Promise.all([context.waitForEvent("page")]);
+            expect(page.context().pages()[1].url()).toContain('oferta_rbidos');
+            await page.context().pages()[1].close();
         });
     
         afterAll(async () => {

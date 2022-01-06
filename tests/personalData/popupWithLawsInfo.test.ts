@@ -5,7 +5,7 @@ describe ("Check working popup with law information from personal data page", ()
     let context: BrowserContext;
     let page: Page;
 
-    let url = "https://rbo.dasreda.ru/rbidos/personal-information/";
+    let url = "https://rbo.uat.dasreda.ru/rbidos/personal-information/";
     let popupTitle = "Изменения в законе № 129-ФЗ";
 
     beforeAll(async () => {
