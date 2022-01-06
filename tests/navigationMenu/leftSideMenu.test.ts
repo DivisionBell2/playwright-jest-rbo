@@ -17,19 +17,17 @@ requestTypes.forEach(requestType => {
         let checkTitle = "Персональные данные";
         let titlePersonalDataPage = "Персональные данные";
     
-        beforeEach(async () => {
+        beforeAll(async () => {
             browser = await chromium.launch({
                 headless: false
             });
             context = await browser.newContext();
             page = await context.newPage();
-        });
-    
-        test("Go to steps of first block", async () => {
+
             await page.goto("https://rbo.uat.dasreda.ru");
             await page.click("text='Войти'");
             await page.click("text='Зарегистрироваться'");
-    
+        
             await page.fill("#lastName", username);
             await page.fill("#firstName", username);
             await page.fill("#middleName", username);
@@ -39,32 +37,63 @@ requestTypes.forEach(requestType => {
             await page.click("#personalDataAgreement");
             await page.click("#test-regForm-singup_button");
             await page.reload();
-    
+        
             await page.click("text='Войти'");
             await page.fill("#username", email);
             await page.fill("#password", password);
             await page.click("#test-loginForm-singIn");
-    
+        
             await page.waitForSelector("#test-landing-navPanel-logedIn");
             await page.click(requestType);
             const title = await page.$("h1");
             expect(await title.textContent()).toContain(checkTitle);
+        });
     
+        test("Return to enter personal data page from phone validation page", async () => {
+            await goToPhoneValidationPage();
+            await page.click("//ul/li[@role='menuitem']/div[contains(@class, 'title') and contains(., 'Персональные данные')]/../ul/li[contains(., 'Ввод персональных данных')]");
+            const title = await page.$("h1");
+            expect(await title.textContent()).toContain(titlePersonalDataPage);
+        });
+
+        test("Return to enter personal data page from check online registration page", async () => {
+            await goToPhoneValidationPage();
+            await goToCheckOnlineRegistrationPage();
+            await page.click("//ul/li[@role='menuitem']/div[contains(@class, 'title') and contains(., 'Персональные данные')]/../ul/li[contains(., 'Ввод персональных данных')]");
+            const title = await page.$("h1");
+            expect(await title.textContent()).toContain(titlePersonalDataPage);
+        });
+    
+        afterAll(async () => {
+            await page.close();
+            await context.close();
+            await browser.close();
+        });
+
+        async function goToPhoneValidationPage() {
             await page.waitForSelector("//input[@id='lastName' and @value='" + username + "']");
             const pageEmail = await page.$('//div[contains(@class, "PersonalInformation")]//p');
             expect(await pageEmail.textContent()).toContain(email);
             await page.waitForSelector("//button[contains(., 'Продолжить')]");
             await page.click("//button[contains(., 'Продолжить')]");
+        }
+
+        async function goToCheckOnlineRegistrationPage() {
+            await page.waitForSelector("//div[contains(@class, 'request-number-hint')]");
+            await page.click("//button[contains(., 'Я регистрируюсь сам')]");
     
-            //expect(await page.isVisible("//ul/li[@role='menuitem']/div[contains(@class, 'title') and contains(., 'Персональные данные')]/../ul")).toBe(true);
-            await page.click("//ul/li[@role='menuitem']/div[contains(@class, 'title') and contains(., 'Персональные данные')]/../ul/li[contains(., 'Ввод персональных данных')]");
-            expect(await title.textContent()).toContain(titlePersonalDataPage);
-        });
-    
-        afterEach(async () => {
-            await page.close();
-            await context.close();
-            await browser.close();
-        });
+            // После внедрения паттерна PageObject вынести ожидание в отдельную функцию и вызывать для каждого теста отдельно.
+            if (await page.isVisible("//div[contains(text(), 'На вашем аккаунте уже есть заявка')]")) {
+                page.click("//button[contains(., 'Выбрать')][1]");
+                await page.waitForTimeout(15000);
+            }
+
+            await page.fill("//input[@name='phone']", "9992222222");
+            await page.click("#test-send_sms");
+            await page.click("#agreement-conditions");
+            await page.click("#agreementPersonalData");
+            await page.fill("#code", "123123");
+            await page.click("//button[contains(., 'Продолжить')]");
+        }
     });
 });
