@@ -13,14 +13,22 @@ describe('Navigation tests for FAQ page', () => {
         });
         context = await browser.newContext();
         page = await context.newPage();
-        await page.goto("https://rbo.uat.dasreda.ru/rbidos/faq");
     });
 
     test ('Clicking on logo', async () => {
+        await page.goto("https://rbo.uat.dasreda.ru/rbidos/faq");
         await page.click("//div[contains(@class, 'topmenu-logo-pic')]");
         await page.waitForNavigation();
         const title = await page.$("#test-landing-header-text");
         expect(await title.textContent()).toContain(landingTitle);
+    });
+
+    test('Clicking on Feedback button', async () => {
+        await page.goto("https://rbo.uat.dasreda.ru/rbidos/faq");
+        await page.click("text='Обратная связь'");
+        await page.waitForNavigation();
+        const title = await page.$("h1");
+        expect(await title.textContent()).toContain("Обратная связь");
     });
 
     afterAll(async () => {
