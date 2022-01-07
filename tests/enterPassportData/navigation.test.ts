@@ -38,6 +38,7 @@ requestPathes.forEach(requestPath => {
             await page.fill("#passwordMatch", password);
             await page.click("#personalDataAgreement");
             await page.click("#test-regForm-singup_button");
+            await page.waitForSelector("//input[@data-qa='codeEntered_field']");
             await page.reload();
     
             await page.click("text='Войти'");
