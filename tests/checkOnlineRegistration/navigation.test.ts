@@ -40,7 +40,7 @@ requestPathes.forEach(requestPath => {
             await page.fill("#passwordMatch", password);
             await page.click("#personalDataAgreement");
             await page.click("#test-regForm-singup_button");
-    
+            await page.waitForSelector("//input[@data-qa='codeEntered_field']");
             await page.reload();
             await page.click("text='Войти'");
             await page.fill("#username", email);
@@ -70,6 +70,21 @@ requestPathes.forEach(requestPath => {
             await page.waitForNavigation();
             const title = await page.$("h1");
             expect(await title.textContent()).toContain(feedbackTitle);
+        });
+
+        test ('Clicking on how to know android version link', async () => {
+            await page.goto(url + requestPath);
+            await page.click("//a[text()='Как узнать версию Android?']");
+            const [newWindow] = await Promise.all([
+                context.waitForEvent("page"),
+            ]);
+            await newWindow.waitForLoadState();
+            expect(page.context().pages()[1].url()).toContain('https://rbo.uat.dasreda.ru/rbidos/faq');
+            const isHintCollapsed = await page.context().pages()[1].$("//div[@class='ant-collapse-header' and contains(., 'Как узнать версию Android')]");
+            expect(await isHintCollapsed.getAttribute("aria-expanded")).toBe("true");
+            const isHintImageVisible = await page.context().pages()[1].$("//img[@src='/img/faq/android1.png']");
+            expect(await isHintImageVisible.isVisible()).toBe(true);
+            await page.context().pages()[1].close();
         });
     
         afterAll(async () => {
