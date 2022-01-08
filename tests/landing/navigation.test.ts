@@ -94,6 +94,13 @@ describe('Navigation on main page', () => {
         expect(page.context().pages()[1].url()).toContain('soglasie_na_rbidos');
     });
 
+    test('Clicking on FAQ button in page block', async () => {
+        await page.click("//div[@id='tenthblock']//a[text()='Вопросы и ответы']");
+        await page.waitForNavigation();
+        const title = await page.$("h1");
+        expect(await title.textContent()).toContain(faqTitle);
+    });
+
     afterEach(async () => {
         await page.close();
         await context.close();
