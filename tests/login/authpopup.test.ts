@@ -22,18 +22,25 @@ describe ("Functional tests on auth popup", () => {
         await page.isHidden("//div[@class='ant-modal-content']");
     });
 
-    test ('Clicking on login through SberId button', async () => {
+    test('Clicking on login through SberId button', async () => {
         await page.click("//button[contains(@class, 'SberIdButton')]");
         await page.waitForSelector("//h1[text()='Деловая среда']");
     });
 
-    test ('Change viewing of password in password', async () => {
+    test('Change viewing of password in password', async () => {
         await page.click("//span[@class='ant-input-suffix']");
         let passwordInputType = await (await page.$("#password")).getAttribute("type");
         expect(passwordInputType).toBe("text");
         await page.click("//span[@class='ant-input-suffix']");
         passwordInputType = await (await page.$("#password")).getAttribute("type");
         expect(passwordInputType).toBe("password");
+    });
+
+    test('Go to reset password page', async () => {
+        await page.click("//a[text()='Забыли пароль?']");
+        await page.waitForSelector("h1");
+        const title = await page.$("h1");
+        expect(await title.textContent()).toContain("Сброс пароля");
     });
 
     afterEach( async () => {
