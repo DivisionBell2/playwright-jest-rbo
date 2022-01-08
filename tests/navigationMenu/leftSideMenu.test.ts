@@ -11,18 +11,22 @@ requestTypes.forEach(requestType => {
         let context: BrowserContext;
         let page: Page;
     
-        let email = "autotest+" + new Date().getTime() + "@dasredatest.ru";
         let password = "Qwerty123";
         let username = "Автотест";
         let checkTitle = "Персональные данные";
         let titlePersonalDataPage = "Персональные данные";
+
+        let email: string;
     
-        beforeAll(async () => {
+        beforeEach(async () => {
             browser = await chromium.launch({
                 headless: false
             });
             context = await browser.newContext();
             page = await context.newPage();
+            
+            email = "autotest+" + new Date().getTime() + "@dasredatest.ru";
+
 
             await page.goto("https://rbo.uat.dasreda.ru");
             await page.click("text='Войти'");
@@ -36,6 +40,7 @@ requestTypes.forEach(requestType => {
             await page.fill("#passwordMatch", password);
             await page.click("#personalDataAgreement");
             await page.click("#test-regForm-singup_button");
+            await page.waitForSelector("//input[@data-qa='codeEntered_field']");
             await page.reload();
         
             await page.click("text='Войти'");
@@ -51,20 +56,31 @@ requestTypes.forEach(requestType => {
     
         test("Return to enter personal data page from phone validation page", async () => {
             await goToPhoneValidationPage();
+            await page.waitForNavigation();
             await page.click("//ul/li[@role='menuitem']/div[contains(@class, 'title') and contains(., 'Персональные данные')]/../ul/li[contains(., 'Ввод персональных данных')]");
-            const title = await page.$("h1");
-            expect(await title.textContent()).toContain(titlePersonalDataPage);
+            const title = await page.$("h2");
+            expect(await title.textContent()).toContain("Ввод персональных данных");
         });
 
         test("Return to enter personal data page from check online registration page", async () => {
             await goToPhoneValidationPage();
             await goToCheckOnlineRegistrationPage();
+            await page.waitForNavigation();
             await page.click("//ul/li[@role='menuitem']/div[contains(@class, 'title') and contains(., 'Персональные данные')]/../ul/li[contains(., 'Ввод персональных данных')]");
-            const title = await page.$("h1");
-            expect(await title.textContent()).toContain(titlePersonalDataPage);
+            const title = await page.$("h2");
+            expect(await title.textContent()).toContain("Ввод персональных данных");
+        });
+
+        test("Return to phone validation page from check online registration page", async () => {
+            await goToPhoneValidationPage();
+            await goToCheckOnlineRegistrationPage();
+            await page.waitForNavigation();
+            await page.click("//ul/li[@role='menuitem']/div[contains(@class, 'title') and contains(., 'Персональные данные')]/../ul/li[contains(., 'Подтверждение номера телефона')]");
+            const title = await page.$("h2");
+            expect(await title.textContent()).toContain("Подтверждение номера телефона");
         });
     
-        afterAll(async () => {
+        afterEach(async () => {
             await page.close();
             await context.close();
             await browser.close();
