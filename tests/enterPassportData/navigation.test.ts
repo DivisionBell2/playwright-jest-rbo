@@ -14,18 +14,19 @@ requestPathes.forEach(requestPath => {
         let faqTitle = "Вопрос-ответ";
         let landingTitle = "бизнес легко и быстро";
     
-        let email = "autotest+" + new Date().getTime() + "@dasredatest.ru";
         let password = "Qwerty123";
         let username = "Автотест";
         let checkTitle = "Персональные данные";
         const url = "https://rbo.uat.dasreda.ru/";
-    
-        beforeAll(async () => {
+
+        beforeEach(async() => {
             browser = await chromium.launch({
                 headless: false
             });
             context = await browser.newContext();
             page = await context.newPage();
+            let email = "autotest+" + new Date().getTime() + "@dasredatest.ru";
+            
             await page.goto(url);
             await page.click("text='Войти'");
             await page.click("text='Зарегистрироваться'");
@@ -45,9 +46,6 @@ requestPathes.forEach(requestPath => {
             await page.fill("#username", email);
             await page.fill("#password", password);
             await page.click("#test-loginForm-singIn");
-        });
-
-        beforeEach(async() => {
             await page.waitForSelector("#test-landing-navPanel-logedIn");
             await page.goto(url + requestPath + 2);
             await page.waitForSelector("//div[contains(@class, 'request-number-hint')]");
@@ -75,18 +73,26 @@ requestPathes.forEach(requestPath => {
             await page.click("//button[contains(., 'Продолжить')]");
         })
     
-        test ('Clicking on logo', async () => {
+        test('Clicking on logo', async () => {
             await page.click("//div[contains(@class, 'topmenu-logo-pic')]");
             await page.waitForLoadState();
             expect(await (await page.waitForSelector("#test-landing-header-text")).isVisible()).toBe(true);
         });
 
-        test ('Open youtube frame from header', async () => {
+        test('Open youtube frame from header', async () => {
             await page.click("//span[@role='button' and contains(., 'Видеоинструкция')]");
             expect(await (await page.$("//iframe[@title='YouTube video player']")).isVisible()).toBe(true);
         });
+
+        test('Clicking on FAQ button', async () => {
+            await page.click("text='Вопрос-ответ'");
+            //await page.waitForLoadState();
+            await page.waitForSelector("//input[@name='faq-search']");
+            const title = await page.$("h1");
+            expect(await title.textContent()).toContain(faqTitle);
+        });
     
-        afterAll(async () => {
+        afterEach(async () => {
             await page.close();
             await context.close();
             await browser.close();
