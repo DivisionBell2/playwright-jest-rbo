@@ -27,7 +27,7 @@ requestPathes.forEach(requestPath => {
             page = await context.newPage();
         });
     
-        test ('Clicking on FAQ button', async () => {
+        test('Clicking on FAQ button', async () => {
             await page.goto(url + requestPath);
             await page.click("text='Вопрос-ответ'");
             await page.waitForNavigation();
@@ -35,7 +35,7 @@ requestPathes.forEach(requestPath => {
             expect(await title.textContent()).toContain(faqTitle);
         });
     
-        test ('Clicking on logo', async () => {
+        test('Clicking on logo', async () => {
             await page.goto(url + requestPath);
             await page.click("//div[contains(@class, 'topmenu-logo-pic')]");
             await page.waitForNavigation();
@@ -43,13 +43,13 @@ requestPathes.forEach(requestPath => {
             expect(await title.textContent()).toContain(landingTitle);
         });
     
-        test ('Clicking on login through SberId button', async () => {
+        test('Clicking on login through SberId button', async () => {
             await page.goto(url + requestPath);
             await page.click("//button[contains(@class, 'SberIdButton')]");
             await page.waitForSelector("//h1[text()='Деловая среда']")
         });
     
-        test ('Clicking on feedback button', async () => {
+        test('Clicking on feedback button', async () => {
             await page.goto(url + requestPath);
             await page.click("text='Обратная связь'");
             await page.waitForNavigation();
@@ -57,7 +57,7 @@ requestPathes.forEach(requestPath => {
             expect(await title.textContent()).toContain("Обратная связь");
         });
     
-        test ('Clicking on sberId Button', async () => {
+        test('Clicking on sberId Button', async () => {
             await page.goto(url + requestPath);
             await page.click("//button[contains(@class, 'sberId')]");
             await page.waitForNavigation();
@@ -65,7 +65,7 @@ requestPathes.forEach(requestPath => {
             expect(await currentUrl.valueOf()).toContain(sberbankOnlineUrl);
         });
     
-        test ('Clicking on dasreda.ru link', async () => {
+        test('Clicking on dasreda.ru link', async () => {
             await page.goto(url + requestPath);
             await page.click("//div[contains(@class, 'PersonalInformation__hint-blockquote')]/a[contains(., dasreda.ru)]");
             await Promise.all([context.waitForEvent("page")]);
@@ -73,7 +73,7 @@ requestPathes.forEach(requestPath => {
             await page.context().pages()[1].close();
         });
     
-        test ('Clicking on agreement link', async () => {
+        test('Clicking on agreement link', async () => {
             await page.goto(url + requestPath);
             await page.click("//span[contains(@class, 'PersonalInformation')]/a[contains(., 'Согласие')]");
             await Promise.all([context.waitForEvent("page")]);
@@ -81,14 +81,22 @@ requestPathes.forEach(requestPath => {
             await page.context().pages()[1].close();
         });
     
-        test ('Clicking on oferta link in footer', async () => {
+        test('Clicking on oferta link in footer', async () => {
             await page.goto(url + requestPath);
             await page.click("//a[contains(., 'Договор оферты')]");
             await Promise.all([context.waitForEvent("page")]);
             expect(page.context().pages()[1].url()).toContain('oferta_rbidos');
             await page.context().pages()[1].close();
         });
-    
+
+        test('Clicking on personal data agreement link in footer', async () => {
+            await page.goto(url + requestPath);
+            await page.click("//a[contains(., 'Политика конфиденциальности')]");
+            await Promise.all([context.waitForEvent("page")]);
+            expect(page.context().pages()[1].url()).toContain('politika.pdf');
+            await page.context().pages()[1].close();
+        });
+        
         afterEach(async () => {
             await page.close();
             await context.close();
