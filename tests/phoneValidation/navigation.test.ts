@@ -13,7 +13,6 @@ requestPathes.forEach(requestPath => {
         let context: BrowserContext;
         let page: Page;
     
-        let email = "autotest+" + new Date().getTime() + "@dasredatest.ru";
         let password = "Qwerty123";
         let username = "Автотест";
         let faqTitle = "Вопрос-ответ";
@@ -23,12 +22,13 @@ requestPathes.forEach(requestPath => {
     
         const url = "https://rbo.uat.dasreda.ru";
     
-        beforeAll(async () => {
+        beforeEach(async () => {
             browser = await chromium.launch({
                 headless: false
             });
             context = await browser.newContext()
             page = await context.newPage();
+            let email = "autotest+" + new Date().getTime() + "@dasredatest.ru";
     
             await page.goto(url);
             await page.click("text='Войти'");
@@ -42,7 +42,8 @@ requestPathes.forEach(requestPath => {
             await page.fill("#passwordMatch", password);
             await page.click("#personalDataAgreement");
             await page.click("#test-regForm-singup_button");
-    
+            await page.waitForSelector("//input[@data-qa='codeEntered_field']");
+
             await page.reload();
             await page.click("text='Войти'");
             await page.fill("#username", email);
@@ -88,8 +89,17 @@ requestPathes.forEach(requestPath => {
             expect(page.context().pages()[1].url()).toContain('oferta_rbidos');
             await page.context().pages()[1].close();
         });
+
+        test('Clicking on personal data agreement link in footer', async () => {
+            await page.goto(url + requestPath);
+            await page.click("//a[contains(., 'Политика конфиденциальности')]");
+            await Promise.all([context.waitForEvent("page")]);
+            const newPageUrl = page.context().pages()[1].url();
+            expect(newPageUrl).toContain('politika.pdf');
+            await page.context().pages()[1].close();
+        });
     
-        afterAll(async () => {
+        afterEach(async () => {
             await page.close();
             await context.close();
             await browser.close();

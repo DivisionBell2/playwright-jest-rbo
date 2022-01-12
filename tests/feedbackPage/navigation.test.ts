@@ -7,7 +7,7 @@ describe('Navigation tests for feedback page', () => {
 
     const landingTitle = "бизнес легко и быстро";
 
-    beforeAll(async () => {
+    beforeEach(async () => {
         browser = await chromium.launch({
             headless: false
         });
@@ -29,7 +29,16 @@ describe('Navigation tests for feedback page', () => {
         await page.click("//i[@aria-label='icon: close']");
     });
 
-    afterAll(async () => {
+    test('Clicking on Read link in footer and go to Platform blogs', async () => {
+        await page.click("//div[contains(@class, 'ant-row MainFooter__footer-menu-content')]//li/a[contains(., 'Читать')]");
+        const [newWindow] = await Promise.all([
+            context.waitForEvent("page"),
+        ]);
+        await newWindow.waitForLoadState();
+        expect(page.context().pages()[1].url()).toContain('uat.dasreda.ru/learn/blog');
+    });
+
+    afterEach(async () => {
         await page.close();
         await context.close();
         await browser.close();

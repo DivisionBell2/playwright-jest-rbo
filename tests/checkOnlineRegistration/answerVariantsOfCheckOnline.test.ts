@@ -6,7 +6,7 @@ const requestPathes = [
 ];
 
 requestPathes.forEach(requestPath => {
-    describe('Navigation on main page for ' + requestPath, () => {
+    describe('Check variants of registration business of user info ' + requestPath, () => {
         let browser: Browser;
         let context: BrowserContext;
         let page: Page;
@@ -18,6 +18,7 @@ requestPathes.forEach(requestPath => {
         let username = "Автотест";
         let checkTitle = "Персональные данные";
         const url = "https://rbo.uat.dasreda.ru/";
+        const textMessageWithoutSBOL = "Без логина и пароля в Сбербанк Онлайн мы не можем предоставить вам услугу";
 
         beforeEach(async() => {
             browser = await chromium.launch({
@@ -51,13 +52,6 @@ requestPathes.forEach(requestPath => {
             await page.waitForSelector("//div[contains(@class, 'request-number-hint')]");
             await page.click("//button[contains(., 'Я регистрируюсь сам')]");
 
-            // После внедрения паттерна PageObject вынести ожидание в отдельную функцию и вызывать для каждого теста отдельно.
-            if (await page.isVisible("//div[contains(text(), 'На вашем аккаунте уже есть заявка')]")) {
-                page.click("//button[contains(., 'Выбрать')][1]");
-                
-                await page.waitForTimeout(15000);
-            }
-
             await page.fill("//input[@name='phone']", "9992222222");
             await page.click("#test-send_sms");
             await page.click("#agreement-conditions");
@@ -65,38 +59,20 @@ requestPathes.forEach(requestPath => {
             await page.fill("#code", "123123");
             await page.click("//button[contains(., 'Продолжить')]");
     
-            await page.click("//input[@name='hasSbol' and @value='1']");
-            await page.click("//input[@name='hasBioPassport' and @value='1']");
+        });
+    
+        test('User without SBOL, foreign passport, responsible phone, nfc', async () => {
+            await page.click("//input[@name='hasSbol' and @value='2']");
+            await page.click("//input[@name='hasBioPassport' and @value='2']");
             await page.click("#osName");
             await page.click("//li[text()='Android']");
-            await page.click("//li[contains(@class, 'PersonalInformation')]//input[@type='checkbox']");
+            const phoneSelects = await page.$$("//div[@role='combobox' and @aria-autocomplete='list']");
+            await phoneSelects[1].click();
+            await page.click("//li[text()='4.0 или ниже']");
             await page.click("//button[contains(., 'Продолжить')]");
-        })
-    
-        test('Clicking on logo', async () => {
-            await page.click("//div[contains(@class, 'topmenu-logo-pic')]");
-            await page.waitForLoadState();
-            expect(await (await page.waitForSelector("#test-landing-header-text")).isVisible()).toBe(true);
-        });
-
-        test('Open youtube frame from header', async () => {
-            await page.click("//span[@role='button' and contains(., 'Видеоинструкция')]");
-            expect(await (await page.$("//iframe[@title='YouTube video player']")).isVisible()).toBe(true);
-        });
-
-        test('Clicking on FAQ button', async () => {
-            await page.click("text='Вопрос-ответ'");
-            //await page.waitForLoadState();
-            await page.waitForSelector("//input[@name='faq-search']");
-            const title = await page.$("h1");
-            expect(await title.textContent()).toContain(faqTitle);
-        });
-
-        test('Clicking on feedback button', async () => {
-            await page.click("text='Обратная связь'");
-            await page.waitForNavigation();
-            const title = await page.$("h1");
-            expect(await title.textContent()).toContain("Обратная связь");
+            await page.waitForSelector("//div[contains(@class, 'Error__error-text')]/div[1]");
+            const errorMessage = await page.$("//div[contains(@class, 'Error__error-text')]/div[1]");
+            expect(await errorMessage.textContent()).toContain(textMessageWithoutSBOL);
         });
     
         afterEach(async () => {
