@@ -18,6 +18,12 @@ describe ("Functional tests on auth popup", () => {
     });
 
     test("Click on close button in auth popup", async () => {
+        await page.click("text='Зарегистрироваться'");
+        await page.click("//button[@aria-label='Close']");
+        await page.isHidden("//div[@class='ant-modal-content']");
+    });
+
+    test("Click on close button in registration popup", async () => {
         await page.click("//button[@aria-label='Close']");
         await page.isHidden("//div[@class='ant-modal-content']");
     });

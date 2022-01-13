@@ -89,14 +89,22 @@ requestPathes.forEach(requestPath => {
             await page.context().pages()[1].close();
         });
 
-        test('Clicking on personal data agreement link in footer', async () => {
+        test('Clicking on privacy policy link in footer', async () => {
             await page.goto(url + requestPath);
             await page.click("//a[contains(., 'Политика конфиденциальности')]");
             await Promise.all([context.waitForEvent("page")]);
             expect(page.context().pages()[1].url()).toContain('politika.pdf');
             await page.context().pages()[1].close();
         });
-        
+
+        test('Clicking on personal data agreement link in footer', async () => {
+            await page.goto(url + requestPath);
+            await page.click("//a[contains(., 'Согласие на обработку данных')]");
+            await Promise.all([context.waitForEvent("page")]);
+            expect(page.context().pages()[1].url()).toContain('soglasie_na_rbidos');
+            await page.context().pages()[1].close();
+        });
+
         afterEach(async () => {
             await page.close();
             await context.close();
