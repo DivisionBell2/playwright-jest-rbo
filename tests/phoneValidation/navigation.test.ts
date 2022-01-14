@@ -22,7 +22,7 @@ requestPathes.forEach(requestPath => {
     
         const url = "https://rbo.uat.dasreda.ru";
     
-        beforeEach(async () => {
+        beforeAll(async () => {
             browser = await chromium.launch({
                 headless: false
             });
@@ -86,20 +86,52 @@ requestPathes.forEach(requestPath => {
             await page.goto(url + requestPath);
             await page.click("//a[contains(., 'Договор оферты')]");
             await Promise.all([context.waitForEvent("page")]);
-            expect(page.context().pages()[1].url()).toContain('oferta_rbidos');
+            await page.waitForTimeout(1000);
+            const newPage = page.context().pages()[1];
+
+            // if (newPage.url().includes('oferta_rbidos')) {
+            //     newPage.waitForTimeout(1000);
+            // }
+
+            expect(newPage.url()).toContain('oferta_rbidos');
+            
             await page.context().pages()[1].close();
+            await page.waitForTimeout(1000);
+        });
+
+        test('Clicking on personal data privacy policy link in footer', async () => {
+            //await page.goto(url + requestPath);
+            await page.click("//a[contains(., 'Политика конфиденциальности')]");
+            await Promise.all([context.waitForEvent("page")]);
+            await page.waitForTimeout(1000);
+            const newPage = page.context().pages()[1];
+
+            // if (!newPage.url().includes('politika.pdf')) {
+            //     newPage.waitForTimeout(1000);
+            // }
+
+            expect(newPage.url()).toContain('politika.pdf');
+            await page.context().pages()[1].close();
+            page.waitForTimeout(1000);
         });
 
         test('Clicking on personal data agreement link in footer', async () => {
-            await page.goto(url + requestPath);
-            await page.click("//a[contains(., 'Политика конфиденциальности')]");
+            //await page.goto(url + requestPath);
+            await page.click("//a[contains(., 'Согласие на обработку данных')]");
             await Promise.all([context.waitForEvent("page")]);
-            const newPageUrl = page.context().pages()[1].url();
-            expect(newPageUrl).toContain('politika.pdf');
+            await page.waitForTimeout(1000);
+            const newPage = page.context().pages()[1];
+
+            // if (!newPage.url().includes('soglasie_na_rbidos')) {
+            //     newPage.waitForTimeout(1000);
+            // }
+
+            expect(newPage.url()).toContain('soglasie_na_rbidos');
             await page.context().pages()[1].close();
+            await page.waitForTimeout(1000);
         });
     
-        afterEach(async () => {
+        afterAll(async () => {
             await page.close();
             await context.close();
             await browser.close();

@@ -18,7 +18,7 @@ requestType.forEach(requestType => {
         let password = "Qwerty123";
         let username = "Автотест";
     
-        beforeAll(async () => {
+        beforeEach(async () => {
             browser = await chromium.launch({
                 headless: false
             });
@@ -39,6 +39,7 @@ requestType.forEach(requestType => {
             await page.fill("#passwordMatch", password);
             await page.click("#personalDataAgreement");
             await page.click("#test-regForm-singup_button");
+            await page.waitForSelector("//input[@data-qa='codeEntered_field']");
         
             await page.reload();
             await page.click("text='Войти'");
@@ -58,11 +59,23 @@ requestType.forEach(requestType => {
             await page.waitForSelector("//div[contains(@class, 'request-number-hint')]");
             expect(await page.isVisible("//div[text()='" + username + " " + username + "']")).toBe(true);
         });
+
+        test("Start registration business for logined user with delete middle name", async () => {
+            await page.goto(url);
+            await page.click(requestType);
+
+            await page.waitForLoadState();
+            await page.click("//div[contains(@class, 'input-item-no-mid-name')]/label");
+            await page.waitForSelector("//p[text()='Без отчества']");
+            expect(await page.isVisible("//input[@id='middleName']")).toBe(false);
+            await page.click("//div[contains(@class, 'input-item-no-mid-name')]/label");
+            expect(await page.isVisible("//input[@id='middleName']")).toBe(true);
+        });
         
-        afterAll( async () => {
-            await page.close()
-            await context.close()
-            await browser.close()
+        afterEach( async () => {
+            await page.close();
+            await context.close();
+            await browser.close();
         });
     });
 });
