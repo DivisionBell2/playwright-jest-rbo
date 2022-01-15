@@ -88,11 +88,6 @@ requestPathes.forEach(requestPath => {
             await Promise.all([context.waitForEvent("page")]);
             await page.waitForTimeout(1000);
             const newPage = page.context().pages()[1];
-
-            // if (newPage.url().includes('oferta_rbidos')) {
-            //     newPage.waitForTimeout(1000);
-            // }
-
             expect(newPage.url()).toContain('oferta_rbidos');
             
             await page.context().pages()[1].close();
@@ -105,11 +100,6 @@ requestPathes.forEach(requestPath => {
             await Promise.all([context.waitForEvent("page")]);
             await page.waitForTimeout(1000);
             const newPage = page.context().pages()[1];
-
-            // if (!newPage.url().includes('politika.pdf')) {
-            //     newPage.waitForTimeout(1000);
-            // }
-
             expect(newPage.url()).toContain('politika.pdf');
             await page.context().pages()[1].close();
             page.waitForTimeout(1000);
@@ -121,11 +111,6 @@ requestPathes.forEach(requestPath => {
             await Promise.all([context.waitForEvent("page")]);
             await page.waitForTimeout(1000);
             const newPage = page.context().pages()[1];
-
-            // if (!newPage.url().includes('soglasie_na_rbidos')) {
-            //     newPage.waitForTimeout(1000);
-            // }
-
             expect(newPage.url()).toContain('soglasie_na_rbidos');
             await page.context().pages()[1].close();
             await page.waitForTimeout(1000);
