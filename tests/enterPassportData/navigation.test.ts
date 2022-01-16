@@ -98,6 +98,12 @@ requestPathes.forEach(requestPath => {
             const title = await page.$("h1");
             expect(await title.textContent()).toContain("Обратная связь");
         });
+
+        test('Clicking on oferta link in footer', async () => {
+            await page.click("//a[contains(., 'Договор оферты')]");
+            await Promise.all([context.waitForEvent("page")]);
+            expect(page.context().pages()[1].url()).toContain('oferta_rbidos');
+        });
     
         afterEach(async () => {
             await page.close();

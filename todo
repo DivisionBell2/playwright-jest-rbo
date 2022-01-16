@@ -1,5 +1,3 @@
-Написать тест на навигацию на /rbidos/personal-information/ip/5
-
 15. 
 Написать функциональный тест на страницу /rbidos/personal-information/ip/5
 Написать функциональный тест на страницу /rbidos/personal-information/ip/3
@@ -13,6 +11,7 @@
 Написать тест на навигацию на /rbidos/personal-information/ip/3
 Написать тест на навигацию страницы обратной связи
 Написать тест на навигацию страницы FAQ
+Написать тест на навигацию на /rbidos/personal-information/ip/5
 
 Позже
 Написать функциональный тест на логин (переход в личный кабинет, выход)
@@ -35,3 +34,5 @@
 await page.reload();
 Нужно добавить
 await page.waitForSelector("//input[@data-qa='codeEntered_field']");
+
+добавить в навигационные тесты await page.goBack() (возможно в foreEach() и ожидание какого-нибудь элемента)
