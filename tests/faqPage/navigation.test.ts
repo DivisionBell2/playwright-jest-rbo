@@ -31,6 +31,17 @@ describe('Navigation tests for FAQ page', () => {
         expect(await title.textContent()).toContain("Обратная связь");
     });
 
+    test('Clicking on Read link in footer and go to Platform blogs', async () => {
+        await page.goto("https://rbo.uat.dasreda.ru/rbidos/faq");
+        await page.click("//div[contains(@class, 'ant-row MainFooter__footer-menu-content')]//li/a[contains(., 'Читать')]");
+        const [newWindow] = await Promise.all([
+            context.waitForEvent("page"),
+        ]);
+        await newWindow.waitForLoadState();
+        expect(page.context().pages()[1].url()).toContain('uat.dasreda.ru/learn/blog');
+        await page.context().pages()[1].close();
+    });
+
     afterAll(async () => {
         await page.close();
         await context.close();
