@@ -20,7 +20,7 @@ requestPathes.forEach(requestPath => {
         const url = "https://rbo.uat.dasreda.ru/";
         const textMessageWithoutSBOL = "Без логина и пароля в Сбербанк Онлайн мы не можем предоставить вам услугу";
 
-        beforeEach(async() => {
+        beforeAll(async() => {
             browser = await chromium.launch({
                 headless: false
             });
@@ -74,8 +74,27 @@ requestPathes.forEach(requestPath => {
             const errorMessage = await page.$("//div[contains(@class, 'Error__error-text')]/div[1]");
             expect(await errorMessage.textContent()).toContain(textMessageWithoutSBOL);
         });
-    
+
+        test('User without SBOL, foreign passport, responsible phone, with nfc', async () => {
+            await page.click("//input[@name='hasSbol' and @value='2']");
+            await page.click("//input[@name='hasBioPassport' and @value='2']");
+            await page.click("#osName");
+            await page.click("//li[text()='Android']");
+            const phoneSelects = await page.$$("//div[@role='combobox' and @aria-autocomplete='list']");
+            await phoneSelects[1].click();
+            await page.click("//li[text()='4.0 или ниже']");
+            await page.click("//li[contains(@class, 'PersonalInformation')]//input[@type='checkbox']");
+            await page.click("//button[contains(., 'Продолжить')]");
+            await page.waitForSelector("//div[contains(@class, 'Error__error-text')]/div[1]");
+            const errorMessage = await page.$("//div[contains(@class, 'Error__error-text')]/div[1]");
+            expect(await errorMessage.textContent()).toContain(textMessageWithoutSBOL);
+        });
+
         afterEach(async () => {
+            await page.goto(url + requestPath + 3);
+        });
+    
+        afterAll(async () => {
             await page.close();
             await context.close();
             await browser.close();
