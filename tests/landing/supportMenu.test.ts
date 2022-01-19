@@ -5,24 +5,25 @@ describe("Working of support menu", () => {
     let context: BrowserContext;
     let page: Page;
 
-    beforeEach(async () => {
+    beforeAll(async () => {
         browser = await chromium.launch({
             headless: false
         });
         context = await browser.newContext();
         page = await context.newPage();
         await page.goto("https://rbo.uat.dasreda.ru");
+        await page.click("#test-cookieAlert_button");
     });
 
     test("Open and close support menu", async () => {
-        await page.click("#test-cookieAlert_button");
+        await page.goto("https://rbo.uat.dasreda.ru");
         await page.click("//div[@role='button' and contains(@class, 'SupportCall__messenger')]");
         await page.click("//div[@role='button' and contains(@class, 'SupportCall__messenger-opened')]");
         await page.isHidden("//div[@role='button' and contains(@class, 'SupportCall__messenger-opened')]");
     });
 
     test("Open and close support phone popup", async () => {
-        await page.click("#test-cookieAlert_button");
+        await page.goto("https://rbo.uat.dasreda.ru");
         await page.click("//div[@role='button' and contains(@class, 'SupportCall__messenger')]");
         await page.click("//div[@role='button' and contains(@class, 'SupportCall__messenger-phone')]");
         const supportPhonePopup = await page.$("//div[@role='dialog']");
@@ -41,7 +42,7 @@ describe("Working of support menu", () => {
     });
 
     test("Open and close telegram popup", async () => {
-        await page.click("#test-cookieAlert_button");
+        await page.goto("https://rbo.uat.dasreda.ru");
         await page.click("//div[@role='button' and contains(@class, 'SupportCall__messenger')]");
         await page.click("//div[@role='button' and contains(@class, 'SupportCall__messenger-telegram')]");
         const supportPhonePopup = await page.$("//div[@role='dialog']");
@@ -59,7 +60,16 @@ describe("Working of support menu", () => {
         }
     });
 
-    afterEach(async () => {
+    test("Go to feedback page", async () => {
+        await page.goto("https://rbo.uat.dasreda.ru");
+        await page.click("//div[@role='button' and contains(@class, 'SupportCall__messenger')]");
+        await page.click("//div[@role='button' and contains(@class, 'SupportCall__messenger-omni')]");
+        await page.waitForLoadState();
+        const title = await page.$("h1");
+        expect(await title.textContent()).toContain("Обратная связь");
+    });
+
+    afterAll(async () => {
         await page.close();
         await context.close();
         await browser.close();

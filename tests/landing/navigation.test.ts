@@ -7,12 +7,15 @@ describe('Navigation on main page', () => {
     let titlePersonalDataPage = "Персональные данные";
     let faqTitle = "Вопрос-ответ";
 
-    beforeEach(async () => {
+    beforeAll(async () => {
         browser = await chromium.launch({
             headless: false
         });
         context = await browser.newContext();
         page = await context.newPage();
+    });
+
+    beforeEach(async () => {
         await page.goto("https://rbo.uat.dasreda.ru");
     });
 
@@ -68,6 +71,7 @@ describe('Navigation on main page', () => {
         ]);
         await newWindow.waitForLoadState();
         expect(page.context().pages()[1].url()).toContain('sberbank.ru');
+        await page.context().pages()[1].close();
     });
 
     test('Open youtube frame from header', async () => {
@@ -83,6 +87,7 @@ describe('Navigation on main page', () => {
         ]);
         await newWindow.waitForLoadState();
         expect(page.context().pages()[1].url()).toContain('oferta_rbidos');
+        await page.context().pages()[1].close();
     });
 
     test('Clicking on Agreement link and go to agreement document', async () => {
@@ -92,6 +97,7 @@ describe('Navigation on main page', () => {
         ]);
         await newWindow.waitForLoadState();
         expect(page.context().pages()[1].url()).toContain('soglasie_na_rbidos');
+        await page.context().pages()[1].close();
     });
 
     test('Clicking on FAQ button in page block', async () => {
@@ -108,9 +114,20 @@ describe('Navigation on main page', () => {
         ]);
         await newWindow.waitForLoadState();
         expect(page.context().pages()[1].url()).toContain('uat.dasreda.ru/learn/blog');
+        await page.context().pages()[1].close();
     });
 
-    afterEach(async () => {
+    test('Clicking on Watch link in footer and go to Platform blogs', async () => {
+        await page.click("//div[contains(@class, 'ant-row MainFooter__footer-menu-content')]//li/a[contains(., 'Смотреть')]");
+        const [newWindow] = await Promise.all([
+            context.waitForEvent("page"),
+        ]);
+        await newWindow.waitForLoadState();
+        expect(page.context().pages()[1].url()).toContain('uat.dasreda.ru/learn/videos');
+        await page.context().pages()[1].close();
+    });
+
+    afterAll(async () => {
         await page.close();
         await context.close();
         await browser.close();

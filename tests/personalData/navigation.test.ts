@@ -105,6 +105,14 @@ requestPathes.forEach(requestPath => {
             await page.context().pages()[1].close();
         });
 
+        test.only('Clicking on user agreement link in footer', async () => {
+            await page.goto(url + requestPath);
+            await page.click("//a[contains(., 'Пользовательское соглашение')]");
+            await Promise.all([context.waitForEvent("page")]);
+            expect(page.context().pages()[1].url()).toContain('polzovatelskoe_soglashenie');
+            await page.context().pages()[1].close();
+        });
+
         afterEach(async () => {
             await page.close();
             await context.close();
