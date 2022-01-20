@@ -18,7 +18,7 @@ requestTypes.forEach(requestType => {
 
         let email: string;
     
-        beforeEach(async () => {
+        beforeAll(async () => {
             browser = await chromium.launch({
                 headless: false
             });
@@ -26,7 +26,6 @@ requestTypes.forEach(requestType => {
             page = await context.newPage();
             
             email = "autotest+" + new Date().getTime() + "@dasredatest.ru";
-
 
             await page.goto("https://rbo.uat.dasreda.ru");
             await page.click("text='Войти'");
@@ -47,6 +46,19 @@ requestTypes.forEach(requestType => {
             await page.fill("#username", email);
             await page.fill("#password", password);
             await page.click("#test-loginForm-singIn");
+        
+            await page.waitForSelector("#test-landing-navPanel-logedIn");
+            // await page.click(requestType);
+            // const title = await page.$("h1");
+            // expect(await title.textContent()).toContain(checkTitle);
+        });
+
+        beforeEach(async () => {
+            await page.goto("https://rbo.uat.dasreda.ru");
+            // await page.click("text='Войти'");
+            // await page.fill("#username", email);
+            // await page.fill("#password", password);
+            // await page.click("#test-loginForm-singIn");
         
             await page.waitForSelector("#test-landing-navPanel-logedIn");
             await page.click(requestType);
@@ -79,8 +91,18 @@ requestTypes.forEach(requestType => {
             const title = await page.$("h2");
             expect(await title.textContent()).toContain("Подтверждение номера телефона");
         });
+
+        test("Return to face-to-face identification page from enter passport data page", async () => {
+            await goToPhoneValidationPage();
+            await goToCheckOnlineRegistrationPage();
+            await goToPassportDataPage();
+            await page.waitForNavigation();
+            await page.click("//ul/li[@role='menuitem']/div[contains(@class, 'title') and contains(., 'Персональные данные')]/../ul/li[contains(., 'Возможность очной идентификации')]");
+            const title = await page.$("h2");
+            expect(await title.textContent()).toContain("Определение возможности подачи документов онлайн");
+        });
     
-        afterEach(async () => {
+        afterAll(async () => {
             await page.close();
             await context.close();
             await browser.close();
@@ -109,6 +131,15 @@ requestTypes.forEach(requestType => {
             await page.click("#agreement-conditions");
             await page.click("#agreementPersonalData");
             await page.fill("#code", "123123");
+            await page.click("//button[contains(., 'Продолжить')]");
+        }
+
+        async function goToPassportDataPage() {
+            await page.click("//input[@name='hasSbol' and @value='1']");
+            await page.click("//input[@name='hasBioPassport' and @value='1']");
+            await page.click("#osName");
+            await page.click("//li[text()='Android']");
+            await page.click("//li[contains(@class, 'PersonalInformation')]//input[@type='checkbox']");
             await page.click("//button[contains(., 'Продолжить')]");
         }
     });

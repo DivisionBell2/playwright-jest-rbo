@@ -51,16 +51,18 @@ requestPathes.forEach(requestPath => {
             await page.click("#test-loginForm-singIn");
             await page.waitForSelector("#test-landing-navPanel-logedIn");
         });
+
+        beforeEach(async () => {
+            await page.goto(url + requestPath);
+        });
     
         test('Clicking on logo', async () => {
-            await page.goto(url + requestPath);
             await page.click("//div[contains(@class, 'topmenu-logo-pic')]");
             const title = await page.$("#test-landing-header-text");
             expect(await title.textContent()).toContain(landingTitle);
         });
     
         test('Clicking on FAQ button', async () => {
-            await page.goto(url + requestPath);
             await page.click("text='Вопрос-ответ'");
             await page.waitForNavigation();
             const title = await page.$("h1");
@@ -68,7 +70,6 @@ requestPathes.forEach(requestPath => {
         });
     
         test('Clicking on feedback button', async () => {
-            await page.goto(url + requestPath);
             await page.click("text='Обратная связь'");
             await page.waitForNavigation();
             const title = await page.$("h1");
@@ -76,44 +77,45 @@ requestPathes.forEach(requestPath => {
         });
     
         test('Clicking on change data link', async () => {
-            await page.goto(url + requestPath);
             await page.click("//div[@role='button' and contains(text(), 'Изменить данные')]");
             const title = await page.$("h2");
             expect(await title.textContent()).toContain(personalDataPageTitle);
         });
 
         test('Clicking on oferta link in footer', async () => {
-            await page.goto(url + requestPath);
             await page.click("//a[contains(., 'Договор оферты')]");
             await Promise.all([context.waitForEvent("page")]);
-            await page.waitForTimeout(1000);
+            await page.waitForTimeout(2000);
             const newPage = page.context().pages()[1];
             expect(newPage.url()).toContain('oferta_rbidos');
-            
             await page.context().pages()[1].close();
-            await page.waitForTimeout(1000);
         });
 
         test('Clicking on personal data privacy policy link in footer', async () => {
-            //await page.goto(url + requestPath);
             await page.click("//a[contains(., 'Политика конфиденциальности')]");
             await Promise.all([context.waitForEvent("page")]);
-            await page.waitForTimeout(1000);
+            await page.waitForTimeout(2000);
             const newPage = page.context().pages()[1];
             expect(newPage.url()).toContain('politika.pdf');
             await page.context().pages()[1].close();
-            page.waitForTimeout(1000);
         });
 
         test('Clicking on personal data agreement link in footer', async () => {
-            //await page.goto(url + requestPath);
             await page.click("//a[contains(., 'Согласие на обработку данных')]");
             await Promise.all([context.waitForEvent("page")]);
-            await page.waitForTimeout(1000);
+            await page.waitForTimeout(2000);
             const newPage = page.context().pages()[1];
             expect(newPage.url()).toContain('soglasie_na_rbidos');
             await page.context().pages()[1].close();
-            await page.waitForTimeout(1000);
+        });
+
+        test('Clicking on user agreement link in footer', async () => {
+            await page.click("//a[contains(., 'Пользовательское соглашение')]");
+            await Promise.all([context.waitForEvent("page")]);
+            await page.waitForTimeout(2000);
+            const newPage = page.context().pages()[1];
+            expect(newPage.url()).toContain('polzovatelskoe_soglashenie');
+            await page.context().pages()[1].close();
         });
     
         afterAll(async () => {

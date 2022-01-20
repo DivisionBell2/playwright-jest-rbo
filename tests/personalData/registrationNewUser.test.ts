@@ -13,12 +13,11 @@ requestPathes.forEach(requestPath => {
         let context: BrowserContext;
         let page: Page;
     
-        let email = "autotest+" + new Date().getTime() + "@dasredatest.ru";
         let username = "Автотест";
     
         const url = "https://rbo.uat.dasreda.ru";
     
-        beforeEach(async () => {
+        beforeAll(async () => {
             browser = await chromium.launch({
                 headless: false
             });
@@ -26,7 +25,8 @@ requestPathes.forEach(requestPath => {
             page = await context.newPage();
         });
     
-        test('Clicking on FAQ button', async () => {
+        test('Registration new user', async () => {
+            const email = "autotest+" + new Date().getTime() + "@dasredatest.ru";
             await page.goto(url + requestPath);
             await page.fill("#lastName", username);
             await page.fill("#firstName", username);
@@ -36,8 +36,20 @@ requestPathes.forEach(requestPath => {
             await page.click("#test-send_password");
             await page.waitForSelector("#emailCode");
         });
+
+        test('Registration new user without middle name', async () => {
+            const email = "autotest+" + new Date().getTime() + "@dasredatest.ru";
+            await page.goto(url + requestPath);
+            await page.fill("#lastName", username);
+            await page.fill("#firstName", username);
+            await page.click("//div[contains(@class, 'input-item-no-mid-name')]/label");
+            await page.fill("#email", email);
+            await page.click("//label[contains(@class, 'PersonalInformation__checkbox') and contains(., 'передачу персональных данных')]/span[contains(@class, 'ant-checkbox')]");
+            await page.click("#test-send_password");
+            await page.waitForSelector("#emailCode");
+        });
         
-        afterEach(async () => {
+        afterAll(async () => {
             await page.close();
             await context.close();
             await browser.close();
