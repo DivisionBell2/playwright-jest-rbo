@@ -49,14 +49,15 @@ requestPathes.forEach(requestPath => {
             await page.waitForSelector("#test-landing-navPanel-logedIn");
         });
     
-        test ('Clicking on logo', async () => {
+        test('Clicking on logo', async () => {
             await page.goto(url + requestPath);
             await page.click("//div[contains(@class, 'topmenu-logo-pic')]");
+            await page.waitForSelector("#test-landing-header-text");
             const title = await page.$("#test-landing-header-text");
             expect(await title.textContent()).toContain(landingTitle);
         });
     
-        test ('Clicking on FAQ button', async () => {
+        test('Clicking on FAQ button', async () => {
             await page.goto(url + requestPath);
             await page.click("text='Вопрос-ответ'");
             await page.waitForNavigation();
@@ -64,7 +65,7 @@ requestPathes.forEach(requestPath => {
             expect(await title.textContent()).toContain(faqTitle);
         });
 
-        test ('Clicking on feedback button', async () => {
+        test('Clicking on feedback button', async () => {
             await page.goto(url + requestPath);
             await page.click("text='Обратная связь'");
             await page.waitForNavigation();
@@ -72,7 +73,7 @@ requestPathes.forEach(requestPath => {
             expect(await title.textContent()).toContain(feedbackTitle);
         });
 
-        test ('Clicking on how to know android version link', async () => {
+        test('Clicking on how to know android version link', async () => {
             await page.goto(url + requestPath);
             await page.click("//a[text()='Как узнать версию Android?']");
             const [newWindow] = await Promise.all([
@@ -85,6 +86,23 @@ requestPathes.forEach(requestPath => {
             const isHintImageVisible = await page.context().pages()[1].$("//img[@src='/img/faq/android1.png']");
             expect(await isHintImageVisible.isVisible()).toBe(true);
             await page.context().pages()[1].close();
+        });
+
+        test('Clicking on how to know about NFC link', async () => {
+            await page.goto(url + requestPath);
+            await page.click("//span[text()='Как узнать, есть ли в телефоне NFC?']");
+            const nfcPopup = await page.$("//div[@class='ant-modal-body']");
+            expect(await nfcPopup.isVisible()).toBe(true);
+            await page.click("//div[@class='ant-modal-body']//button[contains(., 'OK')]");
+            for (let i = 0; i < 3; i++) {
+                if (!await nfcPopup.isHidden()) {
+                    await page.waitForTimeout(1000);
+                    continue;
+                } else {
+                    break;
+                }
+            }
+            expect(await nfcPopup.isHidden()).toBe(true);
         });
     
         afterAll(async () => {

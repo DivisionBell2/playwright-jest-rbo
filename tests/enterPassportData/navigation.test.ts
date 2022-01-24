@@ -102,7 +102,17 @@ requestPathes.forEach(requestPath => {
         test('Clicking on oferta link in footer', async () => {
             await page.click("//a[contains(., 'Договор оферты')]");
             await Promise.all([context.waitForEvent("page")]);
+            await page.context().pages()[1].waitForLoadState();
             expect(page.context().pages()[1].url()).toContain('oferta_rbidos');
+        });
+
+        test('Clicking on Agreement link and go to agreement document', async () => {
+            await page.click("//a[contains(., 'Согласие')]");
+            const [newWindow] = await Promise.all([
+                context.waitForEvent("page"),
+            ]);
+            await page.context().pages()[1].waitForLoadState();
+            expect(page.context().pages()[1].url()).toContain('soglasie_na_obrabotku_pdn_rbidos');
         });
     
         afterEach(async () => {

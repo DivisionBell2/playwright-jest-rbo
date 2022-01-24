@@ -39,13 +39,23 @@ describe('Navigation tests for feedback page', () => {
         await page.context().pages()[1].close();
     });
 
-    test('Clicking on Watch link in footer and go to Platform blogs', async () => {
+    test('Clicking on Watch link in footer and go to Platform videos', async () => {
         await page.click("//div[contains(@class, 'ant-row MainFooter__footer-menu-content')]//li/a[contains(., 'Смотреть')]");
         const [newWindow] = await Promise.all([
             context.waitForEvent("page"),
         ]);
         await newWindow.waitForLoadState();
         expect(page.context().pages()[1].url()).toContain('uat.dasreda.ru/learn/videos');
+        await page.context().pages()[1].close();
+    });
+
+    test('Clicking on Watch link in footer and go to Platform courses', async () => {
+        await page.click("//div[contains(@class, 'ant-row MainFooter__footer-menu-content')]//li/a[contains(., 'Учиться')]");
+        const [newWindow] = await Promise.all([
+            context.waitForEvent("page"),
+        ]);
+        await newWindow.waitForLoadState();
+        expect(page.context().pages()[1].url()).toContain('uat.dasreda.ru/learn/courses');
         await page.context().pages()[1].close();
     });
 
