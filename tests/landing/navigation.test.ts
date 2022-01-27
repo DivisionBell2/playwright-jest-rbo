@@ -1,9 +1,14 @@
 import {Browser, BrowserContext, chromium, Page} from "playwright";
+import EnterPersonalDataPage from "../../pages/EnterPersonalData.page";
+import MainPage from "../../pages/MainPage.page";
 
 describe('Navigation on main page', () => {
+
     let browser: Browser;
     let context: BrowserContext;
     let page: Page;
+    let mainPage: MainPage;
+    let enterPersonalDataPage: EnterPersonalDataPage;
     let titlePersonalDataPage = "Персональные данные";
     let faqTitle = "Вопрос-ответ";
 
@@ -13,28 +18,27 @@ describe('Navigation on main page', () => {
         });
         context = await browser.newContext();
         page = await context.newPage();
+        mainPage = new MainPage(page);
+        enterPersonalDataPage = new EnterPersonalDataPage(page);
     });
 
     beforeEach(async () => {
-        await page.goto("https://rbo.uat.dasreda.ru");
+        await mainPage.goToMainPage();
     });
 
     test('Click on start business registration as entrepreneur', async () => {
-        await page.click("#test-landing-upper-ip_button");
-        const title = await page.$("h1");
-        expect(await title.textContent()).toContain(titlePersonalDataPage);
+        await mainPage.clickLandingStartEntrepreneurButton();
+        expect(await enterPersonalDataPage.getTitleText()).toContain(enterPersonalDataPage.checkData.title);
     });
 
     test('Click on start business registration as legal entity', async () => {
-        await page.click("#test-landing-upper-ooo_button");
-        const title = await page.$("h1");
-        expect(await title.textContent()).toContain(titlePersonalDataPage);
+        await mainPage.clickLandingStartLegalEntityButton();
+        expect(await enterPersonalDataPage.getTitleText()).toContain(enterPersonalDataPage.checkData.title);
     });
 
     test('Click on start business registration as entrepreneur', async () => {
-        await page.click("//div[@id='eighthblock']//div[contains(@class, 'landing-left-button') and contains(text(), 'Станьте ИП')]");
-        const title = await page.$("h1");
-        expect(await title.textContent()).toContain(titlePersonalDataPage);
+        await mainPage.clickBlockStartEntrepreneurButton()
+        expect(await enterPersonalDataPage.getTitleText()).toContain(enterPersonalDataPage.checkData.title);
     });
 
     test('Click on start business registration as legal entity', async () => {
