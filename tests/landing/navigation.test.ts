@@ -1,5 +1,7 @@
 import {Browser, BrowserContext, chromium, Page} from "playwright";
 import EnterPersonalDataPage from "../../pages/EnterPersonalData.page";
+import FAQPage from "../../pages/FAQPage.page";
+import FeedbackPage from "../../pages/Feedback.page";
 import MainPage from "../../pages/MainPage.page";
 
 describe('Navigation on main page', () => {
@@ -8,7 +10,9 @@ describe('Navigation on main page', () => {
     let context: BrowserContext;
     let page: Page;
     let mainPage: MainPage;
+    let faqPage: FAQPage;
     let enterPersonalDataPage: EnterPersonalDataPage;
+    let feedbackPage: FeedbackPage;
     let titlePersonalDataPage = "Персональные данные";
     let faqTitle = "Вопрос-ответ";
 
@@ -20,6 +24,8 @@ describe('Navigation on main page', () => {
         page = await context.newPage();
         mainPage = new MainPage(page);
         enterPersonalDataPage = new EnterPersonalDataPage(page);
+        faqPage = new FAQPage(page);
+        feedbackPage = new FeedbackPage(page);
     });
 
     beforeEach(async () => {
@@ -37,28 +43,23 @@ describe('Navigation on main page', () => {
     });
 
     test('Click on start business registration as entrepreneur', async () => {
-        await mainPage.clickBlockStartEntrepreneurButton()
+        await mainPage.clickBlockStartEntrepreneurButton();
         expect(await enterPersonalDataPage.getTitleText()).toContain(enterPersonalDataPage.checkData.title);
     });
 
     test('Click on start business registration as legal entity', async () => {
-        await page.click("//div[@id='eighthblock']//div[contains(@class, 'landing-right-button') and contains(text(), 'Откройте ООО')]");
-        const title = await page.$("h1");
-        expect(await title.textContent()).toContain(titlePersonalDataPage);
+        await mainPage.clickBlockStartLegalEntityButton();
+        expect(await enterPersonalDataPage.getTitleText()).toContain(enterPersonalDataPage.checkData.title);
     });
 
     test('Clicking on FAQ button', async () => {
-        await page.click("text='Вопрос-ответ'");
-        await page.waitForNavigation();
-        const title = await page.$("h1");
-        expect(await title.textContent()).toContain(faqTitle);
+        await (await mainPage.getHeader()).clickFAQLink();
+        expect(await faqPage.getTitleText()).toContain(faqPage.checkData.title);
     });
 
-    test('Clicking on Feedback button', async () => {
-        await page.click("text='Обратная связь'");
-        await page.waitForNavigation();
-        const title = await page.$("h1");
-        expect(await title.textContent()).toContain("Обратная связь");
+    test.only('Clicking on Feedback button', async () => {
+        await (await mainPage.getHeader()).clickFeedbackLink();
+        expect(await feedbackPage.getTitleText()).toContain(feedbackPage.checkData.title);
     });
 
     test('Clicking on FAQ button in landing block', async () => {
