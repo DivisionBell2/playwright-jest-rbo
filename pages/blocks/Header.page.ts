@@ -9,7 +9,8 @@ export default class Header {
 
     private selectors = {
         faqLink: "text='Вопрос-ответ'",
-        feedbackLink: "text='Обратная связь'"
+        feedbackLink: "text='Обратная связь'",
+        videoButton: "//span[@role='button' and contains(., 'Видеоинструкция')]",
     }
 
     public async clickFAQLink(): Promise<void> {
@@ -18,5 +19,9 @@ export default class Header {
 
     public async clickFeedbackLink(): Promise<void> {
         await this.page.click(this.selectors.feedbackLink);
+    }
+
+    public async clickVideoButton(): Promise<void> {
+        await this.page.click(this.selectors.videoButton);
     }
 }
