@@ -1,9 +1,13 @@
 import {Browser, BrowserContext, chromium, Page} from "playwright";
+import MainPage from "../../pages/MainPage.page";
+import FeedbackPage from "../../pages/Feedback.page";
 
 describe("Working of support menu", () => {
     let browser: Browser;
     let context: BrowserContext;
     let page: Page;
+    let mainPage: MainPage;
+    let feedbackPage: FeedbackPage;
 
     beforeAll(async () => {
         browser = await chromium.launch({
@@ -11,62 +15,42 @@ describe("Working of support menu", () => {
         });
         context = await browser.newContext();
         page = await context.newPage();
-        await page.goto("https://rbo.uat.dasreda.ru");
-        await page.click("#test-cookieAlert_button");
+        mainPage = new MainPage(page);
+        feedbackPage = new FeedbackPage(page);
+        await mainPage.goToMainPage();
+        await mainPage.clickCookieButton();
+    });
+
+    beforeEach(async () => {
+        await mainPage.goToMainPage();
+        await (await mainPage.getSupportMenu()).clickToOpenSupportMenuButton();
     });
 
     test("Open and close support menu", async () => {
-        await page.goto("https://rbo.uat.dasreda.ru");
-        await page.click("//div[@role='button' and contains(@class, 'SupportCall__messenger')]");
-        await page.click("//div[@role='button' and contains(@class, 'SupportCall__messenger-opened')]");
-        await page.isHidden("//div[@role='button' and contains(@class, 'SupportCall__messenger-opened')]");
+        const supportMenu = await mainPage.getSupportMenu();
+        await supportMenu.clickToCloseSupportMenu();
+        expect(await supportMenu.waitForVideoFrameHidden()).toBeTruthy();
     });
 
     test("Open and close support phone popup", async () => {
-        await page.goto("https://rbo.uat.dasreda.ru");
-        await page.click("//div[@role='button' and contains(@class, 'SupportCall__messenger')]");
-        await page.click("//div[@role='button' and contains(@class, 'SupportCall__messenger-phone')]");
-        const supportPhonePopup = await page.$("//div[@role='dialog']");
-        expect(await supportPhonePopup.isVisible()).toBe(true);
-        await page.click("//button[@aria-label='Close']");
-
-        // Переписать в отдельную функцию с двумя аргументами селектор и условие
-        for (let i = 0; i < 3; i++) {
-            const displayStyleSupportPhonePopup = await page.$("//div[@role='dialog']");
-            if (await displayStyleSupportPhonePopup.getAttribute("style") == null) {
-                await page.waitForTimeout(1000);
-                continue;
-            }
-            expect(await displayStyleSupportPhonePopup.getAttribute("style")).toEqual("display: none;");
-        }
+        const supportMenu = await mainPage.getSupportMenu();
+        await supportMenu.clickPhoneButton();
+        expect(await supportMenu.waitForDialogWindowVisible()).toBeTruthy();
+        await supportMenu.clickCloseDialogWindotButton();
+        expect(await supportMenu.waitForDialogWindowHidden()).toBeTruthy();
     });
 
     test("Open and close telegram popup", async () => {
-        await page.goto("https://rbo.uat.dasreda.ru");
-        await page.click("//div[@role='button' and contains(@class, 'SupportCall__messenger')]");
-        await page.click("//div[@role='button' and contains(@class, 'SupportCall__messenger-telegram')]");
-        const supportPhonePopup = await page.$("//div[@role='dialog']");
-        expect(await supportPhonePopup.isVisible()).toBe(true);
-        await page.click("//button[@aria-label='Close']");
-
-        // Переписать в отдельную функцию с двумя аргументами селектор и условие
-        for (let i = 0; i < 3; i++) {
-            const displayStyleSupportPhonePopup = await page.$("//div[@role='dialog']");
-            if (await displayStyleSupportPhonePopup.getAttribute("style") == null) {
-                await page.waitForTimeout(1000);
-                continue;
-            }
-            expect(await displayStyleSupportPhonePopup.getAttribute("style")).toEqual("display: none;");
-        }
+        const supportMenu = await mainPage.getSupportMenu();
+        await supportMenu.clickTelegramButton();
+        expect(await supportMenu.waitForDialogWindowVisible()).toBeTruthy();
+        await supportMenu.clickCloseDialogWindotButton();
+        expect(await supportMenu.waitForDialogWindowHidden()).toBeTruthy();
     });
 
     test("Go to feedback page", async () => {
-        await page.goto("https://rbo.uat.dasreda.ru");
-        await page.click("//div[@role='button' and contains(@class, 'SupportCall__messenger')]");
-        await page.click("//div[@role='button' and contains(@class, 'SupportCall__messenger-omni')]");
-        await page.waitForLoadState();
-        const title = await page.$("h1");
-        expect(await title.textContent()).toContain("Обратная связь");
+        await (await mainPage.getSupportMenu()).clickFeedbackButton();
+        expect(await feedbackPage.getTitleText()).toContain(feedbackPage.checkData.title);
     });
 
     afterAll(async () => {

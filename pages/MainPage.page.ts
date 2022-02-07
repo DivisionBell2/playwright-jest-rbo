@@ -2,6 +2,7 @@ import { Page } from "playwright";
 import Env from "../utils/environment";
 import Footer from "./blocks/Footer.page";
 import Header from "./blocks/Header.page";
+import SupportMenu from "./blocks/supportMenu";
 import VideoFrame from "./blocks/VideoFrame.page";
 
 export default class MainPage {
@@ -9,12 +10,14 @@ export default class MainPage {
     private header: Header;
     private footer: Footer;
     private videoFrame: VideoFrame;
+    private supportMenu: SupportMenu;
 
     constructor(page: Page) {
         this.page = page;
         this.header = new Header(page);
         this.videoFrame = new VideoFrame(page);
         this.footer = new Footer(page);
+        this.supportMenu = new SupportMenu(page);
     }
 
     public checkData = {
@@ -31,12 +34,14 @@ export default class MainPage {
         blockStartLegalEntityButton: "//div[@id='eighthblock']//div[contains(@class, 'landing-right-button') and contains(text(), 'Откройте ООО')]",
         faqButton: "//div[@id='tenthblock']//a[text()='Вопросы и ответы']",
         goToSberBankButton: "//div[@id='sixth-block-wrapper']//a/img[@alt='Сбербанк']",
+        cookieButton: "#test-cookieAlert_button",
         
         ofertaLink: "//a[contains(., 'Оферты')]",
         agreementLink: "//a[contains(., 'Согласие')]",
     }
 
     public async goToMainPage() {
+        console.log("I go to main page " + this.url);
         await this.page.goto(this.url)
     }
 
@@ -50,6 +55,10 @@ export default class MainPage {
 
     public async getFooter(): Promise<Footer> {
         return this.footer;
+    }
+
+    public async getSupportMenu(): Promise<SupportMenu> {
+        return this.supportMenu;
     }
 
     public async clickLandingStartEntrepreneurButton(): Promise<void> {
@@ -82,5 +91,9 @@ export default class MainPage {
 
     public async clickAgreementLink(): Promise<void> {
         await this.page.click(this.selectors.agreementLink);
+    }
+
+    public async clickCookieButton(): Promise<void> {
+        await this.page.click(this.selectors.cookieButton);
     }
 }
