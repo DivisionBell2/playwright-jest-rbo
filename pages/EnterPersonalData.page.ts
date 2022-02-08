@@ -9,10 +9,14 @@ export default class EnterPersonalDataPage {
 
     public checkData = {
         title: 'Персональные данные'
-    } 
+    }
 
-    public async getTitleText(): Promise<string> {
-        return await this.page.locator("h1").textContent();
+    private selectors = {
+        title: 'h1',
+    }
+
+    public async getTitleText(): Promise<string | null> {
+        return await (await this.page.waitForSelector(this.selectors.title)).textContent();
     }
 }
 

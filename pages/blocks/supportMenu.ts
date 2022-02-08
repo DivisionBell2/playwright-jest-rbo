@@ -57,13 +57,13 @@ export default class SupportMenu {
         const supportPopup = await this.page.$(this.selectors.dialogWindow);
 
         for (let i = 0; i < 3; i++) {
-            if (await supportPopup.getAttribute("style") == null) {
+            if (await supportPopup?.getAttribute("style") == null) {
                 await this.page.waitForTimeout(1000);
                 continue;
             }
         }
 
-        if (await supportPopup.getAttribute("style") == this.checkData.popupStyleDisplayNone) {
+        if (await supportPopup?.getAttribute("style") == this.checkData.popupStyleDisplayNone) {
             return true;
         }
 

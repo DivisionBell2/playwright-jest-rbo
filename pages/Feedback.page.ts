@@ -25,7 +25,7 @@ export default class FeedbackPage {
         await this.page.goto(this.url)
     }
 
-    public async getTitleText(): Promise<string> {
-        return await this.page.locator(this.selectors.title).textContent();
+    public async getTitleText(): Promise<string | null> {
+        return await (await this.page.waitForSelector(this.selectors.title)).textContent();
     }
 }

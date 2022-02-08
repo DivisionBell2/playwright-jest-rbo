@@ -1,4 +1,4 @@
-import { BrowserContext, Page } from "playwright-core";
+import { BrowserContext, Page } from "playwright";
 
 export default class PageTabsHelper {
     static async getNewTab(context: BrowserContext, page: Page): Promise<Page> {
