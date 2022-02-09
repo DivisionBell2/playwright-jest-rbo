@@ -1,21 +1,12 @@
 import { Page } from "playwright";
-import Env from "../utils/environment";
-import Header from "./blocks/Header.page";
+import BasePage from "./basePage.page";
+import Header from "./blocks/header.pageBlock";
 
-export default class FAQPage {
-    private page: Page;
-    private header: Header;
-
-    constructor(page: Page) {
-        this.page = page;
-        this.header = new Header(page);
-    }
+export default class FAQPage extends BasePage {
 
     public checkData = {
         title: 'Вопрос-ответ'
     }
-
-    private url = Env.url + "/rbidos/faq";
 
     private selectors = {
         title: 'h1'

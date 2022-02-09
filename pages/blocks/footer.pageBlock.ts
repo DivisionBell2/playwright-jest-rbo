@@ -1,11 +1,7 @@
 import { Page } from "playwright";
+import BasePage from "../basePage.page";
 
-export default class Footer {
-    private page: Page;
-
-    constructor(page: Page) {
-        this.page = page;
-    }
+export default class Footer extends BasePage {
 
     public checkData = {
         platformReadLink: 'uat.dasreda.ru/learn/blog',

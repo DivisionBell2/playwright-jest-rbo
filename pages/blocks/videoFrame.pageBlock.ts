@@ -1,11 +1,7 @@
 import { Page } from "playwright";
+import BasePage from "../basePage.page";
 
-export default class VideoFrame {
-    private page: Page;
-
-    constructor(page: Page) {
-        this.page = page;
-    }
+export default class VideoFrame extends BasePage {
 
     private selectors = {
         closeButton: "//i[@aria-label='icon: close']",

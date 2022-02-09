@@ -1,11 +1,7 @@
 import { Page } from "playwright";
+import BasePage from "./basePage.page";
 
-export default class EnterPersonalDataPage {
-    private page: Page;
-
-    constructor(page: Page) {
-        this.page = page;
-    }
+export default class EnterPersonalDataPage extends BasePage {
 
     public checkData = {
         title: 'Персональные данные'

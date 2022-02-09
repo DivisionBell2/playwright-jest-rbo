@@ -1,11 +1,7 @@
 import { Page } from "playwright";
+import BasePage from "../basePage.page";
 
-export default class Header {
-    private page: Page;
-
-    constructor(page: Page) {
-        this.page = page;
-    }
+export default class Header extends BasePage {
 
     private selectors = {
         faqLink: "text='Вопрос-ответ'",

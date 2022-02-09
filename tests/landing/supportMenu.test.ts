@@ -1,22 +1,14 @@
 import {Browser, BrowserContext, chromium, Page} from "playwright";
-import MainPage from "../../pages/MainPage.page";
-import FeedbackPage from "../../pages/Feedback.page";
+import MainPage from "../../pages/mainPage.page";
+import FeedbackPage from "../../pages/feedback.page";
 
 describe("Working of support menu", () => {
-    let browser: Browser;
-    let context: BrowserContext;
-    let page: Page;
     let mainPage: MainPage;
     let feedbackPage: FeedbackPage;
 
     beforeAll(async () => {
-        browser = await chromium.launch({
-            headless: false
-        });
-        context = await browser.newContext();
-        page = await context.newPage();
-        mainPage = new MainPage(page);
-        feedbackPage = new FeedbackPage(page);
+        mainPage = new MainPage();
+        feedbackPage = new FeedbackPage();
         await mainPage.goToMainPage();
         await mainPage.clickCookieButton();
     });
@@ -51,11 +43,5 @@ describe("Working of support menu", () => {
     test("Go to feedback page", async () => {
         await (await mainPage.getSupportMenu()).clickFeedbackButton();
         expect(await feedbackPage.getTitleText()).toContain(feedbackPage.checkData.title);
-    });
-
-    afterAll(async () => {
-        await page.close();
-        await context.close();
-        await browser.close();
     });
 });

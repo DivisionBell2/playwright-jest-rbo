@@ -1,33 +1,19 @@
 import { Page } from "playwright";
 import Env from "../utils/environment";
-import Footer from "./blocks/Footer.page";
-import Header from "./blocks/Header.page";
-import SupportMenu from "./blocks/supportMenu";
-import VideoFrame from "./blocks/VideoFrame.page";
+import Footer from "./blocks/footer.pageBlock";
+import Header from "./blocks/header.pageBlock";
+import SupportMenu from "./blocks/supportMenu.pageBlock";
+import VideoFrame from "./blocks/videoFrame.pageBlock";
+import BasePage from "./basePage.page";
 
-export default class MainPage {
-    private page: Page;
-    private header: Header;
-    private footer: Footer;
-    private videoFrame: VideoFrame;
-    private supportMenu: SupportMenu;
-
-    constructor(page: Page) {
-        this.page = page;
-        this.header = new Header(page);
-        this.videoFrame = new VideoFrame(page);
-        this.footer = new Footer(page);
-        this.supportMenu = new SupportMenu(page);
-    }
+export default class MainPage extends BasePage {
 
     public checkData = {
         ofertaUrl: 'oferta_rbidos',
         agreementUrl: 'soglasie_na_rbidos'
     }
 
-    private url = Env.url;
-
-    private selectors = {
+    selectors = {
         landingStartEntrepreneurButton: '#test-landing-upper-ip_button',
         landingStartLegalEntityButton: '#test-landing-upper-ooo_button',
         blockStartEntrepreneurButton: "//div[@id='eighthblock']//div[contains(@class, 'landing-left-button') and contains(text(), 'Станьте ИП')]",
@@ -46,19 +32,19 @@ export default class MainPage {
     }
 
     public async getHeader(): Promise<Header> {
-        return this.header;
+        return new Header();
     }
 
     public async getVideoFrame(): Promise<VideoFrame> {
-        return this.videoFrame;
+        return new VideoFrame();
     }
 
     public async getFooter(): Promise<Footer> {
-        return this.footer;
+        return new Footer();
     }
 
     public async getSupportMenu(): Promise<SupportMenu> {
-        return this.supportMenu;
+        return new SupportMenu();
     }
 
     public async clickLandingStartEntrepreneurButton(): Promise<void> {

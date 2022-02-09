@@ -1,21 +1,15 @@
 import { Page } from "playwright";
 import Env from "../utils/environment";
-import Header from "./blocks/Header.page";
+import BasePage from "./basePage.page";
+import Header from "./blocks/header.pageBlock";
 
-export default class FeedbackPage {
-    private page: Page;
-    private header: Header;
-
-    constructor(page: Page) {
-        this.page = page;
-        this.header = new Header(page);
-    }
+export default class FeedbackPage extends BasePage {
 
     public checkData = {
         title: 'Обратная связь'
     }
 
-    private url = Env.url + "rbidos/feedback";
+    //private url = Env.url + "rbidos/feedback";
 
     private selectors = {
         title: 'h1'

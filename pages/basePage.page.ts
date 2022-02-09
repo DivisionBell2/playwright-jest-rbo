@@ -1,14 +1,23 @@
 import { BrowserContext, Page } from "playwright";
+import * as data from "../data/url.json";
 
-export default class PageTabsHelper {
-    
+declare const page: Page;
 
-    static async getNewTab(page: Page): Promise<Page> {
+export default class BasePage {
+    protected url = data.url;
+    protected page: Page;
+
+    constructor() {
+        this.page = page;
+        this.url = data.url;
+    }
+
+    async getNewTab(page: Page): Promise<Page> {
         await this.getAllTabs(page.context());
         return page.context().pages()[1]
     }
 
-    static async saveOnlyOneTab(page: Page): Promise<void> {
+    async saveOnlyOneTab(page: Page): Promise<void> {
         const pages = page.context().pages();
 
         if (pages.length > 1) {
@@ -18,7 +27,7 @@ export default class PageTabsHelper {
         }
     }
 
-    private static async getAllTabs(context: BrowserContext): Promise<void> {
+    private async getAllTabs(context: BrowserContext): Promise<void> {
         const [tabs] = await Promise.all([
             context.waitForEvent("page"),
         ]);
