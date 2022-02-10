@@ -22,4 +22,8 @@ export default class FeedbackPage extends BasePage {
     public async getTitleText(): Promise<string | null> {
         return await (await this.page.waitForSelector(this.selectors.title)).textContent();
     }
+
+    public async waitForNavigationFeedbackPage(): Promise<void> {
+        await this.page.waitForNavigation();
+    }
 }

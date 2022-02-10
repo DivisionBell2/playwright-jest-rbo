@@ -1,4 +1,3 @@
-import {Browser, BrowserContext, chromium, Page} from "playwright";
 import MainPage from "../../pages/mainPage.page";
 import FeedbackPage from "../../pages/feedback.page";
 

@@ -17,6 +17,7 @@ export default class FAQPage extends BasePage {
     }
 
     public async getTitleText(): Promise<string | null> {
+        await this.page.waitForNavigation();
         return await (await this.page.waitForSelector(this.selectors.title)).textContent();
     }
 }

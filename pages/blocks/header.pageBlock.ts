@@ -10,7 +10,7 @@ export default class Header extends BasePage {
     }
 
     public async clickFAQLink(): Promise<void> {
-        await this.page.click(this.selectors.faqLink);
+        await page.click(this.selectors.faqLink);
     }
 
     public async clickFeedbackLink(): Promise<void> {

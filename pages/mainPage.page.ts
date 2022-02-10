@@ -1,5 +1,3 @@
-import { Page } from "playwright";
-import Env from "../utils/environment";
 import Footer from "./blocks/footer.pageBlock";
 import Header from "./blocks/header.pageBlock";
 import SupportMenu from "./blocks/supportMenu.pageBlock";
@@ -10,7 +8,8 @@ export default class MainPage extends BasePage {
 
     public checkData = {
         ofertaUrl: 'oferta_rbidos',
-        agreementUrl: 'soglasie_na_rbidos'
+        agreementUrl: 'soglasie_na_rbidos',
+        title: 'бизнес легко и быстро'
     }
 
     selectors = {
@@ -24,11 +23,12 @@ export default class MainPage extends BasePage {
         
         ofertaLink: "//a[contains(., 'Оферты')]",
         agreementLink: "//a[contains(., 'Согласие')]",
+
+        title: "#test-landing-header-text",
     }
 
     public async goToMainPage() {
-        console.log("I go to main page " + this.url);
-        await this.page.goto(this.url)
+        await page.goto(this.url)
     }
 
     public async getHeader(): Promise<Header> {
@@ -81,5 +81,9 @@ export default class MainPage extends BasePage {
 
     public async clickCookieButton(): Promise<void> {
         await this.page.click(this.selectors.cookieButton);
+    }
+
+    public async getTitleText(): Promise<string|null> {
+        return await (await this.page.waitForSelector(this.selectors.title)).textContent();
     }
 }

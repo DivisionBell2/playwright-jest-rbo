@@ -2,9 +2,10 @@ import { BrowserContext, Page } from "playwright";
 import * as data from "../data/url.json";
 
 declare const page: Page;
+//declare const url: string;
 
 export default class BasePage {
-    protected url = data.url;
+    protected url: string;
     protected page: Page;
 
     constructor() {
@@ -12,12 +13,12 @@ export default class BasePage {
         this.url = data.url;
     }
 
-    async getNewTab(page: Page): Promise<Page> {
+    async getNewTab(): Promise<Page> {
         await this.getAllTabs(page.context());
         return page.context().pages()[1]
     }
 
-    async saveOnlyOneTab(page: Page): Promise<void> {
+    async saveOnlyOneTab(): Promise<void> {
         const pages = page.context().pages();
 
         if (pages.length > 1) {
