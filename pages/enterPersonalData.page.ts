@@ -1,4 +1,5 @@
 import BasePage from "./basePage.page";
+import Footer from "./blocks/footer.pageBlock";
 import Header from "./blocks/header.pageBlock";
 
 export default class EnterPersonalDataPage extends BasePage {
@@ -10,7 +11,10 @@ export default class EnterPersonalDataPage extends BasePage {
     private selectors = {
         title: "h1",
         logo: "//div[contains(@class, 'topmenu-logo-pic')]",
-        sberIdButton: "//button[contains(@class, 'SberIdButton')]"
+        sberIdButton: "//button[contains(@class, 'SberIdButton')]",
+
+        dasredaLink: "//div[contains(@class, 'PersonalInformation__hint-blockquote')]/a[contains(., dasreda.ru)]",
+        agreementsLink: "//span[contains(@class, 'PersonalInformation')]/a[contains(., 'Согласие')]"
     }
 
     public async goToEnterPersonalDataPageEntrepreneur() {
@@ -25,6 +29,10 @@ export default class EnterPersonalDataPage extends BasePage {
         return new Header();
     }
 
+    public async getFooter(): Promise<Footer> {
+        return new Footer();
+    }
+
     public async getTitleText(): Promise<string | null> {
         return await (await page.waitForSelector(this.selectors.title)).textContent();
     }
@@ -35,6 +43,14 @@ export default class EnterPersonalDataPage extends BasePage {
 
     public async clickSberIdButton(): Promise<void> {
         await page.click(this.selectors.sberIdButton);
+    }
+
+    public async clickDasredaLink(): Promise<void> {
+        await page.click(this.selectors.dasredaLink);
+    }
+
+    public async clickAgreementsLink(): Promise<void> {
+        await page.click(this.selectors.agreementsLink);
     }
 }
 

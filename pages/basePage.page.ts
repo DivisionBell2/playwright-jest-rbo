@@ -1,8 +1,7 @@
-import { BrowserContext, Page } from "playwright";
+import { BrowserContext,chromium, Page } from "playwright";
 import * as data from "../data/url.json";
 
 declare const page: Page;
-//declare const url: string;
 
 export default class BasePage {
     protected url: string;
@@ -32,7 +31,7 @@ export default class BasePage {
         const [tabs] = await Promise.all([
             context.waitForEvent("page"),
         ]);
-        
-        await tabs.waitForLoadState();
+
+        page.waitForLoadState()
     }
 }

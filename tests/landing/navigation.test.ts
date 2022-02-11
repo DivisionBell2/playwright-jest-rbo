@@ -3,6 +3,7 @@ import FAQPage from "../../pages/faqPage.page";
 import FeedbackPage from "../../pages/feedback.page";
 import MainPage from "../../pages/mainPage.page";
 import SberbankPage from "../../pages/sberbankPage";
+import * as urlData from "../../data/checkDataUrls.json"
 
 describe("Navigation on main page", () => {
     let mainPage: MainPage;
@@ -75,13 +76,13 @@ describe("Navigation on main page", () => {
     test('Clicking on Oferta link and go to oferta document', async () => {
         await mainPage.clickOfertaLink();
         const newTab = await mainPage.getNewTab();
-        expect(newTab.url()).toContain(mainPage.checkData.ofertaUrl);
+        expect(newTab.url()).toContain(urlData.ofertaLink);
     });
 
     test('Clicking on Agreement link and go to agreement document', async () => {
         await mainPage.clickAgreementLink();
         const newTab = await mainPage.getNewTab();
-        expect(newTab.url()).toContain(mainPage.checkData.agreementUrl);
+        expect(newTab.url()).toContain(urlData.agreements);
     });
 
     test('Clicking on Read link in footer and go to Platform blogs', async () => {

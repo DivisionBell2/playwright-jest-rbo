@@ -32,30 +32,6 @@ pages.forEach(openPage => {
         
     });
 });
-    
-        // test('Clicking on dasreda.ru link', async () => {
-        //     await page.goto(url + requestPath);
-        //     await page.click("//div[contains(@class, 'PersonalInformation__hint-blockquote')]/a[contains(., dasreda.ru)]");
-        //     await Promise.all([context.waitForEvent("page")]);
-        //     expect(page.context().pages()[1].url()).toContain('https://dasreda.ru/');
-        //     await page.context().pages()[1].close();
-        // });
-    
-        // test('Clicking on agreement link', async () => {
-        //     await page.goto(url + requestPath);
-        //     await page.click("//span[contains(@class, 'PersonalInformation')]/a[contains(., 'Согласие')]");
-        //     await Promise.all([context.waitForEvent("page")]);
-        //     expect(page.context().pages()[1].url()).toContain('soglasie_na_rbidos');
-        //     await page.context().pages()[1].close();
-        // });
-    
-        // test('Clicking on oferta link in footer', async () => {
-        //     await page.goto(url + requestPath);
-        //     await page.click("//a[contains(., 'Договор оферты')]");
-        //     await Promise.all([context.waitForEvent("page")]);
-        //     expect(page.context().pages()[1].url()).toContain('oferta_rbidos');
-        //     await page.context().pages()[1].close();
-        // });
 
         // test('Clicking on privacy policy link in footer', async () => {
         //     await page.goto(url + requestPath);

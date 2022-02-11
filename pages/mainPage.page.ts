@@ -7,8 +7,6 @@ import BasePage from "./basePage.page";
 export default class MainPage extends BasePage {
 
     public checkData = {
-        ofertaUrl: 'oferta_rbidos',
-        agreementUrl: 'soglasie_na_rbidos',
         title: 'бизнес легко и быстро'
     }
 
