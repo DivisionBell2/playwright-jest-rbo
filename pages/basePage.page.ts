@@ -12,9 +12,18 @@ export default class BasePage {
         this.url = data.url;
     }
 
+    async clear(): Promise<void> {
+        await context.clearCookies();
+        await context.clearPermissions();
+    }
+
     async getNewTab(): Promise<Page> {
         await this.getAllTabs(page.context());
-        return page.context().pages()[1]
+        return page.context().pages()[1];
+    }
+
+    async reloadPage(): Promise<void> {
+        await page.reload();
     }
 
     async saveOnlyOneTab(): Promise<void> {

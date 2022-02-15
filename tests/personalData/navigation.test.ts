@@ -11,24 +11,24 @@ const requestTypes = [
     "Legal Entity",
 ];
 
-describe("Navigation on enter personal data page", () => {
-    let enterPersonalDataPage: EnterPersonalDataPage;
-    let faqPage: FAQPage;
-    let mainPage: MainPage;
-    let sberIdPage: SberIDPage;
-    let feedbackPage: FeedbackPage;
-    let platformPage: PlatformPage;
+requestTypes.forEach(requestType => {
+    describe("Navigation on enter personal data page", () => {
+        let enterPersonalDataPage: EnterPersonalDataPage;
+        let faqPage: FAQPage;
+        let mainPage: MainPage;
+        let sberIdPage: SberIDPage;
+        let feedbackPage: FeedbackPage;
+        let platformPage: PlatformPage;
 
-    beforeAll(async () => {
-        enterPersonalDataPage = new EnterPersonalDataPage();
-        faqPage = new FAQPage();
-        mainPage = new MainPage();
-        sberIdPage = new SberIDPage();
-        feedbackPage = new FeedbackPage();
-        platformPage = new PlatformPage();
-    });
+        beforeAll(async () => {
+            enterPersonalDataPage = new EnterPersonalDataPage();
+            faqPage = new FAQPage();
+            mainPage = new MainPage();
+            sberIdPage = new SberIDPage();
+            feedbackPage = new FeedbackPage();
+            platformPage = new PlatformPage();
+        });
 
-    requestTypes.forEach(requestType => {
         beforeEach(async () => {
             console.log("Test for " + requestType + " request")
             if (requestType == "Entrepreneur") {
@@ -37,7 +37,7 @@ describe("Navigation on enter personal data page", () => {
                 await enterPersonalDataPage.goToEnterPersonalDataPageLegalEntity();
             }
         });
-    
+
         test('Clicking on FAQ button', async () => {
             await (await enterPersonalDataPage.getHeader()).clickFAQLink();
             expect(await faqPage.getTitleText()).toContain(faqPage.checkData.title);
@@ -61,24 +61,37 @@ describe("Navigation on enter personal data page", () => {
 
         test('Clicking on dasreda.ru link', async () => {
             await enterPersonalDataPage.clickDasredaLink();
-            const newTab = await enterPersonalDataPage.getNewTab();
-            expect(newTab.url()).toContain(platformPage.checkData.urlDomen);
+            await checkUrlInNewTab(platformPage.checkData.urlDomen);
         });
 
         test('Clicking on agreement link', async () => {
             await enterPersonalDataPage.clickAgreementsLink();
-            const newTab = await enterPersonalDataPage.getNewTab();
-            expect(newTab.url()).toContain(urlData.agreements);
+            await checkUrlInNewTab(urlData.agreements);
         });
 
         test('Clicking on oferta link in footer', async () => {
             await (await enterPersonalDataPage.getFooter()).clickOfertaLink();
-            const newTab = await enterPersonalDataPage.getNewTab();
-            expect(newTab.url()).toContain(urlData.ofertaLink);
+            await checkUrlInNewTab(urlData.ofertaLink);
+        });
+
+        test('Clicking on privacy policy link in footer', async () => {
+            await(await enterPersonalDataPage.getFooter()).clickPrivacyPolicyLink();
+            await checkUrlInNewTab(urlData.privacyPolicyLink);
+        });
+
+        test('Clicking on personal data agreement link in footer', async () => {
+            await(await enterPersonalDataPage.getFooter()).clickAgreementLink();
+            await checkUrlInNewTab(urlData.agreements);
         });
 
         afterEach(async () => {
             await enterPersonalDataPage.saveOnlyOneTab();
+            await enterPersonalDataPage.clear();
         });
+
+        async function checkUrlInNewTab(urlPart: string) {
+            const newTab = await enterPersonalDataPage.getNewTab();
+            expect(newTab.url()).toContain(urlPart);
+        }
     });
 });

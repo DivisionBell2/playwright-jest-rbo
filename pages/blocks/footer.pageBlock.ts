@@ -1,4 +1,3 @@
-import { Page } from "playwright";
 import BasePage from "../basePage.page";
 
 export default class Footer extends BasePage {
@@ -11,7 +10,9 @@ export default class Footer extends BasePage {
     private selectors = {
         readLink: "//div[contains(@class, 'ant-row MainFooter__footer-menu-content')]//li/a[contains(., 'Читать')]",
         watchLink: "//div[contains(@class, 'ant-row MainFooter__footer-menu-content')]//li/a[contains(., 'Смотреть')]",
-        oferta: "//a[contains(., 'Договор оферты')]"
+        privacyPolicyLink: "//a[contains(., 'Политика конфиденциальности')]",
+        ofertaDoc: "//a[contains(., 'Договор оферты')]",
+        agreementPersonalDataDoc: "//a[contains(., 'Согласие на обработку данных')]"
     }
 
     public async clickReadLink(): Promise<void> {
@@ -23,6 +24,14 @@ export default class Footer extends BasePage {
     }
 
     public async clickOfertaLink(): Promise<void> {
-        await this.page.click(this.selectors.oferta);
+        await this.page.click(this.selectors.ofertaDoc);
+    }
+
+    public async clickPrivacyPolicyLink(): Promise<void> {
+        await this.page.click(this.selectors.privacyPolicyLink);
+    }
+
+    public async clickAgreementLink(): Promise<void> {
+        await this.page.click(this.selectors.agreementPersonalDataDoc);
     }
 }

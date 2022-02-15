@@ -1,4 +1,3 @@
-import { Page } from "playwright";
 import BasePage from "../basePage.page";
 
 export default class VideoFrame extends BasePage {

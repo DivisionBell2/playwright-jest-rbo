@@ -4,5 +4,7 @@ module.exports = {
     transform: {
         '^.+\\.ts$': 'ts-jest',
     },
+    testRunner: 'jasmine2',
+    setupFilesAfterEnv: ["jest-allure/dist/setup"],
     "testTimeout": 25000
 }
