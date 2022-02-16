@@ -1,0 +1,48 @@
+{
+  "uid" : "65a4f1cb4decfdda",
+  "name" : "Open and close telegram popup",
+  "fullName" : "Working of support menu.Open and close telegram popup",
+  "historyId" : "ca92cf0dd5152396a7147fbf1486f57a",
+  "time" : {
+    "start" : 1645020874885,
+    "stop" : 1645020878638,
+    "duration" : 3753
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Working of support menu"
+  }, {
+    "name" : "testClass",
+    "value" : "Working of support menu"
+  }, {
+    "name" : "testMethod",
+    "value" : "Open and close telegram popup"
+  }, {
+    "name" : "package",
+    "value" : "Working of support menu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "65a4f1cb4decfdda.json",
+  "parameterValues" : [ ]
+}

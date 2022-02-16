@@ -1,0 +1,48 @@
+{
+  "uid" : "7e273569f0560a2f",
+  "name" : "Clicking on privacy policy link in footer",
+  "fullName" : "Navigation on enter personal data page.Clicking on privacy policy link in footer",
+  "historyId" : "3e2e8a030b4b9ccd727a1a0edb80bf45",
+  "time" : {
+    "start" : 1645037873864,
+    "stop" : 1645037875587,
+    "duration" : 1723
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation on enter personal data page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation on enter personal data page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on privacy policy link in footer"
+  }, {
+    "name" : "package",
+    "value" : "Navigation on enter personal data page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7e273569f0560a2f.json",
+  "parameterValues" : [ ]
+}

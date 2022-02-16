@@ -46,17 +46,18 @@ describe("Navigation on main page", () => {
 
     test('Clicking on FAQ button', async () => {
         await (await mainPage.getHeader()).clickFAQLink();
-        expect(await faqPage.getTitleText()).toContain(faqPage.checkData.title);
+        expect(await faqPage.checkSearchInputVisible()).toBeTruthy();
     });
 
     test('Clicking on Feedback button', async () => {
         await (await mainPage.getHeader()).clickFeedbackLink();
-        expect(await feedbackPage.getTitleText()).toContain(feedbackPage.checkData.title);
+        await feedbackPage.waitForNavigationFeedbackPage();
+        expect(await feedbackPage.checkMessageTextInputVisible()).toBeTruthy();
     });
 
     test('Clicking on FAQ button in landing block', async () => {
         await mainPage.clickFAQButton();
-        expect(await faqPage.getTitleText()).toContain(faqPage.checkData.title);
+        expect(await faqPage.checkSearchInputVisible()).toBeTruthy();
     });
 
     test('Clicking on SberIcon and go to sberbank.ru', async () => {

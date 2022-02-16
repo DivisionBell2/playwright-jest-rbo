@@ -1,0 +1,50 @@
+{
+  "uid" : "6b3ac5df76881d85",
+  "name" : "Clicking on login through SberId button",
+  "fullName" : "Navigation on enter personal data page.Clicking on login through SberId button",
+  "historyId" : "e22fabf7cbff1fdd2c57744eff84a802",
+  "time" : {
+    "start" : 1645038047556,
+    "stop" : 1645038052741,
+    "duration" : 5185
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TimeoutError: browserContext.waitForEvent: Timeout while waiting for event \"page\"",
+  "statusTrace" : "browserContext.waitForEvent: Timeout while waiting for event \"page\"\n                    at EnterPersonalDataPage.<anonymous> (/home/alexandr/study/11/playwright-jest-rbo/pages/basePage.page.ts:45:21)\n                    at /home/alexandr/study/11/playwright-jest-rbo/pages/basePage.page.ts:8:71\n                    at Object.<anonymous>.__awaiter (/home/alexandr/study/11/playwright-jest-rbo/pages/basePage.page.ts:4:12)\n                    at EnterPersonalDataPage.getAllTabs (/home/alexandr/study/11/playwright-jest-rbo/pages/basePage.page.ts:49:16)\n                    at EnterPersonalDataPage.<anonymous> (/home/alexandr/study/11/playwright-jest-rbo/pages/basePage.page.ts:21:20)\n                    at /home/alexandr/study/11/playwright-jest-rbo/pages/basePage.page.ts:8:71\n                    at Object.<anonymous>.__awaiter (/home/alexandr/study/11/playwright-jest-rbo/pages/basePage.page.ts:4:12)\n                    at EnterPersonalDataPage.getNewTab (/home/alexandr/study/11/playwright-jest-rbo/pages/basePage.page.ts:25:16)\n                    at /home/alexandr/study/11/playwright-jest-rbo/tests/personalData/navigation.test.ts:93:56\n                    at /home/alexandr/study/11/playwright-jest-rbo/tests/personalData/navigation.test.ts:8:71\n                    at Object.<anonymous>.__awaiter (/home/alexandr/study/11/playwright-jest-rbo/tests/personalData/navigation.test.ts:4:12)\n                    at checkUrlInNewTab (/home/alexandr/study/11/playwright-jest-rbo/tests/personalData/navigation.test.ts:90:20)\n                    at /home/alexandr/study/11/playwright-jest-rbo/tests/personalData/navigation.test.ts:84:19\n                    at fulfilled (/home/alexandr/study/11/playwright-jest-rbo/tests/personalData/navigation.test.ts:5:58)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation on enter personal data page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation on enter personal data page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on login through SberId button"
+  }, {
+    "name" : "package",
+    "value" : "Navigation on enter personal data page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6b3ac5df76881d85.json",
+  "parameterValues" : [ ]
+}

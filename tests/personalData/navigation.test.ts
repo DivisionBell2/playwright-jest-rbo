@@ -40,7 +40,7 @@ requestTypes.forEach(requestType => {
 
         test('Clicking on FAQ button', async () => {
             await (await enterPersonalDataPage.getHeader()).clickFAQLink();
-            expect(await faqPage.getTitleText()).toContain(faqPage.checkData.title);
+            expect(await faqPage.checkSearchInputVisible()).toBeTruthy();
         });
 
         test('Clicking on logo', async () => {
@@ -56,7 +56,7 @@ requestTypes.forEach(requestType => {
         test('Clicking on Feedback button', async () => {
             await (await enterPersonalDataPage.getHeader()).clickFeedbackLink();
             await feedbackPage.waitForNavigationFeedbackPage();
-            expect(await feedbackPage.getTitleText()).toContain(feedbackPage.checkData.title);
+            expect(await feedbackPage.checkMessageTextInputVisible()).toBeTruthy();
         });
 
         test('Clicking on dasreda.ru link', async () => {
@@ -66,7 +66,7 @@ requestTypes.forEach(requestType => {
 
         test('Clicking on agreement link', async () => {
             await enterPersonalDataPage.clickAgreementsLink();
-            await checkUrlInNewTab(urlData.agreements);
+            await checkUrlInNewTab(urlData.agreementsPlatform);
         });
 
         test('Clicking on oferta link in footer', async () => {

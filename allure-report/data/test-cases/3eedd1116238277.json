@@ -1,0 +1,120 @@
+{
+  "uid" : "3eedd1116238277",
+  "name" : "Login new user",
+  "fullName" : "Login new user from Main Page.Login new user",
+  "historyId" : "f86fba152989bb49885d499b8167dd57",
+  "time" : {
+    "start" : 1645012915861,
+    "stop" : 1645012926520,
+    "duration" : 10659
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 8,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Login new user from Main Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Login new user from Main Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Login new user"
+  }, {
+    "name" : "package",
+    "value" : "Login new user from Main Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d6efb1e2eebc62b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645012764002,
+        "stop" : 1645012774640,
+        "duration" : 10638
+      }
+    }, {
+      "uid" : "16c5404c6ef9c336",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645012744758,
+        "stop" : 1645012755012,
+        "duration" : 10254
+      }
+    }, {
+      "uid" : "39ef22e00a1b92a3",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toBeTruthy()\n                \n                Received: false",
+      "time" : {
+        "start" : 1645012718655,
+        "stop" : 1645012729229,
+        "duration" : 10574
+      }
+    }, {
+      "uid" : "ffd3842b17ef112",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toBeTruthy()\n                \n                Received: false",
+      "time" : {
+        "start" : 1645012680363,
+        "stop" : 1645012686036,
+        "duration" : 5673
+      }
+    }, {
+      "uid" : "46cf9633c719f3a0",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toBeTruthy()\n                \n                Received: false",
+      "time" : {
+        "start" : 1645012630107,
+        "stop" : 1645012639985,
+        "duration" : 9878
+      }
+    }, {
+      "uid" : "b9a00304d0ed41b5",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toBeTruthy()\n                \n                Received: false",
+      "time" : {
+        "start" : 1645012591689,
+        "stop" : 1645012597083,
+        "duration" : 5394
+      }
+    }, {
+      "uid" : "88a9e0ba6f9fa631",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toBeTruthy()\n                \n                Received: undefined",
+      "time" : {
+        "start" : 1645012502348,
+        "stop" : 1645012507950,
+        "duration" : 5602
+      }
+    }, {
+      "uid" : "4efe164d01d802b",
+      "status" : "failed",
+      "statusDetails" : "Error: page.goto: net::ERR_ABORTED; maybe frame was detached?\n                =========================== logs ===========================\n                navigating to \"https://rbo.uat.dasreda.ru/\", waiting until \"load\"\n                ============================================================",
+      "time" : {
+        "start" : 1645012468379,
+        "stop" : 1645012478795,
+        "duration" : 10416
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3eedd1116238277.json",
+  "parameterValues" : [ ]
+}

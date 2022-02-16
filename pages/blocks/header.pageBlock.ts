@@ -17,18 +17,19 @@ export default class Header extends BasePage {
     }
 
     public async clickFeedbackLink(): Promise<void> {
-        await this.page.click(this.selectors.feedbackLink);
+        await page.click(this.selectors.feedbackLink);
     }
 
     public async clickVideoButton(): Promise<void> {
-        await this.page.click(this.selectors.videoButton);
+        await page.click(this.selectors.videoButton);
     }
 
     public async clickEnterButton(): Promise<void> {
-        await this.page.click(this.selectors.enterButton);
+        await page.click(this.selectors.enterButton);
     }
 
-    public async isUserIconVisible(): Promise<void> {
-        await page.isVisible(this.selectors.userIcon);
+    public async isUserIconVisible(): Promise<boolean> {
+        await page.waitForTimeout(5000)
+        return await page.isVisible(this.selectors.userIcon);
     }
 }

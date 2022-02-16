@@ -41,6 +41,6 @@ describe("Working of support menu", () => {
 
     test("Go to feedback page", async () => {
         await (await mainPage.getSupportMenu()).clickFeedbackButton();
-        expect(await feedbackPage.getTitleText()).toContain(feedbackPage.checkData.title);
+        expect(await feedbackPage.checkMessageTextInputVisible()).toBeTruthy();
     });
 });

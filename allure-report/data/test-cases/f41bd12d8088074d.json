@@ -1,0 +1,168 @@
+{
+  "uid" : "f41bd12d8088074d",
+  "name" : "Clicking on Agreement link and go to agreement document",
+  "fullName" : "Navigation on main page.Clicking on Agreement link and go to agreement document",
+  "historyId" : "d7d4e9a8e582818f3782919ce3f5420f",
+  "time" : {
+    "start" : 1645027174124,
+    "stop" : 1645027174955,
+    "duration" : 831
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 14,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on Agreement link and go to agreement document"
+  }, {
+    "name" : "package",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "20f10cb47147b679",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645021229510,
+        "stop" : 1645021230358,
+        "duration" : 848
+      }
+    }, {
+      "uid" : "7ae8c7f28c3c5355",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645021103136,
+        "stop" : 1645021104014,
+        "duration" : 878
+      }
+    }, {
+      "uid" : "613466be2fa4b6bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645020965660,
+        "stop" : 1645020966528,
+        "duration" : 868
+      }
+    }, {
+      "uid" : "3c42140eded8d33e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645020866661,
+        "stop" : 1645020867404,
+        "duration" : 743
+      }
+    }, {
+      "uid" : "8890c0165924b026",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645020713039,
+        "stop" : 1645020713774,
+        "duration" : 735
+      }
+    }, {
+      "uid" : "55dbfe9257a7a10d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645020650085,
+        "stop" : 1645020650819,
+        "duration" : 734
+      }
+    }, {
+      "uid" : "a3594231fa49a6e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645020135098,
+        "stop" : 1645020136019,
+        "duration" : 921
+      }
+    }, {
+      "uid" : "9aa074d0206df4b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645020044984,
+        "stop" : 1645020045780,
+        "duration" : 796
+      }
+    }, {
+      "uid" : "f455266069218d20",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645020020964,
+        "stop" : 1645020020964,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "fb66b3e14e048d3c",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645013294561,
+        "stop" : 1645013294562,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "3cfc5f2efa29a9ce",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645013235590,
+        "stop" : 1645013235590,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7fb9252959edda08",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645013143221,
+        "stop" : 1645013143221,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a151df8ee130d060",
+      "status" : "failed",
+      "statusDetails" : "Error: page.goto: Navigation failed because page was closed!\n                =========================== logs ===========================\n                navigating to \"https://rbo.uat.dasreda.ru/\", waiting until \"load\"\n                ============================================================",
+      "time" : {
+        "start" : 1645013089131,
+        "stop" : 1645013089135,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "371205d75b9c1d0f",
+      "status" : "failed",
+      "statusDetails" : "Error: page.goto: Navigation failed because page was closed!\n                =========================== logs ===========================\n                navigating to \"https://rbo.uat.dasreda.ru/\", waiting until \"load\"\n                ============================================================",
+      "time" : {
+        "start" : 1645013018101,
+        "stop" : 1645013018105,
+        "duration" : 4
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f41bd12d8088074d.json",
+  "parameterValues" : [ ]
+}

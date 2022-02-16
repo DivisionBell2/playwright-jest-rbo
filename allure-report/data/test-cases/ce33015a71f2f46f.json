@@ -1,0 +1,50 @@
+{
+  "uid" : "ce33015a71f2f46f",
+  "name" : "Clicking on agreement link",
+  "fullName" : "Navigation on enter personal data page.Clicking on agreement link",
+  "historyId" : "54d2c36ca003e7fc07eab30a222f6f3f",
+  "time" : {
+    "start" : 1645027245331,
+    "stop" : 1645027246899,
+    "duration" : 1568
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"soglasie_na_rbidos\"\n                Received string:    \"https://cdn.dasreda.ru/fonts-static/soglasie-pd.pdf?_ga=2.108576256.36163207.1645027246-133803978.1645027246\"",
+  "statusTrace" : "Error: expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"soglasie_na_rbidos\"\n                Received string:    \"https://cdn.dasreda.ru/fonts-static/soglasie-pd.pdf?_ga=2.108576256.36163207.1645027246-133803978.1645027246\"\n                    at /home/alexandr/study/11/playwright-jest-rbo/tests/personalData/navigation.test.ts:94:34\n                    at Generator.next (<anonymous>)\n                    at fulfilled (/home/alexandr/study/11/playwright-jest-rbo/tests/personalData/navigation.test.ts:5:58)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation on enter personal data page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation on enter personal data page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on agreement link"
+  }, {
+    "name" : "package",
+    "value" : "Navigation on enter personal data page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ce33015a71f2f46f.json",
+  "parameterValues" : [ ]
+}

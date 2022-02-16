@@ -11,8 +11,9 @@ export default class Footer extends BasePage {
         readLink: "//div[contains(@class, 'ant-row MainFooter__footer-menu-content')]//li/a[contains(., 'Читать')]",
         watchLink: "//div[contains(@class, 'ant-row MainFooter__footer-menu-content')]//li/a[contains(., 'Смотреть')]",
         privacyPolicyLink: "//a[contains(., 'Политика конфиденциальности')]",
+
         ofertaDoc: "//a[contains(., 'Договор оферты')]",
-        agreementPersonalDataDoc: "//a[contains(., 'Согласие на обработку данных')]"
+        agreementPersonalDataDoc: "//a[contains(., 'Согласие на обработку данных')]",
     }
 
     public async clickReadLink(): Promise<void> {

@@ -1,0 +1,271 @@
+[ {
+  "uid" : "3801aa5afddf3c10",
+  "name" : "Open and close support menu",
+  "time" : {
+    "start" : 1645027163233,
+    "stop" : 1645027164488,
+    "duration" : 1255
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8a8c9ed7eba946dd",
+  "name" : "Clicking on FAQ button in landing block",
+  "time" : {
+    "start" : 1645027170069,
+    "stop" : 1645027171306,
+    "duration" : 1237
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ae1889fbf19936ba",
+  "name" : "Clicking on privacy policy link in footer",
+  "time" : {
+    "start" : 1645038177655,
+    "stop" : 1645038181124,
+    "duration" : 3469
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "816c610542f4f2ef",
+  "name" : "Clicking on dasreda.ru link",
+  "time" : {
+    "start" : 1645038171950,
+    "stop" : 1645038174202,
+    "duration" : 2252
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d4372f99e7fb4afd",
+  "name" : "Open and close telegram popup",
+  "time" : {
+    "start" : 1645027168202,
+    "stop" : 1645027170914,
+    "duration" : 2712
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "331f79ce1b4d1358",
+  "name" : "Clicking on login through SberId button",
+  "time" : {
+    "start" : 1645038165153,
+    "stop" : 1645038168006,
+    "duration" : 2853
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ac9e0e2df165afc6",
+  "name" : "Clicking on personal data agreement link in footer",
+  "time" : {
+    "start" : 1645038181124,
+    "stop" : 1645038183568,
+    "duration" : 2444
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f457e932a1895919",
+  "name" : "Go to feedback page",
+  "time" : {
+    "start" : 1645027170914,
+    "stop" : 1645027172213,
+    "duration" : 1299
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f41bd12d8088074d",
+  "name" : "Clicking on Agreement link and go to agreement document",
+  "time" : {
+    "start" : 1645027174124,
+    "stop" : 1645027174955,
+    "duration" : 831
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f2fd2a2249a31c0e",
+  "name" : "Clicking on oferta link in footer",
+  "time" : {
+    "start" : 1645038175876,
+    "stop" : 1645038177655,
+    "duration" : 1779
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4906bd526adf604e",
+  "name" : "Clicking on FAQ button",
+  "time" : {
+    "start" : 1645038161022,
+    "stop" : 1645038163511,
+    "duration" : 2489
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c00da8778f3af2c1",
+  "name" : "Click on start business registration as entrepreneur",
+  "time" : {
+    "start" : 1645027164779,
+    "stop" : 1645027166634,
+    "duration" : 1855
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6580a0cbaa51ec56",
+  "name" : "Click on start business registration as legal entity",
+  "time" : {
+    "start" : 1645027166634,
+    "stop" : 1645027167429,
+    "duration" : 795
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f0f4f60e94a0ba91",
+  "name" : "Clicking on Read link in footer and go to Platform blogs",
+  "time" : {
+    "start" : 1645027174955,
+    "stop" : 1645027175939,
+    "duration" : 984
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b8fe32e58e6bc0e1",
+  "name" : "Clicking on FAQ button",
+  "time" : {
+    "start" : 1645027167429,
+    "stop" : 1645027168821,
+    "duration" : 1392
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8acde99efb3bf4f",
+  "name" : "Clicking on Feedback button",
+  "time" : {
+    "start" : 1645038168006,
+    "stop" : 1645038171950,
+    "duration" : 3944
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "419c1eb549892179",
+  "name" : "Clicking on SberIcon and go to sberbank.ru",
+  "time" : {
+    "start" : 1645027171306,
+    "stop" : 1645027172296,
+    "duration" : 990
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3eedd1116238277",
+  "name" : "Login new user",
+  "time" : {
+    "start" : 1645012915861,
+    "stop" : 1645012926520,
+    "duration" : 10659
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b9e283d572dc1671",
+  "name" : "Open youtube frame from header",
+  "time" : {
+    "start" : 1645027172296,
+    "stop" : 1645027173155,
+    "duration" : 859
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dba43d2464a8fd2f",
+  "name" : "Clicking on Oferta link and go to oferta document",
+  "time" : {
+    "start" : 1645027173155,
+    "stop" : 1645027174124,
+    "duration" : 969
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "53b77ab4e62305ec",
+  "name" : "Clicking on Watch link in footer and go to Platform blogs",
+  "time" : {
+    "start" : 1645027175939,
+    "stop" : 1645027176828,
+    "duration" : 889
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d2be67a71b986a80",
+  "name" : "Clicking on logo",
+  "time" : {
+    "start" : 1645038163512,
+    "stop" : 1645038165153,
+    "duration" : 1641
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b14a8af43de30af9",
+  "name" : "Clicking on Feedback button",
+  "time" : {
+    "start" : 1645027168821,
+    "stop" : 1645027170069,
+    "duration" : 1248
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a0a20dd6391399ac",
+  "name" : "Open and close support phone popup",
+  "time" : {
+    "start" : 1645027164488,
+    "stop" : 1645027168202,
+    "duration" : 3714
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1b4b9bf3e0fa8df7",
+  "name" : "Clicking on agreement link",
+  "time" : {
+    "start" : 1645038174202,
+    "stop" : 1645038175876,
+    "duration" : 1674
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c57709ba9062b490",
+  "name" : "Check working popup with law information from personal data page",
+  "time" : {
+    "start" : 1644934094401,
+    "stop" : 1644934097401,
+    "duration" : 3000
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c5a7ae7aa5bb0d0",
+  "name" : "Click on close button in auth popup",
+  "time" : {
+    "start" : 1645042261165,
+    "stop" : 1645042264908,
+    "duration" : 3743
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

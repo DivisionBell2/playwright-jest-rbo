@@ -5,22 +5,22 @@ import Header from "./blocks/header.pageBlock";
 
 export default class FeedbackPage extends BasePage {
 
-    public checkData = {
-        title: 'Обратная связь'
-    }
+    // public checkData = {
+    //     messageTextInput: 'Обратная связь'
+    // }
 
     //private url = Env.url + "rbidos/feedback";
 
     private selectors = {
-        title: 'h1'
+        messageTextInput: '#messageText'
     }
 
     public async goToFeedbackPage() {
         await this.page.goto(this.url)
     }
 
-    public async getTitleText(): Promise<string | null> {
-        return await (await this.page.waitForSelector(this.selectors.title)).textContent();
+    public async checkMessageTextInputVisible(): Promise<boolean> {
+        return await this.page.isVisible(this.selectors.messageTextInput);
     }
 
     public async waitForNavigationFeedbackPage(): Promise<void> {

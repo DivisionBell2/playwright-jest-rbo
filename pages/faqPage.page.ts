@@ -5,20 +5,21 @@ import Header from "./blocks/header.pageBlock";
 export default class FAQPage extends BasePage {
 
     public checkData = {
-        title: 'Вопрос-ответ'
+        title: 'Вопрос-ответ',
+        platformAgreement: 'https://uni-rbo.dasreda.ru/go/VBaOeYjhS4'
     }
 
     private selectors = {
-        title: 'h1'
+        searchInput: "//input[@name='faq-search']"
     }
 
     public async goToFAQPage() {
         await this.page.goto(this.url)
     }
 
-    public async getTitleText(): Promise<string | null> {
+    public async checkSearchInputVisible(): Promise<boolean> {
         await this.page.waitForNavigation();
-        return await (await this.page.waitForSelector(this.selectors.title)).textContent();
+        return await this.page.isVisible(this.selectors.searchInput);
     }
 }
 

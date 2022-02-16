@@ -5,12 +5,12 @@ import Header from "./blocks/header.pageBlock";
 export default class EnterPersonalDataPage extends BasePage {
 
     public checkData = {
-        title: "Персональные данные",
+        title: "Ввод персональных данных",
         modalTitle: "Изменения в законе № 129-ФЗ"
     }
 
     private selectors = {
-        title: "h1",
+        title: "h2",
         modalTitle: "//span[@class='ant-modal-confirm-title']",
         logo: "//div[contains(@class, 'topmenu-logo-pic')]",
         modalWindow: "//div[@class='ant-modal-confirm-content']",
@@ -30,7 +30,7 @@ export default class EnterPersonalDataPage extends BasePage {
     }
 
     public async goToEnterPersonalDataPageLegalEntity() {
-        await page.goto(this.url + "/rbidos/personal-information/ooo/1");
+        await this.page.goto(this.url + "/rbidos/personal-information/ooo/1");
     }
 
     public async getHeader(): Promise<Header> {
@@ -42,49 +42,43 @@ export default class EnterPersonalDataPage extends BasePage {
     }
 
     public async getTitleText(): Promise<string | null> {
-        return await (await page.waitForSelector(this.selectors.title)).textContent();
+        return await (await this.page.waitForSelector(this.selectors.title)).textContent();
     }
 
     public async getModalTitleText(): Promise<string | null> {
-        return await (await page.waitForSelector(this.selectors.modalTitle)).textContent();
+        return await (await this.page.waitForSelector(this.selectors.modalTitle)).textContent();
     }
 
     public async clickLogo(): Promise<void> {
-        await page.click(this.selectors.logo);
+        await this.page.click(this.selectors.logo);
     }
 
     public async clickSberIdButton(): Promise<void> {
-        await page.click(this.selectors.sberIdButton);
+        await this.page.click(this.selectors.sberIdButton);
     }
 
     public async clickDasredaLink(): Promise<void> {
-        await page.click(this.selectors.dasredaLink);
+        await this.page.click(this.selectors.dasredaLink);
     }
 
     public async clickAgreementsLink(): Promise<void> {
-        await page.click(this.selectors.agreementsLink);
+        await this.page.click(this.selectors.agreementsLink);
     }
 
     public async clickLawModalLink(): Promise<void> {
-        await page.click(this.selectors.lawLink);
+        await this.page.click(this.selectors.lawLink);
     }
 
     public async clickConsultantLink(): Promise<void> {
-        await page.click(this.selectors.consultantLink);
+        await this.page.click(this.selectors.consultantLink);
     }
 
     public async clickCloseModalButton(): Promise<void> {
-        await page.click(this.selectors.closeModalButton);
+        await this.page.click(this.selectors.closeModalButton);
     }
 
     public async checkModalWindowHidden(): Promise<boolean> {
-        for (let i = 0; i < 3; i++) {
-            if (!await page.isHidden(this.selectors.modalWindow)) {
-                await this.page.waitForTimeout(1000);
-                continue;
-            }
-        }
-        return await page.isHidden(this.selectors.modalWindow);
+        return await this.checkElementHidden(this.selectors.modalWindow);
     }
 }
 

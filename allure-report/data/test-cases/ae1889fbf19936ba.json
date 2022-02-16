@@ -1,0 +1,277 @@
+{
+  "uid" : "ae1889fbf19936ba",
+  "name" : "Clicking on privacy policy link in footer",
+  "fullName" : "Navigation on enter personal data page.Clicking on privacy policy link in footer",
+  "historyId" : "3e2e8a030b4b9ccd727a1a0edb80bf45",
+  "time" : {
+    "start" : 1645038177655,
+    "stop" : 1645038181124,
+    "duration" : 3469
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 27,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation on enter personal data page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation on enter personal data page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on privacy policy link in footer"
+  }, {
+    "name" : "package",
+    "value" : "Navigation on enter personal data page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "438f8f03c01d3be4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645038157884,
+        "stop" : 1645038159438,
+        "duration" : 1554
+      }
+    }, {
+      "uid" : "ffd65965c7f51feb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645038062755,
+        "stop" : 1645038064409,
+        "duration" : 1654
+      }
+    }, {
+      "uid" : "3816f39693887ec9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645038014736,
+        "stop" : 1645038016472,
+        "duration" : 1736
+      }
+    }, {
+      "uid" : "a038460425455207",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645037894569,
+        "stop" : 1645037896212,
+        "duration" : 1643
+      }
+    }, {
+      "uid" : "7e273569f0560a2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645037873864,
+        "stop" : 1645037875587,
+        "duration" : 1723
+      }
+    }, {
+      "uid" : "b44f2ce2640dbb45",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645037842378,
+        "stop" : 1645037842378,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "17f45ecd1a288ab2",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645037840842,
+        "stop" : 1645037840842,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a4cd4678c5578f31",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645037680818,
+        "stop" : 1645037680818,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "fded18201055a810",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645037678223,
+        "stop" : 1645037678223,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1d7e75340e8cd7a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645037041103,
+        "stop" : 1645037043915,
+        "duration" : 2812
+      }
+    }, {
+      "uid" : "a9447e4eb480db24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645036994186,
+        "stop" : 1645036995787,
+        "duration" : 1601
+      }
+    }, {
+      "uid" : "e6d61e1b0f88d48b",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645036949238,
+        "stop" : 1645036949238,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7549b67d1c6e9b4e",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645036946052,
+        "stop" : 1645036946052,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "81c5c2d0817e2c61",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645036920370,
+        "stop" : 1645036920370,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a55a5d375a9ca58d",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645036917280,
+        "stop" : 1645036917280,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9e566eaadee3e83e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645036809657,
+        "stop" : 1645036811153,
+        "duration" : 1496
+      }
+    }, {
+      "uid" : "9a3d825417792054",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645036762202,
+        "stop" : 1645036764356,
+        "duration" : 2154
+      }
+    }, {
+      "uid" : "aeccd97b4d08367d",
+      "status" : "failed",
+      "statusDetails" : ": Timeout - Async callback was not invoked within the 25000 ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1645036685448,
+        "stop" : 1645036712115,
+        "duration" : 26667
+      }
+    }, {
+      "uid" : "7748f21aca875638",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"oferta_rbidos\"\n                Received string:    \"\"",
+      "time" : {
+        "start" : 1645036590012,
+        "stop" : 1645036616748,
+        "duration" : 26736
+      }
+    }, {
+      "uid" : "deec22faa2b15013",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645036513161,
+        "stop" : 1645036514950,
+        "duration" : 1789
+      }
+    }, {
+      "uid" : "8070e3163c4cab57",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645036491745,
+        "stop" : 1645036493419,
+        "duration" : 1674
+      }
+    }, {
+      "uid" : "69300a5b86e27383",
+      "status" : "failed",
+      "statusDetails" : ": Timeout - Async callback was not invoked within the 25000 ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1645036255141,
+        "stop" : 1645036281579,
+        "duration" : 26438
+      }
+    }, {
+      "uid" : "cca5e1045d4bb32b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645036231855,
+        "stop" : 1645036233445,
+        "duration" : 1590
+      }
+    }, {
+      "uid" : "4a13ab03dc9ebc36",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645035949438,
+        "stop" : 1645035951189,
+        "duration" : 1751
+      }
+    }, {
+      "uid" : "409693f99961e8b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645035929573,
+        "stop" : 1645035931102,
+        "duration" : 1529
+      }
+    }, {
+      "uid" : "2b63d1ce327590d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645027248466,
+        "stop" : 1645027250181,
+        "duration" : 1715
+      }
+    }, {
+      "uid" : "bca92919668fa663",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645027225439,
+        "stop" : 1645027227138,
+        "duration" : 1699
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ae1889fbf19936ba.json",
+  "parameterValues" : [ ]
+}

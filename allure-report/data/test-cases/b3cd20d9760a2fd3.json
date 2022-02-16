@@ -1,0 +1,48 @@
+{
+  "uid" : "b3cd20d9760a2fd3",
+  "name" : "Open and close support menu",
+  "fullName" : "Working of support menu.Open and close support menu",
+  "historyId" : "d64fd523e07ce0d676c56e3a46a6c546",
+  "time" : {
+    "start" : 1645020717785,
+    "stop" : 1645020718911,
+    "duration" : 1126
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Working of support menu"
+  }, {
+    "name" : "testClass",
+    "value" : "Working of support menu"
+  }, {
+    "name" : "testMethod",
+    "value" : "Open and close support menu"
+  }, {
+    "name" : "package",
+    "value" : "Working of support menu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b3cd20d9760a2fd3.json",
+  "parameterValues" : [ ]
+}

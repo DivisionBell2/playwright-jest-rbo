@@ -1,0 +1,280 @@
+{
+  "uid" : "4906bd526adf604e",
+  "name" : "Clicking on FAQ button",
+  "fullName" : "Navigation on enter personal data page.Clicking on FAQ button",
+  "historyId" : "8b3c004c519aad73926692de0fe52af7",
+  "time" : {
+    "start" : 1645038161022,
+    "stop" : 1645038163511,
+    "duration" : 2489
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 27,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation on enter personal data page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation on enter personal data page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on FAQ button"
+  }, {
+    "name" : "package",
+    "value" : "Navigation on enter personal data page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f137a511e0425c13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645038136283,
+        "stop" : 1645038140534,
+        "duration" : 4251
+      }
+    }, {
+      "uid" : "16609142a4e77db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645038042824,
+        "stop" : 1645038045864,
+        "duration" : 3040
+      }
+    }, {
+      "uid" : "fc49b8c3a5d344ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645037993625,
+        "stop" : 1645037998123,
+        "duration" : 4498
+      }
+    }, {
+      "uid" : "673a8c6eb8fa4c6d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645037877662,
+        "stop" : 1645037880467,
+        "duration" : 2805
+      }
+    }, {
+      "uid" : "9ebaab781682b728",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645037853374,
+        "stop" : 1645037858074,
+        "duration" : 4700
+      }
+    }, {
+      "uid" : "35130762d7248a3",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645037840851,
+        "stop" : 1645037840851,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c7dfb07fe9076a19",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645037837070,
+        "stop" : 1645037837070,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9eb28ac938010162",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645037680818,
+        "stop" : 1645037680818,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "160d5dd6fa42a439",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645037678222,
+        "stop" : 1645037678222,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "81a75b01751866a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645037022564,
+        "stop" : 1645037025926,
+        "duration" : 3362
+      }
+    }, {
+      "uid" : "fa3f9823388e8fab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645036971053,
+        "stop" : 1645036975832,
+        "duration" : 4779
+      }
+    }, {
+      "uid" : "5e66295e05151684",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645036947612,
+        "stop" : 1645036947612,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f78fb094bc6792cb",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645036942687,
+        "stop" : 1645036942688,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "c6298b2990256134",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645036920370,
+        "stop" : 1645036920370,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "548dc9eb87c6357",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645036917279,
+        "stop" : 1645036917279,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e4601fc113f3f1f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645036790957,
+        "stop" : 1645036795830,
+        "duration" : 4873
+      }
+    }, {
+      "uid" : "43d2605ed0d27918",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645036743219,
+        "stop" : 1645036746954,
+        "duration" : 3735
+      }
+    }, {
+      "uid" : "d323cc44eeb9e923",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645036644063,
+        "stop" : 1645036648038,
+        "duration" : 3975
+      }
+    }, {
+      "uid" : "6f4ceec95977deb6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645036544937,
+        "stop" : 1645036549373,
+        "duration" : 4436
+      }
+    }, {
+      "uid" : "6c586de3e3ba3c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645036495136,
+        "stop" : 1645036497886,
+        "duration" : 2750
+      }
+    }, {
+      "uid" : "19d4751a0323c326",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645036472014,
+        "stop" : 1645036476381,
+        "duration" : 4367
+      }
+    }, {
+      "uid" : "ea04dc5bae37a149",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toContain(expected) // indexOf\n                \n                Expected value:   \"Вопрос-ответ\"\n                Received boolean: true",
+      "time" : {
+        "start" : 1645036235686,
+        "stop" : 1645036238877,
+        "duration" : 3191
+      }
+    }, {
+      "uid" : "980679c49ddc9686",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toContain(expected) // indexOf\n                \n                Expected value:   \"Вопрос-ответ\"\n                Received boolean: true",
+      "time" : {
+        "start" : 1645036209935,
+        "stop" : 1645036215097,
+        "duration" : 5162
+      }
+    }, {
+      "uid" : "85200420cd930f2e",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toContain(expected) // indexOf\n                \n                Expected value:   \"Вопрос-ответ\"\n                Received boolean: true",
+      "time" : {
+        "start" : 1645035932779,
+        "stop" : 1645035935499,
+        "duration" : 2720
+      }
+    }, {
+      "uid" : "e8e30d3b9505de68",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toContain(expected) // indexOf\n                \n                Expected value:   \"Вопрос-ответ\"\n                Received boolean: true",
+      "time" : {
+        "start" : 1645035905263,
+        "stop" : 1645035912021,
+        "duration" : 6758
+      }
+    }, {
+      "uid" : "e289da9a860058f6",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toContain(expected) // indexOf\n                \n                Expected value:   \"Вопрос-ответ\"\n                Received boolean: true",
+      "time" : {
+        "start" : 1645027228697,
+        "stop" : 1645027231280,
+        "duration" : 2583
+      }
+    }, {
+      "uid" : "1abbd2a5b4df03e3",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toContain(expected) // indexOf\n                \n                Expected value:   \"Вопрос-ответ\"\n                Received boolean: true",
+      "time" : {
+        "start" : 1645027206142,
+        "stop" : 1645027209949,
+        "duration" : 3807
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4906bd526adf604e.json",
+  "parameterValues" : [ ]
+}

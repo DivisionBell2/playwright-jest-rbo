@@ -1,0 +1,48 @@
+{
+  "uid" : "4bd159e1a86d5a8f",
+  "name" : "Clicking on Read link in footer and go to Platform blogs",
+  "fullName" : "Navigation on main page.Clicking on Read link in footer and go to Platform blogs",
+  "historyId" : "d27881b115d6e6af5980d533fb073fa2",
+  "time" : {
+    "start" : 1645021104014,
+    "stop" : 1645021104865,
+    "duration" : 851
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on Read link in footer and go to Platform blogs"
+  }, {
+    "name" : "package",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4bd159e1a86d5a8f.json",
+  "parameterValues" : [ ]
+}

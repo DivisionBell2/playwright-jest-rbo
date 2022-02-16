@@ -3,6 +3,7 @@ import Header from "./blocks/header.pageBlock";
 import SupportMenu from "./blocks/supportMenu.pageBlock";
 import VideoFrame from "./blocks/videoFrame.pageBlock";
 import BasePage from "./basePage.page";
+import AuthPopup from "./blocks/authPopup.pageBlock";
 
 export default class MainPage extends BasePage {
 
@@ -43,6 +44,10 @@ export default class MainPage extends BasePage {
 
     public async getSupportMenu(): Promise<SupportMenu> {
         return new SupportMenu();
+    }
+
+    public async getAuthPopup(): Promise<AuthPopup> {
+        return new AuthPopup();
     }
 
     public async clickLandingStartEntrepreneurButton(): Promise<void> {

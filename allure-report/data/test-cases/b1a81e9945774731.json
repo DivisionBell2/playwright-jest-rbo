@@ -1,0 +1,50 @@
+{
+  "uid" : "b1a81e9945774731",
+  "name" : "Clicking on FAQ button in landing block",
+  "fullName" : "Navigation on main page.Clicking on FAQ button in landing block",
+  "historyId" : "f2e3ad875adef333551dab38332be200",
+  "time" : {
+    "start" : 1645013089109,
+    "stop" : 1645013089117,
+    "duration" : 8
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: page.goto: Navigation failed because page was closed!\n                =========================== logs ===========================\n                navigating to \"https://rbo.uat.dasreda.ru/\", waiting until \"load\"\n                ============================================================",
+  "statusTrace" : "page.goto: Navigation failed because page was closed!\n                =========================== logs ===========================\n                navigating to \"https://rbo.uat.dasreda.ru/\", waiting until \"load\"\n                ============================================================\n                    at MainPage.<anonymous> (/home/alexandr/study/11/playwright-jest-rbo/pages/mainPage.page.ts:30:20)\n                    at /home/alexandr/study/11/playwright-jest-rbo/pages/mainPage.page.ts:8:71\n                    at Object.<anonymous>.__awaiter (/home/alexandr/study/11/playwright-jest-rbo/pages/mainPage.page.ts:4:12)\n                    at MainPage.goToMainPage (/home/alexandr/study/11/playwright-jest-rbo/pages/mainPage.page.ts:38:16)\n                    at /home/alexandr/study/11/playwright-jest-rbo/tests/landing/navigation.test.ts:24:24\n                    at /home/alexandr/study/11/playwright-jest-rbo/tests/landing/navigation.test.ts:8:71\n                    at Object.<anonymous>.__awaiter (/home/alexandr/study/11/playwright-jest-rbo/tests/landing/navigation.test.ts:4:12)\n                    at Object.<anonymous> (/home/alexandr/study/11/playwright-jest-rbo/tests/landing/navigation.test.ts:23:27)\n                    at Object.asyncJestLifecycle (/usr/lib/node_modules/jest-cli/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:113:37)\n                    at /usr/lib/node_modules/jest-cli/node_modules/jest-jasmine2/build/queueRunner.js:89:12\n                    at mapper (/usr/lib/node_modules/jest-cli/node_modules/jest-jasmine2/build/queueRunner.js:72:19)\n                    at /usr/lib/node_modules/jest-cli/node_modules/jest-jasmine2/build/queueRunner.js:119:41",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on FAQ button in landing block"
+  }, {
+    "name" : "package",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b1a81e9945774731.json",
+  "parameterValues" : [ ]
+}

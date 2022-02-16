@@ -1,0 +1,50 @@
+{
+  "uid" : "85200420cd930f2e",
+  "name" : "Clicking on FAQ button",
+  "fullName" : "Navigation on enter personal data page.Clicking on FAQ button",
+  "historyId" : "8b3c004c519aad73926692de0fe52af7",
+  "time" : {
+    "start" : 1645035932779,
+    "stop" : 1645035935499,
+    "duration" : 2720
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toContain(expected) // indexOf\n                \n                Expected value:   \"Вопрос-ответ\"\n                Received boolean: true",
+  "statusTrace" : "Error: expect(received).toContain(expected) // indexOf\n                \n                Expected value:   \"Вопрос-ответ\"\n                Received boolean: true\n                    at /home/alexandr/study/11/playwright-jest-rbo/tests/personalData/navigation.test.ts:43:61\n                    at Generator.next (<anonymous>)\n                    at fulfilled (/home/alexandr/study/11/playwright-jest-rbo/tests/personalData/navigation.test.ts:5:58)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation on enter personal data page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation on enter personal data page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on FAQ button"
+  }, {
+    "name" : "package",
+    "value" : "Navigation on enter personal data page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "85200420cd930f2e.json",
+  "parameterValues" : [ ]
+}

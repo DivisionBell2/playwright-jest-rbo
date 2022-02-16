@@ -1,0 +1,50 @@
+{
+  "uid" : "21179148d856eb1a",
+  "name" : "Go to feedback page",
+  "fullName" : "Working of support menu.Go to feedback page",
+  "historyId" : "f338c045be0c138f7a776da1d5635ef9",
+  "time" : {
+    "start" : 1645012956047,
+    "stop" : 1645012981637,
+    "duration" : 25590
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : ": Timeout - Async callback was not invoked within the 25000 ms timeout specified by jest.setTimeout.",
+  "statusTrace" : "Timeout - Async callback was not invoked within the 25000 ms timeout specified by jest.setTimeout.Error: \n                    at new Spec (/usr/lib/node_modules/jest-cli/node_modules/jest-jasmine2/build/jasmine/Spec.js:116:22)\n                    at new Spec (/usr/lib/node_modules/jest-cli/node_modules/jest-jasmine2/build/setup_jest_globals.js:78:9)\n                    at specFactory (/usr/lib/node_modules/jest-cli/node_modules/jest-jasmine2/build/jasmine/Env.js:484:22)\n                    at Env.it (/usr/lib/node_modules/jest-cli/node_modules/jest-jasmine2/build/jasmine/Env.js:553:22)\n                    at Env.it (/usr/lib/node_modules/jest-cli/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:201:23)\n                    at it (/usr/lib/node_modules/jest-cli/node_modules/jest-jasmine2/build/jasmine/jasmineLight.js:100:21)\n                    at Suite.<anonymous> (/home/alexandr/study/11/playwright-jest-rbo/tests/landing/supportMenu.test.ts:42:5)\n                    at addSpecsToSuite (/usr/lib/node_modules/jest-cli/node_modules/jest-jasmine2/build/jasmine/Env.js:433:49)\n                    at Env.describe (/usr/lib/node_modules/jest-cli/node_modules/jest-jasmine2/build/jasmine/Env.js:403:9)\n                    at describe (/usr/lib/node_modules/jest-cli/node_modules/jest-jasmine2/build/jasmine/jasmineLight.js:88:18)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Working of support menu"
+  }, {
+    "name" : "testClass",
+    "value" : "Working of support menu"
+  }, {
+    "name" : "testMethod",
+    "value" : "Go to feedback page"
+  }, {
+    "name" : "package",
+    "value" : "Working of support menu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "21179148d856eb1a.json",
+  "parameterValues" : [ ]
+}

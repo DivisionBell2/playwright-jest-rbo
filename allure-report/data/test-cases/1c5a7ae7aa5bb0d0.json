@@ -1,0 +1,192 @@
+{
+  "uid" : "1c5a7ae7aa5bb0d0",
+  "name" : "Click on close button in auth popup",
+  "fullName" : "Functional tests for auth popup.Click on close button in auth popup",
+  "historyId" : "67c839cd60c987919f90e247fc60cb56",
+  "time" : {
+    "start" : 1645042261165,
+    "stop" : 1645042264908,
+    "duration" : 3743
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 12,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click closed button on auth popup",
+      "time" : {
+        "start" : 1645042263428,
+        "stop" : 1645042263784,
+        "duration" : 356
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check auth modal window closed",
+      "time" : {
+        "start" : 1645042263785,
+        "stop" : 1645042264907,
+        "duration" : 1122
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Functional tests for auth popup"
+  }, {
+    "name" : "testClass",
+    "value" : "Functional tests for auth popup"
+  }, {
+    "name" : "testMethod",
+    "value" : "Click on close button in auth popup"
+  }, {
+    "name" : "package",
+    "value" : "Functional tests for auth popup"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e739e31e6dbb0c44",
+      "status" : "failed",
+      "statusDetails" : "TypeError: this.reporter.screenshot is not a function",
+      "time" : {
+        "start" : 1645042164326,
+        "stop" : 1645042167746,
+        "duration" : 3420
+      }
+    }, {
+      "uid" : "ab814fedb2df971b",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toBeTruthy()\n                \n                Received: false",
+      "time" : {
+        "start" : 1645041563695,
+        "stop" : 1645041569409,
+        "duration" : 5714
+      }
+    }, {
+      "uid" : "dab39b18ae384d01",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toBeTruthy()\n                \n                Received: false",
+      "time" : {
+        "start" : 1645041448895,
+        "stop" : 1645041454723,
+        "duration" : 5828
+      }
+    }, {
+      "uid" : "61f31c373b1064ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645041360250,
+        "stop" : 1645041362799,
+        "duration" : 2549
+      }
+    }, {
+      "uid" : "f9da0fe9d3a91af1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645041010228,
+        "stop" : 1645041013965,
+        "duration" : 3737
+      }
+    }, {
+      "uid" : "dd01cb3f45102a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645040763340,
+        "stop" : 1645040767140,
+        "duration" : 3800
+      }
+    }, {
+      "uid" : "5bf40a9664e3608",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645040024220,
+        "stop" : 1645040028055,
+        "duration" : 3835
+      }
+    }, {
+      "uid" : "52f1e0c3c2182b3e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645039890619,
+        "stop" : 1645039894861,
+        "duration" : 4242
+      }
+    }, {
+      "uid" : "c366da47ab4f7b4f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645039809804,
+        "stop" : 1645039814506,
+        "duration" : 4702
+      }
+    }, {
+      "uid" : "701a0a423ada8159",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toBeTruthy()\n                \n                Received: false",
+      "time" : {
+        "start" : 1645039764623,
+        "stop" : 1645039767630,
+        "duration" : 3007
+      }
+    }, {
+      "uid" : "af1502fb203161ce",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toBeTruthy()\n                \n                Received: false",
+      "time" : {
+        "start" : 1645039723893,
+        "stop" : 1645039727348,
+        "duration" : 3455
+      }
+    }, {
+      "uid" : "d4d7be961b019d3e",
+      "status" : "failed",
+      "statusDetails" : "Error: page.isHidden: Unexpected token \"\" while parsing selector \"\"\n                =========================== logs ===========================\n                  checking visibility of \"\"\n                ============================================================",
+      "time" : {
+        "start" : 1645039677591,
+        "stop" : 1645039680811,
+        "duration" : 3220
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1c5a7ae7aa5bb0d0.json",
+  "parameterValues" : [ ]
+}

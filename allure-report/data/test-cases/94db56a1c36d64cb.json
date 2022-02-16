@@ -1,0 +1,48 @@
+{
+  "uid" : "94db56a1c36d64cb",
+  "name" : "Clicking on logo",
+  "fullName" : "Navigation on enter personal data page.Clicking on logo",
+  "historyId" : "43625ad7481fad784eb0d3f0e14fa7ff",
+  "time" : {
+    "start" : 1645038140534,
+    "stop" : 1645038142273,
+    "duration" : 1739
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation on enter personal data page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation on enter personal data page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on logo"
+  }, {
+    "name" : "package",
+    "value" : "Navigation on enter personal data page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "94db56a1c36d64cb.json",
+  "parameterValues" : [ ]
+}

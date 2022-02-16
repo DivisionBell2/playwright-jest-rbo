@@ -1,0 +1,50 @@
+{
+  "uid" : "57af74868a9cd623",
+  "name" : "Clicking on oferta link in footer",
+  "fullName" : "Navigation on enter personal data page.Clicking on oferta link in footer",
+  "historyId" : "905f2797d8fffb72a67d8ab8680837f",
+  "time" : {
+    "start" : 1645036563537,
+    "stop" : 1645036590012,
+    "duration" : 26475
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : ": Timeout - Async callback was not invoked within the 25000 ms timeout specified by jest.setTimeout.",
+  "statusTrace" : "Timeout - Async callback was not invoked within the 25000 ms timeout specified by jest.setTimeout.Error: \n                    at new Spec (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmine/Spec.js:116:22)\n                    at new Spec (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/setup_jest_globals.js:78:9)\n                    at specFactory (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmine/Env.js:484:22)\n                    at Env.it (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmine/Env.js:553:22)\n                    at Env.it (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:201:23)\n                    at it (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmine/jasmineLight.js:100:21)\n                    at Suite.<anonymous> (/home/alexandr/study/11/playwright-jest-rbo/tests/personalData/navigation.test.ts:72:9)\n                    at addSpecsToSuite (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmine/Env.js:433:49)\n                    at Env.describe (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmine/Env.js:403:9)\n                    at describe (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmine/jasmineLight.js:88:18)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation on enter personal data page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation on enter personal data page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on oferta link in footer"
+  }, {
+    "name" : "package",
+    "value" : "Navigation on enter personal data page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "57af74868a9cd623.json",
+  "parameterValues" : [ ]
+}

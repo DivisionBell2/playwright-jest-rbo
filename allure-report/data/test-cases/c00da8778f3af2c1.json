@@ -1,0 +1,293 @@
+{
+  "uid" : "c00da8778f3af2c1",
+  "name" : "Click on start business registration as entrepreneur",
+  "fullName" : "Navigation on main page.Click on start business registration as entrepreneur",
+  "historyId" : "3f4153b2f2f7c2a0eef705bff40ee990",
+  "time" : {
+    "start" : 1645027164779,
+    "stop" : 1645027166634,
+    "duration" : 1855
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 29,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Click on start business registration as entrepreneur"
+  }, {
+    "name" : "package",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f19ce0eaa9094e78",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645027160773,
+        "stop" : 1645027163467,
+        "duration" : 2694
+      }
+    }, {
+      "uid" : "51eb691cb64aded7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645021220890,
+        "stop" : 1645021222683,
+        "duration" : 1793
+      }
+    }, {
+      "uid" : "dd7ff58e39b6f03",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645021216881,
+        "stop" : 1645021218961,
+        "duration" : 2080
+      }
+    }, {
+      "uid" : "ecff13328f26acb0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645021093861,
+        "stop" : 1645021095703,
+        "duration" : 1842
+      }
+    }, {
+      "uid" : "48006e55165d93e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645021090017,
+        "stop" : 1645021092710,
+        "duration" : 2693
+      }
+    }, {
+      "uid" : "57fc4122d80c7804",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645020957789,
+        "stop" : 1645020959657,
+        "duration" : 1868
+      }
+    }, {
+      "uid" : "a0310e8827cbc29c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645020953013,
+        "stop" : 1645020955738,
+        "duration" : 2725
+      }
+    }, {
+      "uid" : "baf8f89ff7280ba3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645020855690,
+        "stop" : 1645020856983,
+        "duration" : 1293
+      }
+    }, {
+      "uid" : "ba746e45b1884e46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645020851161,
+        "stop" : 1645020853807,
+        "duration" : 2646
+      }
+    }, {
+      "uid" : "e3a0d57bf56a76ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645020704929,
+        "stop" : 1645020706707,
+        "duration" : 1778
+      }
+    }, {
+      "uid" : "dbabf23e635ac910",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645020701129,
+        "stop" : 1645020703701,
+        "duration" : 2572
+      }
+    }, {
+      "uid" : "2be5fe98b952b2a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645020641997,
+        "stop" : 1645020644104,
+        "duration" : 2107
+      }
+    }, {
+      "uid" : "e5f418349aa8b429",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645020638420,
+        "stop" : 1645020640836,
+        "duration" : 2416
+      }
+    }, {
+      "uid" : "ab9767a87c8dd2dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645020127280,
+        "stop" : 1645020129073,
+        "duration" : 1793
+      }
+    }, {
+      "uid" : "f24673e57cf48543",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645020123236,
+        "stop" : 1645020125851,
+        "duration" : 2615
+      }
+    }, {
+      "uid" : "27b20609b3585180",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645020037293,
+        "stop" : 1645020039067,
+        "duration" : 1774
+      }
+    }, {
+      "uid" : "ba978f132116139d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645020033354,
+        "stop" : 1645020036040,
+        "duration" : 2686
+      }
+    }, {
+      "uid" : "8486f971bc7bc5dd",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645020020964,
+        "stop" : 1645020020964,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "88dc3476d7e28426",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645020018177,
+        "stop" : 1645020020964,
+        "duration" : 2787
+      }
+    }, {
+      "uid" : "596e4f424fe2595c",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645013294559,
+        "stop" : 1645013294559,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "eca94e3bc1c93e60",
+      "status" : "failed",
+      "statusDetails" : ": Timeout - Async callback was not invoked within the 25000 ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1645013267571,
+        "stop" : 1645013294559,
+        "duration" : 26988
+      }
+    }, {
+      "uid" : "8abe7a58fddceeaa",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645013235589,
+        "stop" : 1645013235589,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f046f82b1be7dd96",
+      "status" : "failed",
+      "statusDetails" : ": Timeout - Async callback was not invoked within the 25000 ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1645013207386,
+        "stop" : 1645013235589,
+        "duration" : 28203
+      }
+    }, {
+      "uid" : "36a130d19c7fb922",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645013143218,
+        "stop" : 1645013143218,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8a8f4aaa90844fd0",
+      "status" : "failed",
+      "statusDetails" : ": Timeout - Async callback was not invoked within the 25000 ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1645013115965,
+        "stop" : 1645013143218,
+        "duration" : 27253
+      }
+    }, {
+      "uid" : "1d2811c762771746",
+      "status" : "failed",
+      "statusDetails" : "TimeoutError: page.waitForSelector: Timeout 30000ms exceeded.\n                =========================== logs ===========================\n                waiting for selector \"h1\" to be visible\n                  selector resolved to hidden <h1>Персональные данные / ООО</h1>\n                  selector resolved to hidden <h1>Персональные данные / ИП</h1>\n                ============================================================",
+      "time" : {
+        "start" : 1645013082417,
+        "stop" : 1645013089092,
+        "duration" : 6675
+      }
+    }, {
+      "uid" : "330a0096402adcc",
+      "status" : "failed",
+      "statusDetails" : ": Timeout - Async callback was not invoked within the 25000 ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1645013029329,
+        "stop" : 1645013056279,
+        "duration" : 26950
+      }
+    }, {
+      "uid" : "b90341e73732f468",
+      "status" : "failed",
+      "statusDetails" : "TimeoutError: page.waitForSelector: Timeout 30000ms exceeded.\n                =========================== logs ===========================\n                waiting for selector \"h1\" to be visible\n                  selector resolved to hidden <h1>Персональные данные / ООО</h1>\n                  selector resolved to hidden <h1>Персональные данные / ИП</h1>\n                ============================================================",
+      "time" : {
+        "start" : 1645012999605,
+        "stop" : 1645013018064,
+        "duration" : 18459
+      }
+    }, {
+      "uid" : "f9447a4e530b6e59",
+      "status" : "failed",
+      "statusDetails" : ": Timeout - Async callback was not invoked within the 25000 ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1645012946161,
+        "stop" : 1645012973216,
+        "duration" : 27055
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c00da8778f3af2c1.json",
+  "parameterValues" : [ ]
+}
