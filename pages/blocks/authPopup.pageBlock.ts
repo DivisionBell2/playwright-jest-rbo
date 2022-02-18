@@ -2,26 +2,30 @@ import BasePage from "../basePage.page";
 
 export default class AuthPopup extends BasePage {
 
-    private selectors = {
-        registrationButton: "#test-regForm-singup_button",
+    selectors = {
         authButton: "#test-loginForm-singIn",
         closeButton: "//button[@aria-label='Close']",
-        sberIdButton: "//button[contains(@class, 'SberIdButton')]",
+        registrationButton: "#test-regForm-singup_button",
         resetPasswordButton: "//a[text()='Забыли пароль?']",
-
-        lastNameInput: "//div[@class='ant-modal-body']//input[@id='lastName']",
-        firstNameInput: "//div[@class='ant-modal-body']//input[@id='firstName']",
-        middleNameInput: "//div[@class='ant-modal-body']//input[@id='middleName']",
+        sberIdButton: "//button[contains(@class, 'SberIdButton')]",
+        
+        authPasswordInput: "#password",
+        confirmEmailInput: "//input[@data-qa='codeEntered_field']",
         emailInput: "//div[@class='ant-modal-body']//input[@id='email']",
+        firstNameInput: "//div[@class='ant-modal-body']//input[@id='firstName']",
+        lastNameInput: "//div[@class='ant-modal-body']//input[@id='lastName']",
+        middleNameInput: "//div[@class='ant-modal-body']//input[@id='middleName']",
         passwordInput: "//div[contains(@class, 'Registration__registration-form')]//input[@id='password']",
         passwordMatchInput: "#passwordMatch",
         usernameInput: "#username",
-        authPasswordInput: "#password",
-        confirmEmailInput: "//input[@data-qa='codeEntered_field']",
-
+        
+        authLink: "//div[@role='button' and text()='Войти']",
         registrationLink: "text='Зарегистрироваться'",
+
+        authTitle: "//h2[text()='Вход']",
         agreementCheckbox: "#personalDataAgreement",
-        modalWindow: "//div[@class='ant-modal-content']"
+        modalWindow: "//div[@class='ant-modal-content']",
+        viewingPasswordIcon: "//span[@class='ant-input-suffix']"
     }
 
     public async enterFirstName(firstName: string): Promise<void> {
@@ -91,12 +95,6 @@ export default class AuthPopup extends BasePage {
     public async clickSberIdButton(): Promise<void> {
         await this.reporter.startStep("Click on sber id button");
         await page.click(this.selectors.sberIdButton);
-        await this.reporter.endStep();
-    }
-
-    public async clickResetPasswordButton(): Promise<void> {
-        await this.reporter.startStep("Click on reset password button");
-        await page.click(this.selectors.resetPasswordButton);
         await this.reporter.endStep();
     }
 }

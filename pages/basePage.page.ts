@@ -58,6 +58,20 @@ export default class BasePage {
     }
 
     //new 
+
+    async click(element: string, message: string) {
+        reporter.startStep(message);
+        await page.click(element);
+        reporter.endStep();
+    }
+
+    async getAttribute(element: string, attribute: string, message: string): Promise<string|null|undefined> {
+        reporter.startStep(message);
+        let attributeValue = await (await page.$(element))?.getAttribute(attribute);
+        reporter.endStep();
+        return attributeValue;
+    }
+
     async getTextContent(element: string, message: string): Promise<string|null> {
         reporter.startStep(message);
         const title = await (await this.page.waitForSelector(element)).textContent();
@@ -65,16 +79,52 @@ export default class BasePage {
         return title;
     }
 
-    async isVisible(element : string, message: string): Promise<boolean> {
+    async isHidden(element : string, message: string, seconds?: number): Promise<boolean> {
         reporter.startStep(message);
-        for (let i = 0; i < 3; i++) {
-         if (!await this.page.isVisible(element)) {
-             await this.page.waitForTimeout(1000);
-             continue;
-         }
-     }
+
+        let secondsCount: number;
+        let isHidden = false;
+
+        if (seconds != undefined) {
+            secondsCount = seconds;
+        } else {
+            secondsCount = 3;
+        }
+
+        for (let i = 0; i < secondsCount; i++) {
+            isHidden = await page.isHidden(element);
+            if (!isHidden) {
+                await page.waitForTimeout(1000);
+            } else {
+                break;
+            }
+        }
         reporter.endStep();
-        return await page.isVisible(element);
+        return isHidden;
+    }
+
+    async isVisible(element : string, message: string, seconds?: number): Promise<boolean> {
+        reporter.startStep(message);
+
+        let secondsCount: number;
+        let isVisible = false;
+
+        if (seconds != undefined) {
+            secondsCount = seconds;
+        } else {
+            secondsCount = 3;
+        }
+
+        for (let i = 0; i < secondsCount; i++) {
+            isVisible = await page.isVisible(element);
+            if (!isVisible) {
+                await page.waitForTimeout(1000);
+            } else {
+                break;
+            }
+        }
+        reporter.endStep();
+        return isVisible;
     }
 
     async waitForNavigation(message: string): Promise<void> {
