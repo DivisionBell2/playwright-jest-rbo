@@ -6,6 +6,8 @@ export default class AuthPopup extends BasePage {
         registrationButton: "#test-regForm-singup_button",
         authButton: "#test-loginForm-singIn",
         closeButton: "//button[@aria-label='Close']",
+        sberIdButton: "//button[contains(@class, 'SberIdButton')]",
+        resetPasswordButton: "//a[text()='Забыли пароль?']",
 
         lastNameInput: "//div[@class='ant-modal-body']//input[@id='lastName']",
         firstNameInput: "//div[@class='ant-modal-body']//input[@id='firstName']",
@@ -68,7 +70,9 @@ export default class AuthPopup extends BasePage {
     }
 
     public async clickAuthButton(): Promise<void> {
+        await this.reporter.startStep("Click on auth button");
         await page.click(this.selectors.authButton);
+        await this.reporter.endStep();
     }
 
     public async clickCloseButton(): Promise<void> {
@@ -82,5 +86,17 @@ export default class AuthPopup extends BasePage {
         const isHidden = await this.checkElementHidden(this.selectors.modalWindow);
         await this.reporter.endStep();
         return isHidden;
+    }
+
+    public async clickSberIdButton(): Promise<void> {
+        await this.reporter.startStep("Click on sber id button");
+        await page.click(this.selectors.sberIdButton);
+        await this.reporter.endStep();
+    }
+
+    public async clickResetPasswordButton(): Promise<void> {
+        await this.reporter.startStep("Click on reset password button");
+        await page.click(this.selectors.resetPasswordButton);
+        await this.reporter.endStep();
     }
 }

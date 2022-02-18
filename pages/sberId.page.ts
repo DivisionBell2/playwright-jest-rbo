@@ -7,13 +7,16 @@ export default class SberIDPage extends BasePage {
         title: 'Деловая среда'
     }
 
-    private selectors = {
+    selectors = {
         title: "//h1[text()='Деловая среда']"
     }
 
     public async getTitleText(): Promise<string | null> {
+        await this.reporter.startStep("Get title text form sberbank id login page")
         await this.page.waitForNavigation();
-        return await (await this.page.waitForSelector(this.selectors.title)).textContent();
+        const title = await (await this.page.waitForSelector(this.selectors.title)).textContent();
+        await this.reporter.endStep();
+        return title;
     }
 }
 

@@ -56,4 +56,30 @@ export default class BasePage {
 
         await page.waitForLoadState()
     }
+
+    //new 
+    async getTextContent(element: string, message: string): Promise<string|null> {
+        reporter.startStep(message);
+        const title = await (await this.page.waitForSelector(element)).textContent();
+        reporter.endStep();
+        return title;
+    }
+
+    async isVisible(element : string, message: string): Promise<boolean> {
+        reporter.startStep(message);
+        for (let i = 0; i < 3; i++) {
+         if (!await this.page.isVisible(element)) {
+             await this.page.waitForTimeout(1000);
+             continue;
+         }
+     }
+        reporter.endStep();
+        return await page.isVisible(element);
+    }
+
+    async waitForNavigation(message: string): Promise<void> {
+        reporter.startStep(message);
+        await page.waitForNavigation();
+        reporter.endStep();
+    }
 }
