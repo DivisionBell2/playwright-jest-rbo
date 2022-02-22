@@ -1,5 +1,6 @@
 import { Page } from "playwright";
 import BasePage from "./basePage.page";
+import Footer from "./blocks/footer.pageBlock";
 import Header from "./blocks/header.pageBlock";
 
 export default class FAQPage extends BasePage {
@@ -26,6 +27,10 @@ export default class FAQPage extends BasePage {
 
     public async getHeader(): Promise<Header> {
         return new Header();
+    }
+
+    public async getFooter(): Promise<Footer> {
+        return new Footer();
     }
 }
 

@@ -20,11 +20,6 @@ export default class BasePage {
         await context.clearPermissions();
     }
 
-    async getNewTab(): Promise<Page> {
-        await this.getAllTabs(page.context());
-        return page.context().pages()[1];
-    }
-
     async reloadPage(): Promise<void> {
         await page.reload();
     }
@@ -70,6 +65,13 @@ export default class BasePage {
         let attributeValue = await (await page.$(element))?.getAttribute(attribute);
         reporter.endStep();
         return attributeValue;
+    }
+
+    async getNewTab(message?: string): Promise<Page> {
+        reporter.startStep(message);
+        await this.getAllTabs(page.context());
+        reporter.endStep();
+        return page.context().pages()[1];
     }
 
     async getTextContent(element: string, message: string): Promise<string|null> {

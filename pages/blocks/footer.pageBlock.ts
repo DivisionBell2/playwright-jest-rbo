@@ -7,7 +7,7 @@ export default class Footer extends BasePage {
         platformWatchLink: 'uat.dasreda.ru/learn/videos'
     }
 
-    private selectors = {
+    selectors = {
         readLink: "//div[contains(@class, 'ant-row MainFooter__footer-menu-content')]//li/a[contains(., 'Читать')]",
         watchLink: "//div[contains(@class, 'ant-row MainFooter__footer-menu-content')]//li/a[contains(., 'Смотреть')]",
         privacyPolicyLink: "//a[contains(., 'Политика конфиденциальности')]",

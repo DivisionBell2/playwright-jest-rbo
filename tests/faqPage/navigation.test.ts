@@ -1,4 +1,5 @@
 import {Browser, BrowserContext, chromium, Page} from "playwright";
+import Footer from "../../pages/blocks/footer.pageBlock";
 import Header from "../../pages/blocks/header.pageBlock";
 import FAQPage from "../../pages/faqPage.page";
 import FeedbackPage from "../../pages/feedback.page";
@@ -11,12 +12,14 @@ describe('Navigation tests for FAQ page', () => {
         let mainPage: MainPage;
         let feedbackPage: FeedbackPage;
         let header: Header;
+        let footer: Footer;
 
         beforeAll(async () => {
             faqPage = new FAQPage();
             mainPage = new MainPage();
             feedbackPage = new FeedbackPage();
             header = await faqPage.getHeader();
+            footer = await faqPage.getFooter();
         });
 
         beforeEach(async () => {
@@ -38,9 +41,17 @@ describe('Navigation tests for FAQ page', () => {
                 .isVisible(feedbackPage.selectors.messageTextInput, "Check visibility of feedback area on feedback page"))
                 .toBeTruthy();
         });
-    });
 
-    
+        test('Clicking on Read link in footer and go to Platform blogs', async () => {
+            await footer.click(footer.selectors.readLink, "Click on read link on footer");
+            const newTab = await faqPage.getNewTab("Get new browser tab");
+            expect(newTab.url()).toContain(footer.checkData.platformReadLink);
+        });
+
+        afterEach(async () => {
+            await faqPage.saveOnlyOneTab();
+        });
+    });
 
     // let browser: Browser;
     // let context: BrowserContext;
@@ -54,25 +65,6 @@ describe('Navigation tests for FAQ page', () => {
     //     });
     //     context = await browser.newContext();
     //     page = await context.newPage();
-    // });
-
-    // test('Clicking on Feedback button', async () => {
-    //     await page.goto("https://rbo.uat.dasreda.ru/rbidos/faq");
-    //     await page.click("text='Обратная связь'");
-    //     await page.waitForNavigation();
-    //     const title = await page.$("h1");
-    //     expect(await title.textContent()).toContain("Обратная связь");
-    // });
-
-    // test('Clicking on Read link in footer and go to Platform blogs', async () => {
-    //     await page.goto("https://rbo.uat.dasreda.ru/rbidos/faq");
-    //     await page.click("//div[contains(@class, 'ant-row MainFooter__footer-menu-content')]//li/a[contains(., 'Читать')]");
-    //     const [newWindow] = await Promise.all([
-    //         context.waitForEvent("page"),
-    //     ]);
-    //     await newWindow.waitForLoadState();
-    //     expect(page.context().pages()[1].url()).toContain('uat.dasreda.ru/learn/blog');
-    //     await page.context().pages()[1].close();
     // });
 
     // test('Clicking on Read link in footer and go to Platform videos', async () => {
