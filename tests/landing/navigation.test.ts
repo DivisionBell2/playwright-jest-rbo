@@ -37,8 +37,9 @@ describe("Navigation on main page", () => {
     });
 
     test('Click on start business registration as entrepreneur', async () => {
-        await mainPage.clickBlockStartEntrepreneurButton();
-        expect(await enterPersonalDataPage.getTitleText()).toContain(enterPersonalDataPage.checkData.title);
+        await mainPage.click(mainPage.selectors.blockStartEntrepreneurButton, "Click entrepreneur button in landing info block");
+        expect(await enterPersonalDataPage.getTextContent(enterPersonalDataPage.selectors.title, "Get title text"))
+        .toContain(enterPersonalDataPage.checkData.title);
     });
 
     test('Click on start business registration as legal entity', async () => {
