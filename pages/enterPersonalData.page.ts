@@ -9,7 +9,7 @@ export default class EnterPersonalDataPage extends BasePage {
         modalTitle: "Изменения в законе № 129-ФЗ"
     }
 
-    private selectors = {
+    selectors = {
         title: "h2",
         modalTitle: "//span[@class='ant-modal-confirm-title']",
         logo: "//div[contains(@class, 'topmenu-logo-pic')]",

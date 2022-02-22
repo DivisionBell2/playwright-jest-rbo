@@ -79,6 +79,12 @@ export default class BasePage {
         return title;
     }
 
+    async goto(path: string, message: string): Promise<void> {
+        reporter.startStep(message);
+        await page.goto(this.url + path);
+        reporter.endStep();
+    }
+
     async isHidden(element : string, message: string, seconds?: number): Promise<boolean> {
         reporter.startStep(message);
 

@@ -2,14 +2,15 @@ import BasePage from "../basePage.page";
 
 export default class Header extends BasePage {
 
-    private selectors = {
+    selectors = {
         faqLink: "text='Вопрос-ответ'",
         feedbackLink: "text='Обратная связь'",
 
         videoButton: "//span[@role='button' and contains(., 'Видеоинструкция')]",
         enterButton: "text='Войти'",
 
-        userIcon: "#test-landing-navPanel-logedIn"
+        userIcon: "#test-landing-navPanel-logedIn",
+        logo: "//div[contains(@class, 'topmenu-logo-pic')]"
     }
 
     public async clickFAQLink(): Promise<void> {

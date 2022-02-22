@@ -5,13 +5,7 @@ import Header from "./blocks/header.pageBlock";
 
 export default class FeedbackPage extends BasePage {
 
-    // public checkData = {
-    //     messageTextInput: 'Обратная связь'
-    // }
-
-    //private url = Env.url + "rbidos/feedback";
-
-    private selectors = {
+    selectors = {
         messageTextInput: '#messageText'
     }
 

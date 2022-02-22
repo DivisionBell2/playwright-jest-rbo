@@ -1,39 +1,31 @@
-16. Начать переводить тесты на паттерн PageObject
-Написать тест на навигацию в верхнем меню (точки)
-Написать функциональный тест на логин (переход в личный кабинет, выход)
+1. готово
+login/authpopup - Готово
 
-Написать функциональный тест на страницу /rbidos/personal-information/ip/5
-Написать функциональный тест на страницу /rbidos/personal-information/ip/3
-Написать еще один тест на персональные данные navigation
-Написать еще один тест на попап авторизации
-Написать функциональный тест на меню поддержки на какой-нибудь другой странице, кроме главной
-Написать тест на навигацию в левом меню
-Написать функциональный тест на страницу ip/1 (ввод неправильного пароля)
-Написать тест на навигацию на /rbidos/personal-information/ip/2
-Написать тест на навигацию на /rbidos/personal-information/ip/3
-Написать тест на навигацию страницы обратной связи
-Написать тест на навигацию страницы FAQ
-Написать тест на навигацию на /rbidos/personal-information/ip/5
+2 итерация
+в работе landing/navigation 2/13
+landing/supportMenu
+personalData/navigation
+personalData/popupWithLawsInfo
+login/login
 
-Позже
-Написать тест на продолжение работы с текущей заявкой или создание новой
-Написать тест на окно 15 секундного ожидания для повторной валидации телефона
-Написать тест на меню поддержки на FAQ
-Написать тест на чат
-Написать функциональный тест на страницу ip/1 (регистрация нового пользователя)
-Написать тест на логин со страницы обратной связи
-Написать тест на логин со страницы вопросов и ответов
-Написать тест на меню поддержки на странице обратной связи
-Написать тест на меню поддержки на странице FAQ
-Написать тест на чат
-Написать тесты на страницу https://rbo.uat.dasreda.ru/rbidos/error
-Написать тест на логин со страницы FAQ
-Написать еще один тест в mainPage navigation
+3. рефакторинг
+в работе faqPage/navigation 2/4
+faqPage/openTab
+faqPage/searchByText
+feedbackPage/navigation
+feedbackPage/sendMessage
+personalData/middleName
+personalData/popupWithLawsInfo
+personalData/registrationNewUser
+phoneValidation/navigation
+checkOnlineRegistration/navigation
+checkOnlineRegistration/answerVariantsOfCheckOnline
+enterPassportData/navigation
+enterPassportData/filePreview
+navigationMenu/leftSieMenu
+userWay/uploadPassportMainPage
 
-Разобраться почему не работает регистрация (возможно нужно убедиться в том, что чекбоксы нажаты)
-Возможно перед
-await page.reload();
-Нужно добавить
-await page.waitForSelector("//input[@data-qa='codeEntered_field']");
-
-добавить в навигационные тесты await page.goBack() (возможно в foreEach() и ожидание какого-нибудь элемента)
+4. examples
+allureReportInTestExample
+navigationVideoExample
+screenshotsExamples
