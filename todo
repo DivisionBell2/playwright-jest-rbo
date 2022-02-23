@@ -1,15 +1,15 @@
 1. готово
-login/authpopup - Готово
+login/authpopup
+в работе faqPage/navigation
 
 2 итерация
-в работе landing/navigation 3/13
+в работе landing/navigation 4/13
 landing/supportMenu
 personalData/navigation
 personalData/popupWithLawsInfo
 login/login
 
 3. рефакторинг
-в работе faqPage/navigation 3/4
 faqPage/openTab
 faqPage/searchByText
 feedbackPage/navigation

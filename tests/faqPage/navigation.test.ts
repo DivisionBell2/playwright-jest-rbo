@@ -1,4 +1,3 @@
-import {Browser, BrowserContext, chromium, Page} from "playwright";
 import Footer from "../../pages/blocks/footer.pageBlock";
 import Header from "../../pages/blocks/header.pageBlock";
 import FAQPage from "../../pages/faqPage.page";
@@ -48,40 +47,14 @@ describe('Navigation tests for FAQ page', () => {
             expect(newTab.url()).toContain(footer.checkData.platformReadLink);
         });
 
+        test('Clicking on Watch link in footer and go to Platform videos', async () => {
+            await footer.click(footer.selectors.watchLink, "Click on watch link on footer");
+            const newTab = await faqPage.getNewTab("Get new browser tab");
+            expect(newTab.url()).toContain(footer.checkData.platformWatchLink);
+        });
+
         afterEach(async () => {
             await faqPage.saveOnlyOneTab();
         });
     });
-
-    // let browser: Browser;
-    // let context: BrowserContext;
-    // let page: Page;
-
-    // const landingTitle = "бизнес легко и быстро";
-
-    // beforeAll(async () => {
-    //     browser = await chromium.launch({
-    //         headless: false
-    //     });
-    //     context = await browser.newContext();
-    //     page = await context.newPage();
-    // });
-
-    // test('Clicking on Read link in footer and go to Platform videos', async () => {
-    //     await page.goto("https://rbo.uat.dasreda.ru/rbidos/faq");
-    //     await page.click("//div[contains(@class, 'ant-row MainFooter__footer-menu-content')]//li/a[contains(., 'Смотреть')]");
-    //     const [newWindow] = await Promise.all([
-    //         context.waitForEvent("page"),
-    //     ]);
-    //     await page.waitForTimeout(2000);
-    //     //await newWindow.waitForLoadState();
-    //     expect(page.context().pages()[1].url()).toContain('uat.dasreda.ru/learn/videos');
-    //     await page.context().pages()[1].close();
-    // });
-
-    // afterAll(async () => {
-    //     await page.close();
-    //     await context.close();
-    //     await browser.close();
-    // });
 });

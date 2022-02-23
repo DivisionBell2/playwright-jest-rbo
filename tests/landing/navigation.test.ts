@@ -26,25 +26,26 @@ describe("Navigation on main page", () => {
 
     test('Click on start business registration as entrepreneur', async () => {
         await mainPage.click(mainPage.selectors.landingStartEntrepreneurButton, "Click entrepreneur button");
-        expect(await enterPersonalDataPage.getTextContent(enterPersonalDataPage.selectors.title, "Get title text"))
+        expect(await enterPersonalDataPage.getTextContent(enterPersonalDataPage.selectors.title, "Get title text from personal data page"))
         .toContain(enterPersonalDataPage.checkData.title);
     });
 
     test('Click on start business registration as legal entity', async () => {
         await mainPage.click(mainPage.selectors.landingStartLegalEntityButton, "Click entrepreneur button");
-        expect(await enterPersonalDataPage.getTextContent(enterPersonalDataPage.selectors.title, "Get title text"))
+        expect(await enterPersonalDataPage.getTextContent(enterPersonalDataPage.selectors.title, "Get title text from personal data page"))
         .toContain(enterPersonalDataPage.checkData.title);
     });
 
     test('Click on start business registration as entrepreneur', async () => {
         await mainPage.click(mainPage.selectors.blockStartEntrepreneurButton, "Click entrepreneur button in landing info block");
-        expect(await enterPersonalDataPage.getTextContent(enterPersonalDataPage.selectors.title, "Get title text"))
+        expect(await enterPersonalDataPage.getTextContent(enterPersonalDataPage.selectors.title, "Get title text from personal data page"))
         .toContain(enterPersonalDataPage.checkData.title);
     });
 
     test('Click on start business registration as legal entity', async () => {
-        await mainPage.clickBlockStartLegalEntityButton();
-        expect(await enterPersonalDataPage.getTitleText()).toContain(enterPersonalDataPage.checkData.title);
+        await mainPage.click(mainPage.selectors.blockStartLegalEntityButton, "Click legal entity button in landing info block");
+        expect(await enterPersonalDataPage.getTextContent(enterPersonalDataPage.selectors.title, "Get title text from personal data page"))
+        .toContain(enterPersonalDataPage.checkData.title);
     });
 
     test('Clicking on FAQ button', async () => {
