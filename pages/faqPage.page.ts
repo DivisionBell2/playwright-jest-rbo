@@ -11,7 +11,10 @@ export default class FAQPage extends BasePage {
     }
 
     selectors = {
-        searchInput: "//input[@name='faq-search']"
+        searchInput: "//input[@name='faq-search']",
+        tabItem: "//div[@class='ant-collapse-item']",
+        closedTabItem: "//div[@class='ant-collapse-item']/div[@aria-expanded='false']",
+        answerBlock: "//div[@class='ant-collapse-content-box']"
     }
 
     path = "/rbidos/faq";

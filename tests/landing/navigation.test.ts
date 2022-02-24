@@ -4,6 +4,7 @@ import FeedbackPage from "../../pages/feedback.page";
 import MainPage from "../../pages/mainPage.page";
 import SberbankPage from "../../pages/sberbankPage";
 import * as urlData from "../../data/checkDataUrls.json"
+import Header from "../../pages/blocks/header.pageBlock";
 
 describe("Navigation on main page", () => {
     let mainPage: MainPage;
@@ -11,6 +12,7 @@ describe("Navigation on main page", () => {
     let enterPersonalDataPage: EnterPersonalDataPage;
     let feedbackPage: FeedbackPage;
     let sberbankPage: SberbankPage;
+    let header: Header;
 
     beforeAll(async () => {
         mainPage = new MainPage();
@@ -18,6 +20,7 @@ describe("Navigation on main page", () => {
         faqPage = new FAQPage();
         feedbackPage = new FeedbackPage();
         sberbankPage = new SberbankPage();
+        header = await mainPage.getHeader();
     });
 
     beforeEach(async () => {
@@ -49,8 +52,8 @@ describe("Navigation on main page", () => {
     });
 
     test('Clicking on FAQ button', async () => {
-        await (await mainPage.getHeader()).clickFAQLink();
-        expect(await faqPage.checkSearchInputVisible()).toBeTruthy();
+        header.click(header.selectors.faqLink, "Click on faq link");
+        expect(await faqPage.isVisible(faqPage.selectors.searchInput, "Check search input visible on faq page")).toBeTruthy();
     });
 
     test('Clicking on Feedback button', async () => {

@@ -1,4 +1,4 @@
-import { BrowserContext, Page } from "playwright";
+import { BrowserContext, ElementHandle, Page } from "playwright";
 import * as data from "../data/url.json";
 
 declare const page: Page;
@@ -60,7 +60,14 @@ export default class BasePage {
         reporter.endStep();
     }
 
-    async getAttribute(element: string, attribute: string, message: string): Promise<string|null|undefined> {
+    async clickArrayElement(elements: string, elementNumber: number, message: string) {
+        reporter.startStep(message);
+        const selectors = await page.$$(elements);
+        await selectors[elementNumber].click();
+        reporter.endStep();
+    }
+
+    async getAttribute(element: string, attribute: string, message: string): Promise<string | null | undefined> {
         reporter.startStep(message);
         let attributeValue = await (await page.$(element))?.getAttribute(attribute);
         reporter.endStep();
