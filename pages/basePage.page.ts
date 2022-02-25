@@ -55,47 +55,60 @@ export default class BasePage {
     //new 
 
     async click(element: string, message: string) {
-        reporter.startStep(message);
+        await reporter.startStep(message);
         await page.click(element);
-        reporter.endStep();
+        await reporter.endStep();
     }
 
     async clickArrayElement(elements: string, elementNumber: number, message: string) {
-        reporter.startStep(message);
+        await reporter.startStep(message);
         const selectors = await page.$$(elements);
         await selectors[elementNumber].click();
-        reporter.endStep();
+        await reporter.endStep();
+    }
+
+    async fill(element: string, text: string, message: string) {
+        await reporter.startStep(message);
+        await page.fill(element, text);
+        await reporter.endStep();
     }
 
     async getAttribute(element: string, attribute: string, message: string): Promise<string | null | undefined> {
-        reporter.startStep(message);
+        await reporter.startStep(message);
         let attributeValue = await (await page.$(element))?.getAttribute(attribute);
-        reporter.endStep();
+        await reporter.endStep();
         return attributeValue;
     }
 
+    async getLocatorsArray(element: string, message: string): Promise<ElementHandle<SVGElement | HTMLElement>[]> {
+        await reporter.startStep(message);
+        const locatorsArray = await page.$$(element);
+        await reporter.endStep();
+        return locatorsArray;
+    }
+
     async getNewTab(message?: string): Promise<Page> {
-        reporter.startStep(message);
+        await reporter.startStep(message);
         await this.getAllTabs(page.context());
-        reporter.endStep();
+        await reporter.endStep();
         return page.context().pages()[1];
     }
 
     async getTextContent(element: string, message: string): Promise<string|null> {
-        reporter.startStep(message);
+        await reporter.startStep(message);
         const title = await (await this.page.waitForSelector(element)).textContent();
-        reporter.endStep();
+        await reporter.endStep();
         return title;
     }
 
     async goto(path: string, message: string): Promise<void> {
-        reporter.startStep(message);
+        await reporter.startStep(message);
         await page.goto(this.url + path);
-        reporter.endStep();
+        await reporter.endStep();
     }
 
     async isHidden(element : string, message: string, seconds?: number): Promise<boolean> {
-        reporter.startStep(message);
+        await reporter.startStep(message);
 
         let secondsCount: number;
         let isHidden = false;
@@ -114,12 +127,12 @@ export default class BasePage {
                 break;
             }
         }
-        reporter.endStep();
+        await reporter.endStep();
         return isHidden;
     }
 
     async isVisible(element : string, message: string, seconds?: number): Promise<boolean> {
-        reporter.startStep(message);
+        await reporter.startStep(message);
 
         let secondsCount: number;
         let isVisible = false;
@@ -138,13 +151,13 @@ export default class BasePage {
                 break;
             }
         }
-        reporter.endStep();
+        await reporter.endStep();
         return isVisible;
     }
 
     async waitForNavigation(message: string): Promise<void> {
-        reporter.startStep(message);
+        await reporter.startStep(message);
         await page.waitForNavigation();
-        reporter.endStep();
+        await reporter.endStep();
     }
 }

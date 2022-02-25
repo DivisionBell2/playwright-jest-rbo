@@ -2,16 +2,16 @@
 login/authpopup
 в работе faqPage/navigation
 faqPage/openTab
+faqPage/searchByText
 
 2 итерация
-в работе landing/navigation 5/13
+в работе landing/navigation 6/13
 landing/supportMenu
 personalData/navigation
 personalData/popupWithLawsInfo
 login/login
 
 3. рефакторинг
-faqPage/searchByText
 feedbackPage/navigation
 feedbackPage/sendMessage
 personalData/middleName

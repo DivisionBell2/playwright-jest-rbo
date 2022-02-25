@@ -52,15 +52,18 @@ describe("Navigation on main page", () => {
     });
 
     test('Clicking on FAQ button', async () => {
-        header.click(header.selectors.faqLink, "Click on faq link");
+        await header.click(header.selectors.faqLink, "Click on faq link in header");
         expect(await faqPage.isVisible(faqPage.selectors.searchInput, "Check search input visible on faq page")).toBeTruthy();
     });
 
     test('Clicking on Feedback button', async () => {
-        await (await mainPage.getHeader()).clickFeedbackLink();
-        await feedbackPage.waitForNavigationFeedbackPage();
-        expect(await feedbackPage.checkMessageTextInputVisible()).toBeTruthy();
+        await header.click(header.selectors.feedbackLink, "Сlick feedback link in header");
+        await feedbackPage.waitForNavigation("wait for navigation feedback page");
+        expect(await feedbackPage.isVisible(feedbackPage.selectors.messageTextInput, "Check visibility of message text input on feedback page"))
+        .toBeTruthy();
     });
+
+    // Continue
 
     test('Clicking on FAQ button in landing block', async () => {
         await mainPage.clickFAQButton();
