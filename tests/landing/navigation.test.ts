@@ -63,12 +63,12 @@ describe("Navigation on main page", () => {
         .toBeTruthy();
     });
 
-    // Continue
-
     test('Clicking on FAQ button in landing block', async () => {
-        await mainPage.clickFAQButton();
-        expect(await faqPage.checkSearchInputVisible()).toBeTruthy();
+        await mainPage.click(mainPage.selectors.faqButton, "Click on FAQ button on landing");
+        expect(await faqPage.isVisible(faqPage.selectors.searchInput, "Check search input on FAQ page is visible")).toBeTruthy();
     });
+
+    // Continue
 
     test('Clicking on SberIcon and go to sberbank.ru', async () => {
         await mainPage.clickSberbankButton();
