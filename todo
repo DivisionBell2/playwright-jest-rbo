@@ -1,15 +1,17 @@
 1. готово
 login/authpopup
-в работе faqPage/navigation
 faqPage/openTab
 faqPage/searchByText
 
 2 итерация
 в работе landing/navigation 8/13
+faqPage/navigation
 landing/supportMenu
 personalData/navigation
 personalData/popupWithLawsInfo
 login/login
+Убрать кнопку с куками в отдельный блок
+getNewTab() - сделать лучше
 
 3. рефакторинг
 feedbackPage/navigation 1/5

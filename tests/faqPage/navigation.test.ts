@@ -17,6 +17,8 @@ describe("FAQ page navigation tests", () => {
         feedbackPage = new FeedbackPage();
         header = await faqPage.getHeader();
         footer = await faqPage.getFooter();
+
+        faqPage.click(faqPage.selectors.cookieButton, "Click on cookie button on FAQ page");
     });
 
     beforeEach(async () => {

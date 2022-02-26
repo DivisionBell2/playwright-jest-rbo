@@ -14,7 +14,8 @@ export default class FAQPage extends BasePage {
         searchInput: "//input[@name='faq-search']",
         tabItem: "//div[@class='ant-collapse-item']",
         closedTabItem: "//div[@class='ant-collapse-item']/div[@aria-expanded='false']",
-        answerBlock: "//div[@class='ant-collapse-content-box']"
+        answerBlock: "//div[@class='ant-collapse-content-box']",
+        cookieButton: "#test-cookieAlert_button",
     }
 
     path = "/rbidos/faq";

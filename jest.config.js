@@ -8,7 +8,10 @@ module.exports = {
     testRunner: 'jasmine2',
     setupFilesAfterEnv: ["jest-allure/dist/setup"],
     testMatch: [
-        "<rootDir>/tests/feedbackPage/navigation.test.ts"
+        // 8
+        "<rootDir>/tests/login/authpopup.test.ts",
+        "<rootDir>/tests/faqPage/openTab.test.ts",
+        "<rootDir>/tests/faqPage/searchByText.test.ts",
     ],
     bail: true,
     bail: 1,
