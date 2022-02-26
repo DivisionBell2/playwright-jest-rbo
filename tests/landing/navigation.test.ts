@@ -6,7 +6,7 @@ import SberbankPage from "../../pages/sberbankPage";
 import * as urlData from "../../data/checkDataUrls.json"
 import Header from "../../pages/blocks/header.pageBlock";
 
-describe("Navigation on main page", () => {
+describe("Navigation for feedback main page", () => {
     let mainPage: MainPage;
     let faqPage: FAQPage;
     let enterPersonalDataPage: EnterPersonalDataPage;
@@ -68,13 +68,13 @@ describe("Navigation on main page", () => {
         expect(await faqPage.isVisible(faqPage.selectors.searchInput, "Check search input on FAQ page is visible")).toBeTruthy();
     });
 
-    // Continue
-
     test('Clicking on SberIcon and go to sberbank.ru', async () => {
-        await mainPage.clickSberbankButton();
+        await mainPage.click(mainPage.selectors.goToSberBankButton, "Click on go to Sberbank button");
         const newTab = await mainPage.getNewTab();
         expect(newTab.url()).toContain(sberbankPage.checkData.urlDomen);
     });
+
+    // Continue
 
     test('Open youtube frame from header', async () => {
         await (await mainPage.getHeader()).clickVideoButton();

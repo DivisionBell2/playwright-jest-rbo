@@ -9,6 +9,12 @@ export default class FeedbackPage extends BasePage {
         messageTextInput: '#messageText'
     }
 
+    path = "/rbidos/feedback";
+
+    public async getHeader(): Promise<Header> {
+        return new Header();
+    }
+
     public async goToFeedbackPage() {
         await this.page.goto(this.url)
     }

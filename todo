@@ -5,14 +5,14 @@ faqPage/openTab
 faqPage/searchByText
 
 2 итерация
-в работе landing/navigation 7/13
+в работе landing/navigation 8/13
 landing/supportMenu
 personalData/navigation
 personalData/popupWithLawsInfo
 login/login
 
 3. рефакторинг
-feedbackPage/navigation
+feedbackPage/navigation 1/5
 feedbackPage/sendMessage
 personalData/middleName
 personalData/popupWithLawsInfo
