@@ -1,7 +1,6 @@
-import { Page } from "playwright";
-import Env from "../utils/environment";
 import BasePage from "./basePage.page";
 import Header from "./blocks/header.pageBlock";
+import VideoFrame from "./blocks/videoFrame.pageBlock";
 
 export default class FeedbackPage extends BasePage {
 
@@ -13,6 +12,10 @@ export default class FeedbackPage extends BasePage {
 
     public async getHeader(): Promise<Header> {
         return new Header();
+    }
+
+    public async getVideoFrame(): Promise<VideoFrame> {
+        return new VideoFrame();
     }
 
     public async goToFeedbackPage() {

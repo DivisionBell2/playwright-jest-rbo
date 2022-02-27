@@ -160,4 +160,10 @@ export default class BasePage {
         await page.waitForNavigation();
         await reporter.endStep();
     }
+
+    async waitForSelector(element: string, message: string): Promise<void> {
+        await reporter.startStep(message);
+        await page.waitForSelector(element);
+        await reporter.endStep();
+    }
 }

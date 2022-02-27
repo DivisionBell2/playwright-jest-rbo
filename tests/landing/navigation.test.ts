@@ -5,6 +5,7 @@ import MainPage from "../../pages/mainPage.page";
 import SberbankPage from "../../pages/sberbankPage";
 import * as urlData from "../../data/checkDataUrls.json"
 import Header from "../../pages/blocks/header.pageBlock";
+import VideoFrame from "../../pages/blocks/videoFrame.pageBlock";
 
 describe("Navigation for feedback main page", () => {
     let mainPage: MainPage;
@@ -13,6 +14,7 @@ describe("Navigation for feedback main page", () => {
     let feedbackPage: FeedbackPage;
     let sberbankPage: SberbankPage;
     let header: Header;
+    let videoFrame: VideoFrame;
 
     beforeAll(async () => {
         mainPage = new MainPage();
@@ -21,6 +23,7 @@ describe("Navigation for feedback main page", () => {
         feedbackPage = new FeedbackPage();
         sberbankPage = new SberbankPage();
         header = await mainPage.getHeader();
+        videoFrame = await mainPage.getVideoFrame();
     });
 
     beforeEach(async () => {
@@ -74,15 +77,14 @@ describe("Navigation for feedback main page", () => {
         expect(newTab.url()).toContain(sberbankPage.checkData.urlDomen);
     });
 
-    // Continue
-
     test('Open youtube frame from header', async () => {
-        await (await mainPage.getHeader()).clickVideoButton();
-        const videoFrame = await mainPage.getVideoFrame();
-        await videoFrame.waitForVideoFrame();
-        await videoFrame.clickCloseButton();
-        expect(await (await mainPage.getVideoFrame()).waitForVideoFrameHidden()).toBe(true);
+        await header.click(header.selectors.videoButton, "Click video button on header");
+        await videoFrame.waitForSelector(videoFrame.selectors.frame, "Wait for video frame appears");
+        await videoFrame.click(videoFrame.selectors.closeButton, "Click for close button on video frame");
+        expect(await videoFrame.isHidden(videoFrame.selectors.frame, "Wait for video frame is closed")).toBeTruthy();
     });
+
+    // Continue
 
     test('Clicking on Oferta link and go to oferta document', async () => {
         await mainPage.clickOfertaLink();

@@ -4,7 +4,7 @@ faqPage/openTab
 faqPage/searchByText
 
 2 итерация
-в работе landing/navigation 8/13
+в работе landing/navigation 9/13
 faqPage/navigation
 landing/supportMenu
 personalData/navigation
@@ -14,7 +14,7 @@ login/login
 getNewTab() - сделать лучше
 
 3. рефакторинг
-feedbackPage/navigation 1/5
+feedbackPage/navigation 2/5
 feedbackPage/sendMessage
 personalData/middleName
 personalData/popupWithLawsInfo
