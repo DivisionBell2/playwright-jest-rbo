@@ -2,18 +2,21 @@ import FeedbackPage from "../../pages/feedback.page";
 import MainPage from "../../pages/mainPage.page";
 import Header from "../../pages/blocks/header.pageBlock";
 import VideoFrame from "../../pages/blocks/videoFrame.pageBlock";
+import Footer from "../../pages/blocks/footer.pageBlock";
 
 describe("Navigation tests for feedback page", () => {
     let feedbackPage: FeedbackPage;
     let mainPage: MainPage;
     let header: Header;
     let videoFrame: VideoFrame;
+    let footer: Footer;
 
     beforeAll(async () => {
         feedbackPage = new FeedbackPage();
         mainPage = new MainPage();
         header = await feedbackPage.getHeader();
         videoFrame = await feedbackPage.getVideoFrame();
+        footer = await feedbackPage.getFooter();
     });
 
     beforeEach(async () => {
@@ -32,6 +35,12 @@ describe("Navigation tests for feedback page", () => {
         await videoFrame.waitForSelector(videoFrame.selectors.frame, "Wait for video frame appears");
         await videoFrame.click(videoFrame.selectors.closeButton, "Click for close button on video frame");
         expect(await videoFrame.isHidden(videoFrame.selectors.frame, "Wait for video frame is closed")).toBeTruthy();
+    });
+
+    test('Clicking on Read link in footer and go to Platform blogs', async () => {
+        await footer.click(footer.selectors.readLink, "Click read link on footer");
+        const newTab = await mainPage.getNewTab();
+        expect(newTab.url()).toContain(footer.checkData.platformReadLink);
     });
 
     afterEach(async () => {
@@ -55,22 +64,6 @@ describe("Navigation tests for feedback page", () => {
 //         context = await browser.newContext();
 //         page = await context.newPage();
 //         await page.goto("https://rbo.uat.dasreda.ru/rbidos/feedback");
-//     });
-
-//     test('Open youtube frame from header', async () => {
-//         await page.click("//span[@role='button' and contains(., 'Видеоинструкция')]");
-//         const frame = page.frame("//iframe[@title='YouTube video player']");
-//         await page.click("//i[@aria-label='icon: close']");
-//     });
-
-//     test('Clicking on Read link in footer and go to Platform blogs', async () => {
-//         await page.click("//div[contains(@class, 'ant-row MainFooter__footer-menu-content')]//li/a[contains(., 'Читать')]");
-//         const [newWindow] = await Promise.all([
-//             context.waitForEvent("page"),
-//         ]);
-//         await newWindow.waitForLoadState();
-//         expect(page.context().pages()[1].url()).toContain('uat.dasreda.ru/learn/blog');
-//         await page.context().pages()[1].close();
 //     });
 
 //     test('Clicking on Watch link in footer and go to Platform videos', async () => {

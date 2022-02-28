@@ -1,4 +1,5 @@
 import BasePage from "./basePage.page";
+import Footer from "./blocks/footer.pageBlock";
 import Header from "./blocks/header.pageBlock";
 import VideoFrame from "./blocks/videoFrame.pageBlock";
 
@@ -9,6 +10,10 @@ export default class FeedbackPage extends BasePage {
     }
 
     path = "/rbidos/feedback";
+
+    public async getFooter(): Promise<Footer> {
+        return new Footer();
+    }
 
     public async getHeader(): Promise<Header> {
         return new Header();

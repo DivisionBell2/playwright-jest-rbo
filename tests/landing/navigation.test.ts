@@ -84,13 +84,13 @@ describe("Navigation for feedback main page", () => {
         expect(await videoFrame.isHidden(videoFrame.selectors.frame, "Wait for video frame is closed")).toBeTruthy();
     });
 
-    // Continue
-
     test('Clicking on Oferta link and go to oferta document', async () => {
-        await mainPage.clickOfertaLink();
+        await mainPage.click(mainPage.selectors.ofertaLink, "Click oferta link");
         const newTab = await mainPage.getNewTab();
         expect(newTab.url()).toContain(urlData.ofertaLink);
     });
+
+    // Continue
 
     test('Clicking on Agreement link and go to agreement document', async () => {
         await mainPage.clickAgreementLink();
