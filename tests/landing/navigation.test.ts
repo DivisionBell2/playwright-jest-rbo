@@ -90,13 +90,13 @@ describe("Navigation for feedback main page", () => {
         expect(newTab.url()).toContain(urlData.ofertaLink);
     });
 
-    // Continue
-
     test('Clicking on Agreement link and go to agreement document', async () => {
-        await mainPage.clickAgreementLink();
+        await mainPage.click(mainPage.selectors.agreementLink, "Click agreements link");
         const newTab = await mainPage.getNewTab();
         expect(newTab.url()).toContain(urlData.agreements);
     });
+
+    // Continue
 
     test('Clicking on Read link in footer and go to Platform blogs', async () => {
         const footer = await mainPage.getFooter();
