@@ -107,6 +107,13 @@ export default class BasePage {
         await reporter.endStep();
     }
 
+    async isDisabled(element: string, message: string): Promise<boolean> {
+        await reporter.startStep(message);
+        const isEnabled = await page.isDisabled(element);
+        await reporter.endStep();
+        return isEnabled;
+    }
+
     async isHidden(element : string, message: string, seconds?: number): Promise<boolean> {
         await reporter.startStep(message);
 

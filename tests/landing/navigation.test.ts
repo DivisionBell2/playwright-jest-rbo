@@ -6,6 +6,7 @@ import SberbankPage from "../../pages/sberbankPage";
 import * as urlData from "../../data/checkDataUrls.json"
 import Header from "../../pages/blocks/header.pageBlock";
 import VideoFrame from "../../pages/blocks/videoFrame.pageBlock";
+import Footer from "../../pages/blocks/footer.pageBlock";
 
 describe("Navigation for feedback main page", () => {
     let mainPage: MainPage;
@@ -15,6 +16,7 @@ describe("Navigation for feedback main page", () => {
     let sberbankPage: SberbankPage;
     let header: Header;
     let videoFrame: VideoFrame;
+    let footer: Footer;
 
     beforeAll(async () => {
         mainPage = new MainPage();
@@ -24,6 +26,7 @@ describe("Navigation for feedback main page", () => {
         sberbankPage = new SberbankPage();
         header = await mainPage.getHeader();
         videoFrame = await mainPage.getVideoFrame();
+        footer = await mainPage.getFooter();
     });
 
     beforeEach(async () => {
@@ -96,14 +99,13 @@ describe("Navigation for feedback main page", () => {
         expect(newTab.url()).toContain(urlData.agreements);
     });
 
-    // Continue
-
     test('Clicking on Read link in footer and go to Platform blogs', async () => {
-        const footer = await mainPage.getFooter();
-        await footer.clickReadLink();
+        footer.click(footer.selectors.readLink, "Click on read link on footer");
         const newTab = await mainPage.getNewTab();
         expect(newTab.url()).toContain(footer.checkData.platformReadLink);
     });
+
+    // Continue
 
     test('Clicking on Watch link in footer and go to Platform blogs', async () => {
         const footer = await mainPage.getFooter();

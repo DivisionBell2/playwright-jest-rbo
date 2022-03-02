@@ -6,7 +6,12 @@ import VideoFrame from "./blocks/videoFrame.pageBlock";
 export default class FeedbackPage extends BasePage {
 
     selectors = {
-        messageTextInput: '#messageText'
+        messageTextInput: "#messageText",
+        usermailInput: "#userMail",
+
+        sendButton: "//button[contains(., 'Отправить')]",
+        infoSendedMessageText: "//p[contains(., 'Спасибо за ваше сообщение!')]"
+        
     }
 
     path = "/rbidos/feedback";

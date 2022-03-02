@@ -2,9 +2,10 @@
 login/authpopup
 faqPage/openTab
 faqPage/searchByText
+feedbackPage/navigation
 
 2. вторая итерация
-в работе landing/navigation 11/13
+в работе landing/navigation 12/13
 faqPage/navigation
 landing/supportMenu
 personalData/navigation
@@ -14,8 +15,7 @@ login/login
 getNewTab() - сделать лучше
 
 3. рефакторинг
-feedbackPage/navigation 3/5
-feedbackPage/sendMessage
+feedbackPage/sendMessage 1/2
 personalData/middleName
 personalData/popupWithLawsInfo
 personalData/registrationNewUser
