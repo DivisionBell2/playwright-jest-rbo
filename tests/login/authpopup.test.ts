@@ -31,6 +31,7 @@ describe("Auth popup functional tests", () => {
 
     test('Click on close button in registration popup', async () => {
         await authPopup.click(authPopup.selectors.registrationLink, "Click registration link on auth window");
+        await authPopup.waitForSelector(authPopup.selectors.firstNameInput, "Check first name input visible in registration block");
         await authPopup.click(authPopup.selectors.closeButton, "Click on close auth window button");
         expect(await authPopup.isHidden(authPopup.selectors.modalWindow, "Check the auth window closed")).toBeTruthy();
     });

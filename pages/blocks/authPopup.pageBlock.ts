@@ -1,4 +1,6 @@
+import User from "../../data/user";
 import BasePage from "../basePage.page";
+import Header from "./header.pageBlock";
 
 export default class AuthPopup extends BasePage {
 
@@ -96,5 +98,29 @@ export default class AuthPopup extends BasePage {
         await this.reporter.startStep("Click on sber id button");
         await page.click(this.selectors.sberIdButton);
         await this.reporter.endStep();
+    }
+
+    public async login(user: User) {
+        let header = new Header();
+        await header.click(header.selectors.enterButton, "Click enter button");
+        await this.click(this.selectors.registrationLink, "Click go to registration link");
+        await this.fill(this.selectors.firstNameInput, user.username, "Enter first name of user in first name input");
+        await this.fill(this.selectors.middleNameInput, user.username, "Enter middle name of user in middle name input");
+        await this.fill(this.selectors.lastNameInput, user.username, "Enter last name of user in last name input");
+        await this.fill(this.selectors.emailInput, user.email, "Enter user email in email input");
+        await this.fill(this.selectors.passwordInput, user.password, "Enter user password in password input");
+        await this.fill(this.selectors.passwordMatchInput, user.password, "Enter user password in password match input");
+        await this.click(this.selectors.agreementCheckbox, "Click on to agreement checkbox");
+        await this.click(this.selectors.registrationButton, "Click on to registration button");
+        await this.waitForSelector(this.selectors.confirmEmailInput, "Wait for confirm email input on popup");
+
+        await this.reloadPage();
+        await header.click(header.selectors.enterButton, "Click enter button");
+
+        await this.fill(this.selectors.usernameInput, user.email, "Enter email in auth email input");
+        await this.fill(this.selectors.authPasswordInput, user.password, "Enter password in auth password input");
+        await this.click(this.selectors.authButton, "Click auth button");
+
+        expect(await header.isVisible(header.selectors.userIcon, "Check user icon visible in header")).toBeTruthy();
     }
 }

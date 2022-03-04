@@ -105,11 +105,8 @@ describe("Navigation for feedback main page", () => {
         expect(newTab.url()).toContain(footer.checkData.platformReadLink);
     });
 
-    // Continue
-
     test('Clicking on Watch link in footer and go to Platform blogs', async () => {
-        const footer = await mainPage.getFooter();
-        await footer.clickWatchLink();
+        footer.click(footer.selectors.watchLink, "Click on watch link on footer");
         const newTab = await mainPage.getNewTab();
         expect(newTab.url()).toContain(footer.checkData.platformWatchLink);
     });

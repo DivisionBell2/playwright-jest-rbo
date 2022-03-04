@@ -3,19 +3,19 @@ login/authpopup
 faqPage/openTab
 faqPage/searchByText
 feedbackPage/navigation
+landing/navigation
+login/login
+feedbackPage/sendMessage
 
 2. вторая итерация
-в работе landing/navigation 12/13
-faqPage/navigation
+faqPage/navigation 1/4
 landing/supportMenu
 personalData/navigation
 personalData/popupWithLawsInfo
-login/login
 Убрать кнопку с куками в отдельный блок
 getNewTab() - сделать лучше
 
 3. рефакторинг
-feedbackPage/sendMessage 1/2
 personalData/middleName
 personalData/popupWithLawsInfo
 personalData/registrationNewUser

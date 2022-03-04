@@ -11,26 +11,26 @@ describe("Login new user from Main Page", () => {
         const authModal = await mainPage.getAuthPopup();
         user = new User();
 
-        await mainPage.goToMainPage();
-        await header.clickEnterButton();
+        await mainPage.goto("", "Open main page");
+        await header.click(header.selectors.enterButton, "Click enter button");
+        await authModal.click(authModal.selectors.registrationLink, "Click go to registration link");
+        await authModal.fill(authModal.selectors.firstNameInput, user.username, "Enter first name of user in first name input");
+        await authModal.fill(authModal.selectors.middleNameInput, user.username, "Enter middle name of user in middle name input");
+        await authModal.fill(authModal.selectors.lastNameInput, user.username, "Enter last name of user in last name input");
+        await authModal.fill(authModal.selectors.emailInput, user.email, "Enter user email in email input");
+        await authModal.fill(authModal.selectors.passwordInput, user.password, "Enter user password in password input");
+        await authModal.fill(authModal.selectors.passwordMatchInput, user.password, "Enter user password in password match input");
+        await authModal.click(authModal.selectors.agreementCheckbox, "Click on to agreement checkbox");
+        await authModal.click(authModal.selectors.registrationButton, "Click on to registration button");
+        await authModal.waitForSelector(authModal.selectors.confirmEmailInput, "Wait for confirm email input on popup");
 
-        await authModal.clickRegistrationLink();
-        await authModal.enterFirstName(user.username);
-        await authModal.enterMiddleName(user.username);
-        await authModal.enterLastName(user.username);
-        await authModal.enterEmail(user.email);
-        await authModal.enterPassword(user.password);
-        await authModal.enterPasswordMatch(user.password);
-        await authModal.clickAgreementCheckbox();
-        await authModal.clickRegistrationButton();
+        await authModal.reloadPage();
+        await header.click(header.selectors.enterButton, "Click enter button");
 
-        await mainPage.reloadPage();
-        await header.clickEnterButton();
+        await authModal.fill(authModal.selectors.usernameInput, user.email, "Enter email in auth email input");
+        await authModal.fill(authModal.selectors.authPasswordInput, user.password, "Enter password in auth password input");
+        await authModal.click(authModal.selectors.authButton, "Click auth button");
 
-        await authModal.enterUsername(user.email);
-        await authModal.enterAuthPassword(user.password);
-        await authModal.clickAuthButton();
-
-        expect(await header.isUserIconVisible()).toBeTruthy();
+        expect(await header.isVisible(header.selectors.userIcon, "Check user icon visible in header")).toBeTruthy();
     });
 });
