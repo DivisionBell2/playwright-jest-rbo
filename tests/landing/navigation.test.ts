@@ -8,7 +8,7 @@ import Header from "../../pages/blocks/header.pageBlock";
 import VideoFrame from "../../pages/blocks/videoFrame.pageBlock";
 import Footer from "../../pages/blocks/footer.pageBlock";
 
-describe("Navigation for feedback main page", () => {
+describe("Navigation on main page", () => {
     let mainPage: MainPage;
     let faqPage: FAQPage;
     let enterPersonalDataPage: EnterPersonalDataPage;

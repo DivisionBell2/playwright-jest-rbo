@@ -2,11 +2,11 @@ import BasePage from "../basePage.page";
 
 export default class SupportMenu extends BasePage {
 
-    public checkData = {
+    checkData = {
         popupStyleDisplayNone: "display: none;",
     }
 
-    private selectors = {
+    selectors = {
         supportMenuButton: "//div[@role='button' and contains(@class, 'SupportCall__messenger')]",
         supportMenuOpenedButton: "//div[@role='button' and contains(@class, 'SupportCall__messenger-opened')]",
         phoneButton: "//div[@role='button' and contains(@class, 'SupportCall__messenger-phone')]",

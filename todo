@@ -8,18 +8,18 @@ login/login
 feedbackPage/sendMessage
 
 2. вторая итерация
-faqPage/navigation 1/4
-landing/supportMenu
+faqPage/navigation 2/4
+landing/supportMenu 1/4
 personalData/navigation
 personalData/popupWithLawsInfo
 Убрать кнопку с куками в отдельный блок
 getNewTab() - сделать лучше
 
 3. рефакторинг
+phoneValidation/navigation 1/8
 personalData/middleName
 personalData/popupWithLawsInfo
 personalData/registrationNewUser
-phoneValidation/navigation
 checkOnlineRegistration/navigation
 checkOnlineRegistration/answerVariantsOfCheckOnline
 enterPassportData/navigation

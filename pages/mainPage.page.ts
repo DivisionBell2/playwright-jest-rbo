@@ -89,4 +89,11 @@ export default class MainPage extends BasePage {
     public async getTitleText(): Promise<string|null> {
         return await (await this.page.waitForSelector(this.selectors.title)).textContent();
     }
+
+    // new
+    public async clickOnCookieButton(): Promise<void> {
+        if (await this.isVisible(this.selectors.cookieButton, "Check is cookie button exist on page")) {
+            await this.click(this.selectors.cookieButton, "Click on cookie button");
+        }
+    }
 }

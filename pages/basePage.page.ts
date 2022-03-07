@@ -162,6 +162,13 @@ export default class BasePage {
         return isVisible;
     }
 
+    async reload(message: string): Promise<void> {
+        await reporter.startStep(message);
+        await page.reload();
+        await reporter.endStep();
+    }
+
+
     async waitForNavigation(message: string): Promise<void> {
         await reporter.startStep(message);
         await page.waitForNavigation();
