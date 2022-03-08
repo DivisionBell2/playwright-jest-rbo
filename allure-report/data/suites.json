@@ -1,478 +1,50 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "children" : [ {
-    "name" : "Check working popup with law information from personal data page",
+    "name" : "Functional tests for auth popup",
     "children" : [ {
-      "name" : "Check working popup with law information from personal data page",
-      "uid" : "c57709ba9062b490",
-      "parentUid" : "ea0be816a5273daf768fc9557e9664d6",
+      "name" : "Click on close button in auth popup",
+      "uid" : "10088c4534300fa4",
+      "parentUid" : "2f27d765636d587a577fdc7befa48dc4",
       "status" : "passed",
       "time" : {
-        "start" : 1644934094401,
-        "stop" : 1644934097401,
-        "duration" : 3000
+        "start" : 1645179308719,
+        "stop" : 1645179312304,
+        "duration" : 3585
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 5,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    } ],
-    "uid" : "ea0be816a5273daf768fc9557e9664d6"
-  }, {
-    "name" : "Login new user from Main Page",
-    "children" : [ {
-      "name" : "Login new user",
-      "uid" : "3eedd1116238277",
-      "parentUid" : "b9b4372e85bf5bcd04ccc8fb41a3a47b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645012915861,
-        "stop" : 1645012926520,
-        "duration" : 10659
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 8,
-      "retriesStatusChange" : true,
-      "parameters" : [ ]
-    } ],
-    "uid" : "b9b4372e85bf5bcd04ccc8fb41a3a47b"
-  }, {
-    "name" : "Working of support menu",
-    "children" : [ {
-      "name" : "Open and close support menu",
-      "uid" : "3801aa5afddf3c10",
-      "parentUid" : "763ded477f8ae086710880d671d7604c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645027163233,
-        "stop" : 1645027164488,
-        "duration" : 1255
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 6,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Open and close support phone popup",
-      "uid" : "a0a20dd6391399ac",
-      "parentUid" : "763ded477f8ae086710880d671d7604c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645027164488,
-        "stop" : 1645027168202,
-        "duration" : 3714
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 6,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Open and close telegram popup",
-      "uid" : "d4372f99e7fb4afd",
-      "parentUid" : "763ded477f8ae086710880d671d7604c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645027168202,
-        "stop" : 1645027170914,
-        "duration" : 2712
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 6,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Go to feedback page",
-      "uid" : "f457e932a1895919",
-      "parentUid" : "763ded477f8ae086710880d671d7604c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645027170914,
-        "stop" : 1645027172213,
-        "duration" : 1299
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 6,
-      "retriesStatusChange" : true,
-      "parameters" : [ ]
-    } ],
-    "uid" : "763ded477f8ae086710880d671d7604c"
-  }, {
-    "name" : "Navigation on main page",
-    "children" : [ {
-      "name" : "Click on start business registration as entrepreneur",
-      "uid" : "c00da8778f3af2c1",
-      "parentUid" : "02e4e87c2f4dc388e7b0209260569d60",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645027164779,
-        "stop" : 1645027166634,
-        "duration" : 1855
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 29,
+      "retriesCount" : 26,
       "retriesStatusChange" : true,
       "parameters" : [ ]
     }, {
-      "name" : "Click on start business registration as legal entity",
-      "uid" : "6580a0cbaa51ec56",
-      "parentUid" : "02e4e87c2f4dc388e7b0209260569d60",
+      "name" : "Click on close button in registration popup",
+      "uid" : "c2014cbb76088ab9",
+      "parentUid" : "2f27d765636d587a577fdc7befa48dc4",
       "status" : "passed",
       "time" : {
-        "start" : 1645027166634,
-        "stop" : 1645027167429,
-        "duration" : 795
+        "start" : 1645179312304,
+        "stop" : 1645179315361,
+        "duration" : 3057
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 29,
-      "retriesStatusChange" : true,
-      "parameters" : [ ]
-    }, {
-      "name" : "Clicking on FAQ button",
-      "uid" : "b8fe32e58e6bc0e1",
-      "parentUid" : "02e4e87c2f4dc388e7b0209260569d60",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645027167429,
-        "stop" : 1645027168821,
-        "duration" : 1392
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 14,
-      "retriesStatusChange" : true,
-      "parameters" : [ ]
-    }, {
-      "name" : "Clicking on Feedback button",
-      "uid" : "b14a8af43de30af9",
-      "parentUid" : "02e4e87c2f4dc388e7b0209260569d60",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645027168821,
-        "stop" : 1645027170069,
-        "duration" : 1248
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 14,
-      "retriesStatusChange" : true,
-      "parameters" : [ ]
-    }, {
-      "name" : "Clicking on FAQ button in landing block",
-      "uid" : "8a8c9ed7eba946dd",
-      "parentUid" : "02e4e87c2f4dc388e7b0209260569d60",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645027170069,
-        "stop" : 1645027171306,
-        "duration" : 1237
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 14,
-      "retriesStatusChange" : true,
-      "parameters" : [ ]
-    }, {
-      "name" : "Clicking on SberIcon and go to sberbank.ru",
-      "uid" : "419c1eb549892179",
-      "parentUid" : "02e4e87c2f4dc388e7b0209260569d60",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645027171306,
-        "stop" : 1645027172296,
-        "duration" : 990
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 14,
-      "retriesStatusChange" : true,
-      "parameters" : [ ]
-    }, {
-      "name" : "Open youtube frame from header",
-      "uid" : "b9e283d572dc1671",
-      "parentUid" : "02e4e87c2f4dc388e7b0209260569d60",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645027172296,
-        "stop" : 1645027173155,
-        "duration" : 859
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 14,
-      "retriesStatusChange" : true,
-      "parameters" : [ ]
-    }, {
-      "name" : "Clicking on Oferta link and go to oferta document",
-      "uid" : "dba43d2464a8fd2f",
-      "parentUid" : "02e4e87c2f4dc388e7b0209260569d60",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645027173155,
-        "stop" : 1645027174124,
-        "duration" : 969
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 14,
-      "retriesStatusChange" : true,
-      "parameters" : [ ]
-    }, {
-      "name" : "Clicking on Agreement link and go to agreement document",
-      "uid" : "f41bd12d8088074d",
-      "parentUid" : "02e4e87c2f4dc388e7b0209260569d60",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645027174124,
-        "stop" : 1645027174955,
-        "duration" : 831
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 14,
-      "retriesStatusChange" : true,
-      "parameters" : [ ]
-    }, {
-      "name" : "Clicking on Read link in footer and go to Platform blogs",
-      "uid" : "f0f4f60e94a0ba91",
-      "parentUid" : "02e4e87c2f4dc388e7b0209260569d60",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645027174955,
-        "stop" : 1645027175939,
-        "duration" : 984
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 14,
-      "retriesStatusChange" : true,
-      "parameters" : [ ]
-    }, {
-      "name" : "Clicking on Watch link in footer and go to Platform blogs",
-      "uid" : "53b77ab4e62305ec",
-      "parentUid" : "02e4e87c2f4dc388e7b0209260569d60",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645027175939,
-        "stop" : 1645027176828,
-        "duration" : 889
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 14,
-      "retriesStatusChange" : true,
-      "parameters" : [ ]
-    } ],
-    "uid" : "02e4e87c2f4dc388e7b0209260569d60"
-  }, {
-    "name" : "Navigation on enter personal data page",
-    "children" : [ {
-      "name" : "Clicking on FAQ button",
-      "uid" : "4906bd526adf604e",
-      "parentUid" : "7cd9be344ef3af84b849cced6a6fde13",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645038161022,
-        "stop" : 1645038163511,
-        "duration" : 2489
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 27,
-      "retriesStatusChange" : true,
-      "parameters" : [ ]
-    }, {
-      "name" : "Clicking on logo",
-      "uid" : "d2be67a71b986a80",
-      "parentUid" : "7cd9be344ef3af84b849cced6a6fde13",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645038163512,
-        "stop" : 1645038165153,
-        "duration" : 1641
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 27,
+      "retriesCount" : 13,
       "retriesStatusChange" : true,
       "parameters" : [ ]
     }, {
       "name" : "Clicking on login through SberId button",
-      "uid" : "331f79ce1b4d1358",
-      "parentUid" : "7cd9be344ef3af84b849cced6a6fde13",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645038165153,
-        "stop" : 1645038168006,
-        "duration" : 2853
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 27,
-      "retriesStatusChange" : true,
-      "parameters" : [ ]
-    }, {
-      "name" : "Clicking on Feedback button",
-      "uid" : "8acde99efb3bf4f",
-      "parentUid" : "7cd9be344ef3af84b849cced6a6fde13",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645038168006,
-        "stop" : 1645038171950,
-        "duration" : 3944
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 27,
-      "retriesStatusChange" : true,
-      "parameters" : [ ]
-    }, {
-      "name" : "Clicking on dasreda.ru link",
-      "uid" : "816c610542f4f2ef",
-      "parentUid" : "7cd9be344ef3af84b849cced6a6fde13",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645038171950,
-        "stop" : 1645038174202,
-        "duration" : 2252
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 27,
-      "retriesStatusChange" : true,
-      "parameters" : [ ]
-    }, {
-      "name" : "Clicking on agreement link",
-      "uid" : "1b4b9bf3e0fa8df7",
-      "parentUid" : "7cd9be344ef3af84b849cced6a6fde13",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645038174202,
-        "stop" : 1645038175876,
-        "duration" : 1674
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 27,
-      "retriesStatusChange" : true,
-      "parameters" : [ ]
-    }, {
-      "name" : "Clicking on oferta link in footer",
-      "uid" : "f2fd2a2249a31c0e",
-      "parentUid" : "7cd9be344ef3af84b849cced6a6fde13",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645038175876,
-        "stop" : 1645038177655,
-        "duration" : 1779
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 27,
-      "retriesStatusChange" : true,
-      "parameters" : [ ]
-    }, {
-      "name" : "Clicking on privacy policy link in footer",
-      "uid" : "ae1889fbf19936ba",
-      "parentUid" : "7cd9be344ef3af84b849cced6a6fde13",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645038177655,
-        "stop" : 1645038181124,
-        "duration" : 3469
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 27,
-      "retriesStatusChange" : true,
-      "parameters" : [ ]
-    }, {
-      "name" : "Clicking on personal data agreement link in footer",
-      "uid" : "ac9e0e2df165afc6",
-      "parentUid" : "7cd9be344ef3af84b849cced6a6fde13",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645038181124,
-        "stop" : 1645038183568,
-        "duration" : 2444
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 27,
-      "retriesStatusChange" : true,
-      "parameters" : [ ]
-    } ],
-    "uid" : "7cd9be344ef3af84b849cced6a6fde13"
-  }, {
-    "name" : "Functional tests for auth popup",
-    "children" : [ {
-      "name" : "Click on close button in auth popup",
-      "uid" : "1c5a7ae7aa5bb0d0",
+      "uid" : "2b04aa5ce7c50492",
       "parentUid" : "2f27d765636d587a577fdc7befa48dc4",
       "status" : "passed",
       "time" : {
-        "start" : 1645042261165,
-        "stop" : 1645042264908,
-        "duration" : 3743
+        "start" : 1645179315361,
+        "stop" : 1645179320228,
+        "duration" : 4867
       },
       "flaky" : false,
       "newFailed" : false,
@@ -481,8 +53,1359 @@
       "retriesCount" : 12,
       "retriesStatusChange" : true,
       "parameters" : [ ]
+    }, {
+      "name" : "Go to reset password page",
+      "uid" : "976c33f94e2f361",
+      "parentUid" : "2f27d765636d587a577fdc7befa48dc4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645179320228,
+        "stop" : 1645179321678,
+        "duration" : 1450
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 9,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Changing mode of viewing password",
+      "uid" : "e21e64a8e769b515",
+      "parentUid" : "2f27d765636d587a577fdc7befa48dc4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645179321678,
+        "stop" : 1645179322706,
+        "duration" : 1028
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
     } ],
     "uid" : "2f27d765636d587a577fdc7befa48dc4"
+  }, {
+    "name" : "Search tests for FAQ page",
+    "children" : [ {
+      "name" : "Search by text",
+      "uid" : "7e9e7fe53ab2c3ae",
+      "parentUid" : "74ec89d3f206873c7653f7aa2c455077",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645531938458,
+        "stop" : 1645531938585,
+        "duration" : 127
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "74ec89d3f206873c7653f7aa2c455077"
+  }, {
+    "name" : "Navigation tests for FAQ page FAQ page navigation tests",
+    "children" : [ {
+      "name" : "Clicking on logo",
+      "uid" : "6d69831690554c3d",
+      "parentUid" : "db83f96491449d578df44e023ecfa5e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645607509478,
+        "stop" : 1645607512743,
+        "duration" : 3265
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 11,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Clicking on Feedback button",
+      "uid" : "2dcfa9a49722a6ff",
+      "parentUid" : "db83f96491449d578df44e023ecfa5e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645607512743,
+        "stop" : 1645607515514,
+        "duration" : 2771
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 9,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Clicking on Read link in footer and go to Platform blogs",
+      "uid" : "581e1c349a4a8634",
+      "parentUid" : "db83f96491449d578df44e023ecfa5e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645607515514,
+        "stop" : 1645607516445,
+        "duration" : 931
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 5,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Clicking on Watch link in footer and go to Platform videos",
+      "uid" : "19b9d58e1fcf992b",
+      "parentUid" : "db83f96491449d578df44e023ecfa5e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645607516445,
+        "stop" : 1645607517349,
+        "duration" : 904
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "db83f96491449d578df44e023ecfa5e4"
+  }, {
+    "name" : "Navigation on personal data page",
+    "children" : [ {
+      "name" : "Registration new user",
+      "uid" : "f737e05fd1c5cec0",
+      "parentUid" : "ae8c26f783fab82da77ddf247b68a143",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895714731,
+        "stop" : 1645895719394,
+        "duration" : 4663
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Registration new user without middle name",
+      "uid" : "46815b9a60458195",
+      "parentUid" : "ae8c26f783fab82da77ddf247b68a143",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895719394,
+        "stop" : 1645895721868,
+        "duration" : 2474
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ae8c26f783fab82da77ddf247b68a143"
+  }, {
+    "name" : "Check working popup with law information from personal data page",
+    "children" : [ {
+      "name" : "Check working popup with law information from personal data page",
+      "uid" : "9a0d12aea7b1fef9",
+      "parentUid" : "ea0be816a5273daf768fc9557e9664d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895738151,
+        "stop" : 1645895741946,
+        "duration" : 3795
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 9,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ea0be816a5273daf768fc9557e9664d6"
+  }, {
+    "name" : "Check working entering personal data without middleName #test-landing-upper-ip_button",
+    "children" : [ {
+      "name" : "Start registration business for logined user with delete middle name",
+      "uid" : "22c3d43ff76ac1b2",
+      "parentUid" : "f974373af3ac15a9e5e74cb92dc0da4b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645896040823,
+        "stop" : 1645896046128,
+        "duration" : 5305
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 7,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f974373af3ac15a9e5e74cb92dc0da4b"
+  }, {
+    "name" : "Check working entering personal data without middleName #test-landing-upper-ooo_button",
+    "children" : [ {
+      "name" : "Start registration business for logined user with delete middle name",
+      "uid" : "ec262968215e4acf",
+      "parentUid" : "59a4cf60e7ec660f0fc9e4b9e4d0a752",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645896059807,
+        "stop" : 1645896065321,
+        "duration" : 5514
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 7,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "59a4cf60e7ec660f0fc9e4b9e4d0a752"
+  }, {
+    "name" : "Working of support menu",
+    "children" : [ {
+      "name" : "Open and close support menu",
+      "uid" : "aee2dfcaa9a30189",
+      "parentUid" : "763ded477f8ae086710880d671d7604c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645899331348,
+        "stop" : 1645899332655,
+        "duration" : 1307
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 13,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Go to feedback page",
+      "uid" : "c1cacfea378b3552",
+      "parentUid" : "763ded477f8ae086710880d671d7604c",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1646584097354,
+        "stop" : 1646584097354,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 15,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Close support menu",
+      "uid" : "944b48b3fc11f1d2",
+      "parentUid" : "763ded477f8ae086710880d671d7604c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646761025256,
+        "stop" : 1646761030115,
+        "duration" : 4859
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 6,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Open and close support phone popup",
+      "uid" : "d13944391425367b",
+      "parentUid" : "763ded477f8ae086710880d671d7604c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646761030115,
+        "stop" : 1646761037906,
+        "duration" : 7791
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 20,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Open and close telegram popup",
+      "uid" : "c10e668c875d63a0",
+      "parentUid" : "763ded477f8ae086710880d671d7604c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646761037906,
+        "stop" : 1646761043423,
+        "duration" : 5517
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 18,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "763ded477f8ae086710880d671d7604c"
+  }, {
+    "name" : "FAQ page navigation tests",
+    "children" : [ {
+      "name" : "Clicking on logo",
+      "uid" : "1a52acf1a2e914ce",
+      "parentUid" : "1252c122b3d3be9a12be74f6224fff2c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645899380680,
+        "stop" : 1645899384926,
+        "duration" : 4246
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 24,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Clicking on Feedback button",
+      "uid" : "f454a802e97ec730",
+      "parentUid" : "1252c122b3d3be9a12be74f6224fff2c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645899384926,
+        "stop" : 1645899386294,
+        "duration" : 1368
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 24,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Clicking on Read link in footer and go to Platform blogs",
+      "uid" : "b8bb3037a59ba9dd",
+      "parentUid" : "1252c122b3d3be9a12be74f6224fff2c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645899386294,
+        "stop" : 1645899387219,
+        "duration" : 925
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 24,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Clicking on Watch link in footer and go to Platform videos",
+      "uid" : "f79f4bfcdc9ac388",
+      "parentUid" : "1252c122b3d3be9a12be74f6224fff2c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645899387219,
+        "stop" : 1645899388488,
+        "duration" : 1269
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 24,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "1252c122b3d3be9a12be74f6224fff2c"
+  }, {
+    "name" : "Send message from FAQ page",
+    "children" : [ {
+      "name" : "Send message by not authorized user",
+      "uid" : "9a5f3a96ba7c592e",
+      "parentUid" : "f8e58981ef71251669bf375cf1ac9b5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645899411389,
+        "stop" : 1645899413966,
+        "duration" : 2577
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Send message by authorized user",
+      "uid" : "78086b9a45f2de01",
+      "parentUid" : "f8e58981ef71251669bf375cf1ac9b5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645899413966,
+        "stop" : 1645899422774,
+        "duration" : 8808
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f8e58981ef71251669bf375cf1ac9b5c"
+  }, {
+    "name" : "Navigation on enter personal data page",
+    "children" : [ {
+      "name" : "Clicking on FAQ button",
+      "uid" : "caf1f37530cc4d2c",
+      "parentUid" : "7cd9be344ef3af84b849cced6a6fde13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645899450917,
+        "stop" : 1645899456295,
+        "duration" : 5378
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 36,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Clicking on logo",
+      "uid" : "d7a927cf6aff3179",
+      "parentUid" : "7cd9be344ef3af84b849cced6a6fde13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645899456295,
+        "stop" : 1645899458147,
+        "duration" : 1852
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 36,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Clicking on login through SberId button",
+      "uid" : "b51784683a384673",
+      "parentUid" : "7cd9be344ef3af84b849cced6a6fde13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645899458147,
+        "stop" : 1645899464579,
+        "duration" : 6432
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 36,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Clicking on Feedback button",
+      "uid" : "f6e08db7ab57e64b",
+      "parentUid" : "7cd9be344ef3af84b849cced6a6fde13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645899464579,
+        "stop" : 1645899468673,
+        "duration" : 4094
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 36,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Clicking on dasreda.ru link",
+      "uid" : "b4a92d9d513081cb",
+      "parentUid" : "7cd9be344ef3af84b849cced6a6fde13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645899468673,
+        "stop" : 1645899471901,
+        "duration" : 3228
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 36,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Clicking on agreement link",
+      "uid" : "95c7330149b29f55",
+      "parentUid" : "7cd9be344ef3af84b849cced6a6fde13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645899471902,
+        "stop" : 1645899474077,
+        "duration" : 2175
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 36,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Clicking on oferta link in footer",
+      "uid" : "4cf8e3b9c175deb3",
+      "parentUid" : "7cd9be344ef3af84b849cced6a6fde13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645899474078,
+        "stop" : 1645899476172,
+        "duration" : 2094
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 36,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Clicking on privacy policy link in footer",
+      "uid" : "7132be1024695f78",
+      "parentUid" : "7cd9be344ef3af84b849cced6a6fde13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645899476172,
+        "stop" : 1645899478160,
+        "duration" : 1988
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 36,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Clicking on personal data agreement link in footer",
+      "uid" : "ed597a2cd7184d3b",
+      "parentUid" : "7cd9be344ef3af84b849cced6a6fde13",
+      "status" : "failed",
+      "time" : {
+        "start" : 1645899478160,
+        "stop" : 1645899504684,
+        "duration" : 26524
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 36,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7cd9be344ef3af84b849cced6a6fde13"
+  }, {
+    "name" : "Navigation for feedback main page",
+    "children" : [ {
+      "name" : "Click on start business registration as entrepreneur",
+      "uid" : "9d9516cb0260351e",
+      "parentUid" : "088f6e1ab600845aa2191cadc5fc3b87",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646387991933,
+        "stop" : 1646387992743,
+        "duration" : 810
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 33,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Click on start business registration as legal entity",
+      "uid" : "bd908cfb72696fb8",
+      "parentUid" : "088f6e1ab600845aa2191cadc5fc3b87",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646387992743,
+        "stop" : 1646387993487,
+        "duration" : 744
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 33,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Clicking on FAQ button",
+      "uid" : "48762c344ca33410",
+      "parentUid" : "088f6e1ab600845aa2191cadc5fc3b87",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646387993487,
+        "stop" : 1646387995151,
+        "duration" : 1664
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 16,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Clicking on Feedback button",
+      "uid" : "85d553ae8f5ce79f",
+      "parentUid" : "088f6e1ab600845aa2191cadc5fc3b87",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646387995151,
+        "stop" : 1646387996190,
+        "duration" : 1039
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 16,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Clicking on FAQ button in landing block",
+      "uid" : "a4de56afb493e01c",
+      "parentUid" : "088f6e1ab600845aa2191cadc5fc3b87",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646387996190,
+        "stop" : 1646387997755,
+        "duration" : 1565
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 16,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Clicking on SberIcon and go to sberbank.ru",
+      "uid" : "92070ef6b183368",
+      "parentUid" : "088f6e1ab600845aa2191cadc5fc3b87",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646387997755,
+        "stop" : 1646387998715,
+        "duration" : 960
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 16,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Open youtube frame from header",
+      "uid" : "8bcf4b29ce92cf9f",
+      "parentUid" : "088f6e1ab600845aa2191cadc5fc3b87",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646387998715,
+        "stop" : 1646387999433,
+        "duration" : 718
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 16,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Clicking on Oferta link and go to oferta document",
+      "uid" : "65f99328cd1010a3",
+      "parentUid" : "088f6e1ab600845aa2191cadc5fc3b87",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646387999433,
+        "stop" : 1646388000183,
+        "duration" : 750
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 16,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Clicking on Agreement link and go to agreement document",
+      "uid" : "4fb64a2c848a27c4",
+      "parentUid" : "088f6e1ab600845aa2191cadc5fc3b87",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646388000183,
+        "stop" : 1646388001414,
+        "duration" : 1231
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 16,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Clicking on Read link in footer and go to Platform blogs",
+      "uid" : "5cd6a5e97530920f",
+      "parentUid" : "088f6e1ab600845aa2191cadc5fc3b87",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646388001414,
+        "stop" : 1646388002494,
+        "duration" : 1080
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 16,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Clicking on Watch link in footer and go to Platform blogs",
+      "uid" : "f777f7d80f95d0c2",
+      "parentUid" : "088f6e1ab600845aa2191cadc5fc3b87",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646388002494,
+        "stop" : 1646388003349,
+        "duration" : 855
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 16,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "088f6e1ab600845aa2191cadc5fc3b87"
+  }, {
+    "name" : "Open tab in FAQ page",
+    "children" : [ {
+      "name" : "Open tab with answer",
+      "uid" : "ff5b3b1522116db1",
+      "parentUid" : "915e60da68a54cddb3c92e80015b14af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646756769253,
+        "stop" : 1646756777031,
+        "duration" : 7778
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 24,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "915e60da68a54cddb3c92e80015b14af"
+  }, {
+    "name" : "Navigation on main page",
+    "children" : [ {
+      "name" : "Click on start business registration as entrepreneur",
+      "uid" : "51372151045dffd8",
+      "parentUid" : "02e4e87c2f4dc388e7b0209260569d60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646756800940,
+        "stop" : 1646756801564,
+        "duration" : 624
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 57,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Click on start business registration as legal entity",
+      "uid" : "653c46b5d7034a77",
+      "parentUid" : "02e4e87c2f4dc388e7b0209260569d60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646756801564,
+        "stop" : 1646756802301,
+        "duration" : 737
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 57,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Clicking on FAQ button",
+      "uid" : "ec5b7600982853f7",
+      "parentUid" : "02e4e87c2f4dc388e7b0209260569d60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646756802301,
+        "stop" : 1646756803865,
+        "duration" : 1564
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 28,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Clicking on Feedback button",
+      "uid" : "8fecbe12e0976e14",
+      "parentUid" : "02e4e87c2f4dc388e7b0209260569d60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646756803865,
+        "stop" : 1646756805094,
+        "duration" : 1229
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 28,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Clicking on FAQ button in landing block",
+      "uid" : "ef38a1e273c63188",
+      "parentUid" : "02e4e87c2f4dc388e7b0209260569d60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646756805094,
+        "stop" : 1646756806603,
+        "duration" : 1509
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 28,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Clicking on SberIcon and go to sberbank.ru",
+      "uid" : "8cb30a66a2aaf396",
+      "parentUid" : "02e4e87c2f4dc388e7b0209260569d60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646756806603,
+        "stop" : 1646756807480,
+        "duration" : 877
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 28,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Open youtube frame from header",
+      "uid" : "d9a0790656fe78a8",
+      "parentUid" : "02e4e87c2f4dc388e7b0209260569d60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646756807480,
+        "stop" : 1646756808272,
+        "duration" : 792
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 28,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Clicking on Oferta link and go to oferta document",
+      "uid" : "1255d8c122dc8ac4",
+      "parentUid" : "02e4e87c2f4dc388e7b0209260569d60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646756808272,
+        "stop" : 1646756809213,
+        "duration" : 941
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 28,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Clicking on Agreement link and go to agreement document",
+      "uid" : "da8956cd2c12c2ce",
+      "parentUid" : "02e4e87c2f4dc388e7b0209260569d60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646756809213,
+        "stop" : 1646756810106,
+        "duration" : 893
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 28,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Clicking on Read link in footer and go to Platform blogs",
+      "uid" : "565847a15fe407dd",
+      "parentUid" : "02e4e87c2f4dc388e7b0209260569d60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646756810106,
+        "stop" : 1646756811035,
+        "duration" : 929
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 28,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Clicking on Watch link in footer and go to Platform blogs",
+      "uid" : "16f3a5beb77f0399",
+      "parentUid" : "02e4e87c2f4dc388e7b0209260569d60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646756811035,
+        "stop" : 1646756812349,
+        "duration" : 1314
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 28,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "02e4e87c2f4dc388e7b0209260569d60"
+  }, {
+    "name" : "Auth popup functional tests",
+    "children" : [ {
+      "name" : "Click on close button in auth popup",
+      "uid" : "23d2a9b731a0281b",
+      "parentUid" : "dbc0a2c3101c5296f3ec764407edf145",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646756812870,
+        "stop" : 1646756824907,
+        "duration" : 12037
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 17,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Click on close button in registration popup",
+      "uid" : "1124a9ef4618d73",
+      "parentUid" : "dbc0a2c3101c5296f3ec764407edf145",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646756824907,
+        "stop" : 1646756829067,
+        "duration" : 4160
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 17,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Clicking on login through SberId button",
+      "uid" : "dc57c994e7ba6120",
+      "parentUid" : "dbc0a2c3101c5296f3ec764407edf145",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646756829067,
+        "stop" : 1646756842962,
+        "duration" : 13895
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 17,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Go to reset password page",
+      "uid" : "5febc393d1037299",
+      "parentUid" : "dbc0a2c3101c5296f3ec764407edf145",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646756842962,
+        "stop" : 1646756845712,
+        "duration" : 2750
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 17,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Changing mode of viewing password",
+      "uid" : "a17f730559ebcf0e",
+      "parentUid" : "dbc0a2c3101c5296f3ec764407edf145",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646756845712,
+        "stop" : 1646756846690,
+        "duration" : 978
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 17,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Сlick on Enter link from registration popup",
+      "uid" : "c5bdb4b3c65be5d4",
+      "parentUid" : "dbc0a2c3101c5296f3ec764407edf145",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646756846690,
+        "stop" : 1646756848138,
+        "duration" : 1448
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 17,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "dbc0a2c3101c5296f3ec764407edf145"
+  }, {
+    "name" : "Navigation tests for feedback page",
+    "children" : [ {
+      "name" : "Send message by not authorized user",
+      "uid" : "d39ae343e56a76f2",
+      "parentUid" : "4f9a246cb8b65b796b9f42d131d7574c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646756848524,
+        "stop" : 1646756857354,
+        "duration" : 8830
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 14,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Send message by authorized user",
+      "uid" : "8699daf58e2ce351",
+      "parentUid" : "4f9a246cb8b65b796b9f42d131d7574c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646756857355,
+        "stop" : 1646756869627,
+        "duration" : 12272
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 8,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Clicking on logo",
+      "uid" : "aec990e86a070d06",
+      "parentUid" : "4f9a246cb8b65b796b9f42d131d7574c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646756870070,
+        "stop" : 1646756886126,
+        "duration" : 16056
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 16,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Open youtube frame from header",
+      "uid" : "ed2c97374f8d140d",
+      "parentUid" : "4f9a246cb8b65b796b9f42d131d7574c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646756886126,
+        "stop" : 1646756889888,
+        "duration" : 3762
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 11,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Clicking on Read link in footer and go to Platform blogs",
+      "uid" : "22e81649440b636",
+      "parentUid" : "4f9a246cb8b65b796b9f42d131d7574c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646756889888,
+        "stop" : 1646756891580,
+        "duration" : 1692
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 9,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Clicking on Watch link in footer and go to Platform blogs",
+      "uid" : "f01c08d145a539b4",
+      "parentUid" : "4f9a246cb8b65b796b9f42d131d7574c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646756891580,
+        "stop" : 1646756893559,
+        "duration" : 1979
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 7,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "4f9a246cb8b65b796b9f42d131d7574c"
+  }, {
+    "name" : "Searching tests for FAQ page",
+    "children" : [ {
+      "name" : "Searching by text",
+      "uid" : "bb5345991741171e",
+      "parentUid" : "7e0678489980766bbaba60f1af3a1a67",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646756893974,
+        "stop" : 1646756901843,
+        "duration" : 7869
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 25,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7e0678489980766bbaba60f1af3a1a67"
+  }, {
+    "name" : "Login new user from Main Page",
+    "children" : [ {
+      "name" : "Login new user",
+      "uid" : "b818901ae1e0d63",
+      "parentUid" : "b9b4372e85bf5bcd04ccc8fb41a3a47b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646756902292,
+        "stop" : 1646756913067,
+        "duration" : 10775
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 17,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b9b4372e85bf5bcd04ccc8fb41a3a47b"
+  }, {
+    "name" : "Navigation tests for faq page",
+    "children" : [ {
+      "name" : "Clicking on logo",
+      "uid" : "f4f98cd21aae7a5c",
+      "parentUid" : "80e2f057fdb77c5e9355d77a517d88fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646760846167,
+        "stop" : 1646760851710,
+        "duration" : 5543
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 8,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Clicking on feedback button",
+      "uid" : "9b93ae9b141328c7",
+      "parentUid" : "80e2f057fdb77c5e9355d77a517d88fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646760851710,
+        "stop" : 1646760854882,
+        "duration" : 3172
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 7,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Clicking on Read link in footer and go to Platform blogs",
+      "uid" : "8f5cc96fb4a4463c",
+      "parentUid" : "80e2f057fdb77c5e9355d77a517d88fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646760854882,
+        "stop" : 1646760855665,
+        "duration" : 783
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 5,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Clicking on Watch link in footer and go to Platform blogs",
+      "uid" : "4e6c7e22553ca572",
+      "parentUid" : "80e2f057fdb77c5e9355d77a517d88fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646760855665,
+        "stop" : 1646760856634,
+        "duration" : 969
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "80e2f057fdb77c5e9355d77a517d88fe"
+  }, {
+    "name" : "Navigation tests for phone validation page",
+    "children" : [ {
+      "name" : "Clicking on logo",
+      "uid" : "55e8b7b5e70c6732",
+      "parentUid" : "65e8722d519eec508dabbac1a664cd8a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646771747618,
+        "stop" : 1646771751401,
+        "duration" : 3783
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 53,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Clicking on FAQ button",
+      "uid" : "93ceb356345c6d1f",
+      "parentUid" : "65e8722d519eec508dabbac1a664cd8a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646771751401,
+        "stop" : 1646771758391,
+        "duration" : 6990
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 27,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "65e8722d519eec508dabbac1a664cd8a"
   } ],
   "name" : "suites"
 }

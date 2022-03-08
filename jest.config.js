@@ -15,10 +15,10 @@ module.exports = {
         // "<rootDir>/tests/landing/navigation.test.ts",
         // "<rootDir>/tests/login/login.test.ts",
 
-        // "<rootDir>/tests/phoneValidation/navigation.test.ts",
-        "<rootDir>/tests/landing/supportMenu.test.ts"
+        "<rootDir>/tests/phoneValidation/navigation.test.ts",
+        // "<rootDir>/tests/landing/supportMenu.test.ts"
     ],
     bail: true,
     bail: 1,
-    "testTimeout": 30000
+    "testTimeout": 40000
 }

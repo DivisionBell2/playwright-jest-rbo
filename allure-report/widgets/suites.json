@@ -1,6 +1,28 @@
 {
-  "total" : 6,
+  "total" : 20,
   "items" : [ {
+    "uid" : "7cd9be344ef3af84b849cced6a6fde13",
+    "name" : "Navigation on enter personal data page",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 8,
+      "unknown" : 0,
+      "total" : 9
+    }
+  }, {
+    "uid" : "088f6e1ab600845aa2191cadc5fc3b87",
+    "name" : "Navigation for feedback main page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 11,
+      "unknown" : 0,
+      "total" : 11
+    }
+  }, {
     "uid" : "02e4e87c2f4dc388e7b0209260569d60",
     "name" : "Navigation on main page",
     "statistic" : {
@@ -12,15 +34,37 @@
       "total" : 11
     }
   }, {
-    "uid" : "7cd9be344ef3af84b849cced6a6fde13",
-    "name" : "Navigation on enter personal data page",
+    "uid" : "dbc0a2c3101c5296f3ec764407edf145",
+    "name" : "Auth popup functional tests",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 6,
       "unknown" : 0,
-      "total" : 9
+      "total" : 6
+    }
+  }, {
+    "uid" : "4f9a246cb8b65b796b9f42d131d7574c",
+    "name" : "Navigation tests for feedback page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "2f27d765636d587a577fdc7befa48dc4",
+    "name" : "Functional tests for auth popup",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
     }
   }, {
     "uid" : "763ded477f8ae086710880d671d7604c",
@@ -30,41 +74,41 @@
       "broken" : 0,
       "skipped" : 0,
       "passed" : 4,
+      "unknown" : 1,
+      "total" : 5
+    }
+  }, {
+    "uid" : "db83f96491449d578df44e023ecfa5e4",
+    "name" : "Navigation tests for FAQ page FAQ page navigation tests",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
       "unknown" : 0,
       "total" : 4
     }
   }, {
-    "uid" : "ea0be816a5273daf768fc9557e9664d6",
-    "name" : "Check working popup with law information from personal data page",
+    "uid" : "1252c122b3d3be9a12be74f6224fff2c",
+    "name" : "FAQ page navigation tests",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 1
+      "total" : 4
     }
   }, {
-    "uid" : "b9b4372e85bf5bcd04ccc8fb41a3a47b",
-    "name" : "Login new user from Main Page",
+    "uid" : "80e2f057fdb77c5e9355d77a517d88fe",
+    "name" : "Navigation tests for faq page",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "2f27d765636d587a577fdc7befa48dc4",
-    "name" : "Functional tests for auth popup",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
+      "total" : 4
     }
   } ]
 }

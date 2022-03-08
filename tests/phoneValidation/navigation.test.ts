@@ -1,26 +1,26 @@
 import Header from "../../pages/blocks/header.pageBlock";
-// import FAQPage from "../../pages/faqPage.page";
+import FAQPage from "../../pages/faqPage.page";
 // import FeedbackPage from "../../pages/feedback.page";
 import User from "../../data/user";
 import MainPage from "../../pages/mainPage.page";
 import PhoneValidationPage from "../../pages/phoneValidationPage.page";
 
+let phoneValidationPage = new PhoneValidationPage();
+const paths = [
+    phoneValidationPage.paths.entrepreneur,
+    phoneValidationPage.paths.legalEntity,
+];
+
+paths.forEach(path => {
     describe("Navigation tests for phone validation page", () => {
-        // let faqPage: FAQPage;
+        let faqPage: FAQPage;
         let mainPage: MainPage;
         let header: Header;
         // let feedbackPage: FeedbackPage;
-        let phoneValidationPage = new PhoneValidationPage();
         let user: User;
-
-        const paths = [
-            phoneValidationPage.paths.entrepreneur,
-            phoneValidationPage.paths.legalEntity,
-        ];
     
         beforeAll(async () => {
-            phoneValidationPage = new PhoneValidationPage();
-            // faqPage = new FAQPage();
+            faqPage = new FAQPage();
             mainPage = new MainPage();
             // feedbackPage = new FeedbackPage();
             header = await phoneValidationPage.getHeader();
@@ -29,21 +29,32 @@ import PhoneValidationPage from "../../pages/phoneValidationPage.page";
             await (await mainPage.getAuthPopup()).login(user);
         });
         
-        paths.forEach(path => {
             beforeEach(async () => {
                 await phoneValidationPage.goto(path, "Open phone validation page for " + path);
             });
 
             test('Clicking on logo', async () => {
                 await header.click(header.selectors.logo, "Click on logo icon");
-                //await mainPage.waitForNavigation("Wait for navigation main page");
                 const title = await mainPage.getTextContent(mainPage.selectors.title, "Get text from main page title");
                 expect(title).toContain(mainPage.checkData.title);
             });
+
+            test('Clicking on FAQ button', async () => {
+                await header.click(header.selectors.faqLink, "Click on faq link in header");
+                await faqPage.waitForNavigation("Wait for navigation of FAQ page");
+                expect(await faqPage.isVisible(faqPage.selectors.searchInput, "Check search input visible on faq page", 5)).toBeTruthy();
+            });
+
+
     
             afterEach(async () => {
                 await phoneValidationPage.saveOnlyOneTab();
             });
+
+            afterAll(async () => {
+                await phoneValidationPage.clear();
+                await phoneValidationPage.reload("Reload page");
+            })
     
     });
 });
@@ -105,13 +116,7 @@ import PhoneValidationPage from "../../pages/phoneValidationPage.page";
 //         beforeEach(async () => {
 //             await page.goto(url + requestPath);
 //         });
-    
-//         test('Clicking on FAQ button', async () => {
-//             await page.click("text='Вопрос-ответ'");
-//             await page.waitForNavigation();
-//             const title = await page.$("h1");
-//             expect(await title.textContent()).toContain(faqTitle);
-//         });
+
     
 //         test('Clicking on feedback button', async () => {
 //             await page.click("text='Обратная связь'");

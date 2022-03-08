@@ -1,5 +1,30 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : ": Timeout - Async callback was not invoked within the 25000 ms timeout specified by jest.setTimeout.",
+      "children" : [ {
+        "name" : "Clicking on personal data agreement link in footer",
+        "uid" : "ed597a2cd7184d3b",
+        "parentUid" : "381b93932fd41c7b3e54152116cf77c1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645899478160,
+          "stop" : 1645899504684,
+          "duration" : 26524
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 36,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "381b93932fd41c7b3e54152116cf77c1"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
   "name" : "categories"
 }

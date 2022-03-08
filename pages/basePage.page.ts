@@ -168,6 +168,12 @@ export default class BasePage {
         await reporter.endStep();
     }
 
+    async waitForLoadState(message: string): Promise<void> {
+        await reporter.startStep(message);
+        await page.waitForLoadState();
+        await reporter.endStep();
+    }
+
 
     async waitForNavigation(message: string): Promise<void> {
         await reporter.startStep(message);

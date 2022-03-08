@@ -1,270 +1,780 @@
 [ {
-  "uid" : "53b77ab4e62305ec",
-  "name" : "Clicking on Watch link in footer and go to Platform blogs",
+  "uid" : "8699daf58e2ce351",
+  "name" : "Send message by authorized user",
   "time" : {
-    "start" : 1645027175939,
-    "stop" : 1645027176828,
-    "duration" : 889
+    "start" : 1646756857355,
+    "stop" : 1646756869627,
+    "duration" : 12272
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "dba43d2464a8fd2f",
-  "name" : "Clicking on Oferta link and go to oferta document",
+  "uid" : "5febc393d1037299",
+  "name" : "Go to reset password page",
   "time" : {
-    "start" : 1645027173155,
-    "stop" : 1645027174124,
+    "start" : 1646756842962,
+    "stop" : 1646756845712,
+    "duration" : 2750
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1a52acf1a2e914ce",
+  "name" : "Clicking on logo",
+  "time" : {
+    "start" : 1645899380680,
+    "stop" : 1645899384926,
+    "duration" : 4246
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2dcfa9a49722a6ff",
+  "name" : "Clicking on Feedback button",
+  "time" : {
+    "start" : 1645607512743,
+    "stop" : 1645607515514,
+    "duration" : 2771
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "55e8b7b5e70c6732",
+  "name" : "Clicking on logo",
+  "time" : {
+    "start" : 1646771747618,
+    "stop" : 1646771751401,
+    "duration" : 3783
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9a0d12aea7b1fef9",
+  "name" : "Check working popup with law information from personal data page",
+  "time" : {
+    "start" : 1645895738151,
+    "stop" : 1645895741946,
+    "duration" : 3795
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d7a927cf6aff3179",
+  "name" : "Clicking on logo",
+  "time" : {
+    "start" : 1645899456295,
+    "stop" : 1645899458147,
+    "duration" : 1852
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "92070ef6b183368",
+  "name" : "Clicking on SberIcon and go to sberbank.ru",
+  "time" : {
+    "start" : 1646387997755,
+    "stop" : 1646387998715,
+    "duration" : 960
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f454a802e97ec730",
+  "name" : "Clicking on Feedback button",
+  "time" : {
+    "start" : 1645899384926,
+    "stop" : 1645899386294,
+    "duration" : 1368
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "23d2a9b731a0281b",
+  "name" : "Click on close button in auth popup",
+  "time" : {
+    "start" : 1646756812870,
+    "stop" : 1646756824907,
+    "duration" : 12037
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6d69831690554c3d",
+  "name" : "Clicking on logo",
+  "time" : {
+    "start" : 1645607509478,
+    "stop" : 1645607512743,
+    "duration" : 3265
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aec990e86a070d06",
+  "name" : "Clicking on logo",
+  "time" : {
+    "start" : 1646756870070,
+    "stop" : 1646756886126,
+    "duration" : 16056
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "565847a15fe407dd",
+  "name" : "Clicking on Read link in footer and go to Platform blogs",
+  "time" : {
+    "start" : 1646756810106,
+    "stop" : 1646756811035,
+    "duration" : 929
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "653c46b5d7034a77",
+  "name" : "Click on start business registration as legal entity",
+  "time" : {
+    "start" : 1646756801564,
+    "stop" : 1646756802301,
+    "duration" : 737
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c5bdb4b3c65be5d4",
+  "name" : "Сlick on Enter link from registration popup",
+  "time" : {
+    "start" : 1646756846690,
+    "stop" : 1646756848138,
+    "duration" : 1448
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a4de56afb493e01c",
+  "name" : "Clicking on FAQ button in landing block",
+  "time" : {
+    "start" : 1646387996190,
+    "stop" : 1646387997755,
+    "duration" : 1565
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d13944391425367b",
+  "name" : "Open and close support phone popup",
+  "time" : {
+    "start" : 1646761030115,
+    "stop" : 1646761037906,
+    "duration" : 7791
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c2014cbb76088ab9",
+  "name" : "Click on close button in registration popup",
+  "time" : {
+    "start" : 1645179312304,
+    "stop" : 1645179315361,
+    "duration" : 3057
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1124a9ef4618d73",
+  "name" : "Click on close button in registration popup",
+  "time" : {
+    "start" : 1646756824907,
+    "stop" : 1646756829067,
+    "duration" : 4160
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b818901ae1e0d63",
+  "name" : "Login new user",
+  "time" : {
+    "start" : 1646756902292,
+    "stop" : 1646756913067,
+    "duration" : 10775
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b8bb3037a59ba9dd",
+  "name" : "Clicking on Read link in footer and go to Platform blogs",
+  "time" : {
+    "start" : 1645899386294,
+    "stop" : 1645899387219,
+    "duration" : 925
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e9e7fe53ab2c3ae",
+  "name" : "Search by text",
+  "time" : {
+    "start" : 1645531938458,
+    "stop" : 1645531938585,
+    "duration" : 127
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b4a92d9d513081cb",
+  "name" : "Clicking on dasreda.ru link",
+  "time" : {
+    "start" : 1645899468673,
+    "stop" : 1645899471901,
+    "duration" : 3228
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ed597a2cd7184d3b",
+  "name" : "Clicking on personal data agreement link in footer",
+  "time" : {
+    "start" : 1645899478160,
+    "stop" : 1645899504684,
+    "duration" : 26524
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "da8956cd2c12c2ce",
+  "name" : "Clicking on Agreement link and go to agreement document",
+  "time" : {
+    "start" : 1646756809213,
+    "stop" : 1646756810106,
+    "duration" : 893
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4e6c7e22553ca572",
+  "name" : "Clicking on Watch link in footer and go to Platform blogs",
+  "time" : {
+    "start" : 1646760855665,
+    "stop" : 1646760856634,
     "duration" : 969
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "331f79ce1b4d1358",
-  "name" : "Clicking on login through SberId button",
-  "time" : {
-    "start" : 1645038165153,
-    "stop" : 1645038168006,
-    "duration" : 2853
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1b4b9bf3e0fa8df7",
-  "name" : "Clicking on agreement link",
-  "time" : {
-    "start" : 1645038174202,
-    "stop" : 1645038175876,
-    "duration" : 1674
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1c5a7ae7aa5bb0d0",
-  "name" : "Click on close button in auth popup",
-  "time" : {
-    "start" : 1645042261165,
-    "stop" : 1645042264908,
-    "duration" : 3743
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b14a8af43de30af9",
-  "name" : "Clicking on Feedback button",
-  "time" : {
-    "start" : 1645027168821,
-    "stop" : 1645027170069,
-    "duration" : 1248
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6580a0cbaa51ec56",
-  "name" : "Click on start business registration as legal entity",
-  "time" : {
-    "start" : 1645027166634,
-    "stop" : 1645027167429,
-    "duration" : 795
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c57709ba9062b490",
-  "name" : "Check working popup with law information from personal data page",
-  "time" : {
-    "start" : 1644934094401,
-    "stop" : 1644934097401,
-    "duration" : 3000
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a0a20dd6391399ac",
-  "name" : "Open and close support phone popup",
-  "time" : {
-    "start" : 1645027164488,
-    "stop" : 1645027168202,
-    "duration" : 3714
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ac9e0e2df165afc6",
-  "name" : "Clicking on personal data agreement link in footer",
-  "time" : {
-    "start" : 1645038181124,
-    "stop" : 1645038183568,
-    "duration" : 2444
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f2fd2a2249a31c0e",
-  "name" : "Clicking on oferta link in footer",
-  "time" : {
-    "start" : 1645038175876,
-    "stop" : 1645038177655,
-    "duration" : 1779
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f41bd12d8088074d",
-  "name" : "Clicking on Agreement link and go to agreement document",
-  "time" : {
-    "start" : 1645027174124,
-    "stop" : 1645027174955,
-    "duration" : 831
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c00da8778f3af2c1",
+  "uid" : "51372151045dffd8",
   "name" : "Click on start business registration as entrepreneur",
   "time" : {
-    "start" : 1645027164779,
-    "stop" : 1645027166634,
-    "duration" : 1855
+    "start" : 1646756800940,
+    "stop" : 1646756801564,
+    "duration" : 624
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "f457e932a1895919",
-  "name" : "Go to feedback page",
-  "time" : {
-    "start" : 1645027170914,
-    "stop" : 1645027172213,
-    "duration" : 1299
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3eedd1116238277",
-  "name" : "Login new user",
-  "time" : {
-    "start" : 1645012915861,
-    "stop" : 1645012926520,
-    "duration" : 10659
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d2be67a71b986a80",
+  "uid" : "f4f98cd21aae7a5c",
   "name" : "Clicking on logo",
   "time" : {
-    "start" : 1645038163512,
-    "stop" : 1645038165153,
-    "duration" : 1641
+    "start" : 1646760846167,
+    "stop" : 1646760851710,
+    "duration" : 5543
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d4372f99e7fb4afd",
-  "name" : "Open and close telegram popup",
-  "time" : {
-    "start" : 1645027168202,
-    "stop" : 1645027170914,
-    "duration" : 2712
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8acde99efb3bf4f",
-  "name" : "Clicking on Feedback button",
-  "time" : {
-    "start" : 1645038168006,
-    "stop" : 1645038171950,
-    "duration" : 3944
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b8fe32e58e6bc0e1",
+  "uid" : "caf1f37530cc4d2c",
   "name" : "Clicking on FAQ button",
   "time" : {
-    "start" : 1645027167429,
-    "stop" : 1645027168821,
-    "duration" : 1392
+    "start" : 1645899450917,
+    "stop" : 1645899456295,
+    "duration" : 5378
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "b9e283d572dc1671",
+  "uid" : "f777f7d80f95d0c2",
+  "name" : "Clicking on Watch link in footer and go to Platform blogs",
+  "time" : {
+    "start" : 1646388002494,
+    "stop" : 1646388003349,
+    "duration" : 855
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "48762c344ca33410",
+  "name" : "Clicking on FAQ button",
+  "time" : {
+    "start" : 1646387993487,
+    "stop" : 1646387995151,
+    "duration" : 1664
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b51784683a384673",
+  "name" : "Clicking on login through SberId button",
+  "time" : {
+    "start" : 1645899458147,
+    "stop" : 1645899464579,
+    "duration" : 6432
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8bcf4b29ce92cf9f",
   "name" : "Open youtube frame from header",
   "time" : {
-    "start" : 1645027172296,
-    "stop" : 1645027173155,
-    "duration" : 859
+    "start" : 1646387998715,
+    "stop" : 1646387999433,
+    "duration" : 718
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "816c610542f4f2ef",
-  "name" : "Clicking on dasreda.ru link",
+  "uid" : "85d553ae8f5ce79f",
+  "name" : "Clicking on Feedback button",
   "time" : {
-    "start" : 1645038171950,
-    "stop" : 1645038174202,
-    "duration" : 2252
+    "start" : 1646387995151,
+    "stop" : 1646387996190,
+    "duration" : 1039
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "3801aa5afddf3c10",
-  "name" : "Open and close support menu",
+  "uid" : "10088c4534300fa4",
+  "name" : "Click on close button in auth popup",
   "time" : {
-    "start" : 1645027163233,
-    "stop" : 1645027164488,
-    "duration" : 1255
+    "start" : 1645179308719,
+    "stop" : 1645179312304,
+    "duration" : 3585
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "8a8c9ed7eba946dd",
-  "name" : "Clicking on FAQ button in landing block",
+  "uid" : "ff5b3b1522116db1",
+  "name" : "Open tab with answer",
   "time" : {
-    "start" : 1645027170069,
-    "stop" : 1645027171306,
-    "duration" : 1237
+    "start" : 1646756769253,
+    "stop" : 1646756777031,
+    "duration" : 7778
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "ae1889fbf19936ba",
+  "uid" : "7132be1024695f78",
   "name" : "Clicking on privacy policy link in footer",
   "time" : {
-    "start" : 1645038177655,
-    "stop" : 1645038181124,
-    "duration" : 3469
+    "start" : 1645899476172,
+    "stop" : 1645899478160,
+    "duration" : 1988
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "419c1eb549892179",
-  "name" : "Clicking on SberIcon and go to sberbank.ru",
+  "uid" : "9a5f3a96ba7c592e",
+  "name" : "Send message by not authorized user",
   "time" : {
-    "start" : 1645027171306,
-    "stop" : 1645027172296,
-    "duration" : 990
+    "start" : 1645899411389,
+    "stop" : 1645899413966,
+    "duration" : 2577
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "f0f4f60e94a0ba91",
+  "uid" : "ec262968215e4acf",
+  "name" : "Start registration business for logined user with delete middle name",
+  "time" : {
+    "start" : 1645896059807,
+    "stop" : 1645896065321,
+    "duration" : 5514
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "944b48b3fc11f1d2",
+  "name" : "Close support menu",
+  "time" : {
+    "start" : 1646761025256,
+    "stop" : 1646761030115,
+    "duration" : 4859
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4cf8e3b9c175deb3",
+  "name" : "Clicking on oferta link in footer",
+  "time" : {
+    "start" : 1645899474078,
+    "stop" : 1645899476172,
+    "duration" : 2094
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "65f99328cd1010a3",
+  "name" : "Clicking on Oferta link and go to oferta document",
+  "time" : {
+    "start" : 1646387999433,
+    "stop" : 1646388000183,
+    "duration" : 750
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "22c3d43ff76ac1b2",
+  "name" : "Start registration business for logined user with delete middle name",
+  "time" : {
+    "start" : 1645896040823,
+    "stop" : 1645896046128,
+    "duration" : 5305
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "16f3a5beb77f0399",
+  "name" : "Clicking on Watch link in footer and go to Platform blogs",
+  "time" : {
+    "start" : 1646756811035,
+    "stop" : 1646756812349,
+    "duration" : 1314
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9d9516cb0260351e",
+  "name" : "Click on start business registration as entrepreneur",
+  "time" : {
+    "start" : 1646387991933,
+    "stop" : 1646387992743,
+    "duration" : 810
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4fb64a2c848a27c4",
+  "name" : "Clicking on Agreement link and go to agreement document",
+  "time" : {
+    "start" : 1646388000183,
+    "stop" : 1646388001414,
+    "duration" : 1231
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "22e81649440b636",
   "name" : "Clicking on Read link in footer and go to Platform blogs",
   "time" : {
-    "start" : 1645027174955,
-    "stop" : 1645027175939,
-    "duration" : 984
+    "start" : 1646756889888,
+    "stop" : 1646756891580,
+    "duration" : 1692
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "4906bd526adf604e",
+  "uid" : "1255d8c122dc8ac4",
+  "name" : "Clicking on Oferta link and go to oferta document",
+  "time" : {
+    "start" : 1646756808272,
+    "stop" : 1646756809213,
+    "duration" : 941
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c10e668c875d63a0",
+  "name" : "Open and close telegram popup",
+  "time" : {
+    "start" : 1646761037906,
+    "stop" : 1646761043423,
+    "duration" : 5517
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ed2c97374f8d140d",
+  "name" : "Open youtube frame from header",
+  "time" : {
+    "start" : 1646756886126,
+    "stop" : 1646756889888,
+    "duration" : 3762
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "93ceb356345c6d1f",
   "name" : "Clicking on FAQ button",
   "time" : {
-    "start" : 1645038161022,
-    "stop" : 1645038163511,
-    "duration" : 2489
+    "start" : 1646771751401,
+    "stop" : 1646771758391,
+    "duration" : 6990
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bb5345991741171e",
+  "name" : "Searching by text",
+  "time" : {
+    "start" : 1646756893974,
+    "stop" : 1646756901843,
+    "duration" : 7869
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f6e08db7ab57e64b",
+  "name" : "Clicking on Feedback button",
+  "time" : {
+    "start" : 1645899464579,
+    "stop" : 1645899468673,
+    "duration" : 4094
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "95c7330149b29f55",
+  "name" : "Clicking on agreement link",
+  "time" : {
+    "start" : 1645899471902,
+    "stop" : 1645899474077,
+    "duration" : 2175
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b04aa5ce7c50492",
+  "name" : "Clicking on login through SberId button",
+  "time" : {
+    "start" : 1645179315361,
+    "stop" : 1645179320228,
+    "duration" : 4867
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d39ae343e56a76f2",
+  "name" : "Send message by not authorized user",
+  "time" : {
+    "start" : 1646756848524,
+    "stop" : 1646756857354,
+    "duration" : 8830
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bd908cfb72696fb8",
+  "name" : "Click on start business registration as legal entity",
+  "time" : {
+    "start" : 1646387992743,
+    "stop" : 1646387993487,
+    "duration" : 744
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef38a1e273c63188",
+  "name" : "Clicking on FAQ button in landing block",
+  "time" : {
+    "start" : 1646756805094,
+    "stop" : 1646756806603,
+    "duration" : 1509
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8cb30a66a2aaf396",
+  "name" : "Clicking on SberIcon and go to sberbank.ru",
+  "time" : {
+    "start" : 1646756806603,
+    "stop" : 1646756807480,
+    "duration" : 877
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "976c33f94e2f361",
+  "name" : "Go to reset password page",
+  "time" : {
+    "start" : 1645179320228,
+    "stop" : 1645179321678,
+    "duration" : 1450
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9b93ae9b141328c7",
+  "name" : "Clicking on feedback button",
+  "time" : {
+    "start" : 1646760851710,
+    "stop" : 1646760854882,
+    "duration" : 3172
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "19b9d58e1fcf992b",
+  "name" : "Clicking on Watch link in footer and go to Platform videos",
+  "time" : {
+    "start" : 1645607516445,
+    "stop" : 1645607517349,
+    "duration" : 904
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5cd6a5e97530920f",
+  "name" : "Clicking on Read link in footer and go to Platform blogs",
+  "time" : {
+    "start" : 1646388001414,
+    "stop" : 1646388002494,
+    "duration" : 1080
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d9a0790656fe78a8",
+  "name" : "Open youtube frame from header",
+  "time" : {
+    "start" : 1646756807480,
+    "stop" : 1646756808272,
+    "duration" : 792
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dc57c994e7ba6120",
+  "name" : "Clicking on login through SberId button",
+  "time" : {
+    "start" : 1646756829067,
+    "stop" : 1646756842962,
+    "duration" : 13895
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f01c08d145a539b4",
+  "name" : "Clicking on Watch link in footer and go to Platform blogs",
+  "time" : {
+    "start" : 1646756891580,
+    "stop" : 1646756893559,
+    "duration" : 1979
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a17f730559ebcf0e",
+  "name" : "Changing mode of viewing password",
+  "time" : {
+    "start" : 1646756845712,
+    "stop" : 1646756846690,
+    "duration" : 978
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8f5cc96fb4a4463c",
+  "name" : "Clicking on Read link in footer and go to Platform blogs",
+  "time" : {
+    "start" : 1646760854882,
+    "stop" : 1646760855665,
+    "duration" : 783
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "78086b9a45f2de01",
+  "name" : "Send message by authorized user",
+  "time" : {
+    "start" : 1645899413966,
+    "stop" : 1645899422774,
+    "duration" : 8808
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f79f4bfcdc9ac388",
+  "name" : "Clicking on Watch link in footer and go to Platform videos",
+  "time" : {
+    "start" : 1645899387219,
+    "stop" : 1645899388488,
+    "duration" : 1269
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "46815b9a60458195",
+  "name" : "Registration new user without middle name",
+  "time" : {
+    "start" : 1645895719394,
+    "stop" : 1645895721868,
+    "duration" : 2474
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "581e1c349a4a8634",
+  "name" : "Clicking on Read link in footer and go to Platform blogs",
+  "time" : {
+    "start" : 1645607515514,
+    "stop" : 1645607516445,
+    "duration" : 931
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c1cacfea378b3552",
+  "name" : "Go to feedback page",
+  "time" : {
+    "start" : 1646584097354,
+    "stop" : 1646584097354,
+    "duration" : 0
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "ec5b7600982853f7",
+  "name" : "Clicking on FAQ button",
+  "time" : {
+    "start" : 1646756802301,
+    "stop" : 1646756803865,
+    "duration" : 1564
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8fecbe12e0976e14",
+  "name" : "Clicking on Feedback button",
+  "time" : {
+    "start" : 1646756803865,
+    "stop" : 1646756805094,
+    "duration" : 1229
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e21e64a8e769b515",
+  "name" : "Changing mode of viewing password",
+  "time" : {
+    "start" : 1645179321678,
+    "stop" : 1645179322706,
+    "duration" : 1028
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f737e05fd1c5cec0",
+  "name" : "Registration new user",
+  "time" : {
+    "start" : 1645895714731,
+    "stop" : 1645895719394,
+    "duration" : 4663
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aee2dfcaa9a30189",
+  "name" : "Open and close support menu",
+  "time" : {
+    "start" : 1645899331348,
+    "stop" : 1645899332655,
+    "duration" : 1307
   },
   "status" : "passed",
   "severity" : "normal"

@@ -102,6 +102,7 @@ export default class AuthPopup extends BasePage {
 
     public async login(user: User) {
         let header = new Header();
+
         await header.click(header.selectors.enterButton, "Click enter button");
         await this.click(this.selectors.registrationLink, "Click go to registration link");
         await this.fill(this.selectors.firstNameInput, user.username, "Enter first name of user in first name input");
@@ -121,6 +122,6 @@ export default class AuthPopup extends BasePage {
         await this.fill(this.selectors.authPasswordInput, user.password, "Enter password in auth password input");
         await this.click(this.selectors.authButton, "Click auth button");
 
-        expect(await header.isVisible(header.selectors.userIcon, "Check user icon visible in header")).toBeTruthy();
+        expect(await header.isVisible(header.selectors.userIcon, "Check user icon visible in header", 15)).toBeTruthy();
     }
 }
