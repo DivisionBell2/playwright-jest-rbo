@@ -31,6 +31,6 @@ describe("Login new user from Main Page", () => {
         await authModal.fill(authModal.selectors.authPasswordInput, user.password, "Enter password in auth password input");
         await authModal.click(authModal.selectors.authButton, "Click auth button");
 
-        expect(await header.isVisible(header.selectors.userIcon, "Check user icon visible in header")).toBeTruthy();
+        expect(await header.isVisible(header.selectors.userIcon, "Check user icon visible in header", 5)).toBeTruthy();
     });
 });

@@ -26,13 +26,12 @@ describe("Working of support menu", () => {
         expect (await supportMenu.isHidden(supportMenu.selectors.supportMenuOpenedButton, "Wait for support menu closed")).toBeTruthy();
     });
 
-    // test("Open and close support phone popup", async () => {
-    //     const supportMenu = await mainPage.getSupportMenu();
-    //     await supportMenu.clickPhoneButton();
-    //     expect(await supportMenu.waitForDialogWindowVisible()).toBeTruthy();
-    //     await supportMenu.clickCloseDialogWindotButton();
-    //     expect(await supportMenu.waitForDialogWindowHidden()).toBeTruthy();
-    // });
+    test("Open and close support phone popup", async () => {
+        await supportMenu.click(supportMenu.selectors.phoneButton, "Click on phone button in support menu");
+        expect(await supportMenu.isVisible(supportMenu.selectors.dialogWindow, "Check is dialog phone window visible")).toBeTruthy();
+        await supportMenu.click(supportMenu.selectors.closeDialogWindowButton, "Click on close dialog phone window");
+        expect(await supportMenu.isHidden(supportMenu.selectors.dialogWindow, "Check is dialog phone window hidden")).toBeTruthy();
+    });
 
     // test("Open and close telegram popup", async () => {
     //     const supportMenu = await mainPage.getSupportMenu();

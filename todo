@@ -6,10 +6,10 @@ feedbackPage/navigation
 landing/navigation
 login/login
 feedbackPage/sendMessage
+faqPage/navigation
 
 2. вторая итерация
-faqPage/navigation 2/4
-landing/supportMenu 1/4
+landing/supportMenu 2/4
 personalData/navigation
 personalData/popupWithLawsInfo
 Убрать кнопку с куками в отдельный блок
