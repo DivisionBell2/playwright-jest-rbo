@@ -40,8 +40,11 @@ describe("Working of support menu", () => {
         expect(await supportMenu.isHidden(supportMenu.selectors.dialogWindow, "Check is dialog phone window hidden")).toBeTruthy();
     });
 
-    // test("Go to feedback page", async () => {
-    //     await (await mainPage.getSupportMenu()).clickFeedbackButton();
-    //     expect(await feedbackPage.checkMessageTextInputVisible()).toBeTruthy();
-    // });
+    test("Go to feedback page", async () => {
+        await supportMenu.click(supportMenu.selectors.feedBackButton, "Click on feedback button in support menu");
+        expect(await feedbackPage.isVisible(
+            feedbackPage.selectors.messageTextInput,
+            "Check the feedback message text input on feedback page is visible"
+            )).toBeTruthy();
+    });
 });

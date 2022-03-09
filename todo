@@ -7,9 +7,9 @@ landing/navigation
 login/login
 feedbackPage/sendMessage
 faqPage/navigation
+landing/supportMenu
 
 2. вторая итерация
-landing/supportMenu 3/4
 personalData/navigation
 personalData/popupWithLawsInfo
 Убрать кнопку с куками в отдельный блок
