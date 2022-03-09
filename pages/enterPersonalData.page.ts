@@ -25,6 +25,11 @@ export default class EnterPersonalDataPage extends BasePage {
         consultantLink: "//div[@class='ant-modal-confirm-content']//a"
     }
 
+    paths = {
+        entrepreneur: "/rbidos/personal-information/ip/1",
+        legalEntity: "/rbidos/personal-information/ooo/1"
+    }
+
     public async goToEnterPersonalDataPageEntrepreneur() {
         await page.goto(this.url + "/rbidos/personal-information/ip/1");
     }

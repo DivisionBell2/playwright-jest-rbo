@@ -15,7 +15,8 @@ module.exports = {
         // "<rootDir>/tests/landing/**.test.ts",
         // "<rootDir>/tests/login/login.test.ts",
 
-        "<rootDir>/tests/phoneValidation/navigation.test.ts",
+        // "<rootDir>/tests/phoneValidation/navigation.test.ts",
+        "<rootDir>/tests/personalData/navigation.test.ts"
     ],
     bail: true,
     bail: 1,

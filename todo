@@ -10,7 +10,7 @@ faqPage/navigation
 landing/supportMenu
 
 2. вторая итерация
-personalData/navigation
+personalData/navigation 0/9
 personalData/popupWithLawsInfo
 Убрать кнопку с куками в отдельный блок
 getNewTab() - сделать лучше
