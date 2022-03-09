@@ -1,6 +1,6 @@
 import Header from "../../pages/blocks/header.pageBlock";
 import FAQPage from "../../pages/faqPage.page";
-// import FeedbackPage from "../../pages/feedback.page";
+import FeedbackPage from "../../pages/feedback.page";
 import User from "../../data/user";
 import MainPage from "../../pages/mainPage.page";
 import PhoneValidationPage from "../../pages/phoneValidationPage.page";
@@ -16,19 +16,18 @@ paths.forEach(path => {
         let faqPage: FAQPage;
         let mainPage: MainPage;
         let header: Header;
-        // let feedbackPage: FeedbackPage;
+        let feedbackPage: FeedbackPage;
         let user: User;
     
         beforeAll(async () => {
             faqPage = new FAQPage();
             mainPage = new MainPage();
-            // feedbackPage = new FeedbackPage();
+            feedbackPage = new FeedbackPage();
             header = await phoneValidationPage.getHeader();
             user = new User();
             await mainPage.goto("/", "Go to main page");
             await (await mainPage.getAuthPopup()).login(user);
         });
-        
             beforeEach(async () => {
                 await phoneValidationPage.goto(path, "Open phone validation page for " + path);
             });
@@ -45,8 +44,13 @@ paths.forEach(path => {
                 expect(await faqPage.isVisible(faqPage.selectors.searchInput, "Check search input visible on faq page", 5)).toBeTruthy();
             });
 
+            test('Clicking on Feedback button', async () => {
+                await header.click(header.selectors.feedbackLink, "Сlick feedback link in header");
+                await feedbackPage.waitForNavigation("wait for navigation feedback page");
+                expect(await feedbackPage.isVisible(feedbackPage.selectors.messageTextInput, "Check visibility of message text input on feedback page"))
+                .toBeTruthy();
+            });
 
-    
             afterEach(async () => {
                 await phoneValidationPage.saveOnlyOneTab();
             });
@@ -55,7 +59,6 @@ paths.forEach(path => {
                 await phoneValidationPage.clear();
                 await phoneValidationPage.reload("Reload page");
             })
-    
     });
 });
 
@@ -115,14 +118,6 @@ paths.forEach(path => {
 
 //         beforeEach(async () => {
 //             await page.goto(url + requestPath);
-//         });
-
-    
-//         test('Clicking on feedback button', async () => {
-//             await page.click("text='Обратная связь'");
-//             await page.waitForNavigation();
-//             const title = await page.$("h1");
-//             expect(await title.textContent()).toContain(feedbackTitle);
 //         });
     
 //         test('Clicking on change data link', async () => {
