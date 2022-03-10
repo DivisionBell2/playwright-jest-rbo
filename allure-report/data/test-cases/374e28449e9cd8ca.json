@@ -1,0 +1,73 @@
+{
+  "uid" : "374e28449e9cd8ca",
+  "name" : "Clicking on personal data agreement link in footer",
+  "fullName" : "Navigation on enter personal data page.Clicking on personal data agreement link in footer",
+  "historyId" : "f7089eb54d3617988f5e93c3c251bdfe",
+  "time" : {
+    "start" : 1645895984925,
+    "stop" : 1645895987022,
+    "duration" : 2097
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "undefined",
+      "time" : {
+        "start" : 1645895986761,
+        "stop" : 1645895986989,
+        "duration" : 228
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation on enter personal data page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation on enter personal data page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on personal data agreement link in footer"
+  }, {
+    "name" : "package",
+    "value" : "Navigation on enter personal data page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "374e28449e9cd8ca.json",
+  "parameterValues" : [ ]
+}

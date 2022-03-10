@@ -1,0 +1,118 @@
+{
+  "uid" : "d4542b39822337a",
+  "name" : "Clicking on logo",
+  "fullName" : "FAQ page navigation tests.Clicking on logo",
+  "historyId" : "2d1bb793a1ccf6fa47927721103d4bda",
+  "time" : {
+    "start" : 1645897390596,
+    "stop" : 1645897396234,
+    "duration" : 5638
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open FAQ page",
+      "time" : {
+        "start" : 1645897390597,
+        "stop" : 1645897393327,
+        "duration" : 2730
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click on logo icon",
+        "time" : {
+          "start" : 1645897390598,
+          "stop" : 1645897393211,
+          "duration" : 2613
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Wait for navigation main page",
+      "time" : {
+        "start" : 1645897393327,
+        "stop" : 1645897396175,
+        "duration" : 2848
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Get text from main page title",
+      "time" : {
+        "start" : 1645897396176,
+        "stop" : 1645897396232,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "FAQ page navigation tests"
+  }, {
+    "name" : "testClass",
+    "value" : "FAQ page navigation tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on logo"
+  }, {
+    "name" : "package",
+    "value" : "FAQ page navigation tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d4542b39822337a.json",
+  "parameterValues" : [ ]
+}

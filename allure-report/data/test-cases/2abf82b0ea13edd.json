@@ -1,0 +1,122 @@
+{
+  "uid" : "2abf82b0ea13edd",
+  "name" : "Clicking on logo",
+  "fullName" : "Navigation tests for phone validation page.Clicking on logo",
+  "historyId" : "783693ec1daa02323fcd85cd7a39eedc",
+  "time" : {
+    "start" : 1646771491311,
+    "stop" : 1646771494644,
+    "duration" : 3333
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: page.isVisible: Execution context was destroyed, most likely because of a navigation.\n                =========================== logs ===========================\n                  checking visibility of \"#test-landing-navPanel-logedIn\"\n                ============================================================",
+  "statusTrace" : "page.isVisible: Execution context was destroyed, most likely because of a navigation.\n                =========================== logs ===========================\n                  checking visibility of \"#test-landing-navPanel-logedIn\"\n                ============================================================\n                    at Header.<anonymous> (/home/alexandr/study/11/playwright-jest-rbo/pages/basePage.page.ts:154:36)\n                    at fulfilled (/home/alexandr/study/11/playwright-jest-rbo/pages/basePage.page.ts:5:58)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: page.isVisible: Execution context was destroyed, most likely because of a navigation.\n                =========================== logs ===========================\n                  checking visibility of \"#test-landing-navPanel-logedIn\"\n                ============================================================",
+    "statusTrace" : "page.isVisible: Execution context was destroyed, most likely because of a navigation.\n                =========================== logs ===========================\n                  checking visibility of \"#test-landing-navPanel-logedIn\"\n                ============================================================\n                    at Header.<anonymous> (/home/alexandr/study/11/playwright-jest-rbo/pages/basePage.page.ts:154:36)\n                    at fulfilled (/home/alexandr/study/11/playwright-jest-rbo/pages/basePage.page.ts:5:58)",
+    "steps" : [ {
+      "name" : "Open phone validation page for /rbidos/personal-information/ip/2",
+      "time" : {
+        "start" : 1646771491311,
+        "stop" : 1646771492933,
+        "duration" : 1622
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Open phone validation page for /rbidos/personal-information/ooo/2",
+      "time" : {
+        "start" : 1646771492933,
+        "stop" : 1646771494449,
+        "duration" : 1516
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click on logo icon",
+      "time" : {
+        "start" : 1646771494449,
+        "stop" : 1646771494572,
+        "duration" : 123
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Get text from main page title",
+      "time" : {
+        "start" : 1646771494572,
+        "stop" : 1646771494643,
+        "duration" : 71
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation tests for phone validation page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation tests for phone validation page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on logo"
+  }, {
+    "name" : "package",
+    "value" : "Navigation tests for phone validation page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2abf82b0ea13edd.json",
+  "parameterValues" : [ ]
+}

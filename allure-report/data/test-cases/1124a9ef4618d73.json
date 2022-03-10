@@ -1,0 +1,259 @@
+{
+  "uid" : "1124a9ef4618d73",
+  "name" : "Click on close button in registration popup",
+  "fullName" : "Auth popup functional tests.Click on close button in registration popup",
+  "historyId" : "bd35956cf818bc5b89c319f176ddf308",
+  "time" : {
+    "start" : 1646756824907,
+    "stop" : 1646756829067,
+    "duration" : 4160
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 17,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click registration link on auth window",
+      "time" : {
+        "start" : 1646756827324,
+        "stop" : 1646756827698,
+        "duration" : 374
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check first name input visible in registration block",
+      "time" : {
+        "start" : 1646756827698,
+        "stop" : 1646756827705,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click on close auth window button",
+      "time" : {
+        "start" : 1646756827706,
+        "stop" : 1646756828061,
+        "duration" : 355
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check the auth window closed",
+      "time" : {
+        "start" : 1646756828061,
+        "stop" : 1646756829067,
+        "duration" : 1006
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Auth popup functional tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Auth popup functional tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Click on close button in registration popup"
+  }, {
+    "name" : "package",
+    "value" : "Auth popup functional tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "48e6cfcafad08d83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646756347293,
+        "stop" : 1646756350823,
+        "duration" : 3530
+      }
+    }, {
+      "uid" : "7fdd6f7dd2b49518",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646388006746,
+        "stop" : 1646388010274,
+        "duration" : 3528
+      }
+    }, {
+      "uid" : "9b7867cbec3d4aef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646326443385,
+        "stop" : 1646326446724,
+        "duration" : 3339
+      }
+    }, {
+      "uid" : "c00bdbf1f68ae679",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646322286550,
+        "stop" : 1646322290204,
+        "duration" : 3654
+      }
+    }, {
+      "uid" : "64eb10ce6ac87bc8",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toBeTruthy()\n                \n                Received: false",
+      "time" : {
+        "start" : 1646322057339,
+        "stop" : 1646322062568,
+        "duration" : 5229
+      }
+    }, {
+      "uid" : "3b2375c94af3dd41",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toBeTruthy()\n                \n                Received: false",
+      "time" : {
+        "start" : 1646322021773,
+        "stop" : 1646322026965,
+        "duration" : 5192
+      }
+    }, {
+      "uid" : "278f8cc4c39ac99b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646207591985,
+        "stop" : 1646207595008,
+        "duration" : 3023
+      }
+    }, {
+      "uid" : "8a9f7f8b5f54aba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645899856206,
+        "stop" : 1645899860282,
+        "duration" : 4076
+      }
+    }, {
+      "uid" : "ad6cf989e04864d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645896093120,
+        "stop" : 1645896100067,
+        "duration" : 6947
+      }
+    }, {
+      "uid" : "d66471b356a31172",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645896069740,
+        "stop" : 1645896073803,
+        "duration" : 4063
+      }
+    }, {
+      "uid" : "9dcf89d46b9a8f74",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895793501,
+        "stop" : 1645895798007,
+        "duration" : 4506
+      }
+    }, {
+      "uid" : "43c3b13ba605ed2c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895766418,
+        "stop" : 1645895769509,
+        "duration" : 3091
+      }
+    }, {
+      "uid" : "5634d4c487a9c4ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645460769653,
+        "stop" : 1645460773762,
+        "duration" : 4109
+      }
+    }, {
+      "uid" : "6aa2bdc13b7180c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645193774429,
+        "stop" : 1645193777293,
+        "duration" : 2864
+      }
+    }, {
+      "uid" : "5336c31cb4cc5ee4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645193658620,
+        "stop" : 1645193661488,
+        "duration" : 2868
+      }
+    }, {
+      "uid" : "662ee591e3671a71",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645191889331,
+        "stop" : 1645191892428,
+        "duration" : 3097
+      }
+    }, {
+      "uid" : "f87246694c5bbbbb",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645191492380,
+        "stop" : 1645191492380,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1124a9ef4618d73.json",
+  "parameterValues" : [ ]
+}

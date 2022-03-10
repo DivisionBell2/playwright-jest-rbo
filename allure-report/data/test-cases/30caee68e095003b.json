@@ -1,0 +1,77 @@
+{
+  "uid" : "30caee68e095003b",
+  "name" : "Click on start business registration as entrepreneur",
+  "fullName" : "Navigation on main page.Click on start business registration as entrepreneur",
+  "historyId" : "3f4153b2f2f7c2a0eef705bff40ee990",
+  "time" : {
+    "start" : 1645789944956,
+    "stop" : 1645789954002,
+    "duration" : 9046
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: page.goto: net::ERR_NETWORK_CHANGED at https://rbo.uat.dasreda.ru/\n                =========================== logs ===========================\n                navigating to \"https://rbo.uat.dasreda.ru/\", waiting until \"load\"\n                ============================================================",
+  "statusTrace" : "page.goto: net::ERR_NETWORK_CHANGED at https://rbo.uat.dasreda.ru/\n                =========================== logs ===========================\n                navigating to \"https://rbo.uat.dasreda.ru/\", waiting until \"load\"\n                ============================================================\n                    at MainPage.<anonymous> (/home/alexandr/study/11/playwright-jest-rbo/pages/mainPage.page.ts:30:20)\n                    at /home/alexandr/study/11/playwright-jest-rbo/pages/mainPage.page.ts:8:71\n                    at Object.<anonymous>.__awaiter (/home/alexandr/study/11/playwright-jest-rbo/pages/mainPage.page.ts:4:12)\n                    at MainPage.goToMainPage (/home/alexandr/study/11/playwright-jest-rbo/pages/mainPage.page.ts:38:16)\n                    at /home/alexandr/study/11/playwright-jest-rbo/tests/landing/navigation.test.ts:27:24\n                    at /home/alexandr/study/11/playwright-jest-rbo/tests/landing/navigation.test.ts:8:71\n                    at Object.<anonymous>.__awaiter (/home/alexandr/study/11/playwright-jest-rbo/tests/landing/navigation.test.ts:4:12)\n                    at Object.<anonymous> (/home/alexandr/study/11/playwright-jest-rbo/tests/landing/navigation.test.ts:26:27)\n                    at Object.asyncJestLifecycle (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:113:37)\n                    at /home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/queueRunner.js:89:12\n                    at mapper (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/queueRunner.js:72:19)\n                    at /home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/queueRunner.js:119:41",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: page.goto: net::ERR_NETWORK_CHANGED at https://rbo.uat.dasreda.ru/\n                =========================== logs ===========================\n                navigating to \"https://rbo.uat.dasreda.ru/\", waiting until \"load\"\n                ============================================================",
+    "statusTrace" : "page.goto: net::ERR_NETWORK_CHANGED at https://rbo.uat.dasreda.ru/\n                =========================== logs ===========================\n                navigating to \"https://rbo.uat.dasreda.ru/\", waiting until \"load\"\n                ============================================================\n                    at MainPage.<anonymous> (/home/alexandr/study/11/playwright-jest-rbo/pages/mainPage.page.ts:30:20)\n                    at /home/alexandr/study/11/playwright-jest-rbo/pages/mainPage.page.ts:8:71\n                    at Object.<anonymous>.__awaiter (/home/alexandr/study/11/playwright-jest-rbo/pages/mainPage.page.ts:4:12)\n                    at MainPage.goToMainPage (/home/alexandr/study/11/playwright-jest-rbo/pages/mainPage.page.ts:38:16)\n                    at /home/alexandr/study/11/playwright-jest-rbo/tests/landing/navigation.test.ts:27:24\n                    at /home/alexandr/study/11/playwright-jest-rbo/tests/landing/navigation.test.ts:8:71\n                    at Object.<anonymous>.__awaiter (/home/alexandr/study/11/playwright-jest-rbo/tests/landing/navigation.test.ts:4:12)\n                    at Object.<anonymous> (/home/alexandr/study/11/playwright-jest-rbo/tests/landing/navigation.test.ts:26:27)\n                    at Object.asyncJestLifecycle (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:113:37)\n                    at /home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/queueRunner.js:89:12\n                    at mapper (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/queueRunner.js:72:19)\n                    at /home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/queueRunner.js:119:41",
+    "steps" : [ {
+      "name" : "Click entrepreneur button",
+      "time" : {
+        "start" : 1645789950613,
+        "stop" : 0,
+        "duration" : -1645789950613
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Click on start business registration as entrepreneur"
+  }, {
+    "name" : "package",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "30caee68e095003b.json",
+  "parameterValues" : [ ]
+}

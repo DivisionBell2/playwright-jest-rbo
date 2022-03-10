@@ -1,0 +1,377 @@
+{
+  "uid" : "95c7330149b29f55",
+  "name" : "Clicking on agreement link",
+  "fullName" : "Navigation on enter personal data page.Clicking on agreement link",
+  "historyId" : "54d2c36ca003e7fc07eab30a222f6f3f",
+  "time" : {
+    "start" : 1645899471902,
+    "stop" : 1645899474077,
+    "duration" : 2175
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 36,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "undefined",
+      "time" : {
+        "start" : 1645899473858,
+        "stop" : 1645899474050,
+        "duration" : 192
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation on enter personal data page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation on enter personal data page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on agreement link"
+  }, {
+    "name" : "package",
+    "value" : "Navigation on enter personal data page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e638c63966cf5596",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895978604,
+        "stop" : 1645895980970,
+        "duration" : 2366
+      }
+    }, {
+      "uid" : "ca27f5a6f04bdbe5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895955783,
+        "stop" : 1645895957647,
+        "duration" : 1864
+      }
+    }, {
+      "uid" : "a2c269baa7e4d844",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895921554,
+        "stop" : 1645895924851,
+        "duration" : 3297
+      }
+    }, {
+      "uid" : "9443643b404a4ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895897389,
+        "stop" : 1645895899327,
+        "duration" : 1938
+      }
+    }, {
+      "uid" : "d8e7e7f3ff070b1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895605118,
+        "stop" : 1645895607192,
+        "duration" : 2074
+      }
+    }, {
+      "uid" : "b1197886c0590090",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895582786,
+        "stop" : 1645895585145,
+        "duration" : 2359
+      }
+    }, {
+      "uid" : "6491bcfc7732a060",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895550355,
+        "stop" : 1645895552401,
+        "duration" : 2046
+      }
+    }, {
+      "uid" : "d7b8ee89442d855c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895527132,
+        "stop" : 1645895529223,
+        "duration" : 2091
+      }
+    }, {
+      "uid" : "13d2ad75f126bb25",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645038174202,
+        "stop" : 1645038175876,
+        "duration" : 1674
+      }
+    }, {
+      "uid" : "1f5656d275255d70",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645038154306,
+        "stop" : 1645038156047,
+        "duration" : 1741
+      }
+    }, {
+      "uid" : "14db6af9a89407fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645038058979,
+        "stop" : 1645038060732,
+        "duration" : 1753
+      }
+    }, {
+      "uid" : "9081c3ee41d633c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645038011206,
+        "stop" : 1645038013050,
+        "duration" : 1844
+      }
+    }, {
+      "uid" : "70ef4f57d1aef59",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645037891044,
+        "stop" : 1645037892791,
+        "duration" : 1747
+      }
+    }, {
+      "uid" : "6cf5bd73e4bfac2c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645037870403,
+        "stop" : 1645037872094,
+        "duration" : 1691
+      }
+    }, {
+      "uid" : "2d07368ac2790cb4",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645037842378,
+        "stop" : 1645037842378,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c39a91dc28c6db08",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645037840842,
+        "stop" : 1645037840842,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b2ba34ef8c594beb",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645037680818,
+        "stop" : 1645037680818,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1a2ea5ad4be96c49",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645037678223,
+        "stop" : 1645037678223,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "cf86868e086c74c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645037037379,
+        "stop" : 1645037039336,
+        "duration" : 1957
+      }
+    }, {
+      "uid" : "79cd85e70040765b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645036989893,
+        "stop" : 1645036991782,
+        "duration" : 1889
+      }
+    }, {
+      "uid" : "fa0e1dadfb64e80a",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645036949238,
+        "stop" : 1645036949238,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2cc2babe3775c8ca",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645036946052,
+        "stop" : 1645036946052,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "fd64a902c19a8d06",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645036920370,
+        "stop" : 1645036920370,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "59ce45bb7f99d86f",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645036917280,
+        "stop" : 1645036917280,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "bf954283f0f6a526",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645036806137,
+        "stop" : 1645036808009,
+        "duration" : 1872
+      }
+    }, {
+      "uid" : "148d67ff6ca9ebca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645036758652,
+        "stop" : 1645036760561,
+        "duration" : 1909
+      }
+    }, {
+      "uid" : "d425f4b67f868eba",
+      "status" : "failed",
+      "statusDetails" : ": Timeout - Async callback was not invoked within the 25000 ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1645036657192,
+        "stop" : 1645036683584,
+        "duration" : 26392
+      }
+    }, {
+      "uid" : "d1a74bb825a28804",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"cdn.dasreda.ru/fonts-static/soglasie-pd\"\n                Received string:    \"\"",
+      "time" : {
+        "start" : 1645036561920,
+        "stop" : 1645036563537,
+        "duration" : 1617
+      }
+    }, {
+      "uid" : "69fe6667be8aacdb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645036509227,
+        "stop" : 1645036511016,
+        "duration" : 1789
+      }
+    }, {
+      "uid" : "1577a9dea906396e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645036488459,
+        "stop" : 1645036490068,
+        "duration" : 1609
+      }
+    }, {
+      "uid" : "cd378c81a448a37c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645036249944,
+        "stop" : 1645036253428,
+        "duration" : 3484
+      }
+    }, {
+      "uid" : "25087f284a4046e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645036227088,
+        "stop" : 1645036229799,
+        "duration" : 2711
+      }
+    }, {
+      "uid" : "9af9c18576bc31d8",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"soglasie_na_rbidos\"\n                Received string:    \"https://cdn.dasreda.ru/fonts-static/soglasie-pd.pdf?_ga=2.251570243.490472840.1645035947-982633752.1645035947\"",
+      "time" : {
+        "start" : 1645035946237,
+        "stop" : 1645035947798,
+        "duration" : 1561
+      }
+    }, {
+      "uid" : "548329cefce99823",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"soglasie_na_rbidos\"\n                Received string:    \"https://cdn.dasreda.ru/fonts-static/soglasie-pd.pdf?_ga=2.150917750.1590943311.1645035926-1370103695.1645035926\"",
+      "time" : {
+        "start" : 1645035925145,
+        "stop" : 1645035927411,
+        "duration" : 2266
+      }
+    }, {
+      "uid" : "43df26a590226e5f",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"soglasie_na_rbidos\"\n                Received string:    \"https://cdn.dasreda.ru/fonts-static/soglasie-pd.pdf?_ga=2.108576256.36163207.1645027246-133803978.1645027246\"",
+      "time" : {
+        "start" : 1645027245331,
+        "stop" : 1645027246899,
+        "duration" : 1568
+      }
+    }, {
+      "uid" : "379a7c9dc2cd5e96",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"soglasie_na_rbidos\"\n                Received string:    \"https://cdn.dasreda.ru/fonts-static/soglasie-pd.pdf?_ga=2.183592293.278394364.1645027222-815447656.1645027222\"",
+      "time" : {
+        "start" : 1645027221693,
+        "stop" : 1645027223383,
+        "duration" : 1690
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "95c7330149b29f55.json",
+  "parameterValues" : [ ]
+}

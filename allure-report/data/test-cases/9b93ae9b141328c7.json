@@ -1,0 +1,178 @@
+{
+  "uid" : "9b93ae9b141328c7",
+  "name" : "Clicking on feedback button",
+  "fullName" : "Navigation tests for faq page.Clicking on feedback button",
+  "historyId" : "ab54c788b625c6470f20188418c4b817",
+  "time" : {
+    "start" : 1646760851710,
+    "stop" : 1646760854882,
+    "duration" : 3172
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 7,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open feedback page",
+      "time" : {
+        "start" : 1646760851710,
+        "stop" : 1646760854139,
+        "duration" : 2429
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Сlick feedback link in header",
+      "time" : {
+        "start" : 1646760854140,
+        "stop" : 1646760854284,
+        "duration" : 144
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for navigation feedback page",
+      "time" : {
+        "start" : 1646760854284,
+        "stop" : 1646760854822,
+        "duration" : 538
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check visibility of message text input on feedback page",
+      "time" : {
+        "start" : 1646760854823,
+        "stop" : 1646760854881,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation tests for faq page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation tests for faq page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on feedback button"
+  }, {
+    "name" : "package",
+    "value" : "Navigation tests for faq page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1094799a3f346ef5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646756784306,
+        "stop" : 1646756787552,
+        "duration" : 3246
+      }
+    }, {
+      "uid" : "a0ae66db1506f62e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646756233436,
+        "stop" : 1646756236658,
+        "duration" : 3222
+      }
+    }, {
+      "uid" : "c531b41b6f18a5ad",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1646756204505,
+        "stop" : 1646756204505,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "42364122cd9f3eda",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646644823492,
+        "stop" : 1646644825722,
+        "duration" : 2230
+      }
+    }, {
+      "uid" : "91b1a99b7b356482",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1646644803574,
+        "stop" : 1646644803574,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "eb51109d4d8c60cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646579130477,
+        "stop" : 1646579132903,
+        "duration" : 2426
+      }
+    }, {
+      "uid" : "566a53b9d981b43a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646575941226,
+        "stop" : 1646575944977,
+        "duration" : 3751
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9b93ae9b141328c7.json",
+  "parameterValues" : [ ]
+}

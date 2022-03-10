@@ -1,0 +1,88 @@
+{
+  "uid" : "f272a3108674ac71",
+  "name" : "Clicking on Oferta link and go to oferta document",
+  "fullName" : "Navigation on main page.Clicking on Oferta link and go to oferta document",
+  "historyId" : "f7678c67b8bb3d11b139b1cd01efe7ca",
+  "time" : {
+    "start" : 1646756331251,
+    "stop" : 1646756332314,
+    "duration" : 1063
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click oferta link",
+      "time" : {
+        "start" : 1646756331743,
+        "stop" : 1646756331882,
+        "duration" : 139
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "undefined",
+      "time" : {
+        "start" : 1646756331882,
+        "stop" : 1646756332313,
+        "duration" : 431
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on Oferta link and go to oferta document"
+  }, {
+    "name" : "package",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f272a3108674ac71.json",
+  "parameterValues" : [ ]
+}

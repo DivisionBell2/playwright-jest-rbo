@@ -1,0 +1,92 @@
+{
+  "uid" : "82272de1da2e74a0",
+  "name" : "Go to reset password page",
+  "fullName" : "Functional tests for auth popup.Go to reset password page",
+  "historyId" : "a846cfc6e2758e12c45ce1d71102864c",
+  "time" : {
+    "start" : 1645168268809,
+    "stop" : 1645168270573,
+    "duration" : 1764
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toBeTruthy()\n                \n                Received: false",
+  "statusTrace" : "Error: expect(received).toBeTruthy()\n                \n                Received: false\n                    at /home/alexandr/study/11/playwright-jest-rbo/tests/login/authpopup.test.ts:48:12\n                    at Generator.next (<anonymous>)\n                    at fulfilled (/home/alexandr/study/11/playwright-jest-rbo/tests/login/authpopup.test.ts:5:58)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: expect(received).toBeTruthy()\n                \n                Received: false",
+    "statusTrace" : "Error: expect(received).toBeTruthy()\n                \n                Received: false\n                    at /home/alexandr/study/11/playwright-jest-rbo/tests/login/authpopup.test.ts:48:12\n                    at Generator.next (<anonymous>)\n                    at fulfilled (/home/alexandr/study/11/playwright-jest-rbo/tests/login/authpopup.test.ts:5:58)",
+    "steps" : [ {
+      "name" : "Click on reset password button",
+      "time" : {
+        "start" : 1645168270165,
+        "stop" : 1645168270560,
+        "duration" : 395
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check user is on reset password page",
+      "time" : {
+        "start" : 1645168270561,
+        "stop" : 1645168270571,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Functional tests for auth popup"
+  }, {
+    "name" : "testClass",
+    "value" : "Functional tests for auth popup"
+  }, {
+    "name" : "testMethod",
+    "value" : "Go to reset password page"
+  }, {
+    "name" : "package",
+    "value" : "Functional tests for auth popup"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "82272de1da2e74a0.json",
+  "parameterValues" : [ ]
+}

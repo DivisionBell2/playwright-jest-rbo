@@ -1,0 +1,103 @@
+{
+  "uid" : "43c3b13ba605ed2c",
+  "name" : "Click on close button in registration popup",
+  "fullName" : "Auth popup functional tests.Click on close button in registration popup",
+  "historyId" : "bd35956cf818bc5b89c319f176ddf308",
+  "time" : {
+    "start" : 1645895766418,
+    "stop" : 1645895769509,
+    "duration" : 3091
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click registration link on auth window",
+      "time" : {
+        "start" : 1645895767742,
+        "stop" : 1645895768140,
+        "duration" : 398
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click on close auth window button",
+      "time" : {
+        "start" : 1645895768140,
+        "stop" : 1645895768497,
+        "duration" : 357
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check the auth window closed",
+      "time" : {
+        "start" : 1645895768497,
+        "stop" : 1645895769509,
+        "duration" : 1012
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Auth popup functional tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Auth popup functional tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Click on close button in registration popup"
+  }, {
+    "name" : "package",
+    "value" : "Auth popup functional tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "43c3b13ba605ed2c.json",
+  "parameterValues" : [ ]
+}

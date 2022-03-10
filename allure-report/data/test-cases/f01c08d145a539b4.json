@@ -1,0 +1,161 @@
+{
+  "uid" : "f01c08d145a539b4",
+  "name" : "Clicking on Watch link in footer and go to Platform blogs",
+  "fullName" : "Navigation tests for feedback page.Clicking on Watch link in footer and go to Platform blogs",
+  "historyId" : "78ae2ea5d756cc9bb59bce796dd582c8",
+  "time" : {
+    "start" : 1646756891580,
+    "stop" : 1646756893559,
+    "duration" : 1979
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 7,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open feedback page",
+      "time" : {
+        "start" : 1646756891580,
+        "stop" : 1646756893291,
+        "duration" : 1711
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click watch link on footer",
+      "time" : {
+        "start" : 1646756893291,
+        "stop" : 1646756893477,
+        "duration" : 186
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "undefined",
+      "time" : {
+        "start" : 1646756893477,
+        "stop" : 1646756893558,
+        "duration" : 81
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation tests for feedback page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation tests for feedback page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on Watch link in footer and go to Platform blogs"
+  }, {
+    "name" : "package",
+    "value" : "Navigation tests for feedback page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "182ad0db3447f18c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646756408825,
+        "stop" : 1646756414575,
+        "duration" : 5750
+      }
+    }, {
+      "uid" : "e05af4385144ae47",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646388031719,
+        "stop" : 1646388032649,
+        "duration" : 930
+      }
+    }, {
+      "uid" : "1b40ebed9056c41d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646326489309,
+        "stop" : 1646326490100,
+        "duration" : 791
+      }
+    }, {
+      "uid" : "e09acb33c1110545",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646322309115,
+        "stop" : 1646322309883,
+        "duration" : 768
+      }
+    }, {
+      "uid" : "1e0f75cc7ad1bcbd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646207612605,
+        "stop" : 1646207613410,
+        "duration" : 805
+      }
+    }, {
+      "uid" : "38ff8a1c1ede4dc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646121369928,
+        "stop" : 1646121370638,
+        "duration" : 710
+      }
+    }, {
+      "uid" : "e20b8773031a84e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646121316591,
+        "stop" : 1646121319685,
+        "duration" : 3094
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f01c08d145a539b4.json",
+  "parameterValues" : [ ]
+}

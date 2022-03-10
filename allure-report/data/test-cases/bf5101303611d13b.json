@@ -1,0 +1,88 @@
+{
+  "uid" : "bf5101303611d13b",
+  "name" : "Click on close button in auth popup",
+  "fullName" : "Auth popup functional tests.Click on close button in auth popup",
+  "historyId" : "f31be305de1b0e278cd96252277e3626",
+  "time" : {
+    "start" : 1646322054522,
+    "stop" : 1646322057339,
+    "duration" : 2817
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click on close button",
+      "time" : {
+        "start" : 1646322057277,
+        "stop" : 1646322057335,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check auth modal window closed",
+      "time" : {
+        "start" : 1646322057335,
+        "stop" : 1646322057338,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Auth popup functional tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Auth popup functional tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Click on close button in auth popup"
+  }, {
+    "name" : "package",
+    "value" : "Auth popup functional tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bf5101303611d13b.json",
+  "parameterValues" : [ ]
+}

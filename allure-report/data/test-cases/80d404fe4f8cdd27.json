@@ -1,0 +1,118 @@
+{
+  "uid" : "80d404fe4f8cdd27",
+  "name" : "Clicking on logo",
+  "fullName" : "Navigation tests for feedback page.Clicking on logo",
+  "historyId" : "adb66bd1418f91d238dd0a944ec8f3de",
+  "time" : {
+    "start" : 1645978671434,
+    "stop" : 1645978675440,
+    "duration" : 4006
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open feedback page",
+      "time" : {
+        "start" : 1645978671434,
+        "stop" : 1645978673805,
+        "duration" : 2371
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click on logo icon",
+      "time" : {
+        "start" : 1645978673806,
+        "stop" : 1645978673917,
+        "duration" : 111
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Wait for navigation main page",
+      "time" : {
+        "start" : 1645978673917,
+        "stop" : 1645978675406,
+        "duration" : 1489
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Get text from main page title",
+      "time" : {
+        "start" : 1645978675406,
+        "stop" : 1645978675439,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation tests for feedback page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation tests for feedback page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on logo"
+  }, {
+    "name" : "package",
+    "value" : "Navigation tests for feedback page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "80d404fe4f8cdd27.json",
+  "parameterValues" : [ ]
+}

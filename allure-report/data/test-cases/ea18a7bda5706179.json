@@ -1,0 +1,48 @@
+{
+  "uid" : "ea18a7bda5706179",
+  "name" : "Clicking on dasreda.ru link",
+  "fullName" : "Navigation on enter personal data page.Clicking on dasreda.ru link",
+  "historyId" : "3b931dc9bf74cb1f9af9f956baac0e8e",
+  "time" : {
+    "start" : 1645036755814,
+    "stop" : 1645036758652,
+    "duration" : 2838
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation on enter personal data page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation on enter personal data page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on dasreda.ru link"
+  }, {
+    "name" : "package",
+    "value" : "Navigation on enter personal data page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ea18a7bda5706179.json",
+  "parameterValues" : [ ]
+}

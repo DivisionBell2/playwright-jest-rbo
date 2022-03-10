@@ -1,0 +1,73 @@
+{
+  "uid" : "f6b9aea328581df3",
+  "name" : "Clicking on Oferta link and go to oferta document",
+  "fullName" : "Navigation on main page.Clicking on Oferta link and go to oferta document",
+  "historyId" : "f7678c67b8bb3d11b139b1cd01efe7ca",
+  "time" : {
+    "start" : 1645799920603,
+    "stop" : 1645799921939,
+    "duration" : 1336
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "undefined",
+      "time" : {
+        "start" : 1645799921704,
+        "stop" : 1645799921938,
+        "duration" : 234
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on Oferta link and go to oferta document"
+  }, {
+    "name" : "package",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f6b9aea328581df3.json",
+  "parameterValues" : [ ]
+}

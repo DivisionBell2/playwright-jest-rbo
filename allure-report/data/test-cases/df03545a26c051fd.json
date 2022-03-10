@@ -1,0 +1,103 @@
+{
+  "uid" : "df03545a26c051fd",
+  "name" : "Clicking on Watch link in footer and go to Platform videos",
+  "fullName" : "FAQ page navigation tests.Clicking on Watch link in footer and go to Platform videos",
+  "historyId" : "ca6b30fdc6624b43059b2b26d67967dc",
+  "time" : {
+    "start" : 1645898986058,
+    "stop" : 1645898989938,
+    "duration" : 3880
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open FAQ page",
+      "time" : {
+        "start" : 1645898986059,
+        "stop" : 1645898989507,
+        "duration" : 3448
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click on watch link on footer",
+        "time" : {
+          "start" : 1645898986059,
+          "stop" : 1645898988931,
+          "duration" : 2872
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Get new browser tab",
+      "time" : {
+        "start" : 1645898989508,
+        "stop" : 1645898989930,
+        "duration" : 422
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "FAQ page navigation tests"
+  }, {
+    "name" : "testClass",
+    "value" : "FAQ page navigation tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on Watch link in footer and go to Platform videos"
+  }, {
+    "name" : "package",
+    "value" : "FAQ page navigation tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "df03545a26c051fd.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,118 @@
+{
+  "uid" : "5974e0cf9ba1a7a5",
+  "name" : "Changing mode of viewing password",
+  "fullName" : "Auth popup functional tests.Changing mode of viewing password",
+  "historyId" : "6951da38efd9d2360fdbfe9c11ea93ad",
+  "time" : {
+    "start" : 1646756363756,
+    "stop" : 1646756364724,
+    "duration" : 968
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click on view password icon",
+      "time" : {
+        "start" : 1646756364302,
+        "stop" : 1646756364672,
+        "duration" : 370
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Get attribute type of password input",
+      "time" : {
+        "start" : 1646756364672,
+        "stop" : 1646756364681,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click on view password icon",
+      "time" : {
+        "start" : 1646756364681,
+        "stop" : 1646756364720,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Get attribute type of password input",
+      "time" : {
+        "start" : 1646756364720,
+        "stop" : 1646756364724,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Auth popup functional tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Auth popup functional tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Changing mode of viewing password"
+  }, {
+    "name" : "package",
+    "value" : "Auth popup functional tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5974e0cf9ba1a7a5.json",
+  "parameterValues" : [ ]
+}

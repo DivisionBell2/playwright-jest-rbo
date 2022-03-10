@@ -1,0 +1,50 @@
+{
+  "uid" : "c16a5f241c5f895f",
+  "name" : "Clicking on oferta link in footer",
+  "fullName" : "Navigation on enter personal data page.Clicking on oferta link in footer",
+  "historyId" : "905f2797d8fffb72a67d8ab8680837f",
+  "time" : {
+    "start" : 1645036683585,
+    "stop" : 1645036685448,
+    "duration" : 1863
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"cdn.dasreda.ru/fonts-static/soglasie-pd\"\n                Received string:    \":\"",
+  "statusTrace" : "Error: expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"cdn.dasreda.ru/fonts-static/soglasie-pd\"\n                Received string:    \":\"\n                    at /home/alexandr/study/11/playwright-jest-rbo/tests/personalData/navigation.test.ts:94:34\n                    at Generator.next (<anonymous>)\n                    at fulfilled (/home/alexandr/study/11/playwright-jest-rbo/tests/personalData/navigation.test.ts:5:58)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation on enter personal data page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation on enter personal data page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on oferta link in footer"
+  }, {
+    "name" : "package",
+    "value" : "Navigation on enter personal data page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c16a5f241c5f895f.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,103 @@
+{
+  "uid" : "773b6b4f8dbb619b",
+  "name" : "Clicking on Read link in footer and go to Platform blogs",
+  "fullName" : "Navigation tests for faq page.Clicking on Read link in footer and go to Platform blogs",
+  "historyId" : "11110667d1b3592fb5843f82b95f3a3b",
+  "time" : {
+    "start" : 1646644803574,
+    "stop" : 1646644806211,
+    "duration" : 2637
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open feedback page",
+      "time" : {
+        "start" : 1646644803574,
+        "stop" : 1646644806033,
+        "duration" : 2459
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click on read link on footer",
+      "time" : {
+        "start" : 1646644806033,
+        "stop" : 1646644806208,
+        "duration" : 175
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "undefined",
+        "time" : {
+          "start" : 1646644806034,
+          "stop" : 1646644806160,
+          "duration" : 126
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation tests for faq page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation tests for faq page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on Read link in footer and go to Platform blogs"
+  }, {
+    "name" : "package",
+    "value" : "Navigation tests for faq page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "773b6b4f8dbb619b.json",
+  "parameterValues" : [ ]
+}

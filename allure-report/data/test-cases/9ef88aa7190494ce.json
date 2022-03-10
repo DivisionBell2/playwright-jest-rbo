@@ -1,0 +1,88 @@
+{
+  "uid" : "9ef88aa7190494ce",
+  "name" : "Click on start business registration as legal entity",
+  "fullName" : "Navigation on main page.Click on start business registration as legal entity",
+  "historyId" : "944faaefc3bcc80966e6e14c6bfeff4e",
+  "time" : {
+    "start" : 1645799874218,
+    "stop" : 1645799875136,
+    "duration" : 918
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click legal entity button in landing info block",
+      "time" : {
+        "start" : 1645799874870,
+        "stop" : 1645799875021,
+        "duration" : 151
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Get title text from personal data page",
+      "time" : {
+        "start" : 1645799875021,
+        "stop" : 1645799875135,
+        "duration" : 114
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Click on start business registration as legal entity"
+  }, {
+    "name" : "package",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9ef88aa7190494ce.json",
+  "parameterValues" : [ ]
+}

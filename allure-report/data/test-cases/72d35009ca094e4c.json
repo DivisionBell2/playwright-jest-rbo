@@ -1,0 +1,88 @@
+{
+  "uid" : "72d35009ca094e4c",
+  "name" : "Clicking on FAQ button in landing block",
+  "fullName" : "Navigation on main page.Clicking on FAQ button in landing block",
+  "historyId" : "f2e3ad875adef333551dab38332be200",
+  "time" : {
+    "start" : 1645799878930,
+    "stop" : 1645799880715,
+    "duration" : 1785
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click on FAQ button on landing",
+      "time" : {
+        "start" : 1645799879563,
+        "stop" : 1645799879698,
+        "duration" : 135
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check search input on FAQ page is visible",
+      "time" : {
+        "start" : 1645799879698,
+        "stop" : 1645799880715,
+        "duration" : 1017
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on FAQ button in landing block"
+  }, {
+    "name" : "package",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "72d35009ca094e4c.json",
+  "parameterValues" : [ ]
+}

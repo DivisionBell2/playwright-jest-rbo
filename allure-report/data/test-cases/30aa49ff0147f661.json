@@ -1,0 +1,92 @@
+{
+  "uid" : "30aa49ff0147f661",
+  "name" : "Clicking on Read link in footer and go to Platform blogs",
+  "fullName" : "FAQ page navigation tests.Clicking on Read link in footer and go to Platform blogs",
+  "historyId" : "b5daf876d371a68b167883c4ca27f777",
+  "time" : {
+    "start" : 1645895241852,
+    "stop" : 1645895242438,
+    "duration" : 586
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: page.click: Execution context was destroyed, most likely because of a navigation.\n                =========================== logs ===========================\n                waiting for selector \"//div[contains(@class, 'ant-row MainFooter__footer-menu-content')]//li/a[contains(., 'Читать')]\"\n                  selector resolved to visible <a target=\"_blank\" rel=\"noreferrer\" href=\"https://u…>Читать</a>\n                attempting click action\n                  waiting for element to be visible, enabled and stable\n                ============================================================",
+  "statusTrace" : "page.click: Execution context was destroyed, most likely because of a navigation.\n                =========================== logs ===========================\n                waiting for selector \"//div[contains(@class, 'ant-row MainFooter__footer-menu-content')]//li/a[contains(., 'Читать')]\"\n                  selector resolved to visible <a target=\"_blank\" rel=\"noreferrer\" href=\"https://u…>Читать</a>\n                attempting click action\n                  waiting for element to be visible, enabled and stable\n                ============================================================\n                    at Footer.<anonymous> (/home/alexandr/study/11/playwright-jest-rbo/pages/basePage.page.ts:59:20)\n                    at fulfilled (/home/alexandr/study/11/playwright-jest-rbo/pages/basePage.page.ts:5:58)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: page.click: Execution context was destroyed, most likely because of a navigation.\n                =========================== logs ===========================\n                waiting for selector \"//div[contains(@class, 'ant-row MainFooter__footer-menu-content')]//li/a[contains(., 'Читать')]\"\n                  selector resolved to visible <a target=\"_blank\" rel=\"noreferrer\" href=\"https://u…>Читать</a>\n                attempting click action\n                  waiting for element to be visible, enabled and stable\n                ============================================================",
+    "statusTrace" : "page.click: Execution context was destroyed, most likely because of a navigation.\n                =========================== logs ===========================\n                waiting for selector \"//div[contains(@class, 'ant-row MainFooter__footer-menu-content')]//li/a[contains(., 'Читать')]\"\n                  selector resolved to visible <a target=\"_blank\" rel=\"noreferrer\" href=\"https://u…>Читать</a>\n                attempting click action\n                  waiting for element to be visible, enabled and stable\n                ============================================================\n                    at Footer.<anonymous> (/home/alexandr/study/11/playwright-jest-rbo/pages/basePage.page.ts:59:20)\n                    at fulfilled (/home/alexandr/study/11/playwright-jest-rbo/pages/basePage.page.ts:5:58)",
+    "steps" : [ {
+      "name" : "Open FAQ page",
+      "time" : {
+        "start" : 1645895241852,
+        "stop" : 0,
+        "duration" : -1645895241852
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "Click on read link on footer",
+        "time" : {
+          "start" : 1645895241853,
+          "stop" : 1645895242190,
+          "duration" : 337
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "FAQ page navigation tests"
+  }, {
+    "name" : "testClass",
+    "value" : "FAQ page navigation tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on Read link in footer and go to Platform blogs"
+  }, {
+    "name" : "package",
+    "value" : "FAQ page navigation tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "30aa49ff0147f661.json",
+  "parameterValues" : [ ]
+}

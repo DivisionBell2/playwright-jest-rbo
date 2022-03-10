@@ -1,0 +1,320 @@
+{
+  "uid" : "bb5345991741171e",
+  "name" : "Searching by text",
+  "fullName" : "Searching tests for FAQ page.Searching by text",
+  "historyId" : "26c35265691e81efc4854cfc166e2b83",
+  "time" : {
+    "start" : 1646756893974,
+    "stop" : 1646756901843,
+    "duration" : 7869
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 25,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open FAQ page",
+      "time" : {
+        "start" : 1646756893975,
+        "stop" : 1646756901770,
+        "duration" : 7795
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Get tabs locators",
+      "time" : {
+        "start" : 1646756901770,
+        "stop" : 1646756901811,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Enter text Кто может стать предпринимателем in search input",
+      "time" : {
+        "start" : 1646756901813,
+        "stop" : 1646756901840,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Get tabs locators",
+      "time" : {
+        "start" : 1646756901840,
+        "stop" : 1646756901843,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Searching tests for FAQ page"
+  }, {
+    "name" : "testClass",
+    "value" : "Searching tests for FAQ page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Searching by text"
+  }, {
+    "name" : "package",
+    "value" : "Searching tests for FAQ page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e6eb4ac994db050e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646388040471,
+        "stop" : 1646388043631,
+        "duration" : 3160
+      }
+    }, {
+      "uid" : "4913332235508f7d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646326490520,
+        "stop" : 1646326492441,
+        "duration" : 1921
+      }
+    }, {
+      "uid" : "9faa513c55db5b95",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646322310300,
+        "stop" : 1646322313034,
+        "duration" : 2734
+      }
+    }, {
+      "uid" : "ac55d4e1df36a8c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646207613831,
+        "stop" : 1646207615628,
+        "duration" : 1797
+      }
+    }, {
+      "uid" : "f5411c7c22ee5c13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645899876408,
+        "stop" : 1645899879123,
+        "duration" : 2715
+      }
+    }, {
+      "uid" : "43db0592ab5d9d34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645899389091,
+        "stop" : 1645899390993,
+        "duration" : 1902
+      }
+    }, {
+      "uid" : "e653be2f692e6b33",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645897971709,
+        "stop" : 1645897974719,
+        "duration" : 3010
+      }
+    }, {
+      "uid" : "f69ecaa9b62e8c9a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645897968085,
+        "stop" : 1645897971176,
+        "duration" : 3091
+      }
+    }, {
+      "uid" : "675cea5d550d7386",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645897833336,
+        "stop" : 1645897836255,
+        "duration" : 2919
+      }
+    }, {
+      "uid" : "2551617e88932105",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645897830113,
+        "stop" : 1645897832890,
+        "duration" : 2777
+      }
+    }, {
+      "uid" : "3fe2bd75c769478d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645897378038,
+        "stop" : 1645897381302,
+        "duration" : 3264
+      }
+    }, {
+      "uid" : "ec7b67af49794d38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645897373770,
+        "stop" : 1645897377439,
+        "duration" : 3669
+      }
+    }, {
+      "uid" : "e6e66c096dfe4b4f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645897266207,
+        "stop" : 1645897269450,
+        "duration" : 3243
+      }
+    }, {
+      "uid" : "d87a5847d157074e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645897262278,
+        "stop" : 1645897265668,
+        "duration" : 3390
+      }
+    }, {
+      "uid" : "a0a2ddc16b96fb50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645896115948,
+        "stop" : 1645896118819,
+        "duration" : 2871
+      }
+    }, {
+      "uid" : "6b72f19e6901768f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645896112312,
+        "stop" : 1645896115254,
+        "duration" : 2942
+      }
+    }, {
+      "uid" : "5e20495ed5d28a09",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895314458,
+        "stop" : 1645895317212,
+        "duration" : 2754
+      }
+    }, {
+      "uid" : "8ff19263fbaaa0a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895310542,
+        "stop" : 1645895313750,
+        "duration" : 3208
+      }
+    }, {
+      "uid" : "f33661c965afbac7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895223539,
+        "stop" : 1645895226514,
+        "duration" : 2975
+      }
+    }, {
+      "uid" : "1d14d92a7b2c6641",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895220233,
+        "stop" : 1645895222792,
+        "duration" : 2559
+      }
+    }, {
+      "uid" : "55c9f4d1e8b79d70",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645793495722,
+        "stop" : 1645793498122,
+        "duration" : 2400
+      }
+    }, {
+      "uid" : "47d8f32cde526feb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645793491310,
+        "stop" : 1645793493188,
+        "duration" : 1878
+      }
+    }, {
+      "uid" : "5b366c0363c287c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645793444552,
+        "stop" : 1645793447462,
+        "duration" : 2910
+      }
+    }, {
+      "uid" : "6356aedef21d5229",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645793439986,
+        "stop" : 1645793441899,
+        "duration" : 1913
+      }
+    }, {
+      "uid" : "44499fc11cffa273",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645793206773,
+        "stop" : 1645793208846,
+        "duration" : 2073
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bb5345991741171e.json",
+  "parameterValues" : [ ]
+}

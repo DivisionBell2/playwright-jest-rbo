@@ -1,0 +1,118 @@
+{
+  "uid" : "74c00f9988a64d95",
+  "name" : "Clicking on logo",
+  "fullName" : "Navigation tests for phone validation page.Clicking on logo",
+  "historyId" : "783693ec1daa02323fcd85cd7a39eedc",
+  "time" : {
+    "start" : 1646578928968,
+    "stop" : 1646578930426,
+    "duration" : 1458
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open phone validation page for /rbidos/personal-information/ip/2",
+      "time" : {
+        "start" : 1646578928968,
+        "stop" : 1646578929486,
+        "duration" : 518
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Open phone validation page for /rbidos/personal-information/ip/2",
+      "time" : {
+        "start" : 1646578929486,
+        "stop" : 1646578930140,
+        "duration" : 654
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click on logo icon",
+      "time" : {
+        "start" : 1646578930140,
+        "stop" : 1646578930351,
+        "duration" : 211
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Get text from main page title",
+      "time" : {
+        "start" : 1646578930351,
+        "stop" : 1646578930426,
+        "duration" : 75
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation tests for phone validation page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation tests for phone validation page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on logo"
+  }, {
+    "name" : "package",
+    "value" : "Navigation tests for phone validation page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "74c00f9988a64d95.json",
+  "parameterValues" : [ ]
+}

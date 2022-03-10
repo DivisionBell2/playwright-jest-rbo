@@ -1,0 +1,133 @@
+{
+  "uid" : "5a4ee73394fd8457",
+  "name" : "Open tab with answer",
+  "fullName" : "Open tab in FAQ page.Open tab with answer",
+  "historyId" : "48e2f3fcd8203784879832ed096c0140",
+  "time" : {
+    "start" : 1646388043976,
+    "stop" : 1646388049238,
+    "duration" : 5262
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open FAQ page",
+      "time" : {
+        "start" : 1646388043977,
+        "stop" : 1646388048905,
+        "duration" : 4928
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click first faq tab",
+      "time" : {
+        "start" : 1646388048905,
+        "stop" : 1646388049011,
+        "duration" : 106
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check visible answer block",
+      "time" : {
+        "start" : 1646388049011,
+        "stop" : 1646388049022,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click first opened faq tab",
+      "time" : {
+        "start" : 1646388049023,
+        "stop" : 1646388049232,
+        "duration" : 209
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check answerBlock is closed",
+      "time" : {
+        "start" : 1646388049232,
+        "stop" : 1646388049237,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Open tab in FAQ page"
+  }, {
+    "name" : "testClass",
+    "value" : "Open tab in FAQ page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Open tab with answer"
+  }, {
+    "name" : "package",
+    "value" : "Open tab in FAQ page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5a4ee73394fd8457.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,88 @@
+{
+  "uid" : "589da0d21cb348d5",
+  "name" : "Clicking on SberIcon and go to sberbank.ru",
+  "fullName" : "Navigation for feedback main page.Clicking on SberIcon and go to sberbank.ru",
+  "historyId" : "e67c5d64905344dd3be3743d117c787d",
+  "time" : {
+    "start" : 1646119398869,
+    "stop" : 1646119399586,
+    "duration" : 717
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click on go to Sberbank button",
+      "time" : {
+        "start" : 1646119399252,
+        "stop" : 1646119399360,
+        "duration" : 108
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "undefined",
+      "time" : {
+        "start" : 1646119399360,
+        "stop" : 1646119399585,
+        "duration" : 225
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation for feedback main page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation for feedback main page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on SberIcon and go to sberbank.ru"
+  }, {
+    "name" : "package",
+    "value" : "Navigation for feedback main page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "589da0d21cb348d5.json",
+  "parameterValues" : [ ]
+}

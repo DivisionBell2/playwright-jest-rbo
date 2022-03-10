@@ -1,0 +1,50 @@
+{
+  "uid" : "6126968a89855bf6",
+  "name" : "Send message by not authorized user",
+  "fullName" : "Navigation tests for feedback page.Send message by not authorized user",
+  "historyId" : "e5242b4af0ad564144739043a78b9111",
+  "time" : {
+    "start" : 1646387250788,
+    "stop" : 1646387250788,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "unknown",
+  "statusMessage" : "This test was disabled",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation tests for feedback page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation tests for feedback page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Send message by not authorized user"
+  }, {
+    "name" : "package",
+    "value" : "Navigation tests for feedback page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6126968a89855bf6.json",
+  "parameterValues" : [ ]
+}

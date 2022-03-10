@@ -1,0 +1,167 @@
+{
+  "uid" : "52ebc1ba8db00b2b",
+  "name" : "Clicking on FAQ button",
+  "fullName" : "Navigation tests for phone validation page.Clicking on FAQ button",
+  "historyId" : "65719468b9d6c44944846c1fff5d02b3",
+  "time" : {
+    "start" : 1646770899860,
+    "stop" : 1646770910509,
+    "duration" : 10649
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: Timeout - Async callback was not invoked within the 30000 ms timeout specified by jest.setTimeout.",
+  "statusTrace" : "Timeout - Async callback was not invoked within the 30000 ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 30000 ms timeout specified by jest.setTimeout.\n                    at mapper (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/queueRunner.js:71:45)\n                    at /home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/queueRunner.js:119:41",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: Timeout - Async callback was not invoked within the 30000 ms timeout specified by jest.setTimeout.",
+    "statusTrace" : "Timeout - Async callback was not invoked within the 30000 ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 30000 ms timeout specified by jest.setTimeout.\n                    at mapper (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/queueRunner.js:71:45)\n                    at /home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/queueRunner.js:119:41",
+    "steps" : [ {
+      "name" : "Open phone validation page for /rbidos/personal-information/ip/2",
+      "time" : {
+        "start" : 1646770899861,
+        "stop" : 1646770907800,
+        "duration" : 7939
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Wait for load state of phone validation page",
+      "time" : {
+        "start" : 1646770907800,
+        "stop" : 1646770907800,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Open phone validation page for /rbidos/personal-information/ooo/2",
+      "time" : {
+        "start" : 1646770907800,
+        "stop" : 1646770908767,
+        "duration" : 967
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Wait for load state of phone validation page",
+      "time" : {
+        "start" : 1646770908767,
+        "stop" : 1646770908767,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click on faq link in header",
+      "time" : {
+        "start" : 1646770908768,
+        "stop" : 1646770908863,
+        "duration" : 95
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Wait for navigation of FAQ page",
+      "time" : {
+        "start" : 1646770908863,
+        "stop" : 1646770910483,
+        "duration" : 1620
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check search input visible on faq page",
+      "time" : {
+        "start" : 1646770910483,
+        "stop" : 1646770910508,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation tests for phone validation page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation tests for phone validation page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on FAQ button"
+  }, {
+    "name" : "package",
+    "value" : "Navigation tests for phone validation page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "52ebc1ba8db00b2b.json",
+  "parameterValues" : [ ]
+}

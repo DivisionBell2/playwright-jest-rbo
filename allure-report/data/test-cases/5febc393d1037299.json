@@ -1,0 +1,227 @@
+{
+  "uid" : "5febc393d1037299",
+  "name" : "Go to reset password page",
+  "fullName" : "Auth popup functional tests.Go to reset password page",
+  "historyId" : "a883ce8c9447f30b687b973ace72970b",
+  "time" : {
+    "start" : 1646756842962,
+    "stop" : 1646756845712,
+    "duration" : 2750
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 17,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click forgot password link",
+      "time" : {
+        "start" : 1646756844261,
+        "stop" : 1646756844692,
+        "duration" : 431
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check user is on reset password page",
+      "time" : {
+        "start" : 1646756844692,
+        "stop" : 1646756845712,
+        "duration" : 1020
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Auth popup functional tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Auth popup functional tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Go to reset password page"
+  }, {
+    "name" : "package",
+    "value" : "Auth popup functional tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5f927a8c2139cde7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646756361262,
+        "stop" : 1646756363756,
+        "duration" : 2494
+      }
+    }, {
+      "uid" : "163446f352dc2f99",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646388018247,
+        "stop" : 1646388020768,
+        "duration" : 2521
+      }
+    }, {
+      "uid" : "68055e80b09d4bb5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646326453118,
+        "stop" : 1646326455600,
+        "duration" : 2482
+      }
+    }, {
+      "uid" : "16fa2c1ba190a0b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646322296848,
+        "stop" : 1646322299226,
+        "duration" : 2378
+      }
+    }, {
+      "uid" : "8493d94edba7395f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646322068791,
+        "stop" : 1646322070920,
+        "duration" : 2129
+      }
+    }, {
+      "uid" : "3fd22a7b0af44882",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646322033300,
+        "stop" : 1646322035716,
+        "duration" : 2416
+      }
+    }, {
+      "uid" : "26b916e7ca705dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646207600647,
+        "stop" : 1646207603902,
+        "duration" : 3255
+      }
+    }, {
+      "uid" : "11016f7c46068b23",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645899866923,
+        "stop" : 1645899868909,
+        "duration" : 1986
+      }
+    }, {
+      "uid" : "50f285076974074c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645896105688,
+        "stop" : 1645896108419,
+        "duration" : 2731
+      }
+    }, {
+      "uid" : "aa16c3ef3270ca25",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645896082213,
+        "stop" : 1645896085148,
+        "duration" : 2935
+      }
+    }, {
+      "uid" : "461c8d89ace94b1e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895803335,
+        "stop" : 1645895806587,
+        "duration" : 3252
+      }
+    }, {
+      "uid" : "fba70a66959ea48",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895780509,
+        "stop" : 1645895783509,
+        "duration" : 3000
+      }
+    }, {
+      "uid" : "e65de728e36cfc25",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645460792544,
+        "stop" : 1645460795333,
+        "duration" : 2789
+      }
+    }, {
+      "uid" : "7e91a4d68fa7080a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645193782187,
+        "stop" : 1645193784631,
+        "duration" : 2444
+      }
+    }, {
+      "uid" : "a49fff85e813c53d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645193666859,
+        "stop" : 1645193669299,
+        "duration" : 2440
+      }
+    }, {
+      "uid" : "b3fd1da0ed5ec62c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645191897455,
+        "stop" : 1645191900428,
+        "duration" : 2973
+      }
+    }, {
+      "uid" : "93f6c54ad63e11fc",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645191492380,
+        "stop" : 1645191492380,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5febc393d1037299.json",
+  "parameterValues" : [ ]
+}

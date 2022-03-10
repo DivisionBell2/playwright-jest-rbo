@@ -1,0 +1,133 @@
+{
+  "uid" : "cd9b0707971f51f7",
+  "name" : "Close support menu",
+  "fullName" : "Working of support menu.Close support menu",
+  "historyId" : "1457a07e4930ba6b60d915d976d2cb21",
+  "time" : {
+    "start" : 1646584092350,
+    "stop" : 1646584097353,
+    "duration" : 5003
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Go to main page",
+      "time" : {
+        "start" : 1646584092350,
+        "stop" : 1646584094193,
+        "duration" : 1843
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check is cookie button exist on page",
+      "time" : {
+        "start" : 1646584094193,
+        "stop" : 1646584097232,
+        "duration" : 3039
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click on support menu button",
+      "time" : {
+        "start" : 1646584097233,
+        "stop" : 1646584097280,
+        "duration" : 47
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click on close support menu button",
+      "time" : {
+        "start" : 1646584097280,
+        "stop" : 1646584097349,
+        "duration" : 69
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Wait for support menu closed",
+      "time" : {
+        "start" : 1646584097350,
+        "stop" : 1646584097352,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Working of support menu"
+  }, {
+    "name" : "testClass",
+    "value" : "Working of support menu"
+  }, {
+    "name" : "testMethod",
+    "value" : "Close support menu"
+  }, {
+    "name" : "package",
+    "value" : "Working of support menu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cd9b0707971f51f7.json",
+  "parameterValues" : [ ]
+}

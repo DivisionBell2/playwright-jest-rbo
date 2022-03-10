@@ -1,0 +1,50 @@
+{
+  "uid" : "62daba31727741df",
+  "name" : "Clicking on Feedback button",
+  "fullName" : "Navigation on main page.Clicking on Feedback button",
+  "historyId" : "c3d76450b645075560023133e7054191",
+  "time" : {
+    "start" : 1645020040976,
+    "stop" : 1645020041545,
+    "duration" : 569
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toBeTruthy()\n                \n                Received: false",
+  "statusTrace" : "Error: expect(received).toBeTruthy()\n                \n                Received: false\n                    at /home/alexandr/study/11/playwright-jest-rbo/tests/landing/navigation.test.ts:54:67\n                    at Generator.next (<anonymous>)\n                    at fulfilled (/home/alexandr/study/11/playwright-jest-rbo/tests/landing/navigation.test.ts:5:58)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on Feedback button"
+  }, {
+    "name" : "package",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "62daba31727741df.json",
+  "parameterValues" : [ ]
+}

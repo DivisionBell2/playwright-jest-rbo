@@ -1,0 +1,50 @@
+{
+  "uid" : "b346c10a52dccd1d",
+  "name" : "Clicking on Read link in footer and go to Platform blogs",
+  "fullName" : "Navigation tests for faq page.Clicking on Read link in footer and go to Platform blogs",
+  "historyId" : "11110667d1b3592fb5843f82b95f3a3b",
+  "time" : {
+    "start" : 1646756204505,
+    "stop" : 1646756204505,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "unknown",
+  "statusMessage" : "This test was disabled",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation tests for faq page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation tests for faq page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on Read link in footer and go to Platform blogs"
+  }, {
+    "name" : "package",
+    "value" : "Navigation tests for faq page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b346c10a52dccd1d.json",
+  "parameterValues" : [ ]
+}

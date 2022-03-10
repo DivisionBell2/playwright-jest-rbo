@@ -1,0 +1,88 @@
+{
+  "uid" : "9fb6faf6620035c4",
+  "name" : "Clicking on FAQ button",
+  "fullName" : "Navigation for feedback main page.Clicking on FAQ button",
+  "historyId" : "8ea1af1e46cb380648984715dfe491d0",
+  "time" : {
+    "start" : 1646322324095,
+    "stop" : 1646322325604,
+    "duration" : 1509
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click on faq link in header",
+      "time" : {
+        "start" : 1646322324521,
+        "stop" : 1646322324589,
+        "duration" : 68
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check search input visible on faq page",
+      "time" : {
+        "start" : 1646322324589,
+        "stop" : 1646322325604,
+        "duration" : 1015
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation for feedback main page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation for feedback main page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on FAQ button"
+  }, {
+    "name" : "package",
+    "value" : "Navigation for feedback main page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9fb6faf6620035c4.json",
+  "parameterValues" : [ ]
+}

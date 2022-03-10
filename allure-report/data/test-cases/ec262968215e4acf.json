@@ -1,0 +1,106 @@
+{
+  "uid" : "ec262968215e4acf",
+  "name" : "Start registration business for logined user with delete middle name",
+  "fullName" : "Check working entering personal data without middleName #test-landing-upper-ooo_button.Start registration business for logined user with delete middle name",
+  "historyId" : "dd6f1d567d2ba30a23c98570f421bc55",
+  "time" : {
+    "start" : 1645896059807,
+    "stop" : 1645896065321,
+    "duration" : 5514
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 7,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Check working entering personal data without middleName #test-landing-upper-ooo_button"
+  }, {
+    "name" : "testClass",
+    "value" : "Check working entering personal data without middleName #test-landing-upper-ooo_button"
+  }, {
+    "name" : "testMethod",
+    "value" : "Start registration business for logined user with delete middle name"
+  }, {
+    "name" : "package",
+    "value" : "Check working entering personal data without middleName #test-landing-upper-ooo_button"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c378c3452e3bd44a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645896046134,
+        "stop" : 1645896059807,
+        "duration" : 13673
+      }
+    }, {
+      "uid" : "43b268436ccb70e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645896016864,
+        "stop" : 1645896021874,
+        "duration" : 5010
+      }
+    }, {
+      "uid" : "22335684eca137f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645896005462,
+        "stop" : 1645896016864,
+        "duration" : 11402
+      }
+    }, {
+      "uid" : "3be2d66c6bc3af94",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895682150,
+        "stop" : 1645895688453,
+        "duration" : 6303
+      }
+    }, {
+      "uid" : "d9f1427926115326",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895670172,
+        "stop" : 1645895682150,
+        "duration" : 11978
+      }
+    }, {
+      "uid" : "9fee833d35a1a1ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895644229,
+        "stop" : 1645895650498,
+        "duration" : 6269
+      }
+    }, {
+      "uid" : "93deb7b8de32c852",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895631769,
+        "stop" : 1645895644229,
+        "duration" : 12460
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ec262968215e4acf.json",
+  "parameterValues" : [ ]
+}

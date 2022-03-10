@@ -1,0 +1,88 @@
+{
+  "uid" : "8a0b1a6cbdf7d9ac",
+  "name" : "Clicking on Read link in footer and go to Platform blogs",
+  "fullName" : "Navigation for feedback main page.Clicking on Read link in footer and go to Platform blogs",
+  "historyId" : "e6a8dbeb1caf2b8047a05b50074cc034",
+  "time" : {
+    "start" : 1646202984338,
+    "stop" : 1646202985045,
+    "duration" : 707
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click on read link on footer",
+      "time" : {
+        "start" : 1646202984819,
+        "stop" : 1646202985045,
+        "duration" : 226
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "undefined",
+        "time" : {
+          "start" : 1646202984819,
+          "stop" : 1646202984963,
+          "duration" : 144
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation for feedback main page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation for feedback main page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on Read link in footer and go to Platform blogs"
+  }, {
+    "name" : "package",
+    "value" : "Navigation for feedback main page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8a0b1a6cbdf7d9ac.json",
+  "parameterValues" : [ ]
+}

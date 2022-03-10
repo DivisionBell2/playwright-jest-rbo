@@ -1,0 +1,118 @@
+{
+  "uid" : "d29b80dbbd3b4825",
+  "name" : "Clicking on logo",
+  "fullName" : "Navigation tests for phone validation page.Clicking on logo",
+  "historyId" : "783693ec1daa02323fcd85cd7a39eedc",
+  "time" : {
+    "start" : 1646578010802,
+    "stop" : 1646578012391,
+    "duration" : 1589
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open entrepreneur phone validation page",
+      "time" : {
+        "start" : 1646578010803,
+        "stop" : 1646578011359,
+        "duration" : 556
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Open legal entity phone validation page",
+      "time" : {
+        "start" : 1646578011360,
+        "stop" : 1646578012041,
+        "duration" : 681
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click on logo icon",
+      "time" : {
+        "start" : 1646578012041,
+        "stop" : 1646578012270,
+        "duration" : 229
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Get text from main page title",
+      "time" : {
+        "start" : 1646578012270,
+        "stop" : 1646578012391,
+        "duration" : 121
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation tests for phone validation page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation tests for phone validation page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on logo"
+  }, {
+    "name" : "package",
+    "value" : "Navigation tests for phone validation page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d29b80dbbd3b4825.json",
+  "parameterValues" : [ ]
+}

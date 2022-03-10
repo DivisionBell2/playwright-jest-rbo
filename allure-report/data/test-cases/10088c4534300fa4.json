@@ -1,0 +1,312 @@
+{
+  "uid" : "10088c4534300fa4",
+  "name" : "Click on close button in auth popup",
+  "fullName" : "Functional tests for auth popup.Click on close button in auth popup",
+  "historyId" : "67c839cd60c987919f90e247fc60cb56",
+  "time" : {
+    "start" : 1645179308719,
+    "stop" : 1645179312304,
+    "duration" : 3585
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 26,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click closed button on auth popup",
+      "time" : {
+        "start" : 1645179310913,
+        "stop" : 1645179311275,
+        "duration" : 362
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check auth modal window closed",
+      "time" : {
+        "start" : 1645179311275,
+        "stop" : 1645179312299,
+        "duration" : 1024
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Functional tests for auth popup"
+  }, {
+    "name" : "testClass",
+    "value" : "Functional tests for auth popup"
+  }, {
+    "name" : "testMethod",
+    "value" : "Click on close button in auth popup"
+  }, {
+    "name" : "package",
+    "value" : "Functional tests for auth popup"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "42eb163eaa91c5e7",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645179224466,
+        "stop" : 1645179224466,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1c6767a01a66dfe5",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645179209319,
+        "stop" : 1645179209319,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f1550b1477fa4c8f",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645177967128,
+        "stop" : 1645177967129,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "84cf78362fa5fbbc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645169486035,
+        "stop" : 1645169489506,
+        "duration" : 3471
+      }
+    }, {
+      "uid" : "82404bfc33deeb62",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645168500778,
+        "stop" : 1645168500779,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "8c79bbad3760565a",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645168450612,
+        "stop" : 1645168450613,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "166bbdd92aee4b7e",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645168428196,
+        "stop" : 1645168428197,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "c86b3b568494b4e4",
+      "status" : "failed",
+      "statusDetails" : "Error: page.goto: Navigation failed because page was closed!\n                =========================== logs ===========================\n                navigating to \"https://rbo.uat.dasreda.ru/\", waiting until \"load\"\n                ============================================================",
+      "time" : {
+        "start" : 1645168409783,
+        "stop" : 1645168409797,
+        "duration" : 14
+      }
+    }, {
+      "uid" : "b0d7850e64c6b532",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645168257925,
+        "stop" : 1645168261419,
+        "duration" : 3494
+      }
+    }, {
+      "uid" : "a4b2aa4227a1b104",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645112508950,
+        "stop" : 1645112512571,
+        "duration" : 3621
+      }
+    }, {
+      "uid" : "9177f922e435e073",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645112488667,
+        "stop" : 1645112492355,
+        "duration" : 3688
+      }
+    }, {
+      "uid" : "b568eb51671b57ca",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toBeTruthy()\n                \n                Received: false",
+      "time" : {
+        "start" : 1645112457099,
+        "stop" : 1645112462211,
+        "duration" : 5112
+      }
+    }, {
+      "uid" : "3d2a4b2059bf08b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645097952635,
+        "stop" : 1645097956580,
+        "duration" : 3945
+      }
+    }, {
+      "uid" : "6911fa286fc23426",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645042261165,
+        "stop" : 1645042264908,
+        "duration" : 3743
+      }
+    }, {
+      "uid" : "643fd1d4e2871d9c",
+      "status" : "failed",
+      "statusDetails" : "TypeError: this.reporter.screenshot is not a function",
+      "time" : {
+        "start" : 1645042164326,
+        "stop" : 1645042167746,
+        "duration" : 3420
+      }
+    }, {
+      "uid" : "5f33f8d2174b8a09",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toBeTruthy()\n                \n                Received: false",
+      "time" : {
+        "start" : 1645041563695,
+        "stop" : 1645041569409,
+        "duration" : 5714
+      }
+    }, {
+      "uid" : "4170d80ffde216a",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toBeTruthy()\n                \n                Received: false",
+      "time" : {
+        "start" : 1645041448895,
+        "stop" : 1645041454723,
+        "duration" : 5828
+      }
+    }, {
+      "uid" : "5e80991e2b384c34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645041360250,
+        "stop" : 1645041362799,
+        "duration" : 2549
+      }
+    }, {
+      "uid" : "fcbfd6bd6a9ea596",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645041010228,
+        "stop" : 1645041013965,
+        "duration" : 3737
+      }
+    }, {
+      "uid" : "e7df193570333abe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645040763340,
+        "stop" : 1645040767140,
+        "duration" : 3800
+      }
+    }, {
+      "uid" : "402593fd8fc9777c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645040024220,
+        "stop" : 1645040028055,
+        "duration" : 3835
+      }
+    }, {
+      "uid" : "fc851e6220cc1203",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645039890619,
+        "stop" : 1645039894861,
+        "duration" : 4242
+      }
+    }, {
+      "uid" : "42974b213cf8f2ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645039809804,
+        "stop" : 1645039814506,
+        "duration" : 4702
+      }
+    }, {
+      "uid" : "2155b850931da24c",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toBeTruthy()\n                \n                Received: false",
+      "time" : {
+        "start" : 1645039764623,
+        "stop" : 1645039767630,
+        "duration" : 3007
+      }
+    }, {
+      "uid" : "55efb5d3a27630b8",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toBeTruthy()\n                \n                Received: false",
+      "time" : {
+        "start" : 1645039723893,
+        "stop" : 1645039727348,
+        "duration" : 3455
+      }
+    }, {
+      "uid" : "c515f43e4c8dd392",
+      "status" : "failed",
+      "statusDetails" : "Error: page.isHidden: Unexpected token \"\" while parsing selector \"\"\n                =========================== logs ===========================\n                  checking visibility of \"\"\n                ============================================================",
+      "time" : {
+        "start" : 1645039677591,
+        "stop" : 1645039680811,
+        "duration" : 3220
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "10088c4534300fa4.json",
+  "parameterValues" : [ ]
+}

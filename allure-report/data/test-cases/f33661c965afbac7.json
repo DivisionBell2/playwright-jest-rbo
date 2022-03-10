@@ -1,0 +1,118 @@
+{
+  "uid" : "f33661c965afbac7",
+  "name" : "Searching by text",
+  "fullName" : "Searching tests for FAQ page.Searching by text",
+  "historyId" : "26c35265691e81efc4854cfc166e2b83",
+  "time" : {
+    "start" : 1645895223539,
+    "stop" : 1645895226514,
+    "duration" : 2975
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open FAQ page",
+      "time" : {
+        "start" : 1645895223541,
+        "stop" : 1645895226332,
+        "duration" : 2791
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Get tabs locators",
+      "time" : {
+        "start" : 1645895226332,
+        "stop" : 1645895226431,
+        "duration" : 99
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Enter text Кто может стать предпринимателем in search input",
+      "time" : {
+        "start" : 1645895226433,
+        "stop" : 1645895226500,
+        "duration" : 67
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Get tabs locators",
+      "time" : {
+        "start" : 1645895226500,
+        "stop" : 1645895226513,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Searching tests for FAQ page"
+  }, {
+    "name" : "testClass",
+    "value" : "Searching tests for FAQ page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Searching by text"
+  }, {
+    "name" : "package",
+    "value" : "Searching tests for FAQ page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f33661c965afbac7.json",
+  "parameterValues" : [ ]
+}

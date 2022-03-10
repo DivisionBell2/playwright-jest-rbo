@@ -1,0 +1,313 @@
+{
+  "uid" : "f79f4bfcdc9ac388",
+  "name" : "Clicking on Watch link in footer and go to Platform videos",
+  "fullName" : "FAQ page navigation tests.Clicking on Watch link in footer and go to Platform videos",
+  "historyId" : "ca6b30fdc6624b43059b2b26d67967dc",
+  "time" : {
+    "start" : 1645899387219,
+    "stop" : 1645899388488,
+    "duration" : 1269
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 24,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open FAQ page",
+      "time" : {
+        "start" : 1645899387219,
+        "stop" : 1645899388487,
+        "duration" : 1268
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click on watch link on footer",
+        "time" : {
+          "start" : 1645899387220,
+          "stop" : 1645899388459,
+          "duration" : 1239
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Get new browser tab",
+        "time" : {
+          "start" : 1645899388459,
+          "stop" : 1645899388464,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "FAQ page navigation tests"
+  }, {
+    "name" : "testClass",
+    "value" : "FAQ page navigation tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on Watch link in footer and go to Platform videos"
+  }, {
+    "name" : "package",
+    "value" : "FAQ page navigation tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "724e64241bc0ff8b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645899170833,
+        "stop" : 1645899171671,
+        "duration" : 838
+      }
+    }, {
+      "uid" : "8e918fa884181141",
+      "status" : "failed",
+      "statusDetails" : "Error: page.click: Protocol error (Page.adoptNode): error in channel \"content::page\": exception while running method \"adoptNode\" in namespace \"page\": Cannot find object with id = id-145 unsafeObject@chrome://juggler/content/content/FrameTree.js:474:11\n                _adoptNode@chrome://juggler/content/content/PageAgent.js:432:32\n                _onMessage@chrome://juggler/content/SimpleChannel.js:165:37\n                receiveMessage@chrome://juggler/content/SimpleChannel.js:16:42\n                 _onMessage@chrome://juggler/content/SimpleChannel.js:149:16\n                receiveMessage@chrome://juggler/content/SimpleChannel.js:16:42\n                \n                =========================== logs ===========================\n                waiting for selector \"//div[contains(@class, 'ant-row MainFooter__footer-menu-content')]//li/a[contains(., 'Смотреть')]\"\n                  selector resolved to visible <a target=\"_blank\" rel=\"noreferrer\" class=\"MenuList…>Смотреть</a>\n                attempting click action\n                  waiting for element to be visible, enabled and stable\n                ============================================================",
+      "time" : {
+        "start" : 1645899067324,
+        "stop" : 1645899067528,
+        "duration" : 204
+      }
+    }, {
+      "uid" : "4545bed2eacfb41d",
+      "status" : "failed",
+      "statusDetails" : "Error: page.click: Protocol error (Page.adoptNode): error in channel \"content::page\": exception while running method \"adoptNode\" in namespace \"page\": Cannot find object with id = id-133 unsafeObject@chrome://juggler/content/content/FrameTree.js:474:11\n                _adoptNode@chrome://juggler/content/content/PageAgent.js:432:32\n                _onMessage@chrome://juggler/content/SimpleChannel.js:165:37\n                receiveMessage@chrome://juggler/content/SimpleChannel.js:16:42\n                 _onMessage@chrome://juggler/content/SimpleChannel.js:149:16\n                receiveMessage@chrome://juggler/content/SimpleChannel.js:16:42\n                \n                =========================== logs ===========================\n                waiting for selector \"//div[contains(@class, 'ant-row MainFooter__footer-menu-content')]//li/a[contains(., 'Смотреть')]\"\n                  selector resolved to visible <a target=\"_blank\" rel=\"noreferrer\" class=\"MenuList…>Смотреть</a>\n                attempting click action\n                  waiting for element to be visible, enabled and stable\n                ============================================================",
+      "time" : {
+        "start" : 1645899030574,
+        "stop" : 1645899030764,
+        "duration" : 190
+      }
+    }, {
+      "uid" : "df03545a26c051fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645898986058,
+        "stop" : 1645898989938,
+        "duration" : 3880
+      }
+    }, {
+      "uid" : "bbe6503cb1f4ac24",
+      "status" : "failed",
+      "statusDetails" : ": Timeout - Async callback was not invoked within the 25000 ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1645898943921,
+        "stop" : 1645898968935,
+        "duration" : 25014
+      }
+    }, {
+      "uid" : "2862215902a73537",
+      "status" : "failed",
+      "statusDetails" : ": Timeout - Async callback was not invoked within the 25000 ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1645898859418,
+        "stop" : 1645898884425,
+        "duration" : 25007
+      }
+    }, {
+      "uid" : "35116be73335959d",
+      "status" : "failed",
+      "statusDetails" : ": Timeout - Async callback was not invoked within the 25000 ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1645898670130,
+        "stop" : 1645898695137,
+        "duration" : 25007
+      }
+    }, {
+      "uid" : "a825586db6517a6b",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toBeTruthy()\n                \n                Received: false",
+      "time" : {
+        "start" : 1645898593991,
+        "stop" : 1645898618994,
+        "duration" : 25003
+      }
+    }, {
+      "uid" : "5547fb9ef1b06e39",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toBeTruthy()\n                \n                Received: false",
+      "time" : {
+        "start" : 1645898522300,
+        "stop" : 1645898547304,
+        "duration" : 25004
+      }
+    }, {
+      "uid" : "e0dff3e397776f99",
+      "status" : "failed",
+      "statusDetails" : "Error: page.click: Protocol error (Page.adoptNode): error in channel \"content::page\": exception while running method \"adoptNode\" in namespace \"page\": Cannot find object with id = id-91 unsafeObject@chrome://juggler/content/content/FrameTree.js:474:11\n                _adoptNode@chrome://juggler/content/content/PageAgent.js:432:32\n                _onMessage@chrome://juggler/content/SimpleChannel.js:165:37\n                receiveMessage@chrome://juggler/content/SimpleChannel.js:16:42\n                 _onMessage@chrome://juggler/content/SimpleChannel.js:149:16\n                receiveMessage@chrome://juggler/content/SimpleChannel.js:16:42\n                \n                =========================== logs ===========================\n                waiting for selector \"//div[contains(@class, 'ant-row MainFooter__footer-menu-content')]//li/a[contains(., 'Смотреть')]\"\n                  selector resolved to visible <a target=\"_blank\" rel=\"noreferrer\" class=\"MenuList…>Смотреть</a>\n                attempting click action\n                  waiting for element to be visible, enabled and stable\n                ============================================================",
+      "time" : {
+        "start" : 1645898415573,
+        "stop" : 1645898415678,
+        "duration" : 105
+      }
+    }, {
+      "uid" : "5859a049b6b7bde8",
+      "status" : "failed",
+      "statusDetails" : "Error: page.click: Protocol error (Page.adoptNode): error in channel \"content::page\": exception while running method \"adoptNode\" in namespace \"page\": Cannot find object with id = id-96 unsafeObject@chrome://juggler/content/content/FrameTree.js:474:11\n                _adoptNode@chrome://juggler/content/content/PageAgent.js:432:32\n                _onMessage@chrome://juggler/content/SimpleChannel.js:165:37\n                receiveMessage@chrome://juggler/content/SimpleChannel.js:16:42\n                 _onMessage@chrome://juggler/content/SimpleChannel.js:149:16\n                receiveMessage@chrome://juggler/content/SimpleChannel.js:16:42\n                \n                =========================== logs ===========================\n                waiting for selector \"//div[contains(@class, 'ant-row MainFooter__footer-menu-content')]//li/a[contains(., 'Смотреть')]\"\n                  selector resolved to visible <a target=\"_blank\" rel=\"noreferrer\" class=\"MenuList…>Смотреть</a>\n                attempting click action\n                  waiting for element to be visible, enabled and stable\n                ============================================================",
+      "time" : {
+        "start" : 1645898111926,
+        "stop" : 1645898112049,
+        "duration" : 123
+      }
+    }, {
+      "uid" : "a98ca6d107cf6455",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645898100826,
+        "stop" : 1645898103521,
+        "duration" : 2695
+      }
+    }, {
+      "uid" : "da572386d9737fa9",
+      "status" : "failed",
+      "statusDetails" : "Error: page.click: Protocol error (Page.adoptNode): error in channel \"content::page\": exception while running method \"adoptNode\" in namespace \"page\": Cannot find object with id = id-147 unsafeObject@chrome://juggler/content/content/FrameTree.js:474:11\n                _adoptNode@chrome://juggler/content/content/PageAgent.js:432:32\n                _onMessage@chrome://juggler/content/SimpleChannel.js:165:37\n                receiveMessage@chrome://juggler/content/SimpleChannel.js:16:42\n                 _onMessage@chrome://juggler/content/SimpleChannel.js:149:16\n                receiveMessage@chrome://juggler/content/SimpleChannel.js:16:42\n                \n                =========================== logs ===========================\n                waiting for selector \"//div[contains(@class, 'ant-row MainFooter__footer-menu-content')]//li/a[contains(., 'Смотреть')]\"\n                  selector resolved to visible <a target=\"_blank\" rel=\"noreferrer\" class=\"MenuList…>Смотреть</a>\n                attempting click action\n                  waiting for element to be visible, enabled and stable\n                ============================================================",
+      "time" : {
+        "start" : 1645897992412,
+        "stop" : 1645897992706,
+        "duration" : 294
+      }
+    }, {
+      "uid" : "6e845560e326972f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645897982682,
+        "stop" : 1645897983584,
+        "duration" : 902
+      }
+    }, {
+      "uid" : "555139c25204391e",
+      "status" : "failed",
+      "statusDetails" : "Error: page.click: Protocol error (Page.adoptNode): error in channel \"content::page\": exception while running method \"adoptNode\" in namespace \"page\": Cannot find object with id = id-125 unsafeObject@chrome://juggler/content/content/FrameTree.js:474:11\n                _adoptNode@chrome://juggler/content/content/PageAgent.js:432:32\n                _onMessage@chrome://juggler/content/SimpleChannel.js:165:37\n                receiveMessage@chrome://juggler/content/SimpleChannel.js:16:42\n                 _onMessage@chrome://juggler/content/SimpleChannel.js:149:16\n                receiveMessage@chrome://juggler/content/SimpleChannel.js:16:42\n                \n                =========================== logs ===========================\n                waiting for selector \"//div[contains(@class, 'ant-row MainFooter__footer-menu-content')]//li/a[contains(., 'Смотреть')]\"\n                  selector resolved to visible <a target=\"_blank\" rel=\"noreferrer\" class=\"MenuList…>Смотреть</a>\n                attempting click action\n                  waiting for element to be visible, enabled and stable\n                ============================================================",
+      "time" : {
+        "start" : 1645897853065,
+        "stop" : 1645897853224,
+        "duration" : 159
+      }
+    }, {
+      "uid" : "ef823055292c7287",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645897843775,
+        "stop" : 1645897844802,
+        "duration" : 1027
+      }
+    }, {
+      "uid" : "945c35947593bf8b",
+      "status" : "failed",
+      "statusDetails" : "Error: page.click: Protocol error (Page.adoptNode): error in channel \"content::page\": exception while running method \"adoptNode\" in namespace \"page\": Cannot find object with id = id-122 unsafeObject@chrome://juggler/content/content/FrameTree.js:474:11\n                _adoptNode@chrome://juggler/content/content/PageAgent.js:432:32\n                _onMessage@chrome://juggler/content/SimpleChannel.js:165:37\n                receiveMessage@chrome://juggler/content/SimpleChannel.js:16:42\n                 _onMessage@chrome://juggler/content/SimpleChannel.js:149:16\n                receiveMessage@chrome://juggler/content/SimpleChannel.js:16:42\n                \n                =========================== logs ===========================\n                waiting for selector \"//div[contains(@class, 'ant-row MainFooter__footer-menu-content')]//li/a[contains(., 'Смотреть')]\"\n                  selector resolved to visible <a target=\"_blank\" rel=\"noreferrer\" class=\"MenuList…>Смотреть</a>\n                attempting click action\n                  waiting for element to be visible, enabled and stable\n                ============================================================",
+      "time" : {
+        "start" : 1645897398175,
+        "stop" : 1645897398364,
+        "duration" : 189
+      }
+    }, {
+      "uid" : "2c156e87cb5e4f89",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645897388669,
+        "stop" : 1645897389917,
+        "duration" : 1248
+      }
+    }, {
+      "uid" : "ff259df663882e4e",
+      "status" : "failed",
+      "statusDetails" : "Error: page.click: Protocol error (Page.adoptNode): error in channel \"content::page\": exception while running method \"adoptNode\" in namespace \"page\": Cannot find object with id = id-109 unsafeObject@chrome://juggler/content/content/FrameTree.js:474:11\n                _adoptNode@chrome://juggler/content/content/PageAgent.js:432:32\n                _onMessage@chrome://juggler/content/SimpleChannel.js:165:37\n                receiveMessage@chrome://juggler/content/SimpleChannel.js:16:42\n                 _onMessage@chrome://juggler/content/SimpleChannel.js:149:16\n                receiveMessage@chrome://juggler/content/SimpleChannel.js:16:42\n                \n                =========================== logs ===========================\n                waiting for selector \"//div[contains(@class, 'ant-row MainFooter__footer-menu-content')]//li/a[contains(., 'Смотреть')]\"\n                  selector resolved to visible <a target=\"_blank\" rel=\"noreferrer\" class=\"MenuList…>Смотреть</a>\n                attempting click action\n                  waiting for element to be visible, enabled and stable\n                ============================================================",
+      "time" : {
+        "start" : 1645897285240,
+        "stop" : 1645897285396,
+        "duration" : 156
+      }
+    }, {
+      "uid" : "23403f58f1f3e919",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645897275968,
+        "stop" : 1645897276769,
+        "duration" : 801
+      }
+    }, {
+      "uid" : "cf6379811b5ba8e6",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"uat.dasreda.ru/learn/blog\"\n                Received string:    \"https://uat.dasreda.ru/learn/videos?_ga=2.225427922.994690869.1645896121-1158751637.1645896121\"",
+      "time" : {
+        "start" : 1645896150175,
+        "stop" : 1645896152037,
+        "duration" : 1862
+      }
+    }, {
+      "uid" : "bdfbaafed9829568",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"uat.dasreda.ru/learn/blog\"\n                Received string:    \"https://uat.dasreda.ru/learn/videos?_ga=2.230059484.1786663182.1645895320-324272081.1645895320\"",
+      "time" : {
+        "start" : 1645895347794,
+        "stop" : 1645895349158,
+        "duration" : 1364
+      }
+    }, {
+      "uid" : "b24afc2478ffbd5b",
+      "status" : "failed",
+      "statusDetails" : "Error: page.goto: NS_BINDING_ABORTED\n                =========================== logs ===========================\n                navigating to \"https://rbo.uat.dasreda.ru/rbidos/faq\", waiting until \"load\"\n                ============================================================",
+      "time" : {
+        "start" : 1645895242438,
+        "stop" : 1645895242472,
+        "duration" : 34
+      }
+    }, {
+      "uid" : "2279f0573b4560cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895233571,
+        "stop" : 1645895235107,
+        "duration" : 1536
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f79f4bfcdc9ac388.json",
+  "parameterValues" : [ ]
+}

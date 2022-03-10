@@ -10,17 +10,17 @@ faqPage/navigation
 landing/supportMenu
 
 2. вторая итерация
-personalData/navigation 0/9
+personalData/navigation 2/10
 personalData/popupWithLawsInfo
 Убрать кнопку с куками в отдельный блок
 getNewTab() - сделать лучше
 
 3. рефакторинг
-phoneValidation/navigation 3/8
+phoneValidation/navigation 4/8
 personalData/middleName
 personalData/popupWithLawsInfo
 personalData/registrationNewUser
-checkOnlineRegistration/navigation
+checkOnlineRegistration/navigation 1/5
 checkOnlineRegistration/answerVariantsOfCheckOnline
 enterPassportData/navigation
 enterPassportData/filePreview
@@ -31,3 +31,4 @@ userWay/uploadPassportMainPage
 allureReportInTestExample
 navigationVideoExample
 screenshotsExamples
+Проверить все страницы и все файлы с тесами на комментарии

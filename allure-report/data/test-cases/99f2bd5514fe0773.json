@@ -1,0 +1,103 @@
+{
+  "uid" : "99f2bd5514fe0773",
+  "name" : "Clicking on Feedback button",
+  "fullName" : "Navigation for feedback main page.Clicking on Feedback button",
+  "historyId" : "7e7d1bfaa91f0113a29f032cabf82b6f",
+  "time" : {
+    "start" : 1646032143747,
+    "stop" : 1646032145139,
+    "duration" : 1392
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Сlick feedback link in header",
+      "time" : {
+        "start" : 1646032144226,
+        "stop" : 1646032144378,
+        "duration" : 152
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for navigation feedback page",
+      "time" : {
+        "start" : 1646032144378,
+        "stop" : 1646032145064,
+        "duration" : 686
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check visibility of message text input on feedback page",
+      "time" : {
+        "start" : 1646032145065,
+        "stop" : 1646032145138,
+        "duration" : 73
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation for feedback main page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation for feedback main page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on Feedback button"
+  }, {
+    "name" : "package",
+    "value" : "Navigation for feedback main page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "99f2bd5514fe0773.json",
+  "parameterValues" : [ ]
+}

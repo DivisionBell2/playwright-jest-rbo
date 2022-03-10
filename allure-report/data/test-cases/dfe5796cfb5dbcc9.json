@@ -1,0 +1,50 @@
+{
+  "uid" : "dfe5796cfb5dbcc9",
+  "name" : "Clicking on Feedback button",
+  "fullName" : "Navigation for feedback main page.Clicking on Feedback button",
+  "historyId" : "7e7d1bfaa91f0113a29f032cabf82b6f",
+  "time" : {
+    "start" : 1646321923754,
+    "stop" : 1646321923754,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "unknown",
+  "statusMessage" : "This test was disabled",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation for feedback main page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation for feedback main page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on Feedback button"
+  }, {
+    "name" : "package",
+    "value" : "Navigation for feedback main page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dfe5796cfb5dbcc9.json",
+  "parameterValues" : [ ]
+}

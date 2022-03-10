@@ -1,0 +1,167 @@
+{
+  "uid" : "d481ef7fb8563454",
+  "name" : "Clicking on FAQ button",
+  "fullName" : "Navigation tests for phone validation page.Clicking on FAQ button",
+  "historyId" : "65719468b9d6c44944846c1fff5d02b3",
+  "time" : {
+    "start" : 1646771062956,
+    "stop" : 1646771064603,
+    "duration" : 1647
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TimeoutError: page.goto: Timeout 30000ms exceeded.\n                =========================== logs ===========================\n                navigating to \"https://rbo.uat.dasreda.ru/\", waiting until \"load\"\n                ============================================================",
+  "statusTrace" : "page.goto: Timeout 30000ms exceeded.\n                =========================== logs ===========================\n                navigating to \"https://rbo.uat.dasreda.ru/\", waiting until \"load\"\n                ============================================================\n                    at MainPage.<anonymous> (/home/alexandr/study/11/playwright-jest-rbo/pages/basePage.page.ts:106:20)\n                    at fulfilled (/home/alexandr/study/11/playwright-jest-rbo/pages/basePage.page.ts:5:58)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "TimeoutError: page.goto: Timeout 30000ms exceeded.\n                =========================== logs ===========================\n                navigating to \"https://rbo.uat.dasreda.ru/\", waiting until \"load\"\n                ============================================================",
+    "statusTrace" : "page.goto: Timeout 30000ms exceeded.\n                =========================== logs ===========================\n                navigating to \"https://rbo.uat.dasreda.ru/\", waiting until \"load\"\n                ============================================================\n                    at MainPage.<anonymous> (/home/alexandr/study/11/playwright-jest-rbo/pages/basePage.page.ts:106:20)\n                    at fulfilled (/home/alexandr/study/11/playwright-jest-rbo/pages/basePage.page.ts:5:58)",
+    "steps" : [ {
+      "name" : "Open phone validation page for /rbidos/personal-information/ip/2",
+      "time" : {
+        "start" : 1646771062956,
+        "stop" : 1646771063468,
+        "duration" : 512
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Wait for load state of phone validation page",
+      "time" : {
+        "start" : 1646771063468,
+        "stop" : 1646771063468,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Open phone validation page for /rbidos/personal-information/ooo/2",
+      "time" : {
+        "start" : 1646771063468,
+        "stop" : 1646771063909,
+        "duration" : 441
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Wait for load state of phone validation page",
+      "time" : {
+        "start" : 1646771063909,
+        "stop" : 1646771063909,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click on faq link in header",
+      "time" : {
+        "start" : 1646771063909,
+        "stop" : 1646771064002,
+        "duration" : 93
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Wait for navigation of FAQ page",
+      "time" : {
+        "start" : 1646771064002,
+        "stop" : 1646771064578,
+        "duration" : 576
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check search input visible on faq page",
+      "time" : {
+        "start" : 1646771064578,
+        "stop" : 1646771064602,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation tests for phone validation page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation tests for phone validation page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on FAQ button"
+  }, {
+    "name" : "package",
+    "value" : "Navigation tests for phone validation page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d481ef7fb8563454.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,163 @@
+{
+  "uid" : "6f552fed422f88fc",
+  "name" : "Open and close support phone popup",
+  "fullName" : "Working of support menu.Open and close support phone popup",
+  "historyId" : "8ba5de004f2e23d6bbf312af9aa3d1e6",
+  "time" : {
+    "start" : 1646760920250,
+    "stop" : 1646760927895,
+    "duration" : 7645
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Go to main page",
+      "time" : {
+        "start" : 1646760920250,
+        "stop" : 1646760923128,
+        "duration" : 2878
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check is cookie button exist on page",
+      "time" : {
+        "start" : 1646760923128,
+        "stop" : 1646760926170,
+        "duration" : 3042
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click on support menu button",
+      "time" : {
+        "start" : 1646760926170,
+        "stop" : 1646760926215,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click on phone button in support menu",
+      "time" : {
+        "start" : 1646760926215,
+        "stop" : 1646760926811,
+        "duration" : 596
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check is dialog phone window visible",
+      "time" : {
+        "start" : 1646760926811,
+        "stop" : 1646760926819,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click on close dialog phone window",
+      "time" : {
+        "start" : 1646760926819,
+        "stop" : 1646760926876,
+        "duration" : 57
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check is dialog phone window hidden",
+      "time" : {
+        "start" : 1646760926876,
+        "stop" : 1646760927895,
+        "duration" : 1019
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Working of support menu"
+  }, {
+    "name" : "testClass",
+    "value" : "Working of support menu"
+  }, {
+    "name" : "testMethod",
+    "value" : "Open and close support phone popup"
+  }, {
+    "name" : "package",
+    "value" : "Working of support menu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6f552fed422f88fc.json",
+  "parameterValues" : [ ]
+}

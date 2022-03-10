@@ -1,0 +1,50 @@
+{
+  "uid" : "5cd203219c741a6b",
+  "name" : "Clicking on Watch link in footer and go to Platform blogs",
+  "fullName" : "Navigation for feedback main page.Clicking on Watch link in footer and go to Platform blogs",
+  "historyId" : "4b41f05ca7afb2fa81a1132399f06a13",
+  "time" : {
+    "start" : 1646032114289,
+    "stop" : 1646032114289,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "unknown",
+  "statusMessage" : "This test was disabled",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation for feedback main page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation for feedback main page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on Watch link in footer and go to Platform blogs"
+  }, {
+    "name" : "package",
+    "value" : "Navigation for feedback main page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5cd203219c741a6b.json",
+  "parameterValues" : [ ]
+}

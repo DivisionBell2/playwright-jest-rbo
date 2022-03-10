@@ -1,0 +1,48 @@
+{
+  "uid" : "c81f54854757def5",
+  "name" : "Clicking on Feedback button",
+  "fullName" : "Navigation on main page.Clicking on Feedback button",
+  "historyId" : "c3d76450b645075560023133e7054191",
+  "time" : {
+    "start" : 1645021097488,
+    "stop" : 1645021100001,
+    "duration" : 2513
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on Feedback button"
+  }, {
+    "name" : "package",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c81f54854757def5.json",
+  "parameterValues" : [ ]
+}

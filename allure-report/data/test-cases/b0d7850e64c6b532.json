@@ -1,0 +1,88 @@
+{
+  "uid" : "b0d7850e64c6b532",
+  "name" : "Click on close button in auth popup",
+  "fullName" : "Functional tests for auth popup.Click on close button in auth popup",
+  "historyId" : "67c839cd60c987919f90e247fc60cb56",
+  "time" : {
+    "start" : 1645168257925,
+    "stop" : 1645168261419,
+    "duration" : 3494
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click closed button on auth popup",
+      "time" : {
+        "start" : 1645168259989,
+        "stop" : 1645168260399,
+        "duration" : 410
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check auth modal window closed",
+      "time" : {
+        "start" : 1645168260399,
+        "stop" : 1645168261418,
+        "duration" : 1019
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Functional tests for auth popup"
+  }, {
+    "name" : "testClass",
+    "value" : "Functional tests for auth popup"
+  }, {
+    "name" : "testMethod",
+    "value" : "Click on close button in auth popup"
+  }, {
+    "name" : "package",
+    "value" : "Functional tests for auth popup"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b0d7850e64c6b532.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,227 @@
+{
+  "uid" : "23d2a9b731a0281b",
+  "name" : "Click on close button in auth popup",
+  "fullName" : "Auth popup functional tests.Click on close button in auth popup",
+  "historyId" : "f31be305de1b0e278cd96252277e3626",
+  "time" : {
+    "start" : 1646756812870,
+    "stop" : 1646756824907,
+    "duration" : 12037
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 17,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click on close button",
+      "time" : {
+        "start" : 1646756824825,
+        "stop" : 1646756824903,
+        "duration" : 78
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check auth modal window closed",
+      "time" : {
+        "start" : 1646756824903,
+        "stop" : 1646756824905,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Auth popup functional tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Auth popup functional tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Click on close button in auth popup"
+  }, {
+    "name" : "package",
+    "value" : "Auth popup functional tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "44cc7d39a67204e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646756338543,
+        "stop" : 1646756347293,
+        "duration" : 8750
+      }
+    }, {
+      "uid" : "639ce41d179e1a7a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646388003854,
+        "stop" : 1646388006746,
+        "duration" : 2892
+      }
+    }, {
+      "uid" : "42d4771a414f3685",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646326440302,
+        "stop" : 1646326443385,
+        "duration" : 3083
+      }
+    }, {
+      "uid" : "68293d240c78410b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646322283455,
+        "stop" : 1646322286550,
+        "duration" : 3095
+      }
+    }, {
+      "uid" : "bf5101303611d13b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646322054522,
+        "stop" : 1646322057339,
+        "duration" : 2817
+      }
+    }, {
+      "uid" : "19168c58451a64a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646322018076,
+        "stop" : 1646322021773,
+        "duration" : 3697
+      }
+    }, {
+      "uid" : "2d1b5918e9d699f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646207589604,
+        "stop" : 1646207591985,
+        "duration" : 2381
+      }
+    }, {
+      "uid" : "c50aeedb4e71ff6d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645899852019,
+        "stop" : 1645899856206,
+        "duration" : 4187
+      }
+    }, {
+      "uid" : "6f14011897f97f9d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645896089427,
+        "stop" : 1645896093120,
+        "duration" : 3693
+      }
+    }, {
+      "uid" : "d666f70baaf257a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645896066035,
+        "stop" : 1645896069740,
+        "duration" : 3705
+      }
+    }, {
+      "uid" : "74a8b0bf415bbad0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895789492,
+        "stop" : 1645895793501,
+        "duration" : 4009
+      }
+    }, {
+      "uid" : "85c283782c41b32c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895762896,
+        "stop" : 1645895766418,
+        "duration" : 3522
+      }
+    }, {
+      "uid" : "a7f1ef99d81d4e04",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645460760914,
+        "stop" : 1645460769653,
+        "duration" : 8739
+      }
+    }, {
+      "uid" : "37bce81c5d5b4576",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645193770781,
+        "stop" : 1645193774428,
+        "duration" : 3647
+      }
+    }, {
+      "uid" : "24bc863aa4a9d104",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645193655581,
+        "stop" : 1645193658620,
+        "duration" : 3039
+      }
+    }, {
+      "uid" : "7f8711ae26821479",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645191885681,
+        "stop" : 1645191889331,
+        "duration" : 3650
+      }
+    }, {
+      "uid" : "38e5044fc1dcb39b",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645191492379,
+        "stop" : 1645191492380,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "23d2a9b731a0281b.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,50 @@
+{
+  "uid" : "724527ca786a508a",
+  "name" : "Login new user",
+  "fullName" : "Login new user from Main Page.Login new user",
+  "historyId" : "f86fba152989bb49885d499b8167dd57",
+  "time" : {
+    "start" : 1645012468379,
+    "stop" : 1645012478795,
+    "duration" : 10416
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: page.goto: net::ERR_ABORTED; maybe frame was detached?\n                =========================== logs ===========================\n                navigating to \"https://rbo.uat.dasreda.ru/\", waiting until \"load\"\n                ============================================================",
+  "statusTrace" : "page.goto: net::ERR_ABORTED; maybe frame was detached?\n                =========================== logs ===========================\n                navigating to \"https://rbo.uat.dasreda.ru/\", waiting until \"load\"\n                ============================================================\n                    at MainPage.<anonymous> (/home/alexandr/study/11/playwright-jest-rbo/pages/mainPage.page.ts:30:20)\n                    at /home/alexandr/study/11/playwright-jest-rbo/pages/mainPage.page.ts:8:71\n                    at Object.<anonymous>.__awaiter (/home/alexandr/study/11/playwright-jest-rbo/pages/mainPage.page.ts:4:12)\n                    at MainPage.goToMainPage (/home/alexandr/study/11/playwright-jest-rbo/pages/mainPage.page.ts:38:16)\n                    at /home/alexandr/study/11/playwright-jest-rbo/tests/login/login.test.ts:14:24\n                    at fulfilled (/home/alexandr/study/11/playwright-jest-rbo/tests/login/login.test.ts:5:58)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Login new user from Main Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Login new user from Main Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Login new user"
+  }, {
+    "name" : "package",
+    "value" : "Login new user from Main Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "724527ca786a508a.json",
+  "parameterValues" : [ ]
+}

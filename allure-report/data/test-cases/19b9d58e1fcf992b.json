@@ -1,0 +1,130 @@
+{
+  "uid" : "19b9d58e1fcf992b",
+  "name" : "Clicking on Watch link in footer and go to Platform videos",
+  "fullName" : "Navigation tests for FAQ page FAQ page navigation tests.Clicking on Watch link in footer and go to Platform videos",
+  "historyId" : "6e08f7107a294e62757cb133e1f32263",
+  "time" : {
+    "start" : 1645607516445,
+    "stop" : 1645607517349,
+    "duration" : 904
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open FAQ page",
+      "time" : {
+        "start" : 1645607516445,
+        "stop" : 1645607517320,
+        "duration" : 875
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click on watch link on footer",
+        "time" : {
+          "start" : 1645607516446,
+          "stop" : 1645607517133,
+          "duration" : 687
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Get new browser tab",
+      "time" : {
+        "start" : 1645607517320,
+        "stop" : 1645607517347,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation tests for FAQ page FAQ page navigation tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation tests for FAQ page FAQ page navigation tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on Watch link in footer and go to Platform videos"
+  }, {
+    "name" : "package",
+    "value" : "Navigation tests for FAQ page FAQ page navigation tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "84fecf717e8882db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645607473545,
+        "stop" : 1645607474404,
+        "duration" : 859
+      }
+    }, {
+      "uid" : "d7753ef3fd0c1fe6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645607454052,
+        "stop" : 1645607455886,
+        "duration" : 1834
+      }
+    }, {
+      "uid" : "d4b33e01e1b83349",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"uat.dasreda.ru/learn/blog\"\n                Received string:    \"https://uat.dasreda.ru/learn/videos?_ga=2.104297088.1256315187.1645607352-1459878476.1645607352\"",
+      "time" : {
+        "start" : 1645607380428,
+        "stop" : 1645607381278,
+        "duration" : 850
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "19b9d58e1fcf992b.json",
+  "parameterValues" : [ ]
+}

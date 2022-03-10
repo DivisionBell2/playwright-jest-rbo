@@ -1,0 +1,48 @@
+{
+  "uid" : "a609defe7368ebe8",
+  "name" : "Open youtube frame from header",
+  "fullName" : "Navigation on main page.Open youtube frame from header",
+  "historyId" : "f622a2dab33bde01ac038b424c577758",
+  "time" : {
+    "start" : 1645605927157,
+    "stop" : 1645605928082,
+    "duration" : 925
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Open youtube frame from header"
+  }, {
+    "name" : "package",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a609defe7368ebe8.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,50 @@
+{
+  "uid" : "4c0150c16884dd75",
+  "name" : "Clicking on Oferta link and go to oferta document",
+  "fullName" : "Navigation on main page.Clicking on Oferta link and go to oferta document",
+  "historyId" : "f7678c67b8bb3d11b139b1cd01efe7ca",
+  "time" : {
+    "start" : 1645020020964,
+    "stop" : 1645020020964,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "unknown",
+  "statusMessage" : "This test was disabled",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on Oferta link and go to oferta document"
+  }, {
+    "name" : "package",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4c0150c16884dd75.json",
+  "parameterValues" : [ ]
+}

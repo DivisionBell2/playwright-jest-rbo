@@ -1,0 +1,50 @@
+{
+  "uid" : "c515f43e4c8dd392",
+  "name" : "Click on close button in auth popup",
+  "fullName" : "Functional tests for auth popup.Click on close button in auth popup",
+  "historyId" : "67c839cd60c987919f90e247fc60cb56",
+  "time" : {
+    "start" : 1645039677591,
+    "stop" : 1645039680811,
+    "duration" : 3220
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: page.isHidden: Unexpected token \"\" while parsing selector \"\"\n                =========================== logs ===========================\n                  checking visibility of \"\"\n                ============================================================",
+  "statusTrace" : "page.isHidden: Unexpected token \"\" while parsing selector \"\"\n                =========================== logs ===========================\n                  checking visibility of \"\"\n                ============================================================\n                    at AuthPopup.<anonymous> (/home/alexandr/study/11/playwright-jest-rbo/pages/blocks/authPopup.pageBlock.ts:80:27)\n                    at /home/alexandr/study/11/playwright-jest-rbo/pages/blocks/authPopup.pageBlock.ts:8:71\n                    at Object.<anonymous>.__awaiter (/home/alexandr/study/11/playwright-jest-rbo/pages/blocks/authPopup.pageBlock.ts:4:12)\n                    at AuthPopup.checkModalWindowHidden (/home/alexandr/study/11/playwright-jest-rbo/pages/blocks/authPopup.pageBlock.ts:101:16)\n                    at /home/alexandr/study/11/playwright-jest-rbo/tests/login/authpopup.test.ts:23:32\n                    at fulfilled (/home/alexandr/study/11/playwright-jest-rbo/tests/login/authpopup.test.ts:5:58)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Functional tests for auth popup"
+  }, {
+    "name" : "testClass",
+    "value" : "Functional tests for auth popup"
+  }, {
+    "name" : "testMethod",
+    "value" : "Click on close button in auth popup"
+  }, {
+    "name" : "package",
+    "value" : "Functional tests for auth popup"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c515f43e4c8dd392.json",
+  "parameterValues" : [ ]
+}

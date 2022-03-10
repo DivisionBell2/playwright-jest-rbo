@@ -1,0 +1,251 @@
+{
+  "uid" : "aec990e86a070d06",
+  "name" : "Clicking on logo",
+  "fullName" : "Navigation tests for feedback page.Clicking on logo",
+  "historyId" : "adb66bd1418f91d238dd0a944ec8f3de",
+  "time" : {
+    "start" : 1646756870070,
+    "stop" : 1646756886126,
+    "duration" : 16056
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 16,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open feedback page",
+      "time" : {
+        "start" : 1646756870070,
+        "stop" : 1646756877886,
+        "duration" : 7816
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click on logo icon",
+      "time" : {
+        "start" : 1646756877886,
+        "stop" : 1646756878013,
+        "duration" : 127
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Wait for navigation main page",
+      "time" : {
+        "start" : 1646756878013,
+        "stop" : 1646756886099,
+        "duration" : 8086
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Get text from main page title",
+      "time" : {
+        "start" : 1646756886099,
+        "stop" : 1646756886124,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation tests for feedback page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation tests for feedback page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on logo"
+  }, {
+    "name" : "package",
+    "value" : "Navigation tests for feedback page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "801860f5505d0f9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646756389698,
+        "stop" : 1646756398883,
+        "duration" : 9185
+      }
+    }, {
+      "uid" : "62fa1c963b0d1a08",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646388023517,
+        "stop" : 1646388028497,
+        "duration" : 4980
+      }
+    }, {
+      "uid" : "7dfb98616d43e9e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646326482360,
+        "stop" : 1646326486662,
+        "duration" : 4302
+      }
+    }, {
+      "uid" : "dea880cabb6d24e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646322301989,
+        "stop" : 1646322306437,
+        "duration" : 4448
+      }
+    }, {
+      "uid" : "9001fcf6b4f917f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646207606713,
+        "stop" : 1646207609915,
+        "duration" : 3202
+      }
+    }, {
+      "uid" : "ae8b2425b5914360",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646121361807,
+        "stop" : 1646121366616,
+        "duration" : 4809
+      }
+    }, {
+      "uid" : "f08b7cd3d072825",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1646121316590,
+        "stop" : 1646121316590,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "851d3506b3e4535e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646035482224,
+        "stop" : 1646035485816,
+        "duration" : 3592
+      }
+    }, {
+      "uid" : "14c34367b956bed1",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1646035427823,
+        "stop" : 1646035427823,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "80d404fe4f8cdd27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645978671434,
+        "stop" : 1645978675440,
+        "duration" : 4006
+      }
+    }, {
+      "uid" : "6e94c276c997e7d3",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645978650880,
+        "stop" : 1645978650881,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "1935065a9b08d147",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645899423608,
+        "stop" : 1645899428427,
+        "duration" : 4819
+      }
+    }, {
+      "uid" : "34b234f0d158d79c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895476757,
+        "stop" : 1645895483862,
+        "duration" : 7105
+      }
+    }, {
+      "uid" : "f69839e07a35ce86",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895471482,
+        "stop" : 1645895475796,
+        "duration" : 4314
+      }
+    }, {
+      "uid" : "6f1f9db100cfd234",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645894674573,
+        "stop" : 1645894679558,
+        "duration" : 4985
+      }
+    }, {
+      "uid" : "4f12eb45bc731513",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645894667018,
+        "stop" : 1645894671887,
+        "duration" : 4869
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "aec990e86a070d06.json",
+  "parameterValues" : [ ]
+}

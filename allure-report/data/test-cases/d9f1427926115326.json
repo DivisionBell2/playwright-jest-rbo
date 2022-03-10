@@ -1,0 +1,48 @@
+{
+  "uid" : "d9f1427926115326",
+  "name" : "Start registration business for logined user with delete middle name",
+  "fullName" : "Check working entering personal data without middleName #test-landing-upper-ooo_button.Start registration business for logined user with delete middle name",
+  "historyId" : "dd6f1d567d2ba30a23c98570f421bc55",
+  "time" : {
+    "start" : 1645895670172,
+    "stop" : 1645895682150,
+    "duration" : 11978
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Check working entering personal data without middleName #test-landing-upper-ooo_button"
+  }, {
+    "name" : "testClass",
+    "value" : "Check working entering personal data without middleName #test-landing-upper-ooo_button"
+  }, {
+    "name" : "testMethod",
+    "value" : "Start registration business for logined user with delete middle name"
+  }, {
+    "name" : "package",
+    "value" : "Check working entering personal data without middleName #test-landing-upper-ooo_button"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d9f1427926115326.json",
+  "parameterValues" : [ ]
+}

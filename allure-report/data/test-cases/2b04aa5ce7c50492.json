@@ -1,0 +1,208 @@
+{
+  "uid" : "2b04aa5ce7c50492",
+  "name" : "Clicking on login through SberId button",
+  "fullName" : "Functional tests for auth popup.Clicking on login through SberId button",
+  "historyId" : "ab2879d7e477cd091484bf8cfd8bbc57",
+  "time" : {
+    "start" : 1645179315361,
+    "stop" : 1645179320228,
+    "duration" : 4867
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 12,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click on sber id button",
+      "time" : {
+        "start" : 1645179317211,
+        "stop" : 1645179317563,
+        "duration" : 352
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Wait for navigation on sberID auth page",
+      "time" : {
+        "start" : 1645179317563,
+        "stop" : 0,
+        "duration" : -1645179317563
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "Get text from title of sgerID auth page",
+        "time" : {
+          "start" : 1645179317565,
+          "stop" : 1645179320228,
+          "duration" : 2663
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Functional tests for auth popup"
+  }, {
+    "name" : "testClass",
+    "value" : "Functional tests for auth popup"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on login through SberId button"
+  }, {
+    "name" : "package",
+    "value" : "Functional tests for auth popup"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "17e2b77589ff1786",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645179224466,
+        "stop" : 1645179224466,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6fb0af54f34d06dd",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645179209319,
+        "stop" : 1645179209319,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "51a4c2f0e62e74a6",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645177967129,
+        "stop" : 1645177967129,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1bdea45cf340e73c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645169492523,
+        "stop" : 1645169497126,
+        "duration" : 4603
+      }
+    }, {
+      "uid" : "724ad1da38037e50",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645168500779,
+        "stop" : 1645168500779,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3498c9b8c6e787fc",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645168450613,
+        "stop" : 1645168450613,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "72e9ca792a4abb6",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645168428197,
+        "stop" : 1645168428197,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5b1fb957cc2961f7",
+      "status" : "failed",
+      "statusDetails" : "Error: page.goto: Navigation failed because page was closed!\n                =========================== logs ===========================\n                navigating to \"https://rbo.uat.dasreda.ru/\", waiting until \"load\"\n                ============================================================",
+      "time" : {
+        "start" : 1645168409800,
+        "stop" : 1645168409808,
+        "duration" : 8
+      }
+    }, {
+      "uid" : "7169ef2f3e351c04",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645168265024,
+        "stop" : 1645168268809,
+        "duration" : 3785
+      }
+    }, {
+      "uid" : "37708af2fffbc06b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645112515745,
+        "stop" : 1645112520952,
+        "duration" : 5207
+      }
+    }, {
+      "uid" : "6114c3d38f821028",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645112495799,
+        "stop" : 1645112501451,
+        "duration" : 5652
+      }
+    }, {
+      "uid" : "c59c9b00c0e9365e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645112465299,
+        "stop" : 1645112470597,
+        "duration" : 5298
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2b04aa5ce7c50492.json",
+  "parameterValues" : [ ]
+}

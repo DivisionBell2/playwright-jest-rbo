@@ -1,0 +1,50 @@
+{
+  "uid" : "fe0c3ccd18e853bb",
+  "name" : "Go to feedback page",
+  "fullName" : "Working of support menu.Go to feedback page",
+  "historyId" : "f338c045be0c138f7a776da1d5635ef9",
+  "time" : {
+    "start" : 1645021115995,
+    "stop" : 1645021123077,
+    "duration" : 7082
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: page.waitForNavigation: Navigation failed because page was closed!\n                =========================== logs ===========================\n                waiting for navigation until \"load\"\n                ============================================================",
+  "statusTrace" : "page.waitForNavigation: Navigation failed because page was closed!\n                =========================== logs ===========================\n                waiting for navigation until \"load\"\n                ============================================================\n                    at FeedbackPage.<anonymous> (/home/alexandr/study/11/playwright-jest-rbo/pages/feedback.page.ts:28:25)\n                    at /home/alexandr/study/11/playwright-jest-rbo/pages/feedback.page.ts:8:71\n                    at Object.<anonymous>.__awaiter (/home/alexandr/study/11/playwright-jest-rbo/pages/feedback.page.ts:4:12)\n                    at FeedbackPage.waitForNavigationFeedbackPage (/home/alexandr/study/11/playwright-jest-rbo/pages/feedback.page.ts:36:16)\n                    at FeedbackPage.<anonymous> (/home/alexandr/study/11/playwright-jest-rbo/pages/feedback.page.ts:23:20)\n                    at /home/alexandr/study/11/playwright-jest-rbo/pages/feedback.page.ts:8:71\n                    at Object.<anonymous>.__awaiter (/home/alexandr/study/11/playwright-jest-rbo/pages/feedback.page.ts:4:12)\n                    at FeedbackPage.checkMessageTextInputVisible (/home/alexandr/study/11/playwright-jest-rbo/pages/feedback.page.ts:30:16)\n                    at /home/alexandr/study/11/playwright-jest-rbo/tests/landing/supportMenu.test.ts:45:35\n                    at fulfilled (/home/alexandr/study/11/playwright-jest-rbo/tests/landing/supportMenu.test.ts:5:58)\n                    at runNextTicks (node:internal/process/task_queues:61:5)\n                    at processImmediate (node:internal/timers:444:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Working of support menu"
+  }, {
+    "name" : "testClass",
+    "value" : "Working of support menu"
+  }, {
+    "name" : "testMethod",
+    "value" : "Go to feedback page"
+  }, {
+    "name" : "package",
+    "value" : "Working of support menu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fe0c3ccd18e853bb.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,107 @@
+{
+  "uid" : "c362d037c7a0a672",
+  "name" : "Clicking on Feedback button",
+  "fullName" : "FAQ page navigation tests.Clicking on Feedback button",
+  "historyId" : "8ce3c7a32fb0e6dfae2a3b58abc3625",
+  "time" : {
+    "start" : 1645898497295,
+    "stop" : 1645898522300,
+    "duration" : 25005
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : ": Timeout - Async callback was not invoked within the 25000 ms timeout specified by jest.setTimeout.",
+  "statusTrace" : "Timeout - Async callback was not invoked within the 25000 ms timeout specified by jest.setTimeout.Error: \n                    at new Spec (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmine/Spec.js:116:22)\n                    at new Spec (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/setup_jest_globals.js:78:9)\n                    at specFactory (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmine/Env.js:484:22)\n                    at Env.fit (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmine/Env.js:608:22)\n                    at Env.fit (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:201:23)\n                    at Function.fit [as only] (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmine/jasmineLight.js:108:22)\n                    at Suite.<anonymous> (/home/alexandr/study/11/playwright-jest-rbo/tests/faqPage/navigation.test.ts:36:10)\n                    at addSpecsToSuite (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmine/Env.js:433:49)\n                    at Env.describe (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmine/Env.js:403:9)\n                    at describe (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmine/jasmineLight.js:88:18)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : ": Timeout - Async callback was not invoked within the 25000 ms timeout specified by jest.setTimeout.",
+    "statusTrace" : "Timeout - Async callback was not invoked within the 25000 ms timeout specified by jest.setTimeout.Error: \n                    at new Spec (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmine/Spec.js:116:22)\n                    at new Spec (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/setup_jest_globals.js:78:9)\n                    at specFactory (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmine/Env.js:484:22)\n                    at Env.fit (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmine/Env.js:608:22)\n                    at Env.fit (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:201:23)\n                    at Function.fit [as only] (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmine/jasmineLight.js:108:22)\n                    at Suite.<anonymous> (/home/alexandr/study/11/playwright-jest-rbo/tests/faqPage/navigation.test.ts:36:10)\n                    at addSpecsToSuite (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmine/Env.js:433:49)\n                    at Env.describe (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmine/Env.js:403:9)\n                    at describe (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmine/jasmineLight.js:88:18)",
+    "steps" : [ {
+      "name" : "Open FAQ page",
+      "time" : {
+        "start" : 1645898497296,
+        "stop" : 1645898507436,
+        "duration" : 10140
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click on feedback link in header",
+        "time" : {
+          "start" : 1645898497297,
+          "stop" : 1645898500323,
+          "duration" : 3026
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Wait for navigation feedback page",
+      "time" : {
+        "start" : 1645898507512,
+        "stop" : 0,
+        "duration" : -1645898507512
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "FAQ page navigation tests"
+  }, {
+    "name" : "testClass",
+    "value" : "FAQ page navigation tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on Feedback button"
+  }, {
+    "name" : "package",
+    "value" : "FAQ page navigation tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c362d037c7a0a672.json",
+  "parameterValues" : [ ]
+}

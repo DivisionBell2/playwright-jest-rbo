@@ -1,0 +1,50 @@
+{
+  "uid" : "4784737ee3a3ad0f",
+  "name" : "Changing mode of viewing password",
+  "fullName" : "Auth popup functional tests.Changing mode of viewing password",
+  "historyId" : "6951da38efd9d2360fdbfe9c11ea93ad",
+  "time" : {
+    "start" : 1645191492380,
+    "stop" : 1645191492380,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "unknown",
+  "statusMessage" : "This test was disabled",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Auth popup functional tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Auth popup functional tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Changing mode of viewing password"
+  }, {
+    "name" : "package",
+    "value" : "Auth popup functional tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4784737ee3a3ad0f.json",
+  "parameterValues" : [ ]
+}

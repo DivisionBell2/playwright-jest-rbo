@@ -1,0 +1,146 @@
+{
+  "uid" : "8f5cc96fb4a4463c",
+  "name" : "Clicking on Read link in footer and go to Platform blogs",
+  "fullName" : "Navigation tests for faq page.Clicking on Read link in footer and go to Platform blogs",
+  "historyId" : "11110667d1b3592fb5843f82b95f3a3b",
+  "time" : {
+    "start" : 1646760854882,
+    "stop" : 1646760855665,
+    "duration" : 783
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 5,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open feedback page",
+      "time" : {
+        "start" : 1646760854882,
+        "stop" : 1646760855199,
+        "duration" : 317
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click on read link on footer",
+      "time" : {
+        "start" : 1646760855200,
+        "stop" : 1646760855663,
+        "duration" : 463
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "undefined",
+        "time" : {
+          "start" : 1646760855200,
+          "stop" : 1646760855320,
+          "duration" : 120
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation tests for faq page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation tests for faq page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on Read link in footer and go to Platform blogs"
+  }, {
+    "name" : "package",
+    "value" : "Navigation tests for faq page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a67ec280a26fa19e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646756787553,
+        "stop" : 1646756788236,
+        "duration" : 683
+      }
+    }, {
+      "uid" : "e6bbc83dc93f0f2c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646756236658,
+        "stop" : 1646756237873,
+        "duration" : 1215
+      }
+    }, {
+      "uid" : "b346c10a52dccd1d",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1646756204505,
+        "stop" : 1646756204505,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c5db4184b15fc4d3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646644825722,
+        "stop" : 1646644826293,
+        "duration" : 571
+      }
+    }, {
+      "uid" : "773b6b4f8dbb619b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646644803574,
+        "stop" : 1646644806211,
+        "duration" : 2637
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8f5cc96fb4a4463c.json",
+  "parameterValues" : [ ]
+}

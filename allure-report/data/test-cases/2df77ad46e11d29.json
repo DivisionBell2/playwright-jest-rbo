@@ -1,0 +1,73 @@
+{
+  "uid" : "2df77ad46e11d29",
+  "name" : "Login new user",
+  "fullName" : "Login new user from Main Page.Login new user",
+  "historyId" : "f86fba152989bb49885d499b8167dd57",
+  "time" : {
+    "start" : 1645895810792,
+    "stop" : 1645895821979,
+    "duration" : 11187
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click on auth button",
+      "time" : {
+        "start" : 1645895816627,
+        "stop" : 1645895816962,
+        "duration" : 335
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Login new user from Main Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Login new user from Main Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Login new user"
+  }, {
+    "name" : "package",
+    "value" : "Login new user from Main Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2df77ad46e11d29.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,66 @@
+{
+  "uid" : "78086b9a45f2de01",
+  "name" : "Send message by authorized user",
+  "fullName" : "Send message from FAQ page.Send message by authorized user",
+  "historyId" : "1c1e04bae6c2cfb0a8f1aadbef46395",
+  "time" : {
+    "start" : 1645899413966,
+    "stop" : 1645899422774,
+    "duration" : 8808
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Send message from FAQ page"
+  }, {
+    "name" : "testClass",
+    "value" : "Send message from FAQ page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Send message by authorized user"
+  }, {
+    "name" : "package",
+    "value" : "Send message from FAQ page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e705aad6dbeecf62",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895462754,
+        "stop" : 1645895470639,
+        "duration" : 7885
+      }
+    }, {
+      "uid" : "59f28105eb601f38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895445725,
+        "stop" : 1645895455258,
+        "duration" : 9533
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "78086b9a45f2de01.json",
+  "parameterValues" : [ ]
+}

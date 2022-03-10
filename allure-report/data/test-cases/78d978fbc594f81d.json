@@ -1,0 +1,50 @@
+{
+  "uid" : "78d978fbc594f81d",
+  "name" : "Clicking on personal data agreement link in footer",
+  "fullName" : "Navigation on enter personal data page.Clicking on personal data agreement link in footer",
+  "historyId" : "f7089eb54d3617988f5e93c3c251bdfe",
+  "time" : {
+    "start" : 1645036616748,
+    "stop" : 1645036644044,
+    "duration" : 27296
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"politika.pdf\"\n                Received string:    \"\"",
+  "statusTrace" : "Error: expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"politika.pdf\"\n                Received string:    \"\"\n                    at /home/alexandr/study/11/playwright-jest-rbo/tests/personalData/navigation.test.ts:94:34\n                    at Generator.next (<anonymous>)\n                    at fulfilled (/home/alexandr/study/11/playwright-jest-rbo/tests/personalData/navigation.test.ts:5:58)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation on enter personal data page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation on enter personal data page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on personal data agreement link in footer"
+  }, {
+    "name" : "package",
+    "value" : "Navigation on enter personal data page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "78d978fbc594f81d.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,50 @@
+{
+  "uid" : "5b1fb957cc2961f7",
+  "name" : "Clicking on login through SberId button",
+  "fullName" : "Functional tests for auth popup.Clicking on login through SberId button",
+  "historyId" : "ab2879d7e477cd091484bf8cfd8bbc57",
+  "time" : {
+    "start" : 1645168409800,
+    "stop" : 1645168409808,
+    "duration" : 8
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: page.goto: Navigation failed because page was closed!\n                =========================== logs ===========================\n                navigating to \"https://rbo.uat.dasreda.ru/\", waiting until \"load\"\n                ============================================================",
+  "statusTrace" : "page.goto: Navigation failed because page was closed!\n                =========================== logs ===========================\n                navigating to \"https://rbo.uat.dasreda.ru/\", waiting until \"load\"\n                ============================================================\n                    at MainPage.<anonymous> (/home/alexandr/study/11/playwright-jest-rbo/pages/mainPage.page.ts:30:20)\n                    at /home/alexandr/study/11/playwright-jest-rbo/pages/mainPage.page.ts:8:71\n                    at Object.<anonymous>.__awaiter (/home/alexandr/study/11/playwright-jest-rbo/pages/mainPage.page.ts:4:12)\n                    at MainPage.goToMainPage (/home/alexandr/study/11/playwright-jest-rbo/pages/mainPage.page.ts:38:16)\n                    at /home/alexandr/study/11/playwright-jest-rbo/tests/login/authpopup.test.ts:21:24\n                    at /home/alexandr/study/11/playwright-jest-rbo/tests/login/authpopup.test.ts:8:71\n                    at Object.<anonymous>.__awaiter (/home/alexandr/study/11/playwright-jest-rbo/tests/login/authpopup.test.ts:4:12)\n                    at Object.<anonymous> (/home/alexandr/study/11/playwright-jest-rbo/tests/login/authpopup.test.ts:20:27)\n                    at Object.asyncJestLifecycle (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:113:37)\n                    at /home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/queueRunner.js:89:12\n                    at mapper (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/queueRunner.js:72:19)\n                    at /home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/queueRunner.js:119:41",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Functional tests for auth popup"
+  }, {
+    "name" : "testClass",
+    "value" : "Functional tests for auth popup"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on login through SberId button"
+  }, {
+    "name" : "package",
+    "value" : "Functional tests for auth popup"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5b1fb957cc2961f7.json",
+  "parameterValues" : [ ]
+}

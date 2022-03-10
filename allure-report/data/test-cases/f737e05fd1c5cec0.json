@@ -1,0 +1,74 @@
+{
+  "uid" : "f737e05fd1c5cec0",
+  "name" : "Registration new user",
+  "fullName" : "Navigation on personal data page.Registration new user",
+  "historyId" : "3aee800d656a1e5000feb1ece2192a86",
+  "time" : {
+    "start" : 1645895714731,
+    "stop" : 1645895719394,
+    "duration" : 4663
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation on personal data page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation on personal data page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Registration new user"
+  }, {
+    "name" : "package",
+    "value" : "Navigation on personal data page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "229a9f513e04b122",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895707380,
+        "stop" : 1645895711450,
+        "duration" : 4070
+      }
+    }, {
+      "uid" : "f7eb86cd42558213",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895698515,
+        "stop" : 1645895702245,
+        "duration" : 3730
+      }
+    }, {
+      "uid" : "14a029d3a5ec5b08",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895690219,
+        "stop" : 1645895694890,
+        "duration" : 4671
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f737e05fd1c5cec0.json",
+  "parameterValues" : [ ]
+}

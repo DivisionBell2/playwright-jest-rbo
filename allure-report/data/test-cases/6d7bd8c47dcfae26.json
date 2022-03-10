@@ -1,0 +1,137 @@
+{
+  "uid" : "6d7bd8c47dcfae26",
+  "name" : "Clicking on FAQ button",
+  "fullName" : "Navigation tests for phone validation page.Clicking on FAQ button",
+  "historyId" : "65719468b9d6c44944846c1fff5d02b3",
+  "time" : {
+    "start" : 1646771266589,
+    "stop" : 1646771273923,
+    "duration" : 7334
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: page.isVisible: Execution context was destroyed, most likely because of a navigation.\n                =========================== logs ===========================\n                  checking visibility of \"#test-landing-navPanel-logedIn\"\n                ============================================================",
+  "statusTrace" : "page.isVisible: Execution context was destroyed, most likely because of a navigation.\n                =========================== logs ===========================\n                  checking visibility of \"#test-landing-navPanel-logedIn\"\n                ============================================================\n                    at Header.<anonymous> (/home/alexandr/study/11/playwright-jest-rbo/pages/basePage.page.ts:154:36)\n                    at fulfilled (/home/alexandr/study/11/playwright-jest-rbo/pages/basePage.page.ts:5:58)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: page.isVisible: Execution context was destroyed, most likely because of a navigation.\n                =========================== logs ===========================\n                  checking visibility of \"#test-landing-navPanel-logedIn\"\n                ============================================================",
+    "statusTrace" : "page.isVisible: Execution context was destroyed, most likely because of a navigation.\n                =========================== logs ===========================\n                  checking visibility of \"#test-landing-navPanel-logedIn\"\n                ============================================================\n                    at Header.<anonymous> (/home/alexandr/study/11/playwright-jest-rbo/pages/basePage.page.ts:154:36)\n                    at fulfilled (/home/alexandr/study/11/playwright-jest-rbo/pages/basePage.page.ts:5:58)",
+    "steps" : [ {
+      "name" : "Open phone validation page for /rbidos/personal-information/ip/2",
+      "time" : {
+        "start" : 1646771266589,
+        "stop" : 1646771268123,
+        "duration" : 1534
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Open phone validation page for /rbidos/personal-information/ooo/2",
+      "time" : {
+        "start" : 1646771268123,
+        "stop" : 1646771270291,
+        "duration" : 2168
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click on faq link in header",
+      "time" : {
+        "start" : 1646771270291,
+        "stop" : 1646771270442,
+        "duration" : 151
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Wait for navigation of FAQ page",
+      "time" : {
+        "start" : 1646771270442,
+        "stop" : 1646771273901,
+        "duration" : 3459
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check search input visible on faq page",
+      "time" : {
+        "start" : 1646771273901,
+        "stop" : 1646771273923,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation tests for phone validation page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation tests for phone validation page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on FAQ button"
+  }, {
+    "name" : "package",
+    "value" : "Navigation tests for phone validation page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6d7bd8c47dcfae26.json",
+  "parameterValues" : [ ]
+}

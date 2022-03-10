@@ -1,0 +1,373 @@
+{
+  "uid" : "4cf8e3b9c175deb3",
+  "name" : "Clicking on oferta link in footer",
+  "fullName" : "Navigation on enter personal data page.Clicking on oferta link in footer",
+  "historyId" : "905f2797d8fffb72a67d8ab8680837f",
+  "time" : {
+    "start" : 1645899474078,
+    "stop" : 1645899476172,
+    "duration" : 2094
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 36,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "undefined",
+      "time" : {
+        "start" : 1645899476065,
+        "stop" : 1645899476096,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation on enter personal data page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation on enter personal data page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on oferta link in footer"
+  }, {
+    "name" : "package",
+    "value" : "Navigation on enter personal data page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c8b8bc359543267b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895980970,
+        "stop" : 1645895982744,
+        "duration" : 1774
+      }
+    }, {
+      "uid" : "b3be9558b06b2f6b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895957647,
+        "stop" : 1645895959443,
+        "duration" : 1796
+      }
+    }, {
+      "uid" : "4de3a46ec0ae37f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895924851,
+        "stop" : 1645895927665,
+        "duration" : 2814
+      }
+    }, {
+      "uid" : "8ee31c6552c771a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895899327,
+        "stop" : 1645895901313,
+        "duration" : 1986
+      }
+    }, {
+      "uid" : "4eb09e133089a128",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895607193,
+        "stop" : 1645895609171,
+        "duration" : 1978
+      }
+    }, {
+      "uid" : "a5b49514d583e55f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895585145,
+        "stop" : 1645895587348,
+        "duration" : 2203
+      }
+    }, {
+      "uid" : "c7df136acff9ed4f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895552401,
+        "stop" : 1645895554488,
+        "duration" : 2087
+      }
+    }, {
+      "uid" : "cdb5d08aa382ccba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895529223,
+        "stop" : 1645895531224,
+        "duration" : 2001
+      }
+    }, {
+      "uid" : "5d53a4be17eae8f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645038175876,
+        "stop" : 1645038177655,
+        "duration" : 1779
+      }
+    }, {
+      "uid" : "879d8f2d1b65163b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645038156047,
+        "stop" : 1645038157884,
+        "duration" : 1837
+      }
+    }, {
+      "uid" : "c4cabe00b1a1a64",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645038060732,
+        "stop" : 1645038062755,
+        "duration" : 2023
+      }
+    }, {
+      "uid" : "47373a066fb48c4f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645038013050,
+        "stop" : 1645038014736,
+        "duration" : 1686
+      }
+    }, {
+      "uid" : "6277ac68350f0ac3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645037892791,
+        "stop" : 1645037894569,
+        "duration" : 1778
+      }
+    }, {
+      "uid" : "207809dd30f7b728",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645037872094,
+        "stop" : 1645037873864,
+        "duration" : 1770
+      }
+    }, {
+      "uid" : "817290a1398cc5c",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645037842378,
+        "stop" : 1645037842378,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "55935f9a8df304dc",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645037840842,
+        "stop" : 1645037840842,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8b2cd911c95d0582",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645037680818,
+        "stop" : 1645037680818,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8711683aae9b3fcb",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645037678223,
+        "stop" : 1645037678223,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e9cf83267030caab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645037039336,
+        "stop" : 1645037041103,
+        "duration" : 1767
+      }
+    }, {
+      "uid" : "86ac60342d51c3ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645036991782,
+        "stop" : 1645036994186,
+        "duration" : 2404
+      }
+    }, {
+      "uid" : "b67861a97af9630",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645036949238,
+        "stop" : 1645036949238,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1c0653615464e65a",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645036946052,
+        "stop" : 1645036946052,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8551beb70c46fa4e",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645036920370,
+        "stop" : 1645036920370,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1b6287d0a0239496",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645036917280,
+        "stop" : 1645036917280,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "984c470ad3189313",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645036808009,
+        "stop" : 1645036809657,
+        "duration" : 1648
+      }
+    }, {
+      "uid" : "87ee679d291694b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645036760561,
+        "stop" : 1645036762202,
+        "duration" : 1641
+      }
+    }, {
+      "uid" : "c16a5f241c5f895f",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"cdn.dasreda.ru/fonts-static/soglasie-pd\"\n                Received string:    \":\"",
+      "time" : {
+        "start" : 1645036683585,
+        "stop" : 1645036685448,
+        "duration" : 1863
+      }
+    }, {
+      "uid" : "e0173730b8e13c45",
+      "status" : "failed",
+      "statusDetails" : ": Timeout - Async callback was not invoked within the 25000 ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1645036563537,
+        "stop" : 1645036590012,
+        "duration" : 26475
+      }
+    }, {
+      "uid" : "dbc4697af649f81",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645036511016,
+        "stop" : 1645036513161,
+        "duration" : 2145
+      }
+    }, {
+      "uid" : "1a634c143294d48b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645036490068,
+        "stop" : 1645036491745,
+        "duration" : 1677
+      }
+    }, {
+      "uid" : "c55238ab3d5aad94",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645036253428,
+        "stop" : 1645036255141,
+        "duration" : 1713
+      }
+    }, {
+      "uid" : "e79a4a3eed3ee7f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645036229799,
+        "stop" : 1645036231855,
+        "duration" : 2056
+      }
+    }, {
+      "uid" : "e14530fdd3733eac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645035947798,
+        "stop" : 1645035949438,
+        "duration" : 1640
+      }
+    }, {
+      "uid" : "4a971cedc04095c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645035927411,
+        "stop" : 1645035929573,
+        "duration" : 2162
+      }
+    }, {
+      "uid" : "312f85557507352f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645027246899,
+        "stop" : 1645027248466,
+        "duration" : 1567
+      }
+    }, {
+      "uid" : "ef71e8018653f2c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645027223383,
+        "stop" : 1645027225439,
+        "duration" : 2056
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4cf8e3b9c175deb3.json",
+  "parameterValues" : [ ]
+}

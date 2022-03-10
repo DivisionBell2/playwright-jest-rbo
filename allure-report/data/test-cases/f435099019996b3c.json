@@ -1,0 +1,50 @@
+{
+  "uid" : "f435099019996b3c",
+  "name" : "Clicking on dasreda.ru link",
+  "fullName" : "Navigation on enter personal data page.Clicking on dasreda.ru link",
+  "historyId" : "3b931dc9bf74cb1f9af9f956baac0e8e",
+  "time" : {
+    "start" : 1645037680818,
+    "stop" : 1645037680818,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "unknown",
+  "statusMessage" : "This test was disabled",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation on enter personal data page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation on enter personal data page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on dasreda.ru link"
+  }, {
+    "name" : "package",
+    "value" : "Navigation on enter personal data page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f435099019996b3c.json",
+  "parameterValues" : [ ]
+}

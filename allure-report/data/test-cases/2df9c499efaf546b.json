@@ -1,0 +1,122 @@
+{
+  "uid" : "2df9c499efaf546b",
+  "name" : "Clicking on Feedback button",
+  "fullName" : "Navigation tests for FAQ page FAQ page navigation tests.Clicking on Feedback button",
+  "historyId" : "74e36f5545591acb658b5d602366fea7",
+  "time" : {
+    "start" : 1645522419785,
+    "stop" : 1645522424154,
+    "duration" : 4369
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toBeTruthy()\n                \n                Received: false",
+  "statusTrace" : "Error: expect(received).toBeTruthy()\n                \n                Received: false\n                    at /home/alexandr/study/11/playwright-jest-rbo/tests/faqPage/navigation.test.ts:39:18\n                    at Generator.next (<anonymous>)\n                    at fulfilled (/home/alexandr/study/11/playwright-jest-rbo/tests/faqPage/navigation.test.ts:5:58)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: expect(received).toBeTruthy()\n                \n                Received: false",
+    "statusTrace" : "Error: expect(received).toBeTruthy()\n                \n                Received: false\n                    at /home/alexandr/study/11/playwright-jest-rbo/tests/faqPage/navigation.test.ts:39:18\n                    at Generator.next (<anonymous>)\n                    at fulfilled (/home/alexandr/study/11/playwright-jest-rbo/tests/faqPage/navigation.test.ts:5:58)",
+    "steps" : [ {
+      "name" : "Open FAQ page",
+      "time" : {
+        "start" : 1645522419785,
+        "stop" : 1645522421124,
+        "duration" : 1339
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click on feedback link in header",
+        "time" : {
+          "start" : 1645522419786,
+          "stop" : 1645522420410,
+          "duration" : 624
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Wait for navigation feedback page",
+        "time" : {
+          "start" : 1645522420410,
+          "stop" : 1645522421124,
+          "duration" : 714
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Check visibility of feedback area on feedback page",
+      "time" : {
+        "start" : 1645522421124,
+        "stop" : 1645522424152,
+        "duration" : 3028
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation tests for FAQ page FAQ page navigation tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation tests for FAQ page FAQ page navigation tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on Feedback button"
+  }, {
+    "name" : "package",
+    "value" : "Navigation tests for FAQ page FAQ page navigation tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2df9c499efaf546b.json",
+  "parameterValues" : [ ]
+}

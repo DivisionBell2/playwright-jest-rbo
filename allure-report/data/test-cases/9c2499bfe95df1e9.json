@@ -1,0 +1,73 @@
+{
+  "uid" : "9c2499bfe95df1e9",
+  "name" : "Check working popup with law information from personal data page",
+  "fullName" : "Check working popup with law information from personal data page.Check working popup with law information from personal data page",
+  "historyId" : "4c41125de311873ce4e584761515a877",
+  "time" : {
+    "start" : 1645895732447,
+    "stop" : 1645895738144,
+    "duration" : 5697
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "undefined",
+      "time" : {
+        "start" : 1645895736743,
+        "stop" : 1645895736949,
+        "duration" : 206
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Check working popup with law information from personal data page"
+  }, {
+    "name" : "testClass",
+    "value" : "Check working popup with law information from personal data page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Check working popup with law information from personal data page"
+  }, {
+    "name" : "package",
+    "value" : "Check working popup with law information from personal data page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9c2499bfe95df1e9.json",
+  "parameterValues" : [ ]
+}

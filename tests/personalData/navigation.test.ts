@@ -34,11 +34,10 @@ paths.forEach(path => {
                 expect(title).toContain(mainPage.checkData.title);
             });
 
-            // test('Clicking on FAQ button', async () => {
-            //     await header.click(header.selectors.faqLink, "Click on faq link in header");
-            //     await faqPage.waitForNavigation("Wait for navigation of FAQ page");
-            //     expect(await faqPage.isVisible(faqPage.selectors.searchInput, "Check search input visible on faq page", 5)).toBeTruthy();
-            // });
+            test('Clicking on FAQ button', async () => {
+                await header.click(header.selectors.faqLink, "Click on faq link in header");
+                expect(await faqPage.isVisible(faqPage.selectors.searchInput, "Check search input visible on faq page")).toBeTruthy();
+            });
 
             // test('Clicking on Feedback button', async () => {
             //     await header.click(header.selectors.feedbackLink, "Сlick feedback link in header");

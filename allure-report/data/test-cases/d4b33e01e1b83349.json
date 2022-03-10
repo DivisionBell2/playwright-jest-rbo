@@ -1,0 +1,107 @@
+{
+  "uid" : "d4b33e01e1b83349",
+  "name" : "Clicking on Watch link in footer and go to Platform videos",
+  "fullName" : "Navigation tests for FAQ page FAQ page navigation tests.Clicking on Watch link in footer and go to Platform videos",
+  "historyId" : "6e08f7107a294e62757cb133e1f32263",
+  "time" : {
+    "start" : 1645607380428,
+    "stop" : 1645607381278,
+    "duration" : 850
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"uat.dasreda.ru/learn/blog\"\n                Received string:    \"https://uat.dasreda.ru/learn/videos?_ga=2.104297088.1256315187.1645607352-1459878476.1645607352\"",
+  "statusTrace" : "Error: expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"uat.dasreda.ru/learn/blog\"\n                Received string:    \"https://uat.dasreda.ru/learn/videos?_ga=2.104297088.1256315187.1645607352-1459878476.1645607352\"\n                    at /home/alexandr/study/11/playwright-jest-rbo/tests/faqPage/navigation.test.ts:48:34\n                    at Generator.next (<anonymous>)\n                    at fulfilled (/home/alexandr/study/11/playwright-jest-rbo/tests/faqPage/navigation.test.ts:5:58)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"uat.dasreda.ru/learn/blog\"\n                Received string:    \"https://uat.dasreda.ru/learn/videos?_ga=2.104297088.1256315187.1645607352-1459878476.1645607352\"",
+    "statusTrace" : "Error: expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"uat.dasreda.ru/learn/blog\"\n                Received string:    \"https://uat.dasreda.ru/learn/videos?_ga=2.104297088.1256315187.1645607352-1459878476.1645607352\"\n                    at /home/alexandr/study/11/playwright-jest-rbo/tests/faqPage/navigation.test.ts:48:34\n                    at Generator.next (<anonymous>)\n                    at fulfilled (/home/alexandr/study/11/playwright-jest-rbo/tests/faqPage/navigation.test.ts:5:58)",
+    "steps" : [ {
+      "name" : "Open FAQ page",
+      "time" : {
+        "start" : 1645607380428,
+        "stop" : 1645607381235,
+        "duration" : 807
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click on watch link on footer",
+        "time" : {
+          "start" : 1645607380428,
+          "stop" : 1645607381202,
+          "duration" : 774
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Get new browser tab",
+        "time" : {
+          "start" : 1645607381202,
+          "stop" : 1645607381229,
+          "duration" : 27
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation tests for FAQ page FAQ page navigation tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation tests for FAQ page FAQ page navigation tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on Watch link in footer and go to Platform videos"
+  }, {
+    "name" : "package",
+    "value" : "Navigation tests for FAQ page FAQ page navigation tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d4b33e01e1b83349.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,152 @@
+{
+  "uid" : "8a4a23c89f7b0e81",
+  "name" : "Send message by not authorized user",
+  "fullName" : "Navigation tests for feedback page.Send message by not authorized user",
+  "historyId" : "e5242b4af0ad564144739043a78b9111",
+  "time" : {
+    "start" : 1646204024292,
+    "stop" : 1646204037108,
+    "duration" : 12816
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toBeFalsy()\n                \n                Received: {}",
+  "statusTrace" : "Error: expect(received).toBeFalsy()\n                \n                Received: {}\n                    at /home/alexandr/study/11/playwright-jest-rbo/tests/feedbackPage/sendMessage.test.ts:24:116\n                    at Generator.next (<anonymous>)\n                    at fulfilled (/home/alexandr/study/11/playwright-jest-rbo/tests/feedbackPage/sendMessage.test.ts:5:58)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: expect(received).toBeFalsy()\n                \n                Received: {}",
+    "statusTrace" : "Error: expect(received).toBeFalsy()\n                \n                Received: {}\n                    at /home/alexandr/study/11/playwright-jest-rbo/tests/feedbackPage/sendMessage.test.ts:24:116\n                    at Generator.next (<anonymous>)\n                    at fulfilled (/home/alexandr/study/11/playwright-jest-rbo/tests/feedbackPage/sendMessage.test.ts:5:58)",
+    "steps" : [ {
+      "name" : "Open feedback page",
+      "time" : {
+        "start" : 1646204024293,
+        "stop" : 1646204026193,
+        "duration" : 1900
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Enter text message for feedback",
+      "time" : {
+        "start" : 1646204026193,
+        "stop" : 1646204026259,
+        "duration" : 66
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Enter user email for feedback",
+      "time" : {
+        "start" : 1646204026259,
+        "stop" : 1646204026278,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check send message button is enabled",
+      "time" : {
+        "start" : 1646204026278,
+        "stop" : 1646204037105,
+        "duration" : 10827
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Wait for info about sended message",
+        "time" : {
+          "start" : 1646204026279,
+          "stop" : 1646204026286,
+          "duration" : 7
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Check send message button is disabled",
+      "time" : {
+        "start" : 1646204037105,
+        "stop" : 0,
+        "duration" : -1646204037105
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation tests for feedback page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation tests for feedback page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Send message by not authorized user"
+  }, {
+    "name" : "package",
+    "value" : "Navigation tests for feedback page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8a4a23c89f7b0e81.json",
+  "parameterValues" : [ ]
+}

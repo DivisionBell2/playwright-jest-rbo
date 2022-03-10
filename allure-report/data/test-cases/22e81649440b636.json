@@ -1,0 +1,178 @@
+{
+  "uid" : "22e81649440b636",
+  "name" : "Clicking on Read link in footer and go to Platform blogs",
+  "fullName" : "Navigation tests for feedback page.Clicking on Read link in footer and go to Platform blogs",
+  "historyId" : "6923de53a16a0274eac4c8689da07645",
+  "time" : {
+    "start" : 1646756889888,
+    "stop" : 1646756891580,
+    "duration" : 1692
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 9,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open feedback page",
+      "time" : {
+        "start" : 1646756889888,
+        "stop" : 1646756890819,
+        "duration" : 931
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click read link on footer",
+      "time" : {
+        "start" : 1646756890819,
+        "stop" : 1646756890954,
+        "duration" : 135
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "undefined",
+      "time" : {
+        "start" : 1646756890954,
+        "stop" : 1646756891578,
+        "duration" : 624
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation tests for feedback page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation tests for feedback page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on Read link in footer and go to Platform blogs"
+  }, {
+    "name" : "package",
+    "value" : "Navigation tests for feedback page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9264eb28f97d5d72",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646756406621,
+        "stop" : 1646756408825,
+        "duration" : 2204
+      }
+    }, {
+      "uid" : "285fff55da801c59",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646388030913,
+        "stop" : 1646388031719,
+        "duration" : 806
+      }
+    }, {
+      "uid" : "693d220a6c75a355",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646326488583,
+        "stop" : 1646326489309,
+        "duration" : 726
+      }
+    }, {
+      "uid" : "ea0b7c934bc4b062",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646322308440,
+        "stop" : 1646322309114,
+        "duration" : 674
+      }
+    }, {
+      "uid" : "e8d4460bc76c49d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646207611780,
+        "stop" : 1646207612605,
+        "duration" : 825
+      }
+    }, {
+      "uid" : "6d57b3bb81df6dc3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646121369066,
+        "stop" : 1646121369928,
+        "duration" : 862
+      }
+    }, {
+      "uid" : "d2b395121b4d8dc1",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1646121316591,
+        "stop" : 1646121316591,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "62217c13652f4845",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646035487551,
+        "stop" : 1646035488274,
+        "duration" : 723
+      }
+    }, {
+      "uid" : "9b1f37b499689ad0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646035427824,
+        "stop" : 1646035429979,
+        "duration" : 2155
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "22e81649440b636.json",
+  "parameterValues" : [ ]
+}

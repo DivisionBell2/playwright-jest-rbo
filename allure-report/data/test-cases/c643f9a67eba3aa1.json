@@ -1,0 +1,48 @@
+{
+  "uid" : "c643f9a67eba3aa1",
+  "name" : "Clicking on Agreement link and go to agreement document",
+  "fullName" : "Navigation on main page.Clicking on Agreement link and go to agreement document",
+  "historyId" : "d7d4e9a8e582818f3782919ce3f5420f",
+  "time" : {
+    "start" : 1645021103136,
+    "stop" : 1645021104014,
+    "duration" : 878
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on Agreement link and go to agreement document"
+  }, {
+    "name" : "package",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c643f9a67eba3aa1.json",
+  "parameterValues" : [ ]
+}

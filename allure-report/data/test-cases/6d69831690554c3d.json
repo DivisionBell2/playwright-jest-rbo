@@ -1,0 +1,210 @@
+{
+  "uid" : "6d69831690554c3d",
+  "name" : "Clicking on logo",
+  "fullName" : "Navigation tests for FAQ page FAQ page navigation tests.Clicking on logo",
+  "historyId" : "eb08dbe509100d42bc5ca86f18151e70",
+  "time" : {
+    "start" : 1645607509478,
+    "stop" : 1645607512743,
+    "duration" : 3265
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 11,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open FAQ page",
+      "time" : {
+        "start" : 1645607509478,
+        "stop" : 1645607512717,
+        "duration" : 3239
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click on logo icon",
+        "time" : {
+          "start" : 1645607509483,
+          "stop" : 1645607511136,
+          "duration" : 1653
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Wait for navigation main page",
+        "time" : {
+          "start" : 1645607511136,
+          "stop" : 1645607512716,
+          "duration" : 1580
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Get text from main page title",
+      "time" : {
+        "start" : 1645607512717,
+        "stop" : 1645607512741,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation tests for FAQ page FAQ page navigation tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation tests for FAQ page FAQ page navigation tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on logo"
+  }, {
+    "name" : "package",
+    "value" : "Navigation tests for FAQ page FAQ page navigation tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "63aa7de1a37a6a32",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645607468265,
+        "stop" : 1645607471755,
+        "duration" : 3490
+      }
+    }, {
+      "uid" : "f230c31058a8199f",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645607454052,
+        "stop" : 1645607454052,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5221aaa4b75b2f6a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645607351279,
+        "stop" : 1645607354348,
+        "duration" : 3069
+      }
+    }, {
+      "uid" : "b00a7636d97d1034",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645533109336,
+        "stop" : 1645533112912,
+        "duration" : 3576
+      }
+    }, {
+      "uid" : "5c08f981e609c41d",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645533092094,
+        "stop" : 1645533092094,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a7880a47273d60cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645531939343,
+        "stop" : 1645531942602,
+        "duration" : 3259
+      }
+    }, {
+      "uid" : "73c48d97a125ece8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645531885970,
+        "stop" : 1645531888555,
+        "duration" : 2585
+      }
+    }, {
+      "uid" : "3dd6c1c82f12d13e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645522455476,
+        "stop" : 1645522458440,
+        "duration" : 2964
+      }
+    }, {
+      "uid" : "ad97de00cf78b25c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645522416443,
+        "stop" : 1645522419785,
+        "duration" : 3342
+      }
+    }, {
+      "uid" : "f165ba336e417033",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645463594455,
+        "stop" : 1645463605148,
+        "duration" : 10693
+      }
+    }, {
+      "uid" : "2dbe1512ef0f21f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645463571099,
+        "stop" : 1645463586170,
+        "duration" : 15071
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6d69831690554c3d.json",
+  "parameterValues" : [ ]
+}

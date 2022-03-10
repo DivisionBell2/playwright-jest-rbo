@@ -1,0 +1,107 @@
+{
+  "uid" : "f9f37a5914d5e4af",
+  "name" : "Clicking on logo",
+  "fullName" : "Navigation tests for phone validation page.Clicking on logo",
+  "historyId" : "783693ec1daa02323fcd85cd7a39eedc",
+  "time" : {
+    "start" : 1646577728387,
+    "stop" : 1646577755066,
+    "duration" : 26679
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: page.click: Execution context was destroyed, most likely because of a navigation.\n                =========================== logs ===========================\n                waiting for selector \"text='Войти'\"\n                  selector resolved to 2 elements. Proceeding with the first one.\n                  selector resolved to visible <span>Войти</span>\n                attempting click action\n                  waiting for element to be visible, enabled and stable\n                  element is visible, enabled and stable\n                  scrolling into view if needed\n                  done scrolling\n                  checking that element receives pointer events at (1204.26,36)\n                  <div tabindex=\"-1\" role=\"dialog\" class=\"ant-modal-wra…>…</div> from <div>…</div> subtree intercepts pointer events\n                retrying click action, attempt #1\n                  waiting for element to be visible, enabled and stable\n                  element is visible, enabled and stable\n                  scrolling into view if needed\n                  done scrolling\n                  checking that element receives pointer events at (1204.26,36)\n                  <div tabindex=\"-1\" role=\"dialog\" class=\"ant-modal-wra…>…</div> from <div>…</div> subtree intercepts pointer events\n                retrying click action, attempt #2\n                  waiting 20ms\n                  waiting for element to be visible, enabled and stable\n                  element is visible, enabled and stable\n                  scrolling into view if needed\n                  done scrolling\n                  checking that element receives pointer events at (1204.26,36)\n                  <div tabindex=\"-1\" role=\"dialog\" class=\"ant-modal-wra…>…</div> from <div>…</div> subtree intercepts pointer events\n                retrying click action, attempt #3\n                  waiting 100ms\n                  waiting for element to be visible, enabled and stable\n                  element is visible, enabled and stable\n                  scrolling into view if needed\n                  done scrolling\n                  checking that element receives pointer events at (1204.26,11)\n                  <div tabindex=\"-1\" role=\"dialog\" class=\"ant-modal-wra…>…</div> from <div>…</div> subtree intercepts pointer events\n                retrying click action, attempt #4\n                  waiting 100ms\n                  waiting for element to be visible, enabled and stable\n                  element is visible, enabled and stable\n                  scrolling into view if needed\n                  done scrolling\n                  checking that element receives pointer events at (1204.26,11)\n                  <div tabindex=\"-1\" role=\"dialog\" class=\"ant-modal-wra…>…</div> from <div>…</div> subtree intercepts pointer events\n                retrying click action, attempt #5\n                  waiting 500ms\n                ============================================================",
+  "statusTrace" : "page.click: Execution context was destroyed, most likely because of a navigation.\n                =========================== logs ===========================\n                waiting for selector \"text='Войти'\"\n                  selector resolved to 2 elements. Proceeding with the first one.\n                  selector resolved to visible <span>Войти</span>\n                attempting click action\n                  waiting for element to be visible, enabled and stable\n                  element is visible, enabled and stable\n                  scrolling into view if needed\n                  done scrolling\n                  checking that element receives pointer events at (1204.26,36)\n                  <div tabindex=\"-1\" role=\"dialog\" class=\"ant-modal-wra…>…</div> from <div>…</div> subtree intercepts pointer events\n                retrying click action, attempt #1\n                  waiting for element to be visible, enabled and stable\n                  element is visible, enabled and stable\n                  scrolling into view if needed\n                  done scrolling\n                  checking that element receives pointer events at (1204.26,36)\n                  <div tabindex=\"-1\" role=\"dialog\" class=\"ant-modal-wra…>…</div> from <div>…</div> subtree intercepts pointer events\n                retrying click action, attempt #2\n                  waiting 20ms\n                  waiting for element to be visible, enabled and stable\n                  element is visible, enabled and stable\n                  scrolling into view if needed\n                  done scrolling\n                  checking that element receives pointer events at (1204.26,36)\n                  <div tabindex=\"-1\" role=\"dialog\" class=\"ant-modal-wra…>…</div> from <div>…</div> subtree intercepts pointer events\n                retrying click action, attempt #3\n                  waiting 100ms\n                  waiting for element to be visible, enabled and stable\n                  element is visible, enabled and stable\n                  scrolling into view if needed\n                  done scrolling\n                  checking that element receives pointer events at (1204.26,11)\n                  <div tabindex=\"-1\" role=\"dialog\" class=\"ant-modal-wra…>…</div> from <div>…</div> subtree intercepts pointer events\n                retrying click action, attempt #4\n                  waiting 100ms\n                  waiting for element to be visible, enabled and stable\n                  element is visible, enabled and stable\n                  scrolling into view if needed\n                  done scrolling\n                  checking that element receives pointer events at (1204.26,11)\n                  <div tabindex=\"-1\" role=\"dialog\" class=\"ant-modal-wra…>…</div> from <div>…</div> subtree intercepts pointer events\n                retrying click action, attempt #5\n                  waiting 500ms\n                ============================================================\n                    at Header.<anonymous> (/home/alexandr/study/11/playwright-jest-rbo/pages/basePage.page.ts:59:20)\n                    at fulfilled (/home/alexandr/study/11/playwright-jest-rbo/pages/basePage.page.ts:5:58)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: page.click: Execution context was destroyed, most likely because of a navigation.\n                =========================== logs ===========================\n                waiting for selector \"text='Войти'\"\n                  selector resolved to 2 elements. Proceeding with the first one.\n                  selector resolved to visible <span>Войти</span>\n                attempting click action\n                  waiting for element to be visible, enabled and stable\n                  element is visible, enabled and stable\n                  scrolling into view if needed\n                  done scrolling\n                  checking that element receives pointer events at (1204.26,36)\n                  <div tabindex=\"-1\" role=\"dialog\" class=\"ant-modal-wra…>…</div> from <div>…</div> subtree intercepts pointer events\n                retrying click action, attempt #1\n                  waiting for element to be visible, enabled and stable\n                  element is visible, enabled and stable\n                  scrolling into view if needed\n                  done scrolling\n                  checking that element receives pointer events at (1204.26,36)\n                  <div tabindex=\"-1\" role=\"dialog\" class=\"ant-modal-wra…>…</div> from <div>…</div> subtree intercepts pointer events\n                retrying click action, attempt #2\n                  waiting 20ms\n                  waiting for element to be visible, enabled and stable\n                  element is visible, enabled and stable\n                  scrolling into view if needed\n                  done scrolling\n                  checking that element receives pointer events at (1204.26,36)\n                  <div tabindex=\"-1\" role=\"dialog\" class=\"ant-modal-wra…>…</div> from <div>…</div> subtree intercepts pointer events\n                retrying click action, attempt #3\n                  waiting 100ms\n                  waiting for element to be visible, enabled and stable\n                  element is visible, enabled and stable\n                  scrolling into view if needed\n                  done scrolling\n                  checking that element receives pointer events at (1204.26,11)\n                  <div tabindex=\"-1\" role=\"dialog\" class=\"ant-modal-wra…>…</div> from <div>…</div> subtree intercepts pointer events\n                retrying click action, attempt #4\n                  waiting 100ms\n                  waiting for element to be visible, enabled and stable\n                  element is visible, enabled and stable\n                  scrolling into view if needed\n                  done scrolling\n                  checking that element receives pointer events at (1204.26,11)\n                  <div tabindex=\"-1\" role=\"dialog\" class=\"ant-modal-wra…>…</div> from <div>…</div> subtree intercepts pointer events\n                retrying click action, attempt #5\n                  waiting 500ms\n                ============================================================",
+    "statusTrace" : "page.click: Execution context was destroyed, most likely because of a navigation.\n                =========================== logs ===========================\n                waiting for selector \"text='Войти'\"\n                  selector resolved to 2 elements. Proceeding with the first one.\n                  selector resolved to visible <span>Войти</span>\n                attempting click action\n                  waiting for element to be visible, enabled and stable\n                  element is visible, enabled and stable\n                  scrolling into view if needed\n                  done scrolling\n                  checking that element receives pointer events at (1204.26,36)\n                  <div tabindex=\"-1\" role=\"dialog\" class=\"ant-modal-wra…>…</div> from <div>…</div> subtree intercepts pointer events\n                retrying click action, attempt #1\n                  waiting for element to be visible, enabled and stable\n                  element is visible, enabled and stable\n                  scrolling into view if needed\n                  done scrolling\n                  checking that element receives pointer events at (1204.26,36)\n                  <div tabindex=\"-1\" role=\"dialog\" class=\"ant-modal-wra…>…</div> from <div>…</div> subtree intercepts pointer events\n                retrying click action, attempt #2\n                  waiting 20ms\n                  waiting for element to be visible, enabled and stable\n                  element is visible, enabled and stable\n                  scrolling into view if needed\n                  done scrolling\n                  checking that element receives pointer events at (1204.26,36)\n                  <div tabindex=\"-1\" role=\"dialog\" class=\"ant-modal-wra…>…</div> from <div>…</div> subtree intercepts pointer events\n                retrying click action, attempt #3\n                  waiting 100ms\n                  waiting for element to be visible, enabled and stable\n                  element is visible, enabled and stable\n                  scrolling into view if needed\n                  done scrolling\n                  checking that element receives pointer events at (1204.26,11)\n                  <div tabindex=\"-1\" role=\"dialog\" class=\"ant-modal-wra…>…</div> from <div>…</div> subtree intercepts pointer events\n                retrying click action, attempt #4\n                  waiting 100ms\n                  waiting for element to be visible, enabled and stable\n                  element is visible, enabled and stable\n                  scrolling into view if needed\n                  done scrolling\n                  checking that element receives pointer events at (1204.26,11)\n                  <div tabindex=\"-1\" role=\"dialog\" class=\"ant-modal-wra…>…</div> from <div>…</div> subtree intercepts pointer events\n                retrying click action, attempt #5\n                  waiting 500ms\n                ============================================================\n                    at Header.<anonymous> (/home/alexandr/study/11/playwright-jest-rbo/pages/basePage.page.ts:59:20)\n                    at fulfilled (/home/alexandr/study/11/playwright-jest-rbo/pages/basePage.page.ts:5:58)",
+    "steps" : [ {
+      "name" : "Open legal entity phone validation page",
+      "time" : {
+        "start" : 1646577728388,
+        "stop" : 1646577730241,
+        "duration" : 1853
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click on logo icon",
+      "time" : {
+        "start" : 1646577730242,
+        "stop" : 1646577730371,
+        "duration" : 129
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Wait for navigation main page",
+      "time" : {
+        "start" : 1646577730371,
+        "stop" : 0,
+        "duration" : -1646577730371
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation tests for phone validation page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation tests for phone validation page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on logo"
+  }, {
+    "name" : "package",
+    "value" : "Navigation tests for phone validation page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f9f37a5914d5e4af.json",
+  "parameterValues" : [ ]
+}

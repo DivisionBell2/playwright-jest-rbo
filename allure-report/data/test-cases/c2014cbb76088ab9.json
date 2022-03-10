@@ -1,0 +1,201 @@
+{
+  "uid" : "c2014cbb76088ab9",
+  "name" : "Click on close button in registration popup",
+  "fullName" : "Functional tests for auth popup.Click on close button in registration popup",
+  "historyId" : "35dba7555664a7b3ffb44fe0a90dac34",
+  "time" : {
+    "start" : 1645179312304,
+    "stop" : 1645179315361,
+    "duration" : 3057
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 13,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click closed button on auth popup",
+      "time" : {
+        "start" : 1645179313982,
+        "stop" : 1645179314340,
+        "duration" : 358
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check auth modal window closed",
+      "time" : {
+        "start" : 1645179314340,
+        "stop" : 1645179315360,
+        "duration" : 1020
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Functional tests for auth popup"
+  }, {
+    "name" : "testClass",
+    "value" : "Functional tests for auth popup"
+  }, {
+    "name" : "testMethod",
+    "value" : "Click on close button in registration popup"
+  }, {
+    "name" : "package",
+    "value" : "Functional tests for auth popup"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ef3f835d83751940",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645179224466,
+        "stop" : 1645179224466,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b53ec725a6da0290",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645179209319,
+        "stop" : 1645179209319,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6a8c54b66b0bf072",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645177967129,
+        "stop" : 1645177967129,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "334c637b20523374",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645169489507,
+        "stop" : 1645169492523,
+        "duration" : 3016
+      }
+    }, {
+      "uid" : "8b27241d7e21079c",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645168500779,
+        "stop" : 1645168500779,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c2dd99b93f27dd49",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645168450613,
+        "stop" : 1645168450613,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6a8e8a0d623768cc",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645168428197,
+        "stop" : 1645168428197,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d56ea3d24efda098",
+      "status" : "failed",
+      "statusDetails" : "Error: page.goto: Navigation failed because page was closed!\n                =========================== logs ===========================\n                navigating to \"https://rbo.uat.dasreda.ru/\", waiting until \"load\"\n                ============================================================",
+      "time" : {
+        "start" : 1645168409797,
+        "stop" : 1645168409800,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "af4fbbd783addfb7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645168261420,
+        "stop" : 1645168265024,
+        "duration" : 3604
+      }
+    }, {
+      "uid" : "2fbd84fa2f52e266",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645112512572,
+        "stop" : 1645112515745,
+        "duration" : 3173
+      }
+    }, {
+      "uid" : "b96706e0a04267e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645112492356,
+        "stop" : 1645112495799,
+        "duration" : 3443
+      }
+    }, {
+      "uid" : "c0560194027322ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645112462211,
+        "stop" : 1645112465299,
+        "duration" : 3088
+      }
+    }, {
+      "uid" : "22fabb756d7a85ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645097956580,
+        "stop" : 1645097959758,
+        "duration" : 3178
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c2014cbb76088ab9.json",
+  "parameterValues" : [ ]
+}

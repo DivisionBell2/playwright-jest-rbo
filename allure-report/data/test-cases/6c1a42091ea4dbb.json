@@ -1,0 +1,48 @@
+{
+  "uid" : "6c1a42091ea4dbb",
+  "name" : "Clicking on FAQ button",
+  "fullName" : "Navigation on enter personal data page.Clicking on FAQ button",
+  "historyId" : "8b3c004c519aad73926692de0fe52af7",
+  "time" : {
+    "start" : 1645036644063,
+    "stop" : 1645036648038,
+    "duration" : 3975
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation on enter personal data page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation on enter personal data page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on FAQ button"
+  }, {
+    "name" : "package",
+    "value" : "Navigation on enter personal data page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6c1a42091ea4dbb.json",
+  "parameterValues" : [ ]
+}

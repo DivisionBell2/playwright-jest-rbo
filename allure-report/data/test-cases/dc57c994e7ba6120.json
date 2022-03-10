@@ -1,0 +1,242 @@
+{
+  "uid" : "dc57c994e7ba6120",
+  "name" : "Clicking on login through SberId button",
+  "fullName" : "Auth popup functional tests.Clicking on login through SberId button",
+  "historyId" : "3590baa84e4098fd8657e7ea7b5cbb29",
+  "time" : {
+    "start" : 1646756829067,
+    "stop" : 1646756842962,
+    "duration" : 13895
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 17,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click on SberID Button",
+      "time" : {
+        "start" : 1646756834300,
+        "stop" : 1646756834410,
+        "duration" : 110
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Wait for navigation on sberID auth page",
+      "time" : {
+        "start" : 1646756834410,
+        "stop" : 0,
+        "duration" : -1646756834410
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "Get text from title of sgerID auth page",
+        "time" : {
+          "start" : 1646756834410,
+          "stop" : 1646756842961,
+          "duration" : 8551
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Auth popup functional tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Auth popup functional tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on login through SberId button"
+  }, {
+    "name" : "package",
+    "value" : "Auth popup functional tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5f1b6deb74eeafcb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646756350823,
+        "stop" : 1646756361262,
+        "duration" : 10439
+      }
+    }, {
+      "uid" : "f25d39d1db8dd583",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646388010274,
+        "stop" : 1646388018247,
+        "duration" : 7973
+      }
+    }, {
+      "uid" : "2e27b58216b6e6cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646326446724,
+        "stop" : 1646326453117,
+        "duration" : 6393
+      }
+    }, {
+      "uid" : "4d0f686b70c1b08d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646322290204,
+        "stop" : 1646322296848,
+        "duration" : 6644
+      }
+    }, {
+      "uid" : "6e5d6a956d9e63d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646322062568,
+        "stop" : 1646322068791,
+        "duration" : 6223
+      }
+    }, {
+      "uid" : "106448de2aadb16c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646322026965,
+        "stop" : 1646322033300,
+        "duration" : 6335
+      }
+    }, {
+      "uid" : "10203b04756bfb5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646207595008,
+        "stop" : 1646207600647,
+        "duration" : 5639
+      }
+    }, {
+      "uid" : "c0b9ea1c88e27eb0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645899860282,
+        "stop" : 1645899866923,
+        "duration" : 6641
+      }
+    }, {
+      "uid" : "57e97b4b676553c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645896100068,
+        "stop" : 1645896105688,
+        "duration" : 5620
+      }
+    }, {
+      "uid" : "6486fe8f9ca8ce9a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645896073803,
+        "stop" : 1645896082213,
+        "duration" : 8410
+      }
+    }, {
+      "uid" : "5ed1434e0b3b98f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895798008,
+        "stop" : 1645895803335,
+        "duration" : 5327
+      }
+    }, {
+      "uid" : "cf92f114dbf68cfb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895769509,
+        "stop" : 1645895780509,
+        "duration" : 11000
+      }
+    }, {
+      "uid" : "8b24706ee5a5cdaa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645460773762,
+        "stop" : 1645460792544,
+        "duration" : 18782
+      }
+    }, {
+      "uid" : "a718a6e881ccb48a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645193777294,
+        "stop" : 1645193782187,
+        "duration" : 4893
+      }
+    }, {
+      "uid" : "c2311ee46b5d20fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645193661488,
+        "stop" : 1645193666859,
+        "duration" : 5371
+      }
+    }, {
+      "uid" : "6b12198eaf7a445d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645191892428,
+        "stop" : 1645191897455,
+        "duration" : 5027
+      }
+    }, {
+      "uid" : "d725b6399ede0438",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645191492380,
+        "stop" : 1645191492380,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dc57c994e7ba6120.json",
+  "parameterValues" : [ ]
+}

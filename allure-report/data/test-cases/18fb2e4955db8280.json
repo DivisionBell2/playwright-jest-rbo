@@ -1,0 +1,48 @@
+{
+  "uid" : "18fb2e4955db8280",
+  "name" : "Send message by not authorized user",
+  "fullName" : "Send message from FAQ page.Send message by not authorized user",
+  "historyId" : "82bd965c9379ae1227e6438ec19e4cc2",
+  "time" : {
+    "start" : 1645895439221,
+    "stop" : 1645895445725,
+    "duration" : 6504
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Send message from FAQ page"
+  }, {
+    "name" : "testClass",
+    "value" : "Send message from FAQ page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Send message by not authorized user"
+  }, {
+    "name" : "package",
+    "value" : "Send message from FAQ page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "18fb2e4955db8280.json",
+  "parameterValues" : [ ]
+}

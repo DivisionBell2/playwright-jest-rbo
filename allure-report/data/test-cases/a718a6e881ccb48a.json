@@ -1,0 +1,103 @@
+{
+  "uid" : "a718a6e881ccb48a",
+  "name" : "Clicking on login through SberId button",
+  "fullName" : "Auth popup functional tests.Clicking on login through SberId button",
+  "historyId" : "3590baa84e4098fd8657e7ea7b5cbb29",
+  "time" : {
+    "start" : 1645193777294,
+    "stop" : 1645193782187,
+    "duration" : 4893
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click on SberID Button",
+      "time" : {
+        "start" : 1645193779004,
+        "stop" : 1645193779390,
+        "duration" : 386
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Wait for navigation on sberID auth page",
+      "time" : {
+        "start" : 1645193779390,
+        "stop" : 0,
+        "duration" : -1645193779390
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "Get text from title of sgerID auth page",
+        "time" : {
+          "start" : 1645193779392,
+          "stop" : 1645193782186,
+          "duration" : 2794
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Auth popup functional tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Auth popup functional tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on login through SberId button"
+  }, {
+    "name" : "package",
+    "value" : "Auth popup functional tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a718a6e881ccb48a.json",
+  "parameterValues" : [ ]
+}

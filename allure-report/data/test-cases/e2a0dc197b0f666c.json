@@ -1,0 +1,48 @@
+{
+  "uid" : "e2a0dc197b0f666c",
+  "name" : "Click on start business registration as legal entity",
+  "fullName" : "Navigation on main page.Click on start business registration as legal entity",
+  "historyId" : "944faaefc3bcc80966e6e14c6bfeff4e",
+  "time" : {
+    "start" : 1645020703701,
+    "stop" : 1645020704929,
+    "duration" : 1228
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Click on start business registration as legal entity"
+  }, {
+    "name" : "package",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e2a0dc197b0f666c.json",
+  "parameterValues" : [ ]
+}

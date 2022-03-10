@@ -1,0 +1,48 @@
+{
+  "uid" : "cd780314b61c588a",
+  "name" : "Go to feedback page",
+  "fullName" : "Working of support menu.Go to feedback page",
+  "historyId" : "f338c045be0c138f7a776da1d5635ef9",
+  "time" : {
+    "start" : 1645899339680,
+    "stop" : 1645899341306,
+    "duration" : 1626
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Working of support menu"
+  }, {
+    "name" : "testClass",
+    "value" : "Working of support menu"
+  }, {
+    "name" : "testMethod",
+    "value" : "Go to feedback page"
+  }, {
+    "name" : "package",
+    "value" : "Working of support menu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cd780314b61c588a.json",
+  "parameterValues" : [ ]
+}

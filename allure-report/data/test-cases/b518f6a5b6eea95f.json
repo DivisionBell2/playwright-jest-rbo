@@ -1,0 +1,107 @@
+{
+  "uid" : "b518f6a5b6eea95f",
+  "name" : "Clicking on logo",
+  "fullName" : "Navigation tests for phone validation page.Clicking on logo",
+  "historyId" : "783693ec1daa02323fcd85cd7a39eedc",
+  "time" : {
+    "start" : 1646578413474,
+    "stop" : 1646578414688,
+    "duration" : 1214
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: Timeout - Async callback was not invoked within the 25000 ms timeout specified by jest.setTimeout.",
+  "statusTrace" : "Timeout - Async callback was not invoked within the 25000 ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 25000 ms timeout specified by jest.setTimeout.\n                    at mapper (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/queueRunner.js:71:45)\n                    at /home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/queueRunner.js:119:41",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: Timeout - Async callback was not invoked within the 25000 ms timeout specified by jest.setTimeout.",
+    "statusTrace" : "Timeout - Async callback was not invoked within the 25000 ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 25000 ms timeout specified by jest.setTimeout.\n                    at mapper (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/queueRunner.js:71:45)\n                    at /home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/queueRunner.js:119:41",
+    "steps" : [ {
+      "name" : "Open legal entity phone validation page",
+      "time" : {
+        "start" : 1646578413475,
+        "stop" : 1646578414329,
+        "duration" : 854
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click on logo icon",
+      "time" : {
+        "start" : 1646578414329,
+        "stop" : 1646578414569,
+        "duration" : 240
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Get text from main page title",
+      "time" : {
+        "start" : 1646578414569,
+        "stop" : 1646578414687,
+        "duration" : 118
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation tests for phone validation page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation tests for phone validation page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on logo"
+  }, {
+    "name" : "package",
+    "value" : "Navigation tests for phone validation page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b518f6a5b6eea95f.json",
+  "parameterValues" : [ ]
+}

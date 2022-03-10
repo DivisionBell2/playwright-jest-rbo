@@ -1,0 +1,50 @@
+{
+  "uid" : "f2b2e6bd0237385f",
+  "name" : "Clicking on SberIcon and go to sberbank.ru",
+  "fullName" : "Navigation for feedback main page.Clicking on SberIcon and go to sberbank.ru",
+  "historyId" : "e67c5d64905344dd3be3743d117c787d",
+  "time" : {
+    "start" : 1645978177773,
+    "stop" : 1645978177773,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "unknown",
+  "statusMessage" : "This test was disabled",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation for feedback main page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation for feedback main page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on SberIcon and go to sberbank.ru"
+  }, {
+    "name" : "package",
+    "value" : "Navigation for feedback main page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f2b2e6bd0237385f.json",
+  "parameterValues" : [ ]
+}

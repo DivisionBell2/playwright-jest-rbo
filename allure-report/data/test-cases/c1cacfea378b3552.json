@@ -1,0 +1,178 @@
+{
+  "uid" : "c1cacfea378b3552",
+  "name" : "Go to feedback page",
+  "fullName" : "Working of support menu.Go to feedback page",
+  "historyId" : "f338c045be0c138f7a776da1d5635ef9",
+  "time" : {
+    "start" : 1646584097354,
+    "stop" : 1646584097354,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "unknown",
+  "statusMessage" : "This test was disabled",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 15,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Working of support menu"
+  }, {
+    "name" : "testClass",
+    "value" : "Working of support menu"
+  }, {
+    "name" : "testMethod",
+    "value" : "Go to feedback page"
+  }, {
+    "name" : "package",
+    "value" : "Working of support menu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "43abc9169b371912",
+      "status" : "unknown",
+      "statusDetails" : "Error: Timeout - Async callback was not invoked within the 25000 ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1646583634101,
+        "stop" : 1646583634101,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "cd780314b61c588a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645899339680,
+        "stop" : 1645899341306,
+        "duration" : 1626
+      }
+    }, {
+      "uid" : "469f531451671f1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645897229101,
+        "stop" : 1645897230476,
+        "duration" : 1375
+      }
+    }, {
+      "uid" : "11a68deb6060fc07",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645897213334,
+        "stop" : 1645897215324,
+        "duration" : 1990
+      }
+    }, {
+      "uid" : "aaaa23f185484c21",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645894924176,
+        "stop" : 1645894925614,
+        "duration" : 1438
+      }
+    }, {
+      "uid" : "ed74c36f1092fe04",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645894909450,
+        "stop" : 1645894910788,
+        "duration" : 1338
+      }
+    }, {
+      "uid" : "e17beeef3fdc91f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645799854247,
+        "stop" : 1645799855731,
+        "duration" : 1484
+      }
+    }, {
+      "uid" : "17fd1dd900992ef5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645799829941,
+        "stop" : 1645799831380,
+        "duration" : 1439
+      }
+    }, {
+      "uid" : "7325279fc4d41816",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645027170914,
+        "stop" : 1645027172213,
+        "duration" : 1299
+      }
+    }, {
+      "uid" : "df55111410f9de1d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645021215382,
+        "stop" : 1645021216479,
+        "duration" : 1097
+      }
+    }, {
+      "uid" : "fe0c3ccd18e853bb",
+      "status" : "failed",
+      "statusDetails" : "Error: page.waitForNavigation: Navigation failed because page was closed!\n                =========================== logs ===========================\n                waiting for navigation until \"load\"\n                ============================================================",
+      "time" : {
+        "start" : 1645021115995,
+        "stop" : 1645021123077,
+        "duration" : 7082
+      }
+    }, {
+      "uid" : "115a63baaba7a468",
+      "status" : "failed",
+      "statusDetails" : ": Timeout - Async callback was not invoked within the 25000 ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1645020978847,
+        "stop" : 1645021004393,
+        "duration" : 25546
+      }
+    }, {
+      "uid" : "156d21db50fb5bb3",
+      "status" : "failed",
+      "statusDetails" : ": Timeout - Async callback was not invoked within the 25000 ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1645020878638,
+        "stop" : 1645020904438,
+        "duration" : 25800
+      }
+    }, {
+      "uid" : "70dbe5f48b71f756",
+      "status" : "failed",
+      "statusDetails" : ": Timeout - Async callback was not invoked within the 25000 ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1645020724979,
+        "stop" : 1645020750476,
+        "duration" : 25497
+      }
+    }, {
+      "uid" : "18766f5772a46d17",
+      "status" : "failed",
+      "statusDetails" : ": Timeout - Async callback was not invoked within the 25000 ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1645012956047,
+        "stop" : 1645012981637,
+        "duration" : 25590
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c1cacfea378b3552.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,241 @@
+{
+  "uid" : "c5bdb4b3c65be5d4",
+  "name" : "Сlick on Enter link from registration popup",
+  "fullName" : "Auth popup functional tests.Сlick on Enter link from registration popup",
+  "historyId" : "456fea7690e7d803d943033a70782337",
+  "time" : {
+    "start" : 1646756846690,
+    "stop" : 1646756848138,
+    "duration" : 1448
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 17,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click registration link on auth window",
+      "time" : {
+        "start" : 1646756847353,
+        "stop" : 1646756847753,
+        "duration" : 400
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click auth link on registration window",
+      "time" : {
+        "start" : 1646756847753,
+        "stop" : 1646756848130,
+        "duration" : 377
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Get auth title on auth window",
+      "time" : {
+        "start" : 1646756848130,
+        "stop" : 1646756848138,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Auth popup functional tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Auth popup functional tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Сlick on Enter link from registration popup"
+  }, {
+    "name" : "package",
+    "value" : "Auth popup functional tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f2e00167e43aac4f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646756364724,
+        "stop" : 1646756366043,
+        "duration" : 1319
+      }
+    }, {
+      "uid" : "5703288bfe9be907",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646388021741,
+        "stop" : 1646388023067,
+        "duration" : 1326
+      }
+    }, {
+      "uid" : "90d24e68b0ac8f30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646326456528,
+        "stop" : 1646326457926,
+        "duration" : 1398
+      }
+    }, {
+      "uid" : "7f3b0003027f6a97",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646322300189,
+        "stop" : 1646322301590,
+        "duration" : 1401
+      }
+    }, {
+      "uid" : "8bc42317b89c0894",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646322071834,
+        "stop" : 1646322073131,
+        "duration" : 1297
+      }
+    }, {
+      "uid" : "9e6e88ffda9e5634",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646322036640,
+        "stop" : 1646322037915,
+        "duration" : 1275
+      }
+    }, {
+      "uid" : "ae076f5557efaada",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646207604993,
+        "stop" : 1646207606313,
+        "duration" : 1320
+      }
+    }, {
+      "uid" : "2f8d01b9cd64d068",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645899870323,
+        "stop" : 1645899871988,
+        "duration" : 1665
+      }
+    }, {
+      "uid" : "793af05b48fb33b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645896109876,
+        "stop" : 1645896111755,
+        "duration" : 1879
+      }
+    }, {
+      "uid" : "f8dfba287160739c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645896087046,
+        "stop" : 1645896088648,
+        "duration" : 1602
+      }
+    }, {
+      "uid" : "1ce44c698a604f47",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895807984,
+        "stop" : 1645895810282,
+        "duration" : 2298
+      }
+    }, {
+      "uid" : "4664fbe949ceb7b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895784646,
+        "stop" : 1645895786405,
+        "duration" : 1759
+      }
+    }, {
+      "uid" : "cca5bf9e2e481e95",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645460796628,
+        "stop" : 1645460798209,
+        "duration" : 1581
+      }
+    }, {
+      "uid" : "9faae8b05ee375c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645193785595,
+        "stop" : 1645193786806,
+        "duration" : 1211
+      }
+    }, {
+      "uid" : "4858f1ffc8b7a8f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645193670303,
+        "stop" : 1645193671698,
+        "duration" : 1395
+      }
+    }, {
+      "uid" : "8fad0c5c54e6cbd0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645191901618,
+        "stop" : 1645191903203,
+        "duration" : 1585
+      }
+    }, {
+      "uid" : "a10c174ee53b23c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645191492380,
+        "stop" : 1645191495458,
+        "duration" : 3078
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c5bdb4b3c65be5d4.json",
+  "parameterValues" : [ ]
+}

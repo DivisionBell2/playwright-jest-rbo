@@ -1,0 +1,48 @@
+{
+  "uid" : "86ac60342d51c3ab",
+  "name" : "Clicking on oferta link in footer",
+  "fullName" : "Navigation on enter personal data page.Clicking on oferta link in footer",
+  "historyId" : "905f2797d8fffb72a67d8ab8680837f",
+  "time" : {
+    "start" : 1645036991782,
+    "stop" : 1645036994186,
+    "duration" : 2404
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation on enter personal data page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation on enter personal data page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on oferta link in footer"
+  }, {
+    "name" : "package",
+    "value" : "Navigation on enter personal data page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "86ac60342d51c3ab.json",
+  "parameterValues" : [ ]
+}

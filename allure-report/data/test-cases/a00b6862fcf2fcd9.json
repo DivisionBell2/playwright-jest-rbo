@@ -1,0 +1,50 @@
+{
+  "uid" : "a00b6862fcf2fcd9",
+  "name" : "Clicking on logo",
+  "fullName" : "Navigation tests for phone validation page.Clicking on logo",
+  "historyId" : "783693ec1daa02323fcd85cd7a39eedc",
+  "time" : {
+    "start" : 1646770275377,
+    "stop" : 1646770275377,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "unknown",
+  "statusMessage" : "Error: page.isVisible: Execution context was destroyed, most likely because of a navigation.\n                =========================== logs ===========================\n                  checking visibility of \"#test-landing-navPanel-logedIn\"\n                ============================================================",
+  "statusTrace" : "page.isVisible: Execution context was destroyed, most likely because of a navigation.\n                =========================== logs ===========================\n                  checking visibility of \"#test-landing-navPanel-logedIn\"\n                ============================================================\n                    at Header.<anonymous> (/home/alexandr/study/11/playwright-jest-rbo/pages/basePage.page.ts:154:36)\n                    at fulfilled (/home/alexandr/study/11/playwright-jest-rbo/pages/basePage.page.ts:5:58)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation tests for phone validation page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation tests for phone validation page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on logo"
+  }, {
+    "name" : "package",
+    "value" : "Navigation tests for phone validation page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a00b6862fcf2fcd9.json",
+  "parameterValues" : [ ]
+}

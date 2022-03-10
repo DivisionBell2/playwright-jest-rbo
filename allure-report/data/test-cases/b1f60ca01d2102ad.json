@@ -1,0 +1,48 @@
+{
+  "uid" : "b1f60ca01d2102ad",
+  "name" : "Click on start business registration as entrepreneur",
+  "fullName" : "Navigation on main page.Click on start business registration as entrepreneur",
+  "historyId" : "3f4153b2f2f7c2a0eef705bff40ee990",
+  "time" : {
+    "start" : 1645027164779,
+    "stop" : 1645027166634,
+    "duration" : 1855
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Click on start business registration as entrepreneur"
+  }, {
+    "name" : "package",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b1f60ca01d2102ad.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,309 @@
+{
+  "uid" : "b8bb3037a59ba9dd",
+  "name" : "Clicking on Read link in footer and go to Platform blogs",
+  "fullName" : "FAQ page navigation tests.Clicking on Read link in footer and go to Platform blogs",
+  "historyId" : "b5daf876d371a68b167883c4ca27f777",
+  "time" : {
+    "start" : 1645899386294,
+    "stop" : 1645899387219,
+    "duration" : 925
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 24,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open FAQ page",
+      "time" : {
+        "start" : 1645899386294,
+        "stop" : 1645899387212,
+        "duration" : 918
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click on read link on footer",
+        "time" : {
+          "start" : 1645899386295,
+          "stop" : 1645899386908,
+          "duration" : 613
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Get new browser tab",
+      "time" : {
+        "start" : 1645899387213,
+        "stop" : 1645899387217,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "FAQ page navigation tests"
+  }, {
+    "name" : "testClass",
+    "value" : "FAQ page navigation tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on Read link in footer and go to Platform blogs"
+  }, {
+    "name" : "package",
+    "value" : "FAQ page navigation tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fc3e07d1639e507f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645899169894,
+        "stop" : 1645899170833,
+        "duration" : 939
+      }
+    }, {
+      "uid" : "24cb6f11baccedb6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645899065376,
+        "stop" : 1645899067324,
+        "duration" : 1948
+      }
+    }, {
+      "uid" : "a20a883bdff41938",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645899028632,
+        "stop" : 1645899030574,
+        "duration" : 1942
+      }
+    }, {
+      "uid" : "6684a28918f0758e",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645898986058,
+        "stop" : 1645898986058,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3c91fa740dd0269f",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645898943921,
+        "stop" : 1645898943921,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9c7560e0fbafd5fd",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645898859418,
+        "stop" : 1645898859418,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "73c376db2514c369",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645898670130,
+        "stop" : 1645898670130,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f203c405bc9c5d62",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645898593991,
+        "stop" : 1645898593991,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c45f7f8b8b91f791",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645898522300,
+        "stop" : 1645898522300,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5361fbcb80ce5bba",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645898415573,
+        "stop" : 1645898415573,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "544cc7c1d6b53d46",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645898111926,
+        "stop" : 1645898111926,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "44b2c3bd486abfa4",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645898100826,
+        "stop" : 1645898100826,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9b55d78b8e5a55fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645897989783,
+        "stop" : 1645897992412,
+        "duration" : 2629
+      }
+    }, {
+      "uid" : "7300d36ed07fcceb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645897982047,
+        "stop" : 1645897982682,
+        "duration" : 635
+      }
+    }, {
+      "uid" : "b538df3b0a67159",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645897851525,
+        "stop" : 1645897853065,
+        "duration" : 1540
+      }
+    }, {
+      "uid" : "e416c8087291e37d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645897842915,
+        "stop" : 1645897843775,
+        "duration" : 860
+      }
+    }, {
+      "uid" : "4cf0e199e905b212",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645897396359,
+        "stop" : 1645897398175,
+        "duration" : 1816
+      }
+    }, {
+      "uid" : "af70afedbeb8e6f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645897387767,
+        "stop" : 1645897388669,
+        "duration" : 902
+      }
+    }, {
+      "uid" : "2f8d1e0f276de18d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645897283548,
+        "stop" : 1645897285240,
+        "duration" : 1692
+      }
+    }, {
+      "uid" : "a840d88309b55540",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645897275206,
+        "stop" : 1645897275968,
+        "duration" : 762
+      }
+    }, {
+      "uid" : "ee10fcf9a6490171",
+      "status" : "failed",
+      "statusDetails" : ": Timeout - Async callback was not invoked within the 25000 ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1645896125171,
+        "stop" : 1645896150175,
+        "duration" : 25004
+      }
+    }, {
+      "uid" : "4560978efbbfb73",
+      "status" : "failed",
+      "statusDetails" : ": Timeout - Async callback was not invoked within the 25000 ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1645895322791,
+        "stop" : 1645895347794,
+        "duration" : 25003
+      }
+    }, {
+      "uid" : "30aa49ff0147f661",
+      "status" : "failed",
+      "statusDetails" : "Error: page.click: Execution context was destroyed, most likely because of a navigation.\n                =========================== logs ===========================\n                waiting for selector \"//div[contains(@class, 'ant-row MainFooter__footer-menu-content')]//li/a[contains(., 'Читать')]\"\n                  selector resolved to visible <a target=\"_blank\" rel=\"noreferrer\" href=\"https://u…>Читать</a>\n                attempting click action\n                  waiting for element to be visible, enabled and stable\n                ============================================================",
+      "time" : {
+        "start" : 1645895241852,
+        "stop" : 1645895242438,
+        "duration" : 586
+      }
+    }, {
+      "uid" : "dbe024ef1c71da37",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895232586,
+        "stop" : 1645895233571,
+        "duration" : 985
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b8bb3037a59ba9dd.json",
+  "parameterValues" : [ ]
+}

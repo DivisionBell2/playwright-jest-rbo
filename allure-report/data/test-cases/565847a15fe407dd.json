@@ -1,0 +1,322 @@
+{
+  "uid" : "565847a15fe407dd",
+  "name" : "Clicking on Read link in footer and go to Platform blogs",
+  "fullName" : "Navigation on main page.Clicking on Read link in footer and go to Platform blogs",
+  "historyId" : "d27881b115d6e6af5980d533fb073fa2",
+  "time" : {
+    "start" : 1646756810106,
+    "stop" : 1646756811035,
+    "duration" : 929
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 28,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click on read link on footer",
+      "time" : {
+        "start" : 1646756810651,
+        "stop" : 1646756811034,
+        "duration" : 383
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "undefined",
+        "time" : {
+          "start" : 1646756810651,
+          "stop" : 1646756810822,
+          "duration" : 171
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on Read link in footer and go to Platform blogs"
+  }, {
+    "name" : "package",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4d98a7aec0a14681",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646756334030,
+        "stop" : 1646756335743,
+        "duration" : 1713
+      }
+    }, {
+      "uid" : "3968f3d448ba96f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645894058191,
+        "stop" : 1645894059781,
+        "duration" : 1590
+      }
+    }, {
+      "uid" : "6fd6d1c43e4d7979",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645894025964,
+        "stop" : 1645894027426,
+        "duration" : 1462
+      }
+    }, {
+      "uid" : "3b90dba7d94a9eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645799923407,
+        "stop" : 1645799924746,
+        "duration" : 1339
+      }
+    }, {
+      "uid" : "383a787471b8e24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645799887367,
+        "stop" : 1645799888661,
+        "duration" : 1294
+      }
+    }, {
+      "uid" : "f9195741f907513a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645789979189,
+        "stop" : 1645789980245,
+        "duration" : 1056
+      }
+    }, {
+      "uid" : "7e22e2cac791cd8e",
+      "status" : "failed",
+      "statusDetails" : "Error: page.goto: Navigation failed because page was closed!\n                =========================== logs ===========================\n                navigating to \"https://rbo.uat.dasreda.ru/\", waiting until \"load\"\n                ============================================================",
+      "time" : {
+        "start" : 1645789954044,
+        "stop" : 1645789954048,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "3c82f5b34fa461ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645696026527,
+        "stop" : 1645696027433,
+        "duration" : 906
+      }
+    }, {
+      "uid" : "238a4185da298d8d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645605930074,
+        "stop" : 1645605930972,
+        "duration" : 898
+      }
+    }, {
+      "uid" : "b34e63509476875e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645532028389,
+        "stop" : 1645532029237,
+        "duration" : 848
+      }
+    }, {
+      "uid" : "5684e1c721d303a2",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645531999958,
+        "stop" : 1645531999958,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1b11e3fd0c20bd94",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645521448656,
+        "stop" : 1645521449757,
+        "duration" : 1101
+      }
+    }, {
+      "uid" : "32fbcd932ad999de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645462129226,
+        "stop" : 1645462130236,
+        "duration" : 1010
+      }
+    }, {
+      "uid" : "69e3b1564968b915",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645027174955,
+        "stop" : 1645027175939,
+        "duration" : 984
+      }
+    }, {
+      "uid" : "dbb33ce2697eda61",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645021230358,
+        "stop" : 1645021231162,
+        "duration" : 804
+      }
+    }, {
+      "uid" : "b23570724a72ffd1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645021104014,
+        "stop" : 1645021104865,
+        "duration" : 851
+      }
+    }, {
+      "uid" : "cc548496e8e254e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645020966529,
+        "stop" : 1645020967341,
+        "duration" : 812
+      }
+    }, {
+      "uid" : "454bcdb48b9aa168",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645020867404,
+        "stop" : 1645020868173,
+        "duration" : 769
+      }
+    }, {
+      "uid" : "1ab78b277ceecca7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645020713774,
+        "stop" : 1645020714578,
+        "duration" : 804
+      }
+    }, {
+      "uid" : "43e511641cbd9aef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645020650819,
+        "stop" : 1645020651684,
+        "duration" : 865
+      }
+    }, {
+      "uid" : "633fc5a293b44f3d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645020136019,
+        "stop" : 1645020136889,
+        "duration" : 870
+      }
+    }, {
+      "uid" : "70fb548247117664",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645020045780,
+        "stop" : 1645020046628,
+        "duration" : 848
+      }
+    }, {
+      "uid" : "6b2b1077b3c8bf0f",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645020020964,
+        "stop" : 1645020020964,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "601576a84d7de90c",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645013294562,
+        "stop" : 1645013294562,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "669d73bb760f6aa7",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645013235590,
+        "stop" : 1645013235590,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "78c18ed452d6c172",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645013143221,
+        "stop" : 1645013143221,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f8352c1fac5c3022",
+      "status" : "failed",
+      "statusDetails" : "Error: page.goto: Navigation failed because page was closed!\n                =========================== logs ===========================\n                navigating to \"https://rbo.uat.dasreda.ru/\", waiting until \"load\"\n                ============================================================",
+      "time" : {
+        "start" : 1645013089135,
+        "stop" : 1645013089141,
+        "duration" : 6
+      }
+    }, {
+      "uid" : "27624ab603df9f20",
+      "status" : "failed",
+      "statusDetails" : "Error: page.goto: Navigation failed because page was closed!\n                =========================== logs ===========================\n                navigating to \"https://rbo.uat.dasreda.ru/\", waiting until \"load\"\n                ============================================================",
+      "time" : {
+        "start" : 1645013018105,
+        "stop" : 1645013018110,
+        "duration" : 5
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "565847a15fe407dd.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,325 @@
+{
+  "uid" : "f454a802e97ec730",
+  "name" : "Clicking on Feedback button",
+  "fullName" : "FAQ page navigation tests.Clicking on Feedback button",
+  "historyId" : "8ce3c7a32fb0e6dfae2a3b58abc3625",
+  "time" : {
+    "start" : 1645899384926,
+    "stop" : 1645899386294,
+    "duration" : 1368
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 24,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open FAQ page",
+      "time" : {
+        "start" : 1645899384926,
+        "stop" : 1645899386226,
+        "duration" : 1300
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click on feedback link in header",
+        "time" : {
+          "start" : 1645899384927,
+          "stop" : 1645899385616,
+          "duration" : 689
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Wait for navigation feedback page",
+        "time" : {
+          "start" : 1645899385616,
+          "stop" : 1645899386225,
+          "duration" : 609
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Check visibility of feedback area on feedback page",
+      "time" : {
+        "start" : 1645899386226,
+        "stop" : 1645899386294,
+        "duration" : 68
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "FAQ page navigation tests"
+  }, {
+    "name" : "testClass",
+    "value" : "FAQ page navigation tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on Feedback button"
+  }, {
+    "name" : "package",
+    "value" : "FAQ page navigation tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "776e3af80a7b8553",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645899168592,
+        "stop" : 1645899169894,
+        "duration" : 1302
+      }
+    }, {
+      "uid" : "1746be8f8cbe65a1",
+      "status" : "failed",
+      "statusDetails" : "Error: page.click: Protocol error (Page.adoptNode): error in channel \"content::page\": exception while running method \"adoptNode\" in namespace \"page\": Cannot find object with id = id-89 unsafeObject@chrome://juggler/content/content/FrameTree.js:474:11\n                _adoptNode@chrome://juggler/content/content/PageAgent.js:432:32\n                _onMessage@chrome://juggler/content/SimpleChannel.js:165:37\n                receiveMessage@chrome://juggler/content/SimpleChannel.js:16:42\n                 _onMessage@chrome://juggler/content/SimpleChannel.js:149:16\n                receiveMessage@chrome://juggler/content/SimpleChannel.js:16:42\n                \n                =========================== logs ===========================\n                waiting for selector \"text='Обратная связь'\"\n                  selector resolved to visible <a href=\"/rbidos/feedback\" class=\"TopMenu__topmenu-…>…</a>\n                attempting click action\n                  waiting for element to be visible, enabled and stable\n                ============================================================",
+      "time" : {
+        "start" : 1645899065191,
+        "stop" : 1645899065376,
+        "duration" : 185
+      }
+    }, {
+      "uid" : "52fb21b8463405d",
+      "status" : "failed",
+      "statusDetails" : "Error: page.click: Protocol error (Page.adoptNode): error in channel \"content::page\": exception while running method \"adoptNode\" in namespace \"page\": Cannot find object with id = id-97 unsafeObject@chrome://juggler/content/content/FrameTree.js:474:11\n                _adoptNode@chrome://juggler/content/content/PageAgent.js:432:32\n                _onMessage@chrome://juggler/content/SimpleChannel.js:165:37\n                receiveMessage@chrome://juggler/content/SimpleChannel.js:16:42\n                 _onMessage@chrome://juggler/content/SimpleChannel.js:149:16\n                receiveMessage@chrome://juggler/content/SimpleChannel.js:16:42\n                \n                =========================== logs ===========================\n                waiting for selector \"text='Обратная связь'\"\n                  selector resolved to visible <a href=\"/rbidos/feedback\" class=\"TopMenu__topmenu-…>…</a>\n                attempting click action\n                  waiting for element to be visible, enabled and stable\n                ============================================================",
+      "time" : {
+        "start" : 1645899028447,
+        "stop" : 1645899028631,
+        "duration" : 184
+      }
+    }, {
+      "uid" : "69221b95ee1de0c0",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645898986058,
+        "stop" : 1645898986058,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e4f2834ab9f8ffc6",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645898943921,
+        "stop" : 1645898943921,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "fa908beaca4ee887",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645898859418,
+        "stop" : 1645898859418,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "41227aef80fc7035",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645898670130,
+        "stop" : 1645898670130,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ecaeb49a3bed91a9",
+      "status" : "failed",
+      "statusDetails" : ": Timeout - Async callback was not invoked within the 25000 ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1645898568986,
+        "stop" : 1645898593991,
+        "duration" : 25005
+      }
+    }, {
+      "uid" : "c362d037c7a0a672",
+      "status" : "failed",
+      "statusDetails" : ": Timeout - Async callback was not invoked within the 25000 ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1645898497295,
+        "stop" : 1645898522300,
+        "duration" : 25005
+      }
+    }, {
+      "uid" : "2b6e63c5a9b78cb4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645898409849,
+        "stop" : 1645898415573,
+        "duration" : 5724
+      }
+    }, {
+      "uid" : "60a01e79155ef71f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645898106361,
+        "stop" : 1645898111926,
+        "duration" : 5565
+      }
+    }, {
+      "uid" : "c43164e05e572c5d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645898096830,
+        "stop" : 1645898100826,
+        "duration" : 3996
+      }
+    }, {
+      "uid" : "b4a8c3f5d8afbcd",
+      "status" : "failed",
+      "statusDetails" : "Error: page.click: Protocol error (Page.adoptNode): error in channel \"content::page\": exception while running method \"adoptNode\" in namespace \"page\": Cannot find object with id = id-90 unsafeObject@chrome://juggler/content/content/FrameTree.js:474:11\n                _adoptNode@chrome://juggler/content/content/PageAgent.js:432:32\n                _onMessage@chrome://juggler/content/SimpleChannel.js:165:37\n                receiveMessage@chrome://juggler/content/SimpleChannel.js:16:42\n                 _onMessage@chrome://juggler/content/SimpleChannel.js:149:16\n                receiveMessage@chrome://juggler/content/SimpleChannel.js:16:42\n                \n                =========================== logs ===========================\n                waiting for selector \"text='Обратная связь'\"\n                  selector resolved to visible <a href=\"/rbidos/feedback\" class=\"TopMenu__topmenu-…>…</a>\n                attempting click action\n                  waiting for element to be visible, enabled and stable\n                ============================================================",
+      "time" : {
+        "start" : 1645897989670,
+        "stop" : 1645897989783,
+        "duration" : 113
+      }
+    }, {
+      "uid" : "83a2efe9c278b7e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645897979692,
+        "stop" : 1645897982047,
+        "duration" : 2355
+      }
+    }, {
+      "uid" : "6a8118e81d5aa903",
+      "status" : "failed",
+      "statusDetails" : "Error: page.click: Protocol error (Page.adoptNode): error in channel \"content::page\": exception while running method \"adoptNode\" in namespace \"page\": Cannot find object with id = id-89 unsafeObject@chrome://juggler/content/content/FrameTree.js:474:11\n                _adoptNode@chrome://juggler/content/content/PageAgent.js:432:32\n                _onMessage@chrome://juggler/content/SimpleChannel.js:165:37\n                receiveMessage@chrome://juggler/content/SimpleChannel.js:16:42\n                 _onMessage@chrome://juggler/content/SimpleChannel.js:149:16\n                receiveMessage@chrome://juggler/content/SimpleChannel.js:16:42\n                \n                =========================== logs ===========================\n                waiting for selector \"text='Обратная связь'\"\n                  selector resolved to visible <a href=\"/rbidos/feedback\" class=\"TopMenu__topmenu-…>…</a>\n                attempting click action\n                  waiting for element to be visible, enabled and stable\n                ============================================================",
+      "time" : {
+        "start" : 1645897851379,
+        "stop" : 1645897851525,
+        "duration" : 146
+      }
+    }, {
+      "uid" : "17821a9ea40861d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645897840486,
+        "stop" : 1645897842915,
+        "duration" : 2429
+      }
+    }, {
+      "uid" : "5c485145eb153c88",
+      "status" : "failed",
+      "statusDetails" : "Error: page.click: Protocol error (Page.adoptNode): error in channel \"content::page\": exception while running method \"adoptNode\" in namespace \"page\": Cannot find object with id = id-85 unsafeObject@chrome://juggler/content/content/FrameTree.js:474:11\n                _adoptNode@chrome://juggler/content/content/PageAgent.js:432:32\n                _onMessage@chrome://juggler/content/SimpleChannel.js:165:37\n                receiveMessage@chrome://juggler/content/SimpleChannel.js:16:42\n                 _onMessage@chrome://juggler/content/SimpleChannel.js:149:16\n                receiveMessage@chrome://juggler/content/SimpleChannel.js:16:42\n                \n                =========================== logs ===========================\n                waiting for selector \"text='Обратная связь'\"\n                  selector resolved to visible <a href=\"/rbidos/feedback\" class=\"TopMenu__topmenu-…>…</a>\n                attempting click action\n                  waiting for element to be visible, enabled and stable\n                ============================================================",
+      "time" : {
+        "start" : 1645897396234,
+        "stop" : 1645897396359,
+        "duration" : 125
+      }
+    }, {
+      "uid" : "17120198cc9dd305",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645897385969,
+        "stop" : 1645897387767,
+        "duration" : 1798
+      }
+    }, {
+      "uid" : "6107064936de3431",
+      "status" : "failed",
+      "statusDetails" : "Error: page.click: Protocol error (Page.adoptNode): error in channel \"content::page\": exception while running method \"adoptNode\" in namespace \"page\": Cannot find object with id = id-72 unsafeObject@chrome://juggler/content/content/FrameTree.js:474:11\n                _adoptNode@chrome://juggler/content/content/PageAgent.js:432:32\n                _onMessage@chrome://juggler/content/SimpleChannel.js:165:37\n                receiveMessage@chrome://juggler/content/SimpleChannel.js:16:42\n                 _onMessage@chrome://juggler/content/SimpleChannel.js:149:16\n                receiveMessage@chrome://juggler/content/SimpleChannel.js:16:42\n                \n                =========================== logs ===========================\n                waiting for selector \"text='Обратная связь'\"\n                  selector resolved to visible <a href=\"/rbidos/feedback\" class=\"TopMenu__topmenu-…>…</a>\n                attempting click action\n                  waiting for element to be visible, enabled and stable\n                ============================================================",
+      "time" : {
+        "start" : 1645897283414,
+        "stop" : 1645897283548,
+        "duration" : 134
+      }
+    }, {
+      "uid" : "6894622c15fd7de5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645897273982,
+        "stop" : 1645897275206,
+        "duration" : 1224
+      }
+    }, {
+      "uid" : "aa84faf57bff83b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645896123557,
+        "stop" : 1645896125171,
+        "duration" : 1614
+      }
+    }, {
+      "uid" : "2a449e5b59919c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895321424,
+        "stop" : 1645895322791,
+        "duration" : 1367
+      }
+    }, {
+      "uid" : "6ba0dd1b4f0731ea",
+      "status" : "failed",
+      "statusDetails" : "Error: page.click: Protocol error (Page.adoptNode): error in channel \"content::page\": exception while running method \"adoptNode\" in namespace \"page\": Cannot find object with id = id-79 unsafeObject@chrome://juggler/content/content/FrameTree.js:474:11\n                _adoptNode@chrome://juggler/content/content/PageAgent.js:432:32\n                _onMessage@chrome://juggler/content/SimpleChannel.js:165:37\n                receiveMessage@chrome://juggler/content/SimpleChannel.js:16:42\n                 _onMessage@chrome://juggler/content/SimpleChannel.js:149:16\n                receiveMessage@chrome://juggler/content/SimpleChannel.js:16:42\n                \n                =========================== logs ===========================\n                waiting for selector \"text='Обратная связь'\"\n                  selector resolved to visible <a href=\"/rbidos/feedback\" class=\"TopMenu__topmenu-…>…</a>\n                attempting click action\n                  waiting for element to be visible, enabled and stable\n                ============================================================",
+      "time" : {
+        "start" : 1645895241682,
+        "stop" : 1645895241852,
+        "duration" : 170
+      }
+    }, {
+      "uid" : "94e79b2115efa8e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895231198,
+        "stop" : 1645895232586,
+        "duration" : 1388
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f454a802e97ec730.json",
+  "parameterValues" : [ ]
+}

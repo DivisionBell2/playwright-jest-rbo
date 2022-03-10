@@ -1,0 +1,74 @@
+{
+  "uid" : "46815b9a60458195",
+  "name" : "Registration new user without middle name",
+  "fullName" : "Navigation on personal data page.Registration new user without middle name",
+  "historyId" : "c2f4f5c450b78d73df0236f88735f1bb",
+  "time" : {
+    "start" : 1645895719394,
+    "stop" : 1645895721868,
+    "duration" : 2474
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation on personal data page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation on personal data page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Registration new user without middle name"
+  }, {
+    "name" : "package",
+    "value" : "Navigation on personal data page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "534fbbfe5308de52",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895711450,
+        "stop" : 1645895713658,
+        "duration" : 2208
+      }
+    }, {
+      "uid" : "1091cf943c6d1fba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895702245,
+        "stop" : 1645895704651,
+        "duration" : 2406
+      }
+    }, {
+      "uid" : "28b96e3152c63850",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895694891,
+        "stop" : 1645895697409,
+        "duration" : 2518
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "46815b9a60458195.json",
+  "parameterValues" : [ ]
+}

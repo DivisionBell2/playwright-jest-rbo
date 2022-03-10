@@ -1,0 +1,225 @@
+{
+  "uid" : "ed2c97374f8d140d",
+  "name" : "Open youtube frame from header",
+  "fullName" : "Navigation tests for feedback page.Open youtube frame from header",
+  "historyId" : "e2c00f4ea743b92f7ff093a7bf3ee233",
+  "time" : {
+    "start" : 1646756886126,
+    "stop" : 1646756889888,
+    "duration" : 3762
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 11,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open feedback page",
+      "time" : {
+        "start" : 1646756886126,
+        "stop" : 1646756889728,
+        "duration" : 3602
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click video button on header",
+      "time" : {
+        "start" : 1646756889728,
+        "stop" : 1646756889838,
+        "duration" : 110
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Wait for video frame appears",
+      "time" : {
+        "start" : 1646756889838,
+        "stop" : 1646756889845,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click for close button on video frame",
+      "time" : {
+        "start" : 1646756889845,
+        "stop" : 1646756889885,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Wait for video frame is closed",
+      "time" : {
+        "start" : 1646756889886,
+        "stop" : 1646756889887,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation tests for feedback page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation tests for feedback page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Open youtube frame from header"
+  }, {
+    "name" : "package",
+    "value" : "Navigation tests for feedback page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a7e94995273ebaf0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646756398883,
+        "stop" : 1646756406621,
+        "duration" : 7738
+      }
+    }, {
+      "uid" : "9538842b31bdcc61",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646388028497,
+        "stop" : 1646388030913,
+        "duration" : 2416
+      }
+    }, {
+      "uid" : "46735fce5638d4b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646326486662,
+        "stop" : 1646326488583,
+        "duration" : 1921
+      }
+    }, {
+      "uid" : "e07da20f74da9d9d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646322306437,
+        "stop" : 1646322308440,
+        "duration" : 2003
+      }
+    }, {
+      "uid" : "e213ef370080db3d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646207609915,
+        "stop" : 1646207611780,
+        "duration" : 1865
+      }
+    }, {
+      "uid" : "d6fcea379e7858be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646121366616,
+        "stop" : 1646121369066,
+        "duration" : 2450
+      }
+    }, {
+      "uid" : "4529bc6d7c46a82",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1646121316591,
+        "stop" : 1646121316591,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3e70659f1fd12abc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646035485816,
+        "stop" : 1646035487551,
+        "duration" : 1735
+      }
+    }, {
+      "uid" : "8ab1d921429de53",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1646035427823,
+        "stop" : 1646035427823,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e998a93992151953",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645978675440,
+        "stop" : 1645978678025,
+        "duration" : 2585
+      }
+    }, {
+      "uid" : "e363dec33bbb3c63",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645978650881,
+        "stop" : 1645978653224,
+        "duration" : 2343
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ed2c97374f8d140d.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,238 @@
+{
+  "uid" : "85d553ae8f5ce79f",
+  "name" : "Clicking on Feedback button",
+  "fullName" : "Navigation for feedback main page.Clicking on Feedback button",
+  "historyId" : "7e7d1bfaa91f0113a29f032cabf82b6f",
+  "time" : {
+    "start" : 1646387995151,
+    "stop" : 1646387996190,
+    "duration" : 1039
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 16,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Сlick feedback link in header",
+      "time" : {
+        "start" : 1646387995544,
+        "stop" : 1646387995652,
+        "duration" : 108
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for navigation feedback page",
+      "time" : {
+        "start" : 1646387995653,
+        "stop" : 1646387996142,
+        "duration" : 489
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check visibility of message text input on feedback page",
+      "time" : {
+        "start" : 1646387996142,
+        "stop" : 1646387996190,
+        "duration" : 48
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation for feedback main page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation for feedback main page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on Feedback button"
+  }, {
+    "name" : "package",
+    "value" : "Navigation for feedback main page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "54f60037fa71cc59",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646326467270,
+        "stop" : 1646326468213,
+        "duration" : 943
+      }
+    }, {
+      "uid" : "9208f5242fa31f29",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646322325604,
+        "stop" : 1646322326570,
+        "duration" : 966
+      }
+    }, {
+      "uid" : "2e5b7db9758c8319",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646321947893,
+        "stop" : 1646321948847,
+        "duration" : 954
+      }
+    }, {
+      "uid" : "dfe5796cfb5dbcc9",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1646321923754,
+        "stop" : 1646321923754,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3bad5173ebb4120f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646202978392,
+        "stop" : 1646202979528,
+        "duration" : 1136
+      }
+    }, {
+      "uid" : "42624d2219fa9744",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1646202951672,
+        "stop" : 1646202951672,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9349be64cc9ca788",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646119396322,
+        "stop" : 1646119397388,
+        "duration" : 1066
+      }
+    }, {
+      "uid" : "c4d729a28e14da68",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1646119363439,
+        "stop" : 1646119363439,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "99f2bd5514fe0773",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646032143747,
+        "stop" : 1646032145139,
+        "duration" : 1392
+      }
+    }, {
+      "uid" : "c188a56f0eddba9b",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1646032112226,
+        "stop" : 1646032112226,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "43fd4723e39163c1",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645978177773,
+        "stop" : 1645978177773,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "376918b2bb97823b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645899317729,
+        "stop" : 1645899319312,
+        "duration" : 1583
+      }
+    }, {
+      "uid" : "8b0c57662100b980",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645897188983,
+        "stop" : 1645897190530,
+        "duration" : 1547
+      }
+    }, {
+      "uid" : "760b8be13639f167",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645897163010,
+        "stop" : 1645897165743,
+        "duration" : 2733
+      }
+    }, {
+      "uid" : "a3a82ecd58420d68",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645894879089,
+        "stop" : 1645894880832,
+        "duration" : 1743
+      }
+    }, {
+      "uid" : "40a3ddd134e62f08",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645894853141,
+        "stop" : 1645894854587,
+        "duration" : 1446
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "85d553ae8f5ce79f.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,48 @@
+{
+  "uid" : "e6f0463740f7c9f9",
+  "name" : "Open and close support phone popup",
+  "fullName" : "Working of support menu.Open and close support phone popup",
+  "historyId" : "8ba5de004f2e23d6bbf312af9aa3d1e6",
+  "time" : {
+    "start" : 1645899332655,
+    "stop" : 1645899337078,
+    "duration" : 4423
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Working of support menu"
+  }, {
+    "name" : "testClass",
+    "value" : "Working of support menu"
+  }, {
+    "name" : "testMethod",
+    "value" : "Open and close support phone popup"
+  }, {
+    "name" : "package",
+    "value" : "Working of support menu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e6f0463740f7c9f9.json",
+  "parameterValues" : [ ]
+}

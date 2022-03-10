@@ -1,0 +1,195 @@
+{
+  "uid" : "2dcfa9a49722a6ff",
+  "name" : "Clicking on Feedback button",
+  "fullName" : "Navigation tests for FAQ page FAQ page navigation tests.Clicking on Feedback button",
+  "historyId" : "74e36f5545591acb658b5d602366fea7",
+  "time" : {
+    "start" : 1645607512743,
+    "stop" : 1645607515514,
+    "duration" : 2771
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 9,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open FAQ page",
+      "time" : {
+        "start" : 1645607512743,
+        "stop" : 1645607515454,
+        "duration" : 2711
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click on feedback link in header",
+        "time" : {
+          "start" : 1645607512744,
+          "stop" : 1645607513291,
+          "duration" : 547
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Wait for navigation feedback page",
+        "time" : {
+          "start" : 1645607513291,
+          "stop" : 1645607515453,
+          "duration" : 2162
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Check visibility of feedback area on feedback page",
+      "time" : {
+        "start" : 1645607515454,
+        "stop" : 1645607515513,
+        "duration" : 59
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation tests for FAQ page FAQ page navigation tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation tests for FAQ page FAQ page navigation tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on Feedback button"
+  }, {
+    "name" : "package",
+    "value" : "Navigation tests for FAQ page FAQ page navigation tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "acac20fa4f3472fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645607471755,
+        "stop" : 1645607472855,
+        "duration" : 1100
+      }
+    }, {
+      "uid" : "9cd634142632f91f",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645607454052,
+        "stop" : 1645607454052,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9732886f69d406ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645607354348,
+        "stop" : 1645607355424,
+        "duration" : 1076
+      }
+    }, {
+      "uid" : "8f15ee3e2ceb288f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645533112912,
+        "stop" : 1645533115809,
+        "duration" : 2897
+      }
+    }, {
+      "uid" : "78cab78fea02a7a1",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645533092094,
+        "stop" : 1645533092094,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ba5959e687054465",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645531942602,
+        "stop" : 1645531945008,
+        "duration" : 2406
+      }
+    }, {
+      "uid" : "a781213e42c73943",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645531888555,
+        "stop" : 1645531891193,
+        "duration" : 2638
+      }
+    }, {
+      "uid" : "a6bc3c7eb6b6138b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645522458440,
+        "stop" : 1645522459716,
+        "duration" : 1276
+      }
+    }, {
+      "uid" : "2df9c499efaf546b",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toBeTruthy()\n                \n                Received: false",
+      "time" : {
+        "start" : 1645522419785,
+        "stop" : 1645522424154,
+        "duration" : 4369
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2dcfa9a49722a6ff.json",
+  "parameterValues" : [ ]
+}

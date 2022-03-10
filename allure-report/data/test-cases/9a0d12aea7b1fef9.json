@@ -1,0 +1,147 @@
+{
+  "uid" : "9a0d12aea7b1fef9",
+  "name" : "Check working popup with law information from personal data page",
+  "fullName" : "Check working popup with law information from personal data page.Check working popup with law information from personal data page",
+  "historyId" : "4c41125de311873ce4e584761515a877",
+  "time" : {
+    "start" : 1645895738151,
+    "stop" : 1645895741946,
+    "duration" : 3795
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 9,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "undefined",
+      "time" : {
+        "start" : 1645895740436,
+        "stop" : 1645895740717,
+        "duration" : 281
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Check working popup with law information from personal data page"
+  }, {
+    "name" : "testClass",
+    "value" : "Check working popup with law information from personal data page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Check working popup with law information from personal data page"
+  }, {
+    "name" : "package",
+    "value" : "Check working popup with law information from personal data page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9c2499bfe95df1e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895732447,
+        "stop" : 1645895738144,
+        "duration" : 5697
+      }
+    }, {
+      "uid" : "52a6b8076e67c1c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895727971,
+        "stop" : 1645895731738,
+        "duration" : 3767
+      }
+    }, {
+      "uid" : "f33bf28561e9eed6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895722438,
+        "stop" : 1645895727966,
+        "duration" : 5528
+      }
+    }, {
+      "uid" : "20fb063ba397f020",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644934094401,
+        "stop" : 1644934097401,
+        "duration" : 3000
+      }
+    }, {
+      "uid" : "42a324a8b53394b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644934089087,
+        "stop" : 1644934094388,
+        "duration" : 5301
+      }
+    }, {
+      "uid" : "b2a8123f77646415",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644933896973,
+        "stop" : 1644933900384,
+        "duration" : 3411
+      }
+    }, {
+      "uid" : "cecf99b21376d02d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644933892585,
+        "stop" : 1644933896968,
+        "duration" : 4383
+      }
+    }, {
+      "uid" : "34a26841a9a6b74c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644933457136,
+        "stop" : 1644933460629,
+        "duration" : 3493
+      }
+    }, {
+      "uid" : "ccae2c5bd8990a2b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644933453254,
+        "stop" : 1644933457119,
+        "duration" : 3865
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9a0d12aea7b1fef9.json",
+  "parameterValues" : [ ]
+}

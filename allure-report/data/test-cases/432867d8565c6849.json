@@ -1,0 +1,137 @@
+{
+  "uid" : "432867d8565c6849",
+  "name" : "Send message by not authorized user",
+  "fullName" : "Navigation tests for feedback page.Send message by not authorized user",
+  "historyId" : "e5242b4af0ad564144739043a78b9111",
+  "time" : {
+    "start" : 1646207245557,
+    "stop" : 1646207272453,
+    "duration" : 26896
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : ": Timeout - Async callback was not invoked within the 25000 ms timeout specified by jest.setTimeout.",
+  "statusTrace" : "Timeout - Async callback was not invoked within the 25000 ms timeout specified by jest.setTimeout.Error: \n                    at new Spec (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmine/Spec.js:116:22)\n                    at new Spec (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/setup_jest_globals.js:78:9)\n                    at specFactory (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmine/Env.js:484:22)\n                    at Env.it (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmine/Env.js:553:22)\n                    at Env.it (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:201:23)\n                    at it (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmine/jasmineLight.js:100:21)\n                    at Suite.<anonymous> (/home/alexandr/study/11/playwright-jest-rbo/tests/feedbackPage/sendMessage.test.ts:18:5)\n                    at addSpecsToSuite (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmine/Env.js:433:49)\n                    at Env.describe (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmine/Env.js:403:9)\n                    at describe (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmine/jasmineLight.js:88:18)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : ": Timeout - Async callback was not invoked within the 25000 ms timeout specified by jest.setTimeout.",
+    "statusTrace" : "Timeout - Async callback was not invoked within the 25000 ms timeout specified by jest.setTimeout.Error: \n                    at new Spec (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmine/Spec.js:116:22)\n                    at new Spec (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/setup_jest_globals.js:78:9)\n                    at specFactory (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmine/Env.js:484:22)\n                    at Env.it (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmine/Env.js:553:22)\n                    at Env.it (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:201:23)\n                    at it (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmine/jasmineLight.js:100:21)\n                    at Suite.<anonymous> (/home/alexandr/study/11/playwright-jest-rbo/tests/feedbackPage/sendMessage.test.ts:18:5)\n                    at addSpecsToSuite (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmine/Env.js:433:49)\n                    at Env.describe (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmine/Env.js:403:9)\n                    at describe (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmine/jasmineLight.js:88:18)",
+    "steps" : [ {
+      "name" : "Open feedback page",
+      "time" : {
+        "start" : 1646207245557,
+        "stop" : 1646207247448,
+        "duration" : 1891
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Enter text message for feedback",
+      "time" : {
+        "start" : 1646207247448,
+        "stop" : 1646207247523,
+        "duration" : 75
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Enter user email for feedback",
+      "time" : {
+        "start" : 1646207247523,
+        "stop" : 1646207247545,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check send message button is enabled",
+      "time" : {
+        "start" : 1646207252547,
+        "stop" : 1646207252551,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Wait for info about sended message",
+      "time" : {
+        "start" : 1646207252552,
+        "stop" : 0,
+        "duration" : -1646207252552
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation tests for feedback page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation tests for feedback page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Send message by not authorized user"
+  }, {
+    "name" : "package",
+    "value" : "Navigation tests for feedback page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "432867d8565c6849.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,48 @@
+{
+  "uid" : "a24be1291c78a04d",
+  "name" : "Clicking on FAQ button",
+  "fullName" : "Navigation on main page.Clicking on FAQ button",
+  "historyId" : "4800b1984cf58851e112869eeb7ca9ef",
+  "time" : {
+    "start" : 1645462116896,
+    "stop" : 1645462122127,
+    "duration" : 5231
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on FAQ button"
+  }, {
+    "name" : "package",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a24be1291c78a04d.json",
+  "parameterValues" : [ ]
+}

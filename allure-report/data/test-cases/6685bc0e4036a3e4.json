@@ -1,0 +1,107 @@
+{
+  "uid" : "6685bc0e4036a3e4",
+  "name" : "Clicking on logo",
+  "fullName" : "Navigation tests for phone validation page.Clicking on logo",
+  "historyId" : "783693ec1daa02323fcd85cd7a39eedc",
+  "time" : {
+    "start" : 1646577860631,
+    "stop" : 1646577887255,
+    "duration" : 26624
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : ": Timeout - Async callback was not invoked within the 25000 ms timeout specified by jest.setTimeout.",
+  "statusTrace" : "Timeout - Async callback was not invoked within the 25000 ms timeout specified by jest.setTimeout.Error: \n                    at new Spec (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmine/Spec.js:116:22)\n                    at new Spec (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/setup_jest_globals.js:78:9)\n                    at specFactory (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmine/Env.js:484:22)\n                    at Env.it (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmine/Env.js:553:22)\n                    at Env.it (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:201:23)\n                    at it (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmine/jasmineLight.js:100:21)\n                    at Suite.<anonymous> (/home/alexandr/study/11/playwright-jest-rbo/tests/phoneValidation/navigation.test.ts:42:9)\n                    at addSpecsToSuite (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmine/Env.js:433:49)\n                    at Env.describe (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmine/Env.js:403:9)\n                    at describe (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmine/jasmineLight.js:88:18)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : ": Timeout - Async callback was not invoked within the 25000 ms timeout specified by jest.setTimeout.",
+    "statusTrace" : "Timeout - Async callback was not invoked within the 25000 ms timeout specified by jest.setTimeout.Error: \n                    at new Spec (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmine/Spec.js:116:22)\n                    at new Spec (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/setup_jest_globals.js:78:9)\n                    at specFactory (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmine/Env.js:484:22)\n                    at Env.it (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmine/Env.js:553:22)\n                    at Env.it (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:201:23)\n                    at it (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmine/jasmineLight.js:100:21)\n                    at Suite.<anonymous> (/home/alexandr/study/11/playwright-jest-rbo/tests/phoneValidation/navigation.test.ts:42:9)\n                    at addSpecsToSuite (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmine/Env.js:433:49)\n                    at Env.describe (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmine/Env.js:403:9)\n                    at describe (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/jasmine/jasmineLight.js:88:18)",
+    "steps" : [ {
+      "name" : "Open legal entity phone validation page",
+      "time" : {
+        "start" : 1646577860632,
+        "stop" : 1646577862252,
+        "duration" : 1620
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click on logo icon",
+      "time" : {
+        "start" : 1646577862252,
+        "stop" : 1646577862401,
+        "duration" : 149
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Wait for navigation main page",
+      "time" : {
+        "start" : 1646577862401,
+        "stop" : 0,
+        "duration" : -1646577862401
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation tests for phone validation page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation tests for phone validation page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on logo"
+  }, {
+    "name" : "package",
+    "value" : "Navigation tests for phone validation page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6685bc0e4036a3e4.json",
+  "parameterValues" : [ ]
+}

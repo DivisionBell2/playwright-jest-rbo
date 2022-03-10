@@ -1,0 +1,48 @@
+{
+  "uid" : "12fee7d862258f31",
+  "name" : "Login new user",
+  "fullName" : "Login new user from Main Page.Login new user",
+  "historyId" : "f86fba152989bb49885d499b8167dd57",
+  "time" : {
+    "start" : 1645012915861,
+    "stop" : 1645012926520,
+    "duration" : 10659
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Login new user from Main Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Login new user from Main Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Login new user"
+  }, {
+    "name" : "package",
+    "value" : "Login new user from Main Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "12fee7d862258f31.json",
+  "parameterValues" : [ ]
+}

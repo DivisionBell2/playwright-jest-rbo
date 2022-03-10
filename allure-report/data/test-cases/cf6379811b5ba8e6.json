@@ -1,0 +1,107 @@
+{
+  "uid" : "cf6379811b5ba8e6",
+  "name" : "Clicking on Watch link in footer and go to Platform videos",
+  "fullName" : "FAQ page navigation tests.Clicking on Watch link in footer and go to Platform videos",
+  "historyId" : "ca6b30fdc6624b43059b2b26d67967dc",
+  "time" : {
+    "start" : 1645896150175,
+    "stop" : 1645896152037,
+    "duration" : 1862
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"uat.dasreda.ru/learn/blog\"\n                Received string:    \"https://uat.dasreda.ru/learn/videos?_ga=2.225427922.994690869.1645896121-1158751637.1645896121\"",
+  "statusTrace" : "Error: expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"uat.dasreda.ru/learn/blog\"\n                Received string:    \"https://uat.dasreda.ru/learn/videos?_ga=2.225427922.994690869.1645896121-1158751637.1645896121\"\n                    at /home/alexandr/study/11/playwright-jest-rbo/tests/faqPage/navigation.test.ts:45:30\n                    at Generator.next (<anonymous>)\n                    at fulfilled (/home/alexandr/study/11/playwright-jest-rbo/tests/faqPage/navigation.test.ts:5:58)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at runNextTicks (node:internal/process/task_queues:65:3)\n                    at processImmediate (node:internal/timers:444:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"uat.dasreda.ru/learn/blog\"\n                Received string:    \"https://uat.dasreda.ru/learn/videos?_ga=2.225427922.994690869.1645896121-1158751637.1645896121\"",
+    "statusTrace" : "Error: expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"uat.dasreda.ru/learn/blog\"\n                Received string:    \"https://uat.dasreda.ru/learn/videos?_ga=2.225427922.994690869.1645896121-1158751637.1645896121\"\n                    at /home/alexandr/study/11/playwright-jest-rbo/tests/faqPage/navigation.test.ts:45:30\n                    at Generator.next (<anonymous>)\n                    at fulfilled (/home/alexandr/study/11/playwright-jest-rbo/tests/faqPage/navigation.test.ts:5:58)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at runNextTicks (node:internal/process/task_queues:65:3)\n                    at processImmediate (node:internal/timers:444:9)",
+    "steps" : [ {
+      "name" : "Open FAQ page",
+      "time" : {
+        "start" : 1645896150175,
+        "stop" : 1645896152028,
+        "duration" : 1853
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click on watch link on footer",
+        "time" : {
+          "start" : 1645896150176,
+          "stop" : 1645896151121,
+          "duration" : 945
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Get new browser tab",
+        "time" : {
+          "start" : 1645896151121,
+          "stop" : 1645896152028,
+          "duration" : 907
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "FAQ page navigation tests"
+  }, {
+    "name" : "testClass",
+    "value" : "FAQ page navigation tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on Watch link in footer and go to Platform videos"
+  }, {
+    "name" : "package",
+    "value" : "FAQ page navigation tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cf6379811b5ba8e6.json",
+  "parameterValues" : [ ]
+}

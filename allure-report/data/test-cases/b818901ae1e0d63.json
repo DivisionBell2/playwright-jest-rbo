@@ -1,0 +1,459 @@
+{
+  "uid" : "b818901ae1e0d63",
+  "name" : "Login new user",
+  "fullName" : "Login new user from Main Page.Login new user",
+  "historyId" : "f86fba152989bb49885d499b8167dd57",
+  "time" : {
+    "start" : 1646756902292,
+    "stop" : 1646756913067,
+    "duration" : 10775
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 17,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open main page",
+      "time" : {
+        "start" : 1646756902293,
+        "stop" : 1646756907257,
+        "duration" : 4964
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click enter button",
+      "time" : {
+        "start" : 1646756907257,
+        "stop" : 1646756907380,
+        "duration" : 123
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click go to registration link",
+      "time" : {
+        "start" : 1646756907381,
+        "stop" : 1646756907803,
+        "duration" : 422
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Enter first name of user in first name input",
+      "time" : {
+        "start" : 1646756907803,
+        "stop" : 1646756907828,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Enter middle name of user in middle name input",
+      "time" : {
+        "start" : 1646756907828,
+        "stop" : 1646756907846,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Enter last name of user in last name input",
+      "time" : {
+        "start" : 1646756907846,
+        "stop" : 1646756907863,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Enter user email in email input",
+      "time" : {
+        "start" : 1646756907863,
+        "stop" : 1646756907884,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Enter user password in password input",
+      "time" : {
+        "start" : 1646756907884,
+        "stop" : 1646756907902,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Enter user password in password match input",
+      "time" : {
+        "start" : 1646756907902,
+        "stop" : 1646756907924,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click on to agreement checkbox",
+      "time" : {
+        "start" : 1646756907924,
+        "stop" : 1646756908190,
+        "duration" : 266
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click on to registration button",
+      "time" : {
+        "start" : 1646756908190,
+        "stop" : 1646756908272,
+        "duration" : 82
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Wait for confirm email input on popup",
+      "time" : {
+        "start" : 1646756908272,
+        "stop" : 1646756909176,
+        "duration" : 904
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click enter button",
+      "time" : {
+        "start" : 1646756911325,
+        "stop" : 1646756911407,
+        "duration" : 82
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Enter email in auth email input",
+      "time" : {
+        "start" : 1646756911407,
+        "stop" : 1646756911440,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Enter password in auth password input",
+      "time" : {
+        "start" : 1646756911440,
+        "stop" : 1646756911451,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click auth button",
+      "time" : {
+        "start" : 1646756911451,
+        "stop" : 1646756911826,
+        "duration" : 375
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check user icon visible in header",
+      "time" : {
+        "start" : 1646756911826,
+        "stop" : 1646756913065,
+        "duration" : 1239
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 17,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Login new user from Main Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Login new user from Main Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Login new user"
+  }, {
+    "name" : "package",
+    "value" : "Login new user from Main Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "915cc5aa3ffe570c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646756679195,
+        "stop" : 1646756691484,
+        "duration" : 12289
+      }
+    }, {
+      "uid" : "475d69c162b263bf",
+      "status" : "failed",
+      "statusDetails" : "Error: page.isVisible: Execution context was destroyed, most likely because of a navigation.\n                =========================== logs ===========================\n                  checking visibility of \"#test-landing-navPanel-logedIn\"\n                ============================================================",
+      "time" : {
+        "start" : 1646756415018,
+        "stop" : 1646756429744,
+        "duration" : 14726
+      }
+    }, {
+      "uid" : "f39ed640997f2f93",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646388033123,
+        "stop" : 1646388040066,
+        "duration" : 6943
+      }
+    }, {
+      "uid" : "7619bb416d7cc30a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646326474887,
+        "stop" : 1646326481941,
+        "duration" : 7054
+      }
+    }, {
+      "uid" : "b857b60c641aa116",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646326355693,
+        "stop" : 1646326363143,
+        "duration" : 7450
+      }
+    }, {
+      "uid" : "75f826129a218a2",
+      "status" : "failed",
+      "statusDetails" : ": Timeout - Async callback was not invoked within the 25000 ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1646326306445,
+        "stop" : 1646326331448,
+        "duration" : 25003
+      }
+    }, {
+      "uid" : "471dfbfb505fb0e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895822726,
+        "stop" : 1645895835261,
+        "duration" : 12535
+      }
+    }, {
+      "uid" : "2df77ad46e11d29",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895810792,
+        "stop" : 1645895821979,
+        "duration" : 11187
+      }
+    }, {
+      "uid" : "12fee7d862258f31",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645012915861,
+        "stop" : 1645012926520,
+        "duration" : 10659
+      }
+    }, {
+      "uid" : "2b9d7ce871551b53",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645012764002,
+        "stop" : 1645012774640,
+        "duration" : 10638
+      }
+    }, {
+      "uid" : "12c25f4113991d5d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645012744758,
+        "stop" : 1645012755012,
+        "duration" : 10254
+      }
+    }, {
+      "uid" : "c0d554372274e5fd",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toBeTruthy()\n                \n                Received: false",
+      "time" : {
+        "start" : 1645012718655,
+        "stop" : 1645012729229,
+        "duration" : 10574
+      }
+    }, {
+      "uid" : "86b830ada8b3fbb8",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toBeTruthy()\n                \n                Received: false",
+      "time" : {
+        "start" : 1645012680363,
+        "stop" : 1645012686036,
+        "duration" : 5673
+      }
+    }, {
+      "uid" : "b4b5abee14d1d721",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toBeTruthy()\n                \n                Received: false",
+      "time" : {
+        "start" : 1645012630107,
+        "stop" : 1645012639985,
+        "duration" : 9878
+      }
+    }, {
+      "uid" : "dcd8dbb333e2d528",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toBeTruthy()\n                \n                Received: false",
+      "time" : {
+        "start" : 1645012591689,
+        "stop" : 1645012597083,
+        "duration" : 5394
+      }
+    }, {
+      "uid" : "c50823bc6fda695e",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toBeTruthy()\n                \n                Received: undefined",
+      "time" : {
+        "start" : 1645012502348,
+        "stop" : 1645012507950,
+        "duration" : 5602
+      }
+    }, {
+      "uid" : "724527ca786a508a",
+      "status" : "failed",
+      "statusDetails" : "Error: page.goto: net::ERR_ABORTED; maybe frame was detached?\n                =========================== logs ===========================\n                navigating to \"https://rbo.uat.dasreda.ru/\", waiting until \"load\"\n                ============================================================",
+      "time" : {
+        "start" : 1645012468379,
+        "stop" : 1645012478795,
+        "duration" : 10416
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b818901ae1e0d63.json",
+  "parameterValues" : [ ]
+}

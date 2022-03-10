@@ -4,6 +4,7 @@ import FeedbackPage from "../../pages/feedback.page";
 import User from "../../data/user";
 import MainPage from "../../pages/mainPage.page";
 import PhoneValidationPage from "../../pages/phoneValidationPage.page";
+import EnterPersonalDataPage from "../../pages/enterPersonalData.page";
 
 let phoneValidationPage = new PhoneValidationPage();
 const paths = [
@@ -17,48 +18,57 @@ paths.forEach(path => {
         let mainPage: MainPage;
         let header: Header;
         let feedbackPage: FeedbackPage;
+        let enterPersonalDataPage: EnterPersonalDataPage;
         let user: User;
     
         beforeAll(async () => {
             faqPage = new FAQPage();
             mainPage = new MainPage();
             feedbackPage = new FeedbackPage();
+            enterPersonalDataPage = new EnterPersonalDataPage();
             header = await phoneValidationPage.getHeader();
             user = new User();
             await mainPage.goto("/", "Go to main page");
             await (await mainPage.getAuthPopup()).login(user);
         });
-            beforeEach(async () => {
-                await phoneValidationPage.goto(path, "Open phone validation page for " + path);
-            });
 
-            test('Clicking on logo', async () => {
-                await header.click(header.selectors.logo, "Click on logo icon");
-                const title = await mainPage.getTextContent(mainPage.selectors.title, "Get text from main page title");
-                expect(title).toContain(mainPage.checkData.title);
-            });
+        beforeEach(async () => {
+            await phoneValidationPage.goto(path, "Open phone validation page for " + path);
+        });
 
-            test('Clicking on FAQ button', async () => {
-                await header.click(header.selectors.faqLink, "Click on faq link in header");
-                await faqPage.waitForNavigation("Wait for navigation of FAQ page");
-                expect(await faqPage.isVisible(faqPage.selectors.searchInput, "Check search input visible on faq page", 5)).toBeTruthy();
-            });
+        test('Clicking on logo', async () => {
+            await header.click(header.selectors.logo, "Click on logo icon");
+            const title = await mainPage.getTextContent(mainPage.selectors.title, "Get text from main page title");
+            expect(title).toContain(mainPage.checkData.title);
+        });
 
-            test('Clicking on Feedback button', async () => {
-                await header.click(header.selectors.feedbackLink, "Сlick feedback link in header");
-                await feedbackPage.waitForNavigation("wait for navigation feedback page");
-                expect(await feedbackPage.isVisible(feedbackPage.selectors.messageTextInput, "Check visibility of message text input on feedback page"))
-                .toBeTruthy();
-            });
+        test('Clicking on FAQ button', async () => {
+            await header.click(header.selectors.faqLink, "Click on faq link in header");
+            await faqPage.waitForNavigation("Wait for navigation of FAQ page");
+            expect(await faqPage.isVisible(faqPage.selectors.searchInput, "Check search input visible on faq page", 5)).toBeTruthy();
+        });
 
-            afterEach(async () => {
-                await phoneValidationPage.saveOnlyOneTab();
-            });
+        test('Clicking on Feedback button', async () => {
+            await header.click(header.selectors.feedbackLink, "Сlick feedback link in header");
+            await feedbackPage.waitForNavigation("wait for navigation feedback page");
+            expect(await feedbackPage.isVisible(feedbackPage.selectors.messageTextInput, "Check visibility of message text input on feedback page"))
+            .toBeTruthy();
+        });
 
-            afterAll(async () => {
-                await phoneValidationPage.clear();
-                await phoneValidationPage.reload("Reload page");
-            })
+        test('Clicking on change data link', async () => {
+            await page.click("//div[@role='button' and contains(text(), 'Изменить данные')]");
+            expect(await enterPersonalDataPage.getTextContent(enterPersonalDataPage.selectors.title, "Get title text from personal data page"))
+            .toContain(enterPersonalDataPage.checkData.title);
+        });
+
+        afterEach(async () => {
+            await phoneValidationPage.saveOnlyOneTab();
+        });
+
+        afterAll(async () => {
+            await phoneValidationPage.clear();
+            await phoneValidationPage.reload("Reload page");
+        });
     });
 });
 
@@ -118,12 +128,6 @@ paths.forEach(path => {
 
 //         beforeEach(async () => {
 //             await page.goto(url + requestPath);
-//         });
-    
-//         test('Clicking on change data link', async () => {
-//             await page.click("//div[@role='button' and contains(text(), 'Изменить данные')]");
-//             const title = await page.$("h2");
-//             expect(await title.textContent()).toContain(personalDataPageTitle);
 //         });
 
 //         test('Clicking on oferta link in footer', async () => {

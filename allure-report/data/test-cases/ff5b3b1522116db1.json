@@ -1,0 +1,328 @@
+{
+  "uid" : "ff5b3b1522116db1",
+  "name" : "Open tab with answer",
+  "fullName" : "Open tab in FAQ page.Open tab with answer",
+  "historyId" : "48e2f3fcd8203784879832ed096c0140",
+  "time" : {
+    "start" : 1646756769253,
+    "stop" : 1646756777031,
+    "duration" : 7778
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 24,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open FAQ page",
+      "time" : {
+        "start" : 1646756769253,
+        "stop" : 1646756776648,
+        "duration" : 7395
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click first faq tab",
+      "time" : {
+        "start" : 1646756776648,
+        "stop" : 1646756776783,
+        "duration" : 135
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check visible answer block",
+      "time" : {
+        "start" : 1646756776783,
+        "stop" : 1646756776788,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click first opened faq tab",
+      "time" : {
+        "start" : 1646756776789,
+        "stop" : 1646756777026,
+        "duration" : 237
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check answerBlock is closed",
+      "time" : {
+        "start" : 1646756777026,
+        "stop" : 1646756777031,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Open tab in FAQ page"
+  }, {
+    "name" : "testClass",
+    "value" : "Open tab in FAQ page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Open tab with answer"
+  }, {
+    "name" : "package",
+    "value" : "Open tab in FAQ page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5a4ee73394fd8457",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646388043976,
+        "stop" : 1646388049238,
+        "duration" : 5262
+      }
+    }, {
+      "uid" : "48a53186a76753e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646326492813,
+        "stop" : 1646326495579,
+        "duration" : 2766
+      }
+    }, {
+      "uid" : "f583c112798d09d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646322313395,
+        "stop" : 1646322315638,
+        "duration" : 2243
+      }
+    }, {
+      "uid" : "306401d635f5b0c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646207615982,
+        "stop" : 1646207618035,
+        "duration" : 2053
+      }
+    }, {
+      "uid" : "ea7b3961602ca2e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645899872574,
+        "stop" : 1645899875841,
+        "duration" : 3267
+      }
+    }, {
+      "uid" : "f1252664a14c6bda",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645899376608,
+        "stop" : 1645899380029,
+        "duration" : 3421
+      }
+    }, {
+      "uid" : "ac95a14beb09c484",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645899246941,
+        "stop" : 1645899250059,
+        "duration" : 3118
+      }
+    }, {
+      "uid" : "f5d2ff2e17cb0dd4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645899196945,
+        "stop" : 1645899200117,
+        "duration" : 3172
+      }
+    }, {
+      "uid" : "84d6fdb7ad1822c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645897963684,
+        "stop" : 1645897967618,
+        "duration" : 3934
+      }
+    }, {
+      "uid" : "bf347adc277ab6f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645897958002,
+        "stop" : 1645897961653,
+        "duration" : 3651
+      }
+    }, {
+      "uid" : "fc4b461784c925",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645897825483,
+        "stop" : 1645897829786,
+        "duration" : 4303
+      }
+    }, {
+      "uid" : "1d1e8095f2e84258",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645897820193,
+        "stop" : 1645897823574,
+        "duration" : 3381
+      }
+    }, {
+      "uid" : "7788c9e984aa9f76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645897369480,
+        "stop" : 1645897373362,
+        "duration" : 3882
+      }
+    }, {
+      "uid" : "64d0b87415c1022d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645897364350,
+        "stop" : 1645897367100,
+        "duration" : 2750
+      }
+    }, {
+      "uid" : "6651a94674436cd8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645897258235,
+        "stop" : 1645897261927,
+        "duration" : 3692
+      }
+    }, {
+      "uid" : "c7f3e20fd4aab11a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645897251794,
+        "stop" : 1645897255964,
+        "duration" : 4170
+      }
+    }, {
+      "uid" : "92a8e96bd282afee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895871733,
+        "stop" : 1645895875651,
+        "duration" : 3918
+      }
+    }, {
+      "uid" : "1c7230aa69d4d8d3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895865604,
+        "stop" : 1645895868860,
+        "duration" : 3256
+      }
+    }, {
+      "uid" : "c3f7b2f49e5105d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895306146,
+        "stop" : 1645895309952,
+        "duration" : 3806
+      }
+    }, {
+      "uid" : "cb62c0aaada3c926",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895300480,
+        "stop" : 1645895303327,
+        "duration" : 2847
+      }
+    }, {
+      "uid" : "1634d9f92604db6c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895216451,
+        "stop" : 1645895219744,
+        "duration" : 3293
+      }
+    }, {
+      "uid" : "5e857b35953c7505",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895210691,
+        "stop" : 1645895213683,
+        "duration" : 2992
+      }
+    }, {
+      "uid" : "d93ee5ef8e7a12fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645698934743,
+        "stop" : 1645698937010,
+        "duration" : 2267
+      }
+    }, {
+      "uid" : "19a97c77c23b7300",
+      "status" : "failed",
+      "statusDetails" : "TypeError: Cannot read properties of undefined (reading 'click')",
+      "time" : {
+        "start" : 1645698756262,
+        "stop" : 1645698756282,
+        "duration" : 20
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ff5b3b1522116db1.json",
+  "parameterValues" : [ ]
+}

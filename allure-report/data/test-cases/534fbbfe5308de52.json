@@ -1,0 +1,48 @@
+{
+  "uid" : "534fbbfe5308de52",
+  "name" : "Registration new user without middle name",
+  "fullName" : "Navigation on personal data page.Registration new user without middle name",
+  "historyId" : "c2f4f5c450b78d73df0236f88735f1bb",
+  "time" : {
+    "start" : 1645895711450,
+    "stop" : 1645895713658,
+    "duration" : 2208
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation on personal data page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation on personal data page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Registration new user without middle name"
+  }, {
+    "name" : "package",
+    "value" : "Navigation on personal data page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "534fbbfe5308de52.json",
+  "parameterValues" : [ ]
+}

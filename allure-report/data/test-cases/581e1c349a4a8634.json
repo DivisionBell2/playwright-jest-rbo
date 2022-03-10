@@ -1,0 +1,147 @@
+{
+  "uid" : "581e1c349a4a8634",
+  "name" : "Clicking on Read link in footer and go to Platform blogs",
+  "fullName" : "Navigation tests for FAQ page FAQ page navigation tests.Clicking on Read link in footer and go to Platform blogs",
+  "historyId" : "fbe45cf859394bb305528d3b891b4a1e",
+  "time" : {
+    "start" : 1645607515514,
+    "stop" : 1645607516445,
+    "duration" : 931
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 5,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open FAQ page",
+      "time" : {
+        "start" : 1645607515514,
+        "stop" : 1645607516333,
+        "duration" : 819
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click on read link on footer",
+        "time" : {
+          "start" : 1645607515515,
+          "stop" : 1645607516061,
+          "duration" : 546
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Get new browser tab",
+      "time" : {
+        "start" : 1645607516333,
+        "stop" : 1645607516443,
+        "duration" : 110
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation tests for FAQ page FAQ page navigation tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation tests for FAQ page FAQ page navigation tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on Read link in footer and go to Platform blogs"
+  }, {
+    "name" : "package",
+    "value" : "Navigation tests for FAQ page FAQ page navigation tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9df8c50a97b6af7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645607472855,
+        "stop" : 1645607473545,
+        "duration" : 690
+      }
+    }, {
+      "uid" : "9e5ff6f89209150b",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645607454052,
+        "stop" : 1645607454052,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3636fbe706506a0b",
+      "status" : "failed",
+      "statusDetails" : ": Timeout - Async callback was not invoked within the 25000 ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1645607355424,
+        "stop" : 1645607380427,
+        "duration" : 25003
+      }
+    }, {
+      "uid" : "f45b1d4e805d4c13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645533115809,
+        "stop" : 1645533116494,
+        "duration" : 685
+      }
+    }, {
+      "uid" : "4ddf90a16388b674",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645533092094,
+        "stop" : 1645533095018,
+        "duration" : 2924
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "581e1c349a4a8634.json",
+  "parameterValues" : [ ]
+}

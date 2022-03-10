@@ -1,0 +1,92 @@
+{
+  "uid" : "b24afc2478ffbd5b",
+  "name" : "Clicking on Watch link in footer and go to Platform videos",
+  "fullName" : "FAQ page navigation tests.Clicking on Watch link in footer and go to Platform videos",
+  "historyId" : "ca6b30fdc6624b43059b2b26d67967dc",
+  "time" : {
+    "start" : 1645895242438,
+    "stop" : 1645895242472,
+    "duration" : 34
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: page.goto: NS_BINDING_ABORTED\n                =========================== logs ===========================\n                navigating to \"https://rbo.uat.dasreda.ru/rbidos/faq\", waiting until \"load\"\n                ============================================================",
+  "statusTrace" : "page.goto: NS_BINDING_ABORTED\n                =========================== logs ===========================\n                navigating to \"https://rbo.uat.dasreda.ru/rbidos/faq\", waiting until \"load\"\n                ============================================================\n                    at FAQPage.<anonymous> (/home/alexandr/study/11/playwright-jest-rbo/pages/basePage.page.ts:106:20)\n                    at fulfilled (/home/alexandr/study/11/playwright-jest-rbo/pages/basePage.page.ts:5:58)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: page.goto: NS_BINDING_ABORTED\n                =========================== logs ===========================\n                navigating to \"https://rbo.uat.dasreda.ru/rbidos/faq\", waiting until \"load\"\n                ============================================================",
+    "statusTrace" : "page.goto: NS_BINDING_ABORTED\n                =========================== logs ===========================\n                navigating to \"https://rbo.uat.dasreda.ru/rbidos/faq\", waiting until \"load\"\n                ============================================================\n                    at FAQPage.<anonymous> (/home/alexandr/study/11/playwright-jest-rbo/pages/basePage.page.ts:106:20)\n                    at fulfilled (/home/alexandr/study/11/playwright-jest-rbo/pages/basePage.page.ts:5:58)",
+    "steps" : [ {
+      "name" : "Open FAQ page",
+      "time" : {
+        "start" : 1645895242438,
+        "stop" : 0,
+        "duration" : -1645895242438
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "Click on watch link on footer",
+        "time" : {
+          "start" : 1645895242438,
+          "stop" : 0,
+          "duration" : -1645895242438
+        },
+        "status" : "unknown",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "FAQ page navigation tests"
+  }, {
+    "name" : "testClass",
+    "value" : "FAQ page navigation tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on Watch link in footer and go to Platform videos"
+  }, {
+    "name" : "package",
+    "value" : "FAQ page navigation tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b24afc2478ffbd5b.json",
+  "parameterValues" : [ ]
+}

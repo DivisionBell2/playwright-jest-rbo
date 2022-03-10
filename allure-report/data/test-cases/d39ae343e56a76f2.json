@@ -1,0 +1,297 @@
+{
+  "uid" : "d39ae343e56a76f2",
+  "name" : "Send message by not authorized user",
+  "fullName" : "Navigation tests for feedback page.Send message by not authorized user",
+  "historyId" : "e5242b4af0ad564144739043a78b9111",
+  "time" : {
+    "start" : 1646756848524,
+    "stop" : 1646756857354,
+    "duration" : 8830
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 14,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open feedback page",
+      "time" : {
+        "start" : 1646756848524,
+        "stop" : 1646756853727,
+        "duration" : 5203
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Enter text message for feedback",
+      "time" : {
+        "start" : 1646756853727,
+        "stop" : 1646756853806,
+        "duration" : 79
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Enter user email for feedback",
+      "time" : {
+        "start" : 1646756853806,
+        "stop" : 1646756853827,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check send message button is enabled",
+      "time" : {
+        "start" : 1646756853827,
+        "stop" : 1646756853831,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click on send message button",
+      "time" : {
+        "start" : 1646756853833,
+        "stop" : 1646756853928,
+        "duration" : 95
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Wait for info about sended message",
+      "time" : {
+        "start" : 1646756853929,
+        "stop" : 1646756854319,
+        "duration" : 390
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check send message button is disabled",
+      "time" : {
+        "start" : 1646756854319,
+        "stop" : 1646756854323,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check message input is hidden",
+      "time" : {
+        "start" : 1646756854323,
+        "stop" : 1646756857344,
+        "duration" : 3021
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation tests for feedback page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation tests for feedback page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Send message by not authorized user"
+  }, {
+    "name" : "package",
+    "value" : "Navigation tests for feedback page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "37cfd8443cec2444",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646756366450,
+        "stop" : 1646756374756,
+        "duration" : 8306
+      }
+    }, {
+      "uid" : "662f32daa89652b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646388049690,
+        "stop" : 1646388057290,
+        "duration" : 7600
+      }
+    }, {
+      "uid" : "32ba47f69e70b6d3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646387731226,
+        "stop" : 1646387737555,
+        "duration" : 6329
+      }
+    }, {
+      "uid" : "371cbcb24f6cdce6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646387639944,
+        "stop" : 1646387650660,
+        "duration" : 10716
+      }
+    }, {
+      "uid" : "f53a88550d277ce6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646387534051,
+        "stop" : 1646387544569,
+        "duration" : 10518
+      }
+    }, {
+      "uid" : "20feeb210ce00381",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646387487157,
+        "stop" : 1646387498030,
+        "duration" : 10873
+      }
+    }, {
+      "uid" : "f2d978b01200147e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646387365589,
+        "stop" : 1646387371912,
+        "duration" : 6323
+      }
+    }, {
+      "uid" : "6126968a89855bf6",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1646387250788,
+        "stop" : 1646387250788,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6d72b5b6f2eaa001",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646207515560,
+        "stop" : 1646207520733,
+        "duration" : 5173
+      }
+    }, {
+      "uid" : "bee63789b387a61f",
+      "status" : "failed",
+      "statusDetails" : ": Timeout - Async callback was not invoked within the 25000 ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1646207344542,
+        "stop" : 1646207371356,
+        "duration" : 26814
+      }
+    }, {
+      "uid" : "432867d8565c6849",
+      "status" : "failed",
+      "statusDetails" : ": Timeout - Async callback was not invoked within the 25000 ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1646207245557,
+        "stop" : 1646207272453,
+        "duration" : 26896
+      }
+    }, {
+      "uid" : "2552b9b9bd01afab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646207175512,
+        "stop" : 1646207193824,
+        "duration" : 18312
+      }
+    }, {
+      "uid" : "3d1b670598e16aa7",
+      "status" : "failed",
+      "statusDetails" : ": Timeout - Async callback was not invoked within the 25000 ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1646204121721,
+        "stop" : 1646204148461,
+        "duration" : 26740
+      }
+    }, {
+      "uid" : "8a4a23c89f7b0e81",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toBeFalsy()\n                \n                Received: {}",
+      "time" : {
+        "start" : 1646204024292,
+        "stop" : 1646204037108,
+        "duration" : 12816
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d39ae343e56a76f2.json",
+  "parameterValues" : [ ]
+}

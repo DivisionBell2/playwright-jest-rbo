@@ -1,0 +1,50 @@
+{
+  "uid" : "4ab37e8d73a0438e",
+  "name" : "Clicking on SberIcon and go to sberbank.ru",
+  "fullName" : "Navigation on main page.Clicking on SberIcon and go to sberbank.ru",
+  "historyId" : "5ff9416c2ce38661e8e1d14a2703c07f",
+  "time" : {
+    "start" : 1645531999958,
+    "stop" : 1645531999958,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "unknown",
+  "statusMessage" : "This test was disabled",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on SberIcon and go to sberbank.ru"
+  }, {
+    "name" : "package",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4ab37e8d73a0438e.json",
+  "parameterValues" : [ ]
+}

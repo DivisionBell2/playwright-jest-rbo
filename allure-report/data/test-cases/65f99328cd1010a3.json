@@ -1,0 +1,222 @@
+{
+  "uid" : "65f99328cd1010a3",
+  "name" : "Clicking on Oferta link and go to oferta document",
+  "fullName" : "Navigation for feedback main page.Clicking on Oferta link and go to oferta document",
+  "historyId" : "c73e489b92bc4241f95bbe4e244a0994",
+  "time" : {
+    "start" : 1646387999433,
+    "stop" : 1646388000183,
+    "duration" : 750
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 16,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click oferta link",
+      "time" : {
+        "start" : 1646387999941,
+        "stop" : 1646388000089,
+        "duration" : 148
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "undefined",
+      "time" : {
+        "start" : 1646388000089,
+        "stop" : 1646388000182,
+        "duration" : 93
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation for feedback main page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation for feedback main page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on Oferta link and go to oferta document"
+  }, {
+    "name" : "package",
+    "value" : "Navigation for feedback main page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6412952af2359bf8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646326471358,
+        "stop" : 1646326472113,
+        "duration" : 755
+      }
+    }, {
+      "uid" : "88974613078d911b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646322329656,
+        "stop" : 1646322330366,
+        "duration" : 710
+      }
+    }, {
+      "uid" : "1e7e0c2ff2b4738b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646321951809,
+        "stop" : 1646321952685,
+        "duration" : 876
+      }
+    }, {
+      "uid" : "cc63bad728b18781",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1646321923754,
+        "stop" : 1646321923754,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "617cf3ecaf853e78",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646202983014,
+        "stop" : 1646202983671,
+        "duration" : 657
+      }
+    }, {
+      "uid" : "3e9750288e82a1d",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1646202951673,
+        "stop" : 1646202951673,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ab9a485baf0d0c7f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646119400349,
+        "stop" : 1646119401192,
+        "duration" : 843
+      }
+    }, {
+      "uid" : "30f379ab8c43907a",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1646119363439,
+        "stop" : 1646119363440,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "10b190ef1b12cef3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646032148703,
+        "stop" : 1646032149630,
+        "duration" : 927
+      }
+    }, {
+      "uid" : "cb181f68e316cafc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646032112227,
+        "stop" : 1646032114289,
+        "duration" : 2062
+      }
+    }, {
+      "uid" : "12d2797659289e53",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645978179885,
+        "stop" : 1645978179885,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "75137a5de17c2eee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645899323351,
+        "stop" : 1645899324317,
+        "duration" : 966
+      }
+    }, {
+      "uid" : "f3b632cabac8b9c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645897195240,
+        "stop" : 1645897196288,
+        "duration" : 1048
+      }
+    }, {
+      "uid" : "838297b0270526cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645897169255,
+        "stop" : 1645897170087,
+        "duration" : 832
+      }
+    }, {
+      "uid" : "a2f9ff5dbfa44706",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645894886270,
+        "stop" : 1645894888228,
+        "duration" : 1958
+      }
+    }, {
+      "uid" : "84ba87845162deac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645894858513,
+        "stop" : 1645894859439,
+        "duration" : 926
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "65f99328cd1010a3.json",
+  "parameterValues" : [ ]
+}

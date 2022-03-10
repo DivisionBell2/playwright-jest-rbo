@@ -1,0 +1,182 @@
+{
+  "uid" : "1a2adabdab7ee440",
+  "name" : "Clicking on logo",
+  "fullName" : "Navigation tests for phone validation page.Clicking on logo",
+  "historyId" : "783693ec1daa02323fcd85cd7a39eedc",
+  "time" : {
+    "start" : 1646578114746,
+    "stop" : 1646578127570,
+    "duration" : 12824
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: Timeout - Async callback was not invoked within the 25000 ms timeout specified by jest.setTimeout.",
+  "statusTrace" : "Timeout - Async callback was not invoked within the 25000 ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 25000 ms timeout specified by jest.setTimeout.\n                    at mapper (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/queueRunner.js:71:45)\n                    at /home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/queueRunner.js:119:41",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: Timeout - Async callback was not invoked within the 25000 ms timeout specified by jest.setTimeout.",
+    "statusTrace" : "Timeout - Async callback was not invoked within the 25000 ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 25000 ms timeout specified by jest.setTimeout.\n                    at mapper (/home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/queueRunner.js:71:45)\n                    at /home/alexandr/study/11/playwright-jest-rbo/node_modules/jest-jasmine2/build/queueRunner.js:119:41",
+    "steps" : [ {
+      "name" : "Open entrepreneur phone validation page",
+      "time" : {
+        "start" : 1646578114749,
+        "stop" : 1646578116699,
+        "duration" : 1950
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Open legal entity phone validation page",
+      "time" : {
+        "start" : 1646578116702,
+        "stop" : 0,
+        "duration" : -1646578116702
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "Click enter button",
+        "time" : {
+          "start" : 1646578116704,
+          "stop" : 1646578117053,
+          "duration" : 349
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Click on logo icon",
+        "time" : {
+          "start" : 1646578117053,
+          "stop" : 1646578121811,
+          "duration" : 4758
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Enter email in auth email input",
+        "time" : {
+          "start" : 1646578121811,
+          "stop" : 1646578121837,
+          "duration" : 26
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Enter password in auth password input",
+        "time" : {
+          "start" : 1646578121837,
+          "stop" : 1646578121849,
+          "duration" : 12
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Click auth button",
+        "time" : {
+          "start" : 1646578121849,
+          "stop" : 1646578126935,
+          "duration" : 5086
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Check user icon visible in header",
+        "time" : {
+          "start" : 1646578126935,
+          "stop" : 0,
+          "duration" : -1646578126935
+        },
+        "status" : "unknown",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 6,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation tests for phone validation page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation tests for phone validation page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on logo"
+  }, {
+    "name" : "package",
+    "value" : "Navigation tests for phone validation page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1a2adabdab7ee440.json",
+  "parameterValues" : [ ]
+}

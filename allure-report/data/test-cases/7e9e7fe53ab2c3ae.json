@@ -1,0 +1,50 @@
+{
+  "uid" : "7e9e7fe53ab2c3ae",
+  "name" : "Search by text",
+  "fullName" : "Search tests for FAQ page.Search by text",
+  "historyId" : "86de0cd6609355517e49cf7fc3aef4d8",
+  "time" : {
+    "start" : 1645531938458,
+    "stop" : 1645531938585,
+    "duration" : 127
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Search tests for FAQ page"
+  }, {
+    "name" : "testClass",
+    "value" : "Search tests for FAQ page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Search by text"
+  }, {
+    "name" : "package",
+    "value" : "Search tests for FAQ page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7e9e7fe53ab2c3ae.json",
+  "parameterValues" : [ ]
+}

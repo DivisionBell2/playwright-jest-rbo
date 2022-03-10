@@ -1,0 +1,48 @@
+{
+  "uid" : "20fb063ba397f020",
+  "name" : "Check working popup with law information from personal data page",
+  "fullName" : "Check working popup with law information from personal data page.Check working popup with law information from personal data page",
+  "historyId" : "4c41125de311873ce4e584761515a877",
+  "time" : {
+    "start" : 1644934094401,
+    "stop" : 1644934097401,
+    "duration" : 3000
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Check working popup with law information from personal data page"
+  }, {
+    "name" : "testClass",
+    "value" : "Check working popup with law information from personal data page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Check working popup with law information from personal data page"
+  }, {
+    "name" : "package",
+    "value" : "Check working popup with law information from personal data page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "20fb063ba397f020.json",
+  "parameterValues" : [ ]
+}

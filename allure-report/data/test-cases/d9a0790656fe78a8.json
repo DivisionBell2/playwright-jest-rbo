@@ -1,0 +1,352 @@
+{
+  "uid" : "d9a0790656fe78a8",
+  "name" : "Open youtube frame from header",
+  "fullName" : "Navigation on main page.Open youtube frame from header",
+  "historyId" : "f622a2dab33bde01ac038b424c577758",
+  "time" : {
+    "start" : 1646756807480,
+    "stop" : 1646756808272,
+    "duration" : 792
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 28,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click video button on header",
+      "time" : {
+        "start" : 1646756808033,
+        "stop" : 1646756808170,
+        "duration" : 137
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Wait for video frame appears",
+      "time" : {
+        "start" : 1646756808170,
+        "stop" : 1646756808183,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click for close button on video frame",
+      "time" : {
+        "start" : 1646756808183,
+        "stop" : 1646756808270,
+        "duration" : 87
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Wait for video frame is closed",
+      "time" : {
+        "start" : 1646756808270,
+        "stop" : 1646756808272,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Open youtube frame from header"
+  }, {
+    "name" : "package",
+    "value" : "Navigation on main page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3858fd3b95779d56",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646756330485,
+        "stop" : 1646756331251,
+        "duration" : 766
+      }
+    }, {
+      "uid" : "c0b521210fb105f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645894053035,
+        "stop" : 1645894054608,
+        "duration" : 1573
+      }
+    }, {
+      "uid" : "e45a74f732d730d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645894022399,
+        "stop" : 1645894023379,
+        "duration" : 980
+      }
+    }, {
+      "uid" : "830c42c968bd7f3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645799919459,
+        "stop" : 1645799920603,
+        "duration" : 1144
+      }
+    }, {
+      "uid" : "1f9cf4067bd0d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645799882512,
+        "stop" : 1645799884004,
+        "duration" : 1492
+      }
+    }, {
+      "uid" : "3f5dad74d4312060",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645789976720,
+        "stop" : 1645789977489,
+        "duration" : 769
+      }
+    }, {
+      "uid" : "4fa93559300ed44c",
+      "status" : "failed",
+      "statusDetails" : "Error: page.goto: Navigation failed because page was closed!\n                =========================== logs ===========================\n                navigating to \"https://rbo.uat.dasreda.ru/\", waiting until \"load\"\n                ============================================================",
+      "time" : {
+        "start" : 1645789954033,
+        "stop" : 1645789954037,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "b19ebd0aa029192e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645696024012,
+        "stop" : 1645696024798,
+        "duration" : 786
+      }
+    }, {
+      "uid" : "a609defe7368ebe8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645605927157,
+        "stop" : 1645605928082,
+        "duration" : 925
+      }
+    }, {
+      "uid" : "e65825a1951085fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645532025510,
+        "stop" : 1645532026434,
+        "duration" : 924
+      }
+    }, {
+      "uid" : "e4808860befd39fe",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645531999958,
+        "stop" : 1645531999958,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4b9167f7c00e08ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645521446028,
+        "stop" : 1645521446841,
+        "duration" : 813
+      }
+    }, {
+      "uid" : "38cd06e6ed3659ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645462126405,
+        "stop" : 1645462127314,
+        "duration" : 909
+      }
+    }, {
+      "uid" : "d91a3352b7678fe6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645027172296,
+        "stop" : 1645027173155,
+        "duration" : 859
+      }
+    }, {
+      "uid" : "c11db64d88a809a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645021227729,
+        "stop" : 1645021228505,
+        "duration" : 776
+      }
+    }, {
+      "uid" : "7bf3b211d1d6cd3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645021101579,
+        "stop" : 1645021102302,
+        "duration" : 723
+      }
+    }, {
+      "uid" : "6f10530932a96d01",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645020964160,
+        "stop" : 1645020964899,
+        "duration" : 739
+      }
+    }, {
+      "uid" : "7295d916d3b68dbe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645020865165,
+        "stop" : 1645020865893,
+        "duration" : 728
+      }
+    }, {
+      "uid" : "4940e28318145a91",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645020711495,
+        "stop" : 1645020712247,
+        "duration" : 752
+      }
+    }, {
+      "uid" : "b9008a2f02943acd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645020648619,
+        "stop" : 1645020649327,
+        "duration" : 708
+      }
+    }, {
+      "uid" : "ce8d4ab2cac28e80",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645020133628,
+        "stop" : 1645020134389,
+        "duration" : 761
+      }
+    }, {
+      "uid" : "d5d4a2cccf325a95",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645020043341,
+        "stop" : 1645020044121,
+        "duration" : 780
+      }
+    }, {
+      "uid" : "9748f973ec373a1d",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645020020964,
+        "stop" : 1645020020964,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b0c0c0b6f24780ca",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645013294561,
+        "stop" : 1645013294561,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "37a78451133274f4",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645013235589,
+        "stop" : 1645013235589,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7232377ba562d243",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645013143220,
+        "stop" : 1645013143220,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9a79e958fa0025a3",
+      "status" : "failed",
+      "statusDetails" : "Error: page.goto: Navigation failed because page was closed!\n                =========================== logs ===========================\n                navigating to \"https://rbo.uat.dasreda.ru/\", waiting until \"load\"\n                ============================================================",
+      "time" : {
+        "start" : 1645013089122,
+        "stop" : 1645013089127,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "5b96b224805aac5f",
+      "status" : "failed",
+      "statusDetails" : "Error: page.goto: Navigation failed because page was closed!\n                =========================== logs ===========================\n                navigating to \"https://rbo.uat.dasreda.ru/\", waiting until \"load\"\n                ============================================================",
+      "time" : {
+        "start" : 1645013018091,
+        "stop" : 1645013018097,
+        "duration" : 6
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d9a0790656fe78a8.json",
+  "parameterValues" : [ ]
+}

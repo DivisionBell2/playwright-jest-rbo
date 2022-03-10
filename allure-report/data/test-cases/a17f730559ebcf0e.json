@@ -1,0 +1,257 @@
+{
+  "uid" : "a17f730559ebcf0e",
+  "name" : "Changing mode of viewing password",
+  "fullName" : "Auth popup functional tests.Changing mode of viewing password",
+  "historyId" : "6951da38efd9d2360fdbfe9c11ea93ad",
+  "time" : {
+    "start" : 1646756845712,
+    "stop" : 1646756846690,
+    "duration" : 978
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 17,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click on view password icon",
+      "time" : {
+        "start" : 1646756846261,
+        "stop" : 1646756846624,
+        "duration" : 363
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Get attribute type of password input",
+      "time" : {
+        "start" : 1646756846624,
+        "stop" : 1646756846636,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click on view password icon",
+      "time" : {
+        "start" : 1646756846636,
+        "stop" : 1646756846684,
+        "duration" : 48
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Get attribute type of password input",
+      "time" : {
+        "start" : 1646756846685,
+        "stop" : 1646756846690,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Auth popup functional tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Auth popup functional tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Changing mode of viewing password"
+  }, {
+    "name" : "package",
+    "value" : "Auth popup functional tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5974e0cf9ba1a7a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646756363756,
+        "stop" : 1646756364724,
+        "duration" : 968
+      }
+    }, {
+      "uid" : "131c743c4bec59af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646388020768,
+        "stop" : 1646388021741,
+        "duration" : 973
+      }
+    }, {
+      "uid" : "536fd921035b244",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646326455600,
+        "stop" : 1646326456528,
+        "duration" : 928
+      }
+    }, {
+      "uid" : "71560c04ae29791a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646322299226,
+        "stop" : 1646322300189,
+        "duration" : 963
+      }
+    }, {
+      "uid" : "870d19d0faef44e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646322070920,
+        "stop" : 1646322071834,
+        "duration" : 914
+      }
+    }, {
+      "uid" : "3c5a619ea7db5786",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646322035716,
+        "stop" : 1646322036640,
+        "duration" : 924
+      }
+    }, {
+      "uid" : "80adb459e7d51c8a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646207603902,
+        "stop" : 1646207604993,
+        "duration" : 1091
+      }
+    }, {
+      "uid" : "f77a254da0fcadb0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645899868909,
+        "stop" : 1645899870323,
+        "duration" : 1414
+      }
+    }, {
+      "uid" : "7492205d69c09452",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645896108419,
+        "stop" : 1645896109876,
+        "duration" : 1457
+      }
+    }, {
+      "uid" : "af27eedc80e36a73",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645896085148,
+        "stop" : 1645896087046,
+        "duration" : 1898
+      }
+    }, {
+      "uid" : "514e2c0ee82a7280",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895806588,
+        "stop" : 1645895807984,
+        "duration" : 1396
+      }
+    }, {
+      "uid" : "a8597f385daacc35",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645895783509,
+        "stop" : 1645895784646,
+        "duration" : 1137
+      }
+    }, {
+      "uid" : "ae8221fae2725366",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645460795333,
+        "stop" : 1645460796628,
+        "duration" : 1295
+      }
+    }, {
+      "uid" : "295a84fb63f3ce4c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645193784631,
+        "stop" : 1645193785595,
+        "duration" : 964
+      }
+    }, {
+      "uid" : "4f75f0d2bb8adec2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645193669299,
+        "stop" : 1645193670303,
+        "duration" : 1004
+      }
+    }, {
+      "uid" : "1d0308750bf4eb1a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645191900428,
+        "stop" : 1645191901618,
+        "duration" : 1190
+      }
+    }, {
+      "uid" : "4784737ee3a3ad0f",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645191492380,
+        "stop" : 1645191492380,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a17f730559ebcf0e.json",
+  "parameterValues" : [ ]
+}

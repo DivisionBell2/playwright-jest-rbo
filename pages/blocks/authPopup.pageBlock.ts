@@ -122,6 +122,7 @@ export default class AuthPopup extends BasePage {
         await this.fill(this.selectors.authPasswordInput, user.password, "Enter password in auth password input");
         await this.click(this.selectors.authButton, "Click auth button");
 
+        expect(await header.isHidden(this.selectors.authButton, "Check user auth button is hidden", 5)).toBeTruthy();
         expect(await header.isVisible(header.selectors.userIcon, "Check user icon visible in header", 20)).toBeTruthy();
     }
 }

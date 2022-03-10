@@ -1,0 +1,223 @@
+{
+  "uid" : "92070ef6b183368",
+  "name" : "Clicking on SberIcon and go to sberbank.ru",
+  "fullName" : "Navigation for feedback main page.Clicking on SberIcon and go to sberbank.ru",
+  "historyId" : "e67c5d64905344dd3be3743d117c787d",
+  "time" : {
+    "start" : 1646387997755,
+    "stop" : 1646387998715,
+    "duration" : 960
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 16,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click on go to Sberbank button",
+      "time" : {
+        "start" : 1646387998108,
+        "stop" : 1646387998218,
+        "duration" : 110
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "undefined",
+      "time" : {
+        "start" : 1646387998218,
+        "stop" : 1646387998714,
+        "duration" : 496
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation for feedback main page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation for feedback main page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on SberIcon and go to sberbank.ru"
+  }, {
+    "name" : "package",
+    "value" : "Navigation for feedback main page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4c33236928114d4b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646326469755,
+        "stop" : 1646326470558,
+        "duration" : 803
+      }
+    }, {
+      "uid" : "bd6682add1aafc5d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646322328037,
+        "stop" : 1646322328882,
+        "duration" : 845
+      }
+    }, {
+      "uid" : "c6e72b17dd085e96",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646321950347,
+        "stop" : 1646321951102,
+        "duration" : 755
+      }
+    }, {
+      "uid" : "2b3d9bfac7631d50",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1646321923754,
+        "stop" : 1646321923754,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9f6bd7883d809104",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646202981230,
+        "stop" : 1646202982250,
+        "duration" : 1020
+      }
+    }, {
+      "uid" : "8a4e5fa6f7d74d86",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1646202951672,
+        "stop" : 1646202951673,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "589da0d21cb348d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646119398869,
+        "stop" : 1646119399586,
+        "duration" : 717
+      }
+    }, {
+      "uid" : "f2fe61ac19f46893",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1646119363439,
+        "stop" : 1646119363439,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1bcca21243f42418",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646032146788,
+        "stop" : 1646032147697,
+        "duration" : 909
+      }
+    }, {
+      "uid" : "6bbddab962b96e32",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1646032112226,
+        "stop" : 1646032112226,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f2b2e6bd0237385f",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1645978177773,
+        "stop" : 1645978177773,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2c86929350f7ef27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645899321169,
+        "stop" : 1645899322192,
+        "duration" : 1023
+      }
+    }, {
+      "uid" : "25846e9c519f83d3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645897192413,
+        "stop" : 1645897194214,
+        "duration" : 1801
+      }
+    }, {
+      "uid" : "7c4c6cecbacf3557",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645897167302,
+        "stop" : 1645897168278,
+        "duration" : 976
+      }
+    }, {
+      "uid" : "ec054f7a30f28507",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645894882754,
+        "stop" : 1645894884384,
+        "duration" : 1630
+      }
+    }, {
+      "uid" : "9332247d45b99bbd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645894856305,
+        "stop" : 1645894857518,
+        "duration" : 1213
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "92070ef6b183368.json",
+  "parameterValues" : [ ]
+}

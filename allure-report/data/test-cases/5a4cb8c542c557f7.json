@@ -1,0 +1,48 @@
+{
+  "uid" : "5a4cb8c542c557f7",
+  "name" : "Clicking on personal data agreement link in footer",
+  "fullName" : "Navigation on enter personal data page.Clicking on personal data agreement link in footer",
+  "historyId" : "f7089eb54d3617988f5e93c3c251bdfe",
+  "time" : {
+    "start" : 1645036949238,
+    "stop" : 1645036954095,
+    "duration" : 4857
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation on enter personal data page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation on enter personal data page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clicking on personal data agreement link in footer"
+  }, {
+    "name" : "package",
+    "value" : "Navigation on enter personal data page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5a4cb8c542c557f7.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,252 @@
+{
+  "uid" : "8bcf4b29ce92cf9f",
+  "name" : "Open youtube frame from header",
+  "fullName" : "Navigation for feedback main page.Open youtube frame from header",
+  "historyId" : "4b252c5157701caf3d1b92289e6c018",
+  "time" : {
+    "start" : 1646387998715,
+    "stop" : 1646387999433,
+    "duration" : 718
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 16,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click video button on header",
+      "time" : {
+        "start" : 1646387999223,
+        "stop" : 1646387999355,
+        "duration" : 132
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Wait for video frame appears",
+      "time" : {
+        "start" : 1646387999355,
+        "stop" : 1646387999368,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click for close button on video frame",
+      "time" : {
+        "start" : 1646387999368,
+        "stop" : 1646387999431,
+        "duration" : 63
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Wait for video frame is closed",
+      "time" : {
+        "start" : 1646387999431,
+        "stop" : 1646387999433,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Navigation for feedback main page"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation for feedback main page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Open youtube frame from header"
+  }, {
+    "name" : "package",
+    "value" : "Navigation for feedback main page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "485391dc2c591ff0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646326470559,
+        "stop" : 1646326471358,
+        "duration" : 799
+      }
+    }, {
+      "uid" : "7e734f4b0f22d697",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646322328882,
+        "stop" : 1646322329656,
+        "duration" : 774
+      }
+    }, {
+      "uid" : "4d485ae9a5acef5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646321951102,
+        "stop" : 1646321951809,
+        "duration" : 707
+      }
+    }, {
+      "uid" : "cd74b24c46cf0c7d",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1646321923754,
+        "stop" : 1646321923754,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "12093def7c7999b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646202982250,
+        "stop" : 1646202983014,
+        "duration" : 764
+      }
+    }, {
+      "uid" : "8658c38214d2792f",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1646202951673,
+        "stop" : 1646202951673,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6ba7272202445de7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646119399586,
+        "stop" : 1646119400349,
+        "duration" : 763
+      }
+    }, {
+      "uid" : "e9b9037fb3644ddd",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1646119363439,
+        "stop" : 1646119363439,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "18ece20ccff2ea71",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646032147697,
+        "stop" : 1646032148703,
+        "duration" : 1006
+      }
+    }, {
+      "uid" : "82bfd0fcb375b3a9",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1646032112226,
+        "stop" : 1646032112227,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "d0c053dce2a1df23",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645978177773,
+        "stop" : 1645978179885,
+        "duration" : 2112
+      }
+    }, {
+      "uid" : "55b7c03222e2d158",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645899322192,
+        "stop" : 1645899323351,
+        "duration" : 1159
+      }
+    }, {
+      "uid" : "a29aefdbda3ea8ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645897194214,
+        "stop" : 1645897195239,
+        "duration" : 1025
+      }
+    }, {
+      "uid" : "5ab7684ee7d28172",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645897168278,
+        "stop" : 1645897169255,
+        "duration" : 977
+      }
+    }, {
+      "uid" : "190234f7aa073846",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645894884385,
+        "stop" : 1645894886270,
+        "duration" : 1885
+      }
+    }, {
+      "uid" : "307aaffb56e03b0e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645894857518,
+        "stop" : 1645894858513,
+        "duration" : 995
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8bcf4b29ce92cf9f.json",
+  "parameterValues" : [ ]
+}
