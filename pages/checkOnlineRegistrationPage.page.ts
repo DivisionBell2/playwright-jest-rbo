@@ -12,6 +12,13 @@ export default class CheckOnlineRegistrationPage extends BasePage {
     // }
 
     selectors = {
+        continueButton: "//button[contains(., 'Продолжить')]",
+        nfcCheckbox: "//li[contains(@class, 'PersonalInformation')]//input[@type='checkbox']",
+        hasSBOLRadio: "//input[@name='hasSbol' and @value='1']",
+        hasPassportRadio: "//input[@name='hasBioPassport' and @value='1']",
+
+        androidLi: "//li[text()='Android']",
+        osNameSelect: "#osName",
     }
 
     paths = {
@@ -21,6 +28,17 @@ export default class CheckOnlineRegistrationPage extends BasePage {
 
     public async getHeader(): Promise<Header> {
         return new Header();
+    }
+
+    public async selectBaseOnlineRegistration(message: string) {
+        await this.reporter.startStep(message);
+        await this.click(this.selectors.hasSBOLRadio, "Click has SBOL radiobutton");
+        await this.click(this.selectors.hasPassportRadio, "Click has passport radiobutton");
+        await this.click(this.selectors.osNameSelect, "Click OS change menu");
+        await this.click(this.selectors.androidLi, "Click android OS");
+        await this.click(this.selectors.nfcCheckbox, "CLick NFC checkbox");
+        await this.click(this.selectors.continueButton, "Click continue button");
+        await this.reporter.endStep();
     }
 
     // public async getVideoFrame(): Promise<VideoFrame> {

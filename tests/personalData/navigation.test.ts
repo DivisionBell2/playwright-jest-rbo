@@ -39,12 +39,12 @@ paths.forEach(path => {
                 expect(await faqPage.isVisible(faqPage.selectors.searchInput, "Check search input visible on faq page")).toBeTruthy();
             });
 
-            // test('Clicking on Feedback button', async () => {
-            //     await header.click(header.selectors.feedbackLink, "Сlick feedback link in header");
-            //     await feedbackPage.waitForNavigation("wait for navigation feedback page");
-            //     expect(await feedbackPage.isVisible(feedbackPage.selectors.messageTextInput, "Check visibility of message text input on feedback page"))
-            //     .toBeTruthy();
-            // });
+            test('Clicking on Feedback button', async () => {
+                await header.click(header.selectors.feedbackLink, "Сlick feedback link in header");
+                await feedbackPage.waitForNavigation("wait for navigation feedback page");
+                expect(await feedbackPage.isVisible(feedbackPage.selectors.messageTextInput, "Check visibility of message text input on feedback page"))
+                .toBeTruthy();
+            });
 
             afterEach(async () => {
                 await personalDataPage.saveOnlyOneTab();

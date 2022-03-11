@@ -5,6 +5,8 @@ import User from "../../data/user";
 import MainPage from "../../pages/mainPage.page";
 import PhoneValidationPage from "../../pages/phoneValidationPage.page";
 import EnterPersonalDataPage from "../../pages/enterPersonalData.page";
+import Footer from "../../pages/blocks/footer.pageBlock";
+import * as urlData from "../../data/checkDataUrls.json"
 
 let phoneValidationPage = new PhoneValidationPage();
 const paths = [
@@ -20,6 +22,7 @@ paths.forEach(path => {
         let feedbackPage: FeedbackPage;
         let enterPersonalDataPage: EnterPersonalDataPage;
         let user: User;
+        let footer: Footer;
     
         beforeAll(async () => {
             faqPage = new FAQPage();
@@ -27,6 +30,7 @@ paths.forEach(path => {
             feedbackPage = new FeedbackPage();
             enterPersonalDataPage = new EnterPersonalDataPage();
             header = await phoneValidationPage.getHeader();
+            footer = await phoneValidationPage.getFooter();
             user = new User();
             await mainPage.goto("/", "Go to main page");
             await (await mainPage.getAuthPopup()).login(user);
@@ -59,6 +63,12 @@ paths.forEach(path => {
             await page.click("//div[@role='button' and contains(text(), 'Изменить данные')]");
             expect(await enterPersonalDataPage.getTextContent(enterPersonalDataPage.selectors.title, "Get title text from personal data page"))
             .toContain(enterPersonalDataPage.checkData.title);
+        });
+
+        test('Clicking on oferta link in footer', async () => {
+            await footer.click(footer.selectors.ofertaDoc, "Click on oferta link");
+            const newTab = await mainPage.getNewTab();
+            expect(newTab.url()).toContain(urlData.ofertaLink);
         });
 
         afterEach(async () => {
@@ -128,15 +138,6 @@ paths.forEach(path => {
 
 //         beforeEach(async () => {
 //             await page.goto(url + requestPath);
-//         });
-
-//         test('Clicking on oferta link in footer', async () => {
-//             await page.click("//a[contains(., 'Договор оферты')]");
-//             await Promise.all([context.waitForEvent("page")]);
-//             await page.waitForTimeout(2000);
-//             const newPage = page.context().pages()[1];
-//             expect(newPage.url()).toContain('oferta_rbidos');
-//             await page.context().pages()[1].close();
 //         });
 
 //         test('Clicking on personal data privacy policy link in footer', async () => {

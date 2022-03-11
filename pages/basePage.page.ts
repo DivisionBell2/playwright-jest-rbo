@@ -60,6 +60,12 @@ export default class BasePage {
         await reporter.endStep();
     }
 
+    async goBack(message: string) {
+        await reporter.startStep(message);
+        await page.goBack();
+        await reporter.endStep();
+    }
+
     async clickArrayElement(elements: string, elementNumber: number, message: string) {
         await reporter.startStep(message);
         const selectors = await page.$$(elements);
@@ -138,11 +144,15 @@ export default class BasePage {
         return isHidden;
     }
 
-    async isVisible(element : string, message: string, seconds?: number): Promise<boolean> {
+    async isVisible(element : string, message: string, seconds?: number, timeout?: number): Promise<boolean> {
         await reporter.startStep(message);
 
         let secondsCount: number;
         let isVisible = false;
+
+        if (timeout != undefined) {
+            await page.waitForTimeout(timeout * 1000);
+        }
 
         if (seconds != undefined) {
             secondsCount = seconds;

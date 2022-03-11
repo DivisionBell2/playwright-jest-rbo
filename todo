@@ -10,20 +10,20 @@ faqPage/navigation
 landing/supportMenu
 
 2. вторая итерация
-personalData/navigation 2/10
+personalData/navigation 3/10
 personalData/popupWithLawsInfo
 Убрать кнопку с куками в отдельный блок
 getNewTab() - сделать лучше
 
 3. рефакторинг
-phoneValidation/navigation 4/8
+phoneValidation/navigation 5/8
 personalData/middleName
 personalData/popupWithLawsInfo
 personalData/registrationNewUser
-checkOnlineRegistration/navigation 1/5
+checkOnlineRegistration/navigation 2/5
 checkOnlineRegistration/answerVariantsOfCheckOnline
 enterPassportData/navigation
-enterPassportData/filePreview
+enterPassportData/filePreview 1/6
 navigationMenu/leftSieMenu
 userWay/uploadPassportMainPage
 

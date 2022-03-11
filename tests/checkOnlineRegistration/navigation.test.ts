@@ -43,6 +43,11 @@ paths.forEach(path => {
             expect(title).toContain(mainPage.checkData.title);
         });
 
+        test('Clicking on FAQ button', async () => {
+            await header.click(header.selectors.faqLink, "Click on faq link in header");
+            expect(await faqPage.isVisible(faqPage.selectors.searchInput, "Check search input visible on faq page")).toBeTruthy();
+        });
+
         // afterEach(async () => {
         //     await phoneValidationPage.saveOnlyOneTab();
         // });
@@ -103,22 +108,6 @@ paths.forEach(path => {
 //             await page.fill("#password", password);
 //             await page.click("#test-loginForm-singIn");
 //             await page.waitForSelector("#test-landing-navPanel-logedIn");
-//         });
-    
-//         test('Clicking on logo', async () => {
-//             await page.goto(url + requestPath);
-//             await page.click("//div[contains(@class, 'topmenu-logo-pic')]");
-//             await page.waitForSelector("#test-landing-header-text");
-//             const title = await page.$("#test-landing-header-text");
-//             expect(await title.textContent()).toContain(landingTitle);
-//         });
-    
-//         test('Clicking on FAQ button', async () => {
-//             await page.goto(url + requestPath);
-//             await page.click("text='Вопрос-ответ'");
-//             await page.waitForNavigation();
-//             const title = await page.$("h1");
-//             expect(await title.textContent()).toContain(faqTitle);
 //         });
 
 //         test('Clicking on feedback button', async () => {
