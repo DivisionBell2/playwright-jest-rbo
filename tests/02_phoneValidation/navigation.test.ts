@@ -67,8 +67,14 @@ paths.forEach(path => {
 
         test('Clicking on oferta link in footer', async () => {
             await footer.click(footer.selectors.ofertaDoc, "Click on oferta link");
-            const newTab = await mainPage.getNewTab();
+            const newTab = await phoneValidationPage.getNewTab();
             expect(newTab.url()).toContain(urlData.ofertaLink);
+        });
+
+        test('Clicking on privacy policy link and go to privacy policy document', async () => {
+            await mainPage.click(footer.selectors.privacyPolicyLink, "Click privacy policy link");
+            const newTab = await mainPage.getNewTab();
+            expect(newTab.url()).toContain(urlData.privacyPolicyLink);
         });
 
         afterEach(async () => {
@@ -138,15 +144,6 @@ paths.forEach(path => {
 
 //         beforeEach(async () => {
 //             await page.goto(url + requestPath);
-//         });
-
-//         test('Clicking on personal data privacy policy link in footer', async () => {
-//             await page.click("//a[contains(., 'Политика конфиденциальности')]");
-//             await Promise.all([context.waitForEvent("page")]);
-//             await page.waitForTimeout(2000);
-//             const newPage = page.context().pages()[1];
-//             expect(newPage.url()).toContain('politika.pdf');
-//             await page.context().pages()[1].close();
 //         });
 
 //         test('Clicking on personal data agreement link in footer', async () => {

@@ -48,13 +48,20 @@ paths.forEach(path => {
             expect(await faqPage.isVisible(faqPage.selectors.searchInput, "Check search input visible on faq page")).toBeTruthy();
         });
 
+        test('Clicking on Feedback button', async () => {
+            await header.click(header.selectors.feedbackLink, "Сlick feedback link in header");
+            await feedbackPage.waitForNavigation("wait for navigation feedback page");
+            expect(await feedbackPage.isVisible(feedbackPage.selectors.messageTextInput, "Check visibility of message text input on feedback page"))
+            .toBeTruthy();
+        });
+
         // afterEach(async () => {
         //     await phoneValidationPage.saveOnlyOneTab();
         // });
 
         afterAll(async () => {
             await checkOnlineRegistrationPage.clear();
-            await checkOnlineRegistrationPage.reload("Reload page");
+            //await checkOnlineRegistrationPage.reload("Reload page");
         });
     });
 });
@@ -108,14 +115,6 @@ paths.forEach(path => {
 //             await page.fill("#password", password);
 //             await page.click("#test-loginForm-singIn");
 //             await page.waitForSelector("#test-landing-navPanel-logedIn");
-//         });
-
-//         test('Clicking on feedback button', async () => {
-//             await page.goto(url + requestPath);
-//             await page.click("text='Обратная связь'");
-//             await page.waitForNavigation();
-//             const title = await page.$("h1");
-//             expect(await title.textContent()).toContain(feedbackTitle);
 //         });
 
 //         test('Clicking on how to know android version link', async () => {

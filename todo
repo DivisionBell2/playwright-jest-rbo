@@ -8,22 +8,21 @@ login/login
 feedbackPage/sendMessage
 faqPage/navigation
 landing/supportMenu
+personalData/popupWithLawsInfo
 
 2. вторая итерация
-personalData/navigation 3/10
-personalData/popupWithLawsInfo
-Убрать кнопку с куками в отдельный блок
+personalData/navigation 4/10
 getNewTab() - сделать лучше
 
 3. рефакторинг
-phoneValidation/navigation 5/8
+phoneValidation/navigation 6/8
 personalData/middleName
 personalData/popupWithLawsInfo
 personalData/registrationNewUser
-checkOnlineRegistration/navigation 2/5
+checkOnlineRegistration/navigation 3/5
 checkOnlineRegistration/answerVariantsOfCheckOnline
 enterPassportData/navigation
-enterPassportData/filePreview 1/6
+enterPassportData/filePreview 1/6 +
 navigationMenu/leftSieMenu
 userWay/uploadPassportMainPage
 

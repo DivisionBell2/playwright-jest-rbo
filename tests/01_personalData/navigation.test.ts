@@ -4,6 +4,8 @@ import FeedbackPage from "../../pages/feedback.page";
 import User from "../../data/user";
 import MainPage from "../../pages/mainPage.page";
 import EnterPersonalDataPage from "../../pages/enterPersonalData.page";
+import SberbankPage from "../../pages/sberbankPage";
+import SberIDPage from "../../pages/sberId.page";
 
 let personalDataPage = new EnterPersonalDataPage();
 const paths = [
@@ -17,11 +19,13 @@ paths.forEach(path => {
         let mainPage: MainPage;
         let header: Header;
         let feedbackPage: FeedbackPage;
+        let sberIdPage: SberIDPage;
     
         beforeAll(async () => {
             faqPage = new FAQPage();
             mainPage = new MainPage();
             feedbackPage = new FeedbackPage();
+            sberIdPage = new SberIDPage();
             header = await personalDataPage.getHeader();
         });
             beforeEach(async () => {
@@ -44,6 +48,12 @@ paths.forEach(path => {
                 await feedbackPage.waitForNavigation("wait for navigation feedback page");
                 expect(await feedbackPage.isVisible(feedbackPage.selectors.messageTextInput, "Check visibility of message text input on feedback page"))
                 .toBeTruthy();
+            });
+
+            test('Clicking on login through SberId button', async () => {
+                await personalDataPage.click(personalDataPage.selectors.sberIdButton, "Click on login through SberID button");
+                const title = await sberIdPage.getTextContent(sberIdPage.selectors.title, "Get text from sber id page page title");
+                expect(title).toContain(sberIdPage.checkData.title);
             });
 
             afterEach(async () => {
@@ -90,17 +100,7 @@ paths.forEach(path => {
 //             } else {
 //                 await enterPersonalDataPage.goToEnterPersonalDataPageLegalEntity();
 //             }
-//         });
-
-//         test('Clicking on FAQ button', async () => {
-//             await (await enterPersonalDataPage.getHeader()).clickFAQLink();
-//             expect(await faqPage.checkSearchInputVisible()).toBeTruthy();
-//         });
-
-//         test('Clicking on login through SberId button', async () => {
-//             await enterPersonalDataPage.clickSberIdButton();
-//             expect(await sberIdPage.getTitleText()).toContain(sberIdPage.checkData.title);
-//         });
+//         });  
 
 //         test('Clicking on Feedback button', async () => {
 //             await (await enterPersonalDataPage.getHeader()).clickFeedbackLink();
