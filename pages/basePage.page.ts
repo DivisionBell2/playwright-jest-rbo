@@ -196,4 +196,10 @@ export default class BasePage {
         await page.waitForSelector(element);
         await reporter.endStep();
     }
+
+    async waitForTimeout(message: string, timeout: number): Promise<void> {
+        await reporter.startStep(message);
+        await page.waitForTimeout(timeout);
+        await reporter.endStep();
+    }
 }

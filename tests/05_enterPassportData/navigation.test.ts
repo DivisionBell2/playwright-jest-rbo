@@ -33,17 +33,17 @@ paths.forEach(path => {
             enterPersonalDataPage = new EnterPersonalDataPage();
             checkOnlineRegistrationPage = new CheckOnlineRegistrationPage();
             header = await passportDataPage.getHeader();
+        });
+
+        beforeEach(async () => {
             user = new User();
             await mainPage.goto("/", "Go to main page");
+            await mainPage.clickOnCookieButton();
             await (await mainPage.getAuthPopup()).login(user);
             await checkOnlineRegistrationPage.goto(path, "Open phone validation page for " + path);
             await phoneValidationPage.basePhoneValidation("Phone validation for passport data navigation tests");
             await checkOnlineRegistrationPage.selectBaseOnlineRegistration("Select online registration for passport data navigation tests");
         });
-
-        // beforeEach(async () => {
-        //     await checkOnlineRegistrationPage.goto(path, "Open phone validation page for " + path);
-        // });
 
         test('Clicking on logo', async () => {
             await header.click(header.selectors.logo, "Click on logo icon");
@@ -51,19 +51,21 @@ paths.forEach(path => {
             expect(title).toContain(mainPage.checkData.title);
         });
 
-        // test('Clicking on FAQ button', async () => {
-        //     await header.click(header.selectors.faqLink, "Click on faq link in header");
-        //     expect(await faqPage.isVisible(faqPage.selectors.searchInput, "Check search input visible on faq page")).toBeTruthy();
-        // });
+        test('Clicking on FAQ button', async () => {
+            await header.click(header.selectors.faqLink, "Click on faq link in header");
+            expect(await faqPage.isVisible(faqPage.selectors.searchInput, "Check search input visible on faq page")).toBeTruthy();
+        });
 
         afterEach(async () => {
-            await passportDataPage.goBack("Return to enter passport data page");
+            // await passportDataPage.goBack("Return to enter passport data page");
+            await passportDataPage.clear();
+            await passportDataPage.reload("Reload page");
         });
 
-        afterAll(async () => {
-            await checkOnlineRegistrationPage.clear();
-            await checkOnlineRegistrationPage.reload("Reload page");
-        });
+        // afterAll(async () => {
+            // await checkOnlineRegistrationPage.clear();
+            // await checkOnlineRegistrationPage.reload("Reload page");
+        // });
     });
 });
 
@@ -151,14 +153,6 @@ paths.forEach(path => {
 //         test('Open youtube frame from header', async () => {
 //             await page.click("//span[@role='button' and contains(., 'Видеоинструкция')]");
 //             expect(await (await page.$("//iframe[@title='YouTube video player']")).isVisible()).toBe(true);
-//         });
-
-//         test('Clicking on FAQ button', async () => {
-//             await page.click("text='Вопрос-ответ'");
-//             //await page.waitForLoadState();
-//             await page.waitForSelector("//input[@name='faq-search']");
-//             const title = await page.$("h1");
-//             expect(await title.textContent()).toContain(faqTitle);
 //         });
 
 //         test('Clicking on feedback button', async () => {

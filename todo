@@ -21,8 +21,8 @@ personalData/popupWithLawsInfo
 personalData/registrationNewUser
 checkOnlineRegistration/navigation 3/5
 checkOnlineRegistration/answerVariantsOfCheckOnline
-enterPassportData/navigation
-enterPassportData/filePreview 1/6 +
+enterPassportData/navigation 2/6
+enterPassportData/filePreview
 navigationMenu/leftSieMenu
 userWay/uploadPassportMainPage
 
