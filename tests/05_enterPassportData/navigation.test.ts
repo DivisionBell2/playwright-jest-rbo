@@ -7,6 +7,7 @@ import EnterPersonalDataPage from "../../pages/enterPersonalData.page";
 import CheckOnlineRegistrationPage from "../../pages/checkOnlineRegistrationPage.page";
 import PassportDataPage from "../../pages/passportDataPage.page";
 import PhoneValidationPage from "../../pages/phoneValidationPage.page";
+import VideoFrame from "../../pages/blocks/videoFrame.pageBlock";
 
 let phoneValidationPage = new PhoneValidationPage();
 const paths = [
@@ -23,6 +24,7 @@ paths.forEach(path => {
         let enterPersonalDataPage: EnterPersonalDataPage;
         let passportDataPage: PassportDataPage;
         let checkOnlineRegistrationPage: CheckOnlineRegistrationPage;
+        let videoFrame: VideoFrame;
         let user: User;
         
         beforeAll(async () => {
@@ -32,6 +34,7 @@ paths.forEach(path => {
             feedbackPage = new FeedbackPage();
             enterPersonalDataPage = new EnterPersonalDataPage();
             checkOnlineRegistrationPage = new CheckOnlineRegistrationPage();
+            videoFrame = new VideoFrame();
             header = await passportDataPage.getHeader();
         });
 
@@ -54,6 +57,15 @@ paths.forEach(path => {
         test('Clicking on FAQ button', async () => {
             await header.click(header.selectors.faqLink, "Click on faq link in header");
             expect(await faqPage.isVisible(faqPage.selectors.searchInput, "Check search input visible on faq page")).toBeTruthy();
+        });
+
+        test('Open youtube frame from header', async () => {
+            await header.click(header.selectors.videoButton, "Click video button on header");
+            await videoFrame.waitForSelector(videoFrame.selectors.frame, "Wait for video frame appears");
+            await videoFrame.click(videoFrame.selectors.closeButton, "Click for close button on video frame");
+            expect(await videoFrame.isHidden(videoFrame.selectors.frame, "Wait for video frame is closed")).toBeTruthy();
+            // await page.click("//span[@role='button' and contains(., 'Видеоинструкция')]");
+            // expect(await (await page.$("//iframe[@title='YouTube video player']")).isVisible()).toBe(true);
         });
 
         afterEach(async () => {
@@ -143,12 +155,6 @@ paths.forEach(path => {
 //             await page.click("//li[contains(@class, 'PersonalInformation')]//input[@type='checkbox']");
 //             await page.click("//button[contains(., 'Продолжить')]");
 //         })
-    
-//         test('Clicking on logo', async () => {
-//             await page.click("//div[contains(@class, 'topmenu-logo-pic')]");
-//             await page.waitForLoadState();
-//             expect(await (await page.waitForSelector("#test-landing-header-text")).isVisible()).toBe(true);
-//         });
 
 //         test('Open youtube frame from header', async () => {
 //             await page.click("//span[@role='button' and contains(., 'Видеоинструкция')]");

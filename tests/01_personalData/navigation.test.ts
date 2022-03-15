@@ -6,6 +6,7 @@ import MainPage from "../../pages/mainPage.page";
 import EnterPersonalDataPage from "../../pages/enterPersonalData.page";
 import SberbankPage from "../../pages/sberbankPage";
 import SberIDPage from "../../pages/sberId.page";
+import * as urlData from "../../data/checkDataUrls.json";
 
 let personalDataPage = new EnterPersonalDataPage();
 const paths = [
@@ -56,6 +57,12 @@ paths.forEach(path => {
                 expect(title).toContain(sberIdPage.checkData.title);
             });
 
+            test('Clicking on dasreda.ru link', async () => {
+                await personalDataPage.click(personalDataPage.selectors.dasredaLink, "Click on dasreda.ru link");
+                const newTab = await personalDataPage.getNewTab();
+                expect(newTab.url()).toContain(urlData.platform);
+            });
+
             afterEach(async () => {
                 await personalDataPage.saveOnlyOneTab();
             });
@@ -101,17 +108,6 @@ paths.forEach(path => {
 //                 await enterPersonalDataPage.goToEnterPersonalDataPageLegalEntity();
 //             }
 //         });  
-
-//         test('Clicking on Feedback button', async () => {
-//             await (await enterPersonalDataPage.getHeader()).clickFeedbackLink();
-//             await feedbackPage.waitForNavigationFeedbackPage();
-//             expect(await feedbackPage.checkMessageTextInputVisible()).toBeTruthy();
-//         });
-
-//         test('Clicking on dasreda.ru link', async () => {
-//             await enterPersonalDataPage.clickDasredaLink();
-//             await checkUrlInNewTab(platformPage.checkData.urlDomen);
-//         });
 
 //         test('Clicking on agreement link', async () => {
 //             await enterPersonalDataPage.clickAgreementsLink();

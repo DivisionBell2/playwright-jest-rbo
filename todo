@@ -11,17 +11,16 @@ landing/supportMenu
 personalData/popupWithLawsInfo
 
 2. вторая итерация
-personalData/navigation 4/10
-getNewTab() - сделать лучше
+personalData/navigation 5/9
 
 3. рефакторинг
-phoneValidation/navigation 6/8
+phoneValidation/navigation 7/8
 personalData/middleName
 personalData/popupWithLawsInfo
 personalData/registrationNewUser
-checkOnlineRegistration/navigation 3/5
+checkOnlineRegistration/navigation 4/5
 checkOnlineRegistration/answerVariantsOfCheckOnline
-enterPassportData/navigation 2/6
+enterPassportData/navigation 3/6
 enterPassportData/filePreview
 navigationMenu/leftSieMenu
 userWay/uploadPassportMainPage

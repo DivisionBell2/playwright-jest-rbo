@@ -5,6 +5,8 @@ import User from "../../data/user";
 import MainPage from "../../pages/mainPage.page";
 import EnterPersonalDataPage from "../../pages/enterPersonalData.page";
 import CheckOnlineRegistrationPage from "../../pages/checkOnlineRegistrationPage.page";
+import * as urlData from "../../data/checkDataUrls.json";
+import * as baseUrl from "../../data/url.json";
 
 let checkOnlineRegistrationPage = new CheckOnlineRegistrationPage();
 const paths = [
@@ -55,9 +57,20 @@ paths.forEach(path => {
             .toBeTruthy();
         });
 
-        // afterEach(async () => {
-        //     await phoneValidationPage.saveOnlyOneTab();
-        // });
+        test('Clicking on how to know android version link', async () => {
+            await checkOnlineRegistrationPage.click(checkOnlineRegistrationPage.selectors.howToKnowAndroidVersionLink, "Click on how to know android version link");
+            const newTab = await checkOnlineRegistrationPage.getNewTab();
+
+            expect(newTab.url()).toContain(baseUrl.url + faqPage.path);
+            expect(
+                faqPage.isVisible(faqPage.selectors.androidVersionInfoBlock, "Check the visibility of android version info block on FAQ page")
+                ).toBeTruthy();
+            expect(faqPage.isVisible(faqPage.selectors.androidImage, "Check the visibility of android image on FAQ page")).toBeTruthy();
+        });
+
+        afterEach(async () => {
+            await checkOnlineRegistrationPage.saveOnlyOneTab();
+        });
 
         afterAll(async () => {
             await checkOnlineRegistrationPage.clear();

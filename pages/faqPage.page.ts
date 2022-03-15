@@ -15,6 +15,9 @@ export default class FAQPage extends BasePage {
         closedTabItem: "//div[@class='ant-collapse-item']/div[@aria-expanded='false']",
         answerBlock: "//div[@class='ant-collapse-content-box']",
         cookieButton: "#test-cookieAlert_button",
+
+        androidVersionInfoBlock: "//div[@class='ant-collapse-header' and contains(., 'Как узнать версию Android')]",
+        androidImage: "//img[@src='/img/faq/android1.png']"
     }
 
     path = "/rbidos/faq";

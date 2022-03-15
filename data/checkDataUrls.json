@@ -3,5 +3,6 @@
     "agreementsPlatform": "cdn.dasreda.ru/fonts-static/soglasie-pd",
     "ofertaLink": "oferta_rbidos",
     "privacyPolicyLink": "politika.pdf",
-    "lawLink": "http://www.consultant.ru/document/cons_doc_LAW_32881"
+    "lawLink": "http://www.consultant.ru/document/cons_doc_LAW_32881",
+    "platform": "https://dasreda.ru/"
 }

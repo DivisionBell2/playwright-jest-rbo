@@ -19,6 +19,8 @@ export default class CheckOnlineRegistrationPage extends BasePage {
 
         androidLi: "//li[text()='Android']",
         osNameSelect: "#osName",
+
+        howToKnowAndroidVersionLink: "//a[text()='Как узнать версию Android?']"
     }
 
     paths = {
