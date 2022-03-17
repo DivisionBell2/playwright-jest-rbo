@@ -66,7 +66,7 @@ paths.forEach(path => {
         });
 
         test('Clicking on oferta link in footer', async () => {
-            await footer.click(footer.selectors.ofertaDoc, "Click on oferta link");
+            await footer.click(footer.selectors.ofertaLink, "Click on oferta link");
             const newTab = await phoneValidationPage.getNewTab();
             expect(newTab.url()).toContain(urlData.ofertaLink);
         });
@@ -78,9 +78,15 @@ paths.forEach(path => {
         });
 
         test('Clicking on agreement link in footer', async () => {
-            await footer.click(footer.selectors.agreementPersonalDataDoc, "Click on agreement link");
+            await footer.click(footer.selectors.agreementPersonalDataLink, "Click on agreement link");
             const newTab = await phoneValidationPage.getNewTab();
             expect(newTab.url()).toContain(urlData.agreements);
+        });
+
+        test('Clicking on user agreement link in footer', async () => {
+            await footer.click(footer.selectors.userAgreementLink, "Click on user agreement link");
+            const newTab = await phoneValidationPage.getNewTab();
+            expect(newTab.url()).toContain(urlData.userAgreement);
         });
 
         afterEach(async () => {
@@ -152,23 +158,14 @@ paths.forEach(path => {
 //             await page.goto(url + requestPath);
 //         });
 
-//         test('Clicking on personal data agreement link in footer', async () => {
-//             await page.click("//a[contains(., 'Согласие на обработку данных')]");
-//             await Promise.all([context.waitForEvent("page")]);
-//             await page.waitForTimeout(2000);
-//             const newPage = page.context().pages()[1];
-//             expect(newPage.url()).toContain('soglasie_na_rbidos');
-//             await page.context().pages()[1].close();
-//         });
-
-//         test('Clicking on user agreement link in footer', async () => {
-//             await page.click("//a[contains(., 'Пользовательское соглашение')]");
-//             await Promise.all([context.waitForEvent("page")]);
-//             await page.waitForTimeout(2000);
-//             const newPage = page.context().pages()[1];
-//             expect(newPage.url()).toContain('polzovatelskoe_soglashenie');
-//             await page.context().pages()[1].close();
-//         });
+        test('Clicking on user agreement link in footer', async () => {
+            await page.click("//a[contains(., 'Пользовательское соглашение')]");
+            await Promise.all([context.waitForEvent("page")]);
+            await page.waitForTimeout(2000);
+            const newPage = page.context().pages()[1];
+            expect(newPage.url()).toContain('polzovatelskoe_soglashenie');
+            await page.context().pages()[1].close();
+        });
     
 //         afterAll(async () => {
 //             await page.close();

@@ -9,12 +9,12 @@ feedbackPage/sendMessage
 faqPage/navigation
 landing/supportMenu
 personalData/popupWithLawsInfo
+phoneValidation/navigation
 
 2. вторая итерация
 personalData/navigation 6/9 +
 
 3. рефакторинг
-phoneValidation/navigation 7/8
 personalData/middleName 0/1
 personalData/popupWithLawsInfo
 personalData/registrationNewUser

@@ -11,9 +11,9 @@ export default class Footer extends BasePage {
         readLink: "//div[contains(@class, 'ant-row MainFooter__footer-menu-content')]//li/a[contains(., 'Читать')]",
         watchLink: "//div[contains(@class, 'ant-row MainFooter__footer-menu-content')]//li/a[contains(., 'Смотреть')]",
         privacyPolicyLink: "//a[contains(., 'Политика конфиденциальности')]",
-
-        ofertaDoc: "//a[contains(., 'Договор оферты')]",
-        agreementPersonalDataDoc: "//a[contains(., 'Согласие на обработку данных')]",
+        ofertaLink: "//a[contains(., 'Договор оферты')]",
+        agreementPersonalDataLink: "//a[contains(., 'Согласие на обработку данных')]",
+        userAgreementLink: "//a[contains(., 'Пользовательское соглашение')]",
     }
 
     public async clickReadLink(): Promise<void> {
@@ -25,7 +25,7 @@ export default class Footer extends BasePage {
     }
 
     public async clickOfertaLink(): Promise<void> {
-        await this.page.click(this.selectors.ofertaDoc);
+        await this.page.click(this.selectors.ofertaLink);
     }
 
     public async clickPrivacyPolicyLink(): Promise<void> {
@@ -33,6 +33,6 @@ export default class Footer extends BasePage {
     }
 
     public async clickAgreementLink(): Promise<void> {
-        await this.page.click(this.selectors.agreementPersonalDataDoc);
+        await this.page.click(this.selectors.agreementPersonalDataLink);
     }
 }
