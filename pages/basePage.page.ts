@@ -46,7 +46,7 @@ export default class BasePage {
 
     private async getAllTabs(context: BrowserContext): Promise<void> {
         const [tabs] = await Promise.all([
-            context.waitForEvent("page"),
+            context.waitForEvent("page", {timeout: 1000}),
         ]);
 
         await page.waitForLoadState()

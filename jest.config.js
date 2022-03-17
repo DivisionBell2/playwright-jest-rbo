@@ -17,9 +17,9 @@ module.exports = {
         // "<rootDir>/tests/01_personalData/popupWithLawsInfo.test.ts"
 
         // "<rootDir>/tests/02_phoneValidation/navigation.test.ts"
-        // "<rootDir>/tests/01_personalData/navigation.test.ts"
+        "<rootDir>/tests/01_personalData/navigation.test.ts"
         // "<rootDir>/tests/03_checkOnlineRegistration/navigation.test.ts"
-        "<rootDir>/tests/05_enterPassportData/navigation.test.ts"
+        // "<rootDir>/tests/05_enterPassportData/navigation.test.ts"
     ],
     bail: true,
     bail: 1,

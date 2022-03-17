@@ -11,11 +11,11 @@ landing/supportMenu
 personalData/popupWithLawsInfo
 
 2. вторая итерация
-personalData/navigation 5/9
+personalData/navigation 6/9 +
 
 3. рефакторинг
 phoneValidation/navigation 7/8
-personalData/middleName
+personalData/middleName 0/1
 personalData/popupWithLawsInfo
 personalData/registrationNewUser
 checkOnlineRegistration/navigation 4/5

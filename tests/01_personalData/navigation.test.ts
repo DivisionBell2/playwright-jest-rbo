@@ -63,9 +63,21 @@ paths.forEach(path => {
                 expect(newTab.url()).toContain(urlData.platform);
             });
 
-            afterEach(async () => {
-                await personalDataPage.saveOnlyOneTab();
+            test('Clicking on agreement link', async () => {
+                await personalDataPage.waitForLoadState("Waiting for loading of personal data page");
+                await personalDataPage.click(personalDataPage.selectors.agreementsLink, "Click on agreement link");
+                const newTab = await personalDataPage.getNewTab();
+                
+                expect(newTab.url()).toContain(urlData.agreementsPlatform);
             });
+
+            afterEach(async () => {
+                await personalDataPage.saveOnlyOneTab();  
+            });
+
+            afterAll(async () => {
+                await personalDataPage.clear();
+            })
     });
 });
 
@@ -108,11 +120,6 @@ paths.forEach(path => {
 //                 await enterPersonalDataPage.goToEnterPersonalDataPageLegalEntity();
 //             }
 //         });  
-
-//         test('Clicking on agreement link', async () => {
-//             await enterPersonalDataPage.clickAgreementsLink();
-//             await checkUrlInNewTab(urlData.agreementsPlatform);
-//         });
 
 //         test('Clicking on oferta link in footer', async () => {
 //             await (await enterPersonalDataPage.getFooter()).clickOfertaLink();
