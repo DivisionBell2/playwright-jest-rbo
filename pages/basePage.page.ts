@@ -45,8 +45,8 @@ export default class BasePage {
     }
 
     private async getAllTabs(context: BrowserContext): Promise<void> {
-        const [tabs] = await Promise.all([
-            context.waitForEvent("page", {timeout: 2000}),
+        await Promise.all([
+            context.waitForEvent("page", {timeout: 1000}),
             context.waitForEvent("page"),
             await page.waitForLoadState()
         ]);
@@ -95,7 +95,9 @@ export default class BasePage {
 
     async getNewTab(message?: string): Promise<Page> {
         await reporter.startStep(message);
-        await this.getAllTabs(page.context());
+        //await this.getAllTabs(page.context());
+        await page.waitForTimeout(1000);
+        await page.context().pages()[1].waitForLoadState();
         await reporter.endStep();
         return page.context().pages()[1];
     }

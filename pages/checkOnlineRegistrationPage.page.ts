@@ -13,14 +13,20 @@ export default class CheckOnlineRegistrationPage extends BasePage {
 
     selectors = {
         continueButton: "//button[contains(., 'Продолжить')]",
+        modalWindowOkButton: "//div[@class='ant-modal-body']//button[contains(., 'OK')]",
+        
         nfcCheckbox: "//li[contains(@class, 'PersonalInformation')]//input[@type='checkbox']",
+        infoModalWindow: "//div[@class='ant-modal-body']",
+
         hasSBOLRadio: "//input[@name='hasSbol' and @value='1']",
         hasPassportRadio: "//input[@name='hasBioPassport' and @value='1']",
 
         androidLi: "//li[text()='Android']",
         osNameSelect: "#osName",
 
-        howToKnowAndroidVersionLink: "//a[text()='Как узнать версию Android?']"
+        howToKnowAndroidVersionLink: "//a[text()='Как узнать версию Android?']",
+        nfcInfoLink: "//span[text()='Как узнать, есть ли в телефоне NFC?']",
+        
     }
 
     paths = {
