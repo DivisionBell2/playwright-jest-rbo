@@ -7,6 +7,7 @@ import EnterPersonalDataPage from "../../pages/enterPersonalData.page";
 import SberbankPage from "../../pages/sberbankPage";
 import SberIDPage from "../../pages/sberId.page";
 import * as urlData from "../../data/checkDataUrls.json";
+import Footer from "../../pages/blocks/footer.pageBlock";
 
 let personalDataPage = new EnterPersonalDataPage();
 const paths = [
@@ -21,6 +22,7 @@ paths.forEach(path => {
         let header: Header;
         let feedbackPage: FeedbackPage;
         let sberIdPage: SberIDPage;
+        let footer: Footer;
     
         beforeAll(async () => {
             faqPage = new FAQPage();
@@ -28,6 +30,7 @@ paths.forEach(path => {
             feedbackPage = new FeedbackPage();
             sberIdPage = new SberIDPage();
             header = await personalDataPage.getHeader();
+            footer = await personalDataPage.getFooter();
         });
             beforeEach(async () => {
                 await personalDataPage.goto(path, "Open personal data page for " + path);
@@ -68,7 +71,13 @@ paths.forEach(path => {
                 await personalDataPage.click(personalDataPage.selectors.agreementsLink, "Click on agreement link");
                 const newTab = await personalDataPage.getNewTab();
                 
-                expect(newTab.url()).toContain(urlData.agreementsPlatform);
+                expect(newTab.url()).toContain(urlData.agreements);
+            });
+
+            test('Clicking on oferta link in footer', async () => {
+                await footer.click(footer.selectors.ofertaLink, "Click on oferta link");
+                const newTab = await personalDataPage.getNewTab();
+                expect(newTab.url()).toContain(urlData.ofertaLink);
             });
 
             afterEach(async () => {
@@ -120,11 +129,6 @@ paths.forEach(path => {
 //                 await enterPersonalDataPage.goToEnterPersonalDataPageLegalEntity();
 //             }
 //         });  
-
-//         test('Clicking on oferta link in footer', async () => {
-//             await (await enterPersonalDataPage.getFooter()).clickOfertaLink();
-//             await checkUrlInNewTab(urlData.ofertaLink);
-//         });
 
 //         test('Clicking on privacy policy link in footer', async () => {
 //             await(await enterPersonalDataPage.getFooter()).clickPrivacyPolicyLink();

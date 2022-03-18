@@ -1,6 +1,7 @@
 import BasePage from "./basePage.page";
 import Footer from "./blocks/footer.pageBlock";
 import Header from "./blocks/header.pageBlock";
+import AuthPopup from "./blocks/authPopup.pageBlock";
 
 export default class EnterPersonalDataPage extends BasePage {
 
@@ -36,6 +37,10 @@ export default class EnterPersonalDataPage extends BasePage {
 
     public async goToEnterPersonalDataPageLegalEntity() {
         await this.page.goto(this.url + "/rbidos/personal-information/ooo/1");
+    }
+
+    public async getAuthPopup(): Promise<AuthPopup> {
+        return new AuthPopup();
     }
 
     public async getHeader(): Promise<Header> {

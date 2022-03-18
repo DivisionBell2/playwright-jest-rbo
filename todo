@@ -12,10 +12,10 @@ personalData/popupWithLawsInfo
 phoneValidation/navigation
 
 2. вторая итерация
-personalData/navigation 6/9 +
+personalData/navigation 7/9 +
 
 3. рефакторинг
-personalData/middleName 0/1
+personalData/middleName 0/2
 personalData/popupWithLawsInfo
 personalData/registrationNewUser
 checkOnlineRegistration/navigation 4/5
