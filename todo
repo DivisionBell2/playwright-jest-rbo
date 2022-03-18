@@ -15,7 +15,7 @@ phoneValidation/navigation
 personalData/navigation 7/9 +
 
 3. рефакторинг
-personalData/middleName 0/2
+personalData/middleName 0/2 +
 personalData/popupWithLawsInfo
 personalData/registrationNewUser
 checkOnlineRegistration/navigation 4/5

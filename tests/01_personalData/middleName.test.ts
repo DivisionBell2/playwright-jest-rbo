@@ -41,6 +41,7 @@ paths.forEach(path => {
 
         test('Start registration business for logined user with delete middle name', async () => {
             await authPopup.login(user);
+            await personalDataPage.waitForSelector(personalDataPage.selectors.noMiddleNameCheckbox, "Wait for no middle name checkbox");
             await personalDataPage.click(personalDataPage.selectors.noMiddleNameCheckbox, "Click on no middle name checkbox");
             await personalDataPage.waitForSelector(personalDataPage.selectors.noMiddleNameText, "Wait for text about no middle name");
             expect(await  personalDataPage.isHidden(personalDataPage.selectors.middleNameInput, "Check middle name is not visible")).toBeTruthy();
@@ -50,16 +51,16 @@ paths.forEach(path => {
             // expect(title).toContain(mainPage.checkData.title);
         });
 
-        afterEach(async () => {
-            await personalDataPage.saveOnlyOneTab();  
-        });
+        // afterEach(async () => {
+        //     await personalDataPage.saveOnlyOneTab();  
+        // });
 
         afterAll(async () => {
             await personalDataPage.clear();
-        })
+            await personalDataPage.reload("Reload personal data page");
+        });
     });
 });
-
 // import {Browser, BrowserContext, chromium, Page} from "playwright";
 
 // const requestType = [
