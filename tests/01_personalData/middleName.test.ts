@@ -7,6 +7,7 @@ import EnterPersonalDataPage from "../../pages/enterPersonalData.page";
 import SberbankPage from "../../pages/sberbankPage";
 import SberIDPage from "../../pages/sberId.page";
 import * as urlData from "../../data/checkDataUrls.json";
+import AuthPopup from "../../pages/blocks/authPopup.pageBlock";
 
 let personalDataPage = new EnterPersonalDataPage();
 const paths = [
@@ -21,6 +22,8 @@ paths.forEach(path => {
         let header: Header;
         let feedbackPage: FeedbackPage;
         let sberIdPage: SberIDPage;
+        let authPopup: AuthPopup;
+        let user: User;
     
         beforeAll(async () => {
             faqPage = new FAQPage();
@@ -28,26 +31,32 @@ paths.forEach(path => {
             feedbackPage = new FeedbackPage();
             sberIdPage = new SberIDPage();
             header = await personalDataPage.getHeader();
+            authPopup = await personalDataPage.getAuthPopup();
+            user = new User();
         });
-            beforeEach(async () => {
-                await personalDataPage.goto(path, "Open personal data page for " + path);
-            });
+        
+        beforeEach(async () => {
+            await personalDataPage.goto(path, "Open personal data page for " + path);
+        });
 
-            test('Start registration business for logined user with delete middle name', async () => {
-                await (await personalDataPage.getAuthPopup()).login(user);
+        test('Start registration business for logined user with delete middle name', async () => {
+            await authPopup.login(user);
+            await personalDataPage.click(personalDataPage.selectors.noMiddleNameCheckbox, "Click on no middle name checkbox");
+            await personalDataPage.waitForSelector(personalDataPage.selectors.noMiddleNameText, "Wait for text about no middle name");
+            expect(await  personalDataPage.isHidden(personalDataPage.selectors.middleNameInput, "Check middle name is not visible")).toBeTruthy();
 
-                await header.click(header.selectors.logo, "Click on logo icon");
-                const title = await mainPage.getTextContent(mainPage.selectors.title, "Get text from main page title");
-                expect(title).toContain(mainPage.checkData.title);
-            });
+            // await header.click(header.selectors.logo, "Click on logo icon");
+            // const title = await mainPage.getTextContent(mainPage.selectors.title, "Get text from main page title");
+            // expect(title).toContain(mainPage.checkData.title);
+        });
 
-            afterEach(async () => {
-                await personalDataPage.saveOnlyOneTab();  
-            });
+        afterEach(async () => {
+            await personalDataPage.saveOnlyOneTab();  
+        });
 
-            afterAll(async () => {
-                await personalDataPage.clear();
-            })
+        afterAll(async () => {
+            await personalDataPage.clear();
+        })
     });
 });
 

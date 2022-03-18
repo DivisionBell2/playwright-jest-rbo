@@ -15,6 +15,7 @@ export default class EnterPersonalDataPage extends BasePage {
         modalTitle: "//span[@class='ant-modal-confirm-title']",
         logo: "//div[contains(@class, 'topmenu-logo-pic')]",
         modalWindow: "//div[@class='ant-modal-confirm-content']",
+        noMiddleNameText: "//p[text()='Без отчества']",
 
 
         sberIdButton: "//button[contains(@class, 'SberIdButton')]",
@@ -23,7 +24,11 @@ export default class EnterPersonalDataPage extends BasePage {
         dasredaLink: "//div[contains(@class, 'PersonalInformation__hint-blockquote')]/a[contains(., dasreda.ru)]",
         agreementsLink: "//span[contains(@class, 'PersonalInformation')]/a[contains(., 'Согласие')]",
         lawLink: "//span[@role='button' and contains(., 'требованиям закона')]",
-        consultantLink: "//div[@class='ant-modal-confirm-content']//a"
+        consultantLink: "//div[@class='ant-modal-confirm-content']//a",
+
+        noMiddleNameCheckbox: "//div[contains(@class, 'input-item-no-mid-name')]/label",
+
+        middleNameInput: "//input[@id='middleName']"
     }
 
     paths = {
