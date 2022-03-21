@@ -64,12 +64,16 @@ paths.forEach(path => {
             await videoFrame.waitForSelector(videoFrame.selectors.frame, "Wait for video frame appears");
             await videoFrame.click(videoFrame.selectors.closeButton, "Click for close button on video frame");
             expect(await videoFrame.isHidden(videoFrame.selectors.frame, "Wait for video frame is closed")).toBeTruthy();
-            // await page.click("//span[@role='button' and contains(., 'Видеоинструкция')]");
-            // expect(await (await page.$("//iframe[@title='YouTube video player']")).isVisible()).toBe(true);
+        });
+
+        test('Clicking on Feedback button', async () => {
+            await header.click(header.selectors.feedbackLink, "Сlick feedback link in header");
+            await feedbackPage.waitForNavigation("wait for navigation feedback page");
+            expect(await feedbackPage.isVisible(feedbackPage.selectors.messageTextInput, "Check visibility of message text input on feedback page"))
+            .toBeTruthy();
         });
 
         afterEach(async () => {
-            // await passportDataPage.goBack("Return to enter passport data page");
             await passportDataPage.clear();
             await passportDataPage.reload("Reload page");
         });
@@ -155,18 +159,6 @@ paths.forEach(path => {
 //             await page.click("//li[contains(@class, 'PersonalInformation')]//input[@type='checkbox']");
 //             await page.click("//button[contains(., 'Продолжить')]");
 //         })
-
-//         test('Open youtube frame from header', async () => {
-//             await page.click("//span[@role='button' and contains(., 'Видеоинструкция')]");
-//             expect(await (await page.$("//iframe[@title='YouTube video player']")).isVisible()).toBe(true);
-//         });
-
-//         test('Clicking on feedback button', async () => {
-//             await page.click("text='Обратная связь'");
-//             await page.waitForNavigation();
-//             const title = await page.$("h1");
-//             expect(await title.textContent()).toContain("Обратная связь");
-//         });
 
 //         test('Clicking on oferta link in footer', async () => {
 //             await page.click("//a[contains(., 'Договор оферты')]");

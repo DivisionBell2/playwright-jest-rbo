@@ -72,7 +72,7 @@ paths.forEach(path => {
         });
 
         test('Clicking on privacy policy link and go to privacy policy document', async () => {
-            await mainPage.click(footer.selectors.privacyPolicyLink, "Click privacy policy link");
+            await footer.click(footer.selectors.privacyPolicyLink, "Click privacy policy link");
             const newTab = await mainPage.getNewTab("Waiting the tab with privacy policy document");
             expect(newTab.url()).toContain(urlData.privacyPolicyLink);
         });

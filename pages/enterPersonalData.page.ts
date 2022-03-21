@@ -20,6 +20,7 @@ export default class EnterPersonalDataPage extends BasePage {
 
         sberIdButton: "//button[contains(@class, 'SberIdButton')]",
         closeModalButton: "//button[contains(., 'Закрыть')]",
+        sendPasswordBUtton: "#test-send_password",
 
         dasredaLink: "//div[contains(@class, 'PersonalInformation__hint-blockquote')]/a[contains(., dasreda.ru)]",
         agreementsLink: "//span[contains(@class, 'PersonalInformation')]/a[contains(., 'Согласие')]",
@@ -27,8 +28,14 @@ export default class EnterPersonalDataPage extends BasePage {
         consultantLink: "//div[@class='ant-modal-confirm-content']//a",
 
         noMiddleNameCheckbox: "//div[contains(@class, 'input-item-no-mid-name')]/label",
+        personalDataCheckbox: "//label[contains(@class, 'PersonalInformation__checkbox') and contains(., 'передачу персональных данных')]/span[contains(@class, 'ant-checkbox')]",
 
-        middleNameInput: "//input[@id='middleName']"
+        middleNameInput: "#middleName",
+        lastNameInput: "#lastName",
+        firstNameInput: "//input[@id='firstName']",
+        email: "#email",
+        emailCodeInput: "#emailCode"
+        
     }
 
     paths = {

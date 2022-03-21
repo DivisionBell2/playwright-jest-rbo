@@ -71,13 +71,19 @@ paths.forEach(path => {
                 await personalDataPage.click(personalDataPage.selectors.agreementsLink, "Click on agreement link");
                 const newTab = await personalDataPage.getNewTab();
                 
-                expect(newTab.url()).toContain(urlData.agreements);
+                expect(newTab.url()).toContain(urlData.agreementsPlatform);
             });
 
             test('Clicking on oferta link in footer', async () => {
                 await footer.click(footer.selectors.ofertaLink, "Click on oferta link");
                 const newTab = await personalDataPage.getNewTab();
                 expect(newTab.url()).toContain(urlData.ofertaLink);
+            });
+
+            test('Clicking on privacy policy link and go to privacy policy document', async () => {
+                await footer.click(footer.selectors.privacyPolicyLink, "Click privacy policy link");
+                const newTab = await mainPage.getNewTab("Waiting the tab with privacy policy document");
+                expect(newTab.url()).toContain(urlData.privacyPolicyLink);
             });
 
             afterEach(async () => {

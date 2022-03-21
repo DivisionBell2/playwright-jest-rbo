@@ -73,9 +73,9 @@ export default class BasePage {
         await reporter.endStep();
     }
 
-    async fill(element: string, text: string, message: string) {
+    async fill(element: string, text: string, message: string, seconds?: number) {
         await reporter.startStep(message);
-        await page.fill(element, text);
+        await page.fill(element, text, {timeout: seconds});
         await reporter.endStep();
     }
 

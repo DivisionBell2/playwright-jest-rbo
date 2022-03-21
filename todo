@@ -11,15 +11,13 @@ landing/supportMenu
 personalData/popupWithLawsInfo
 phoneValidation/navigation
 checkOnlineRegistration/navigation
-
-2. вторая итерация
-personalData/navigation 7/9 +
+personalData/middleName
+personalData/navigation
 
 3. рефакторинг
-personalData/middleName 1/2 +
-personalData/registrationNewUser
-checkOnlineRegistration/answerVariantsOfCheckOnline
-enterPassportData/navigation 3/6
+personalData/registrationNewUser 1/2
+checkOnlineRegistration/answerVariantsOfCheckOnline 0/2
+enterPassportData/navigation 4/6
 enterPassportData/filePreview
 navigationMenu/leftSieMenu
 userWay/uploadPassportMainPage
