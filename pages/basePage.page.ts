@@ -104,9 +104,16 @@ export default class BasePage {
 
     async getTextContent(element: string, message: string): Promise<string|null> {
         await reporter.startStep(message);
-        const title = await (await this.page.waitForSelector(element)).textContent();
+        const text = await (await this.page.waitForSelector(element)).textContent();
         await reporter.endStep();
-        return title;
+        return text;
+    }
+
+    async getElementFromArray(element: string, position: number, message: string): Promise<ElementHandle<SVGElement | HTMLElement>> {
+        await reporter.startStep(message);
+        const elements = await page.$$(element)
+        await reporter.endStep();
+        return elements[position];
     }
 
     async goto(path: string, message: string): Promise<void> {
@@ -180,12 +187,18 @@ export default class BasePage {
         await reporter.endStep();
     }
 
+    async getUrl(message: string): Promise<string> {
+        await reporter.startStep(message);
+        const url = await page.url();
+        await reporter.endStep();
+        return url;
+    }
+
     async waitForLoadState(message: string): Promise<void> {
         await reporter.startStep(message);
         await page.waitForLoadState();
         await reporter.endStep();
     }
-
 
     async waitForNavigation(message: string): Promise<void> {
         await reporter.startStep(message);

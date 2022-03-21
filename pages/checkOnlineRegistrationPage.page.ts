@@ -14,15 +14,21 @@ export default class CheckOnlineRegistrationPage extends BasePage {
     selectors = {
         continueButton: "//button[contains(., 'Продолжить')]",
         modalWindowOkButton: "//div[@class='ant-modal-body']//button[contains(., 'OK')]",
+        noNFCButton: "//button[contains(., 'NFC нет')]",
         
         nfcCheckbox: "//li[contains(@class, 'PersonalInformation')]//input[@type='checkbox']",
         infoModalWindow: "//div[@class='ant-modal-body']",
+        phoneSelects: "//div[@role='combobox' and @aria-autocomplete='list']",
+        noSuitableAndroid: "//li[text()='4.0 или ниже']",
+        osNameSelect: "#osName",
 
         hasSBOLRadio: "//input[@name='hasSbol' and @value='1']",
+        noSbolRadio: "//input[@name='hasSbol' and @value='2']",
         hasPassportRadio: "//input[@name='hasBioPassport' and @value='1']",
+        noPassportRadio: "//input[@name='hasBioPassport' and @value='2']",
+        
 
         androidLi: "//li[text()='Android']",
-        osNameSelect: "#osName",
 
         howToKnowAndroidVersionLink: "//a[text()='Как узнать версию Android?']",
         nfcInfoLink: "//span[text()='Как узнать, есть ли в телефоне NFC?']",
