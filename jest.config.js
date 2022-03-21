@@ -14,14 +14,11 @@ module.exports = {
         "<rootDir>/tests/feedbackPage/**.test.ts",
         "<rootDir>/tests/0_landing/**.test.ts",
         "<rootDir>/tests/login/login.test.ts",
-        "<rootDir>/tests/01_personalData/popupWithLawsInfo.test.ts",
+        "<rootDir>/tests/01_personalData/** */.test.ts",
         "<rootDir>/tests/02_phoneValidation/**.test.ts",
         "<rootDir>/tests/03_checkOnlineRegistration/navigation.test.ts",
-        "<rootDir>/tests/01_personalData/middleName.test.ts",
-        "<rootDir>/tests/01_personalData/navigation.test.ts"
 
         // "<rootDir>/tests/05_enterPassportData/navigation.test.ts"
-        // "<rootDir>/tests/01_personalData/registrationNewUser.test.ts"
     ],
     // bail: true,
     // bail: 1,
