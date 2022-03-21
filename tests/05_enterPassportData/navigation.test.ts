@@ -8,6 +8,8 @@ import CheckOnlineRegistrationPage from "../../pages/checkOnlineRegistrationPage
 import PassportDataPage from "../../pages/passportDataPage.page";
 import PhoneValidationPage from "../../pages/phoneValidationPage.page";
 import VideoFrame from "../../pages/blocks/videoFrame.pageBlock";
+import Footer from "../../pages/blocks/footer.pageBlock";
+import * as urlData from "../../data/checkDataUrls.json"
 
 let phoneValidationPage = new PhoneValidationPage();
 const paths = [
@@ -26,6 +28,7 @@ paths.forEach(path => {
         let checkOnlineRegistrationPage: CheckOnlineRegistrationPage;
         let videoFrame: VideoFrame;
         let user: User;
+        let footer: Footer;
         
         beforeAll(async () => {
             passportDataPage = new PassportDataPage();
@@ -35,6 +38,7 @@ paths.forEach(path => {
             enterPersonalDataPage = new EnterPersonalDataPage();
             checkOnlineRegistrationPage = new CheckOnlineRegistrationPage();
             videoFrame = new VideoFrame();
+            footer = new Footer();
             header = await passportDataPage.getHeader();
         });
 
@@ -73,7 +77,14 @@ paths.forEach(path => {
             .toBeTruthy();
         });
 
+        test('Clicking on oferta link in footer', async () => {
+            await footer.click(footer.selectors.ofertaLink, "Click on oferta link");
+            const newTab = await phoneValidationPage.getNewTab();
+            expect(newTab.url()).toContain(urlData.ofertaLink);
+        });
+
         afterEach(async () => {
+            await passportDataPage.saveOnlyOneTab();
             await passportDataPage.clear();
             await passportDataPage.reload("Reload page");
         });
@@ -159,13 +170,6 @@ paths.forEach(path => {
 //             await page.click("//li[contains(@class, 'PersonalInformation')]//input[@type='checkbox']");
 //             await page.click("//button[contains(., 'Продолжить')]");
 //         })
-
-//         test('Clicking on oferta link in footer', async () => {
-//             await page.click("//a[contains(., 'Договор оферты')]");
-//             await Promise.all([context.waitForEvent("page")]);
-//             await page.context().pages()[1].waitForLoadState();
-//             expect(page.context().pages()[1].url()).toContain('oferta_rbidos');
-//         });
 
 //         test('Clicking on Agreement link and go to agreement document', async () => {
 //             await page.click("//a[contains(., 'Согласие')]");

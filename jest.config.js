@@ -18,8 +18,8 @@ module.exports = {
         // "<rootDir>/tests/02_phoneValidation/**.test.ts",
         // "<rootDir>/tests/03_checkOnlineRegistration/navigation.test.ts",
 
-        // "<rootDir>/tests/05_enterPassportData/navigation.test.ts"
-        "<rootDir>/tests/03_checkOnlineRegistration/answerVariantsOfCheckOnline.test.ts"
+        "<rootDir>/tests/05_enterPassportData/navigation.test.ts"
+        // "<rootDir>/tests/03_checkOnlineRegistration/answerVariantsOfCheckOnline.test.ts"
     ],
     // bail: true,
     // bail: 1,

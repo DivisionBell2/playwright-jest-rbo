@@ -15,8 +15,8 @@ personalData/middleName
 personalData/navigation
 
 3. рефакторинг
-checkOnlineRegistration/answerVariantsOfCheckOnline 1/2 +
-enterPassportData/navigation 4/6
+checkOnlineRegistration/answerVariantsOfCheckOnline 1/2
+enterPassportData/navigation 5/6
 enterPassportData/filePreview
 navigationMenu/leftSieMenu
 userWay/uploadPassportMainPage
