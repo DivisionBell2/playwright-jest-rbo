@@ -9,6 +9,12 @@ import Footer from "./blocks/footer.pageBlock";
 export default class PassportDataPage extends BasePage {
 
     selectors = {
+        passportUploadField: "//div[@id='UserPasportMain']//input[@type='file']",
+        uploadedFileIcon: "//div[@id='UserPasportMain']//span[@class='ant-upload ant-upload-btn']/div",
+        filePreviewBlock: "//div[@class='slick-list']",
+
+        closeFilePreviewButton: "//button[@aria-label='Close']",
+        deleteUploadedFileButton: "//div[contains(@class, 'uploader-delete')]",
     }
 
     paths = {

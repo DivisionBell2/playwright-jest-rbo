@@ -14,10 +14,10 @@ checkOnlineRegistration/navigation
 personalData/middleName
 personalData/navigation
 checkOnlineRegistration/answerVariantsOfCheckOnline
+enterPassportData/navigation
+enterPassportData/filePreview
 
 3. рефакторинг
-enterPassportData/navigation 5/6
-enterPassportData/filePreview 0/1
 navigationMenu/leftSieMenu
 userWay/uploadPassportMainPage
 

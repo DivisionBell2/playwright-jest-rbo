@@ -122,6 +122,12 @@ export default class BasePage {
         await reporter.endStep();
     }
 
+    async hover(element: string, message: string): Promise<void> {
+        await reporter.startStep(message);
+        await page.hover(element);
+        await reporter.endStep();
+    }
+
     async isDisabled(element: string, message: string): Promise<boolean> {
         await reporter.startStep(message);
         const isEnabled = await page.isDisabled(element);
@@ -184,6 +190,12 @@ export default class BasePage {
     async reload(message: string): Promise<void> {
         await reporter.startStep(message);
         await page.reload();
+        await reporter.endStep();
+    }
+
+    async setInputFiles(element : string, filePath: string, message: string): Promise<void> {
+        await reporter.startStep(message);
+        await page.setInputFiles(element, filePath);
         await reporter.endStep();
     }
 
