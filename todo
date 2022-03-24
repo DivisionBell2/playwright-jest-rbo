@@ -18,11 +18,11 @@ enterPassportData/navigation
 enterPassportData/filePreview
 
 3. рефакторинг
-navigationMenu/leftSieMenu 1/4
-userWay/uploadPassportMainPage
-
+navigationMenu/leftSieMenu 3/4
 4. examples
 allureReportInTestExample
 navigationVideoExample
 screenshotsExamples
-Проверить все страницы и все файлы с тесами на комментарии
+Проверить все страницы и все файлы с тестами на комментарии
+Дописать readme
+Удалить todo

@@ -57,9 +57,27 @@ paths.forEach(path => {
         });
 
         test("Return to enter personal data page from phone validation page", async () => {
-            await leftMenu.click(leftMenu.selectors.enterPersonalData, "Click on go to enter personal data page");
+            await leftMenu.click(leftMenu.selectors.enterPersonalPageLink, "Click on personal data page link");
             expect(await enterPersonalDataPage.getTextContent(enterPersonalDataPage.selectors.title, "Get title text from personal data page"))
         .toContain(enterPersonalDataPage.checkData.title);
+        });
+
+        test("Return to enter personal data page from check online registration page", async () => {
+            await phoneValidationPage.basePhoneValidation("Phone validation");
+            await checkOnlineRegistrationPage
+            .waitForSelector(checkOnlineRegistrationPage.selectors.noSbolRadio, "Wait for visible SBOL menu on check online validation page");
+            await leftMenu.click(leftMenu.selectors.enterPersonalPageLink, "Click on personal data page link");
+            expect(await enterPersonalDataPage.getTextContent(enterPersonalDataPage.selectors.title, "Get title text from personal data page"))
+        .toContain(enterPersonalDataPage.checkData.title);
+        });
+
+        test("Return to phone validation page from check online registration page", async () => {
+            await phoneValidationPage.basePhoneValidation("Phone validation");
+            await checkOnlineRegistrationPage
+            .waitForSelector(checkOnlineRegistrationPage.selectors.noSbolRadio, "Wait for visible SBOL menu on check online validation page");
+            await leftMenu.click(leftMenu.selectors.phoneValidationPageLink, "Click on phone validation page link");
+            expect(await phoneValidationPage.isVisible(phoneValidationPage.selectors.selfRegistrationButton, "Check visibility of self registration on phone validation page"))
+        .toBeTruthy();
         });
 
         afterEach(async () => {
@@ -136,24 +154,6 @@ paths.forEach(path => {
 //             await page.click(requestType);
 //             const title = await page.$("h1");
 //             expect(await title.textContent()).toContain(checkTitle);
-//         });
-
-//         test("Return to enter personal data page from check online registration page", async () => {
-//             await goToPhoneValidationPage();
-//             await goToCheckOnlineRegistrationPage();
-//             await page.waitForNavigation();
-//             await page.click("//ul/li[@role='menuitem']/div[contains(@class, 'title') and contains(., 'Персональные данные')]/../ul/li[contains(., 'Ввод персональных данных')]");
-//             const title = await page.$("h2");
-//             expect(await title.textContent()).toContain("Ввод персональных данных");
-//         });
-
-//         test("Return to phone validation page from check online registration page", async () => {
-//             await goToPhoneValidationPage();
-//             await goToCheckOnlineRegistrationPage();
-//             await page.waitForNavigation();
-//             await page.click("//ul/li[@role='menuitem']/div[contains(@class, 'title') and contains(., 'Персональные данные')]/../ul/li[contains(., 'Подтверждение номера телефона')]");
-//             const title = await page.$("h2");
-//             expect(await title.textContent()).toContain("Подтверждение номера телефона");
 //         });
 
 //         test("Return to face-to-face identification page from enter passport data page", async () => {
