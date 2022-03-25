@@ -115,7 +115,7 @@ export default class AuthPopup extends BasePage {
         await this.click(this.selectors.registrationButton, "Click on to registration button");
         await this.waitForSelector(this.selectors.confirmEmailInput, "Wait for confirm email input on popup");
 
-        await this.reloadPage();
+        await this.reload("Reload main page");
         await header.click(header.selectors.enterButton, "Click enter button");
 
         await this.fill(this.selectors.usernameInput, user.email, "Enter email in auth email input");

@@ -15,6 +15,8 @@ export default class PassportDataPage extends BasePage {
 
         closeFilePreviewButton: "//button[@aria-label='Close']",
         deleteUploadedFileButton: "//div[contains(@class, 'uploader-delete')]",
+
+        title: "//h2[contains(., 'Ввод паспортных данных')]"
     }
 
     paths = {
