@@ -24,7 +24,7 @@ describe("Login new user from Main Page", () => {
         await authModal.click(authModal.selectors.registrationButton, "Click on to registration button");
         await authModal.waitForSelector(authModal.selectors.confirmEmailInput, "Wait for confirm email input on popup");
 
-        await authModal.reloadPage();
+        await authModal.reload("Reload main page");
         await header.click(header.selectors.enterButton, "Click enter button");
 
         await authModal.fill(authModal.selectors.usernameInput, user.email, "Enter email in auth email input");

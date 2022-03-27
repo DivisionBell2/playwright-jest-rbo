@@ -10,25 +10,19 @@ export default class FAQPage extends BasePage {
     }
 
     selectors = {
+        answerBlock: "//div[@class='ant-collapse-content-box']",
+        androidImage: "//img[@src='/img/faq/android1.png']",
+        androidVersionInfoBlock: "//div[@class='ant-collapse-header' and contains(., 'Как узнать версию Android')]",
+        closedTabItem: "//div[@class='ant-collapse-item']/div[@aria-expanded='false']",
+        cookieButton: "#test-cookieAlert_button",
         searchInput: "//input[@name='faq-search']",
         tabItem: "//div[@class='ant-collapse-item']",
-        closedTabItem: "//div[@class='ant-collapse-item']/div[@aria-expanded='false']",
-        answerBlock: "//div[@class='ant-collapse-content-box']",
-        cookieButton: "#test-cookieAlert_button",
-
-        androidVersionInfoBlock: "//div[@class='ant-collapse-header' and contains(., 'Как узнать версию Android')]",
-        androidImage: "//img[@src='/img/faq/android1.png']"
     }
 
     path = "/rbidos/faq";
 
     public async goToFAQPage() {
         await this.page.goto(this.url)
-    }
-
-    public async checkSearchInputVisible(): Promise<boolean> {
-        await this.page.waitForNavigation();
-        return await this.page.isVisible(this.selectors.searchInput);
     }
 
     public async getHeader(): Promise<Header> {

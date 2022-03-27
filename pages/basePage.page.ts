@@ -1,4 +1,4 @@
-import { BrowserContext, ElementHandle, Page } from "playwright";
+import { ElementHandle, Page } from "playwright";
 import * as data from "../data/url.json";
 
 declare const page: Page;
@@ -19,40 +19,6 @@ export default class BasePage {
         await context.clearCookies();
         await context.clearPermissions();
     }
-
-    async reloadPage(): Promise<void> {
-        await page.reload();
-    }
-
-    async saveOnlyOneTab(): Promise<void> {
-        const pages = page.context().pages();
-
-        if (pages.length > 1) {
-            for (let i = 1; i < pages.length; i++) {
-                pages[i].close();
-            }
-        }
-    }
-
-    async checkElementHidden(element: string): Promise<boolean> {
-        for (let i = 0; i < 3; i++) {
-            if (!await this.page.isHidden(element)) {
-                await this.page.waitForTimeout(1000);
-                continue;
-            }
-        }
-        return await this.page.isHidden(element);
-    }
-
-    private async getAllTabs(context: BrowserContext): Promise<void> {
-        await Promise.all([
-            context.waitForEvent("page", {timeout: 1000}),
-            context.waitForEvent("page"),
-            await page.waitForLoadState()
-        ]);
-    }
-
-    //new 
 
     async click(element: string, message: string) {
         await reporter.startStep(message);
@@ -95,7 +61,6 @@ export default class BasePage {
 
     async getNewTab(message?: string): Promise<Page> {
         await reporter.startStep(message);
-        //await this.getAllTabs(page.context());
         await page.waitForTimeout(1000);
         await page.context().pages()[1].waitForLoadState();
         await reporter.endStep();
@@ -191,6 +156,16 @@ export default class BasePage {
         await reporter.startStep(message);
         await page.reload();
         await reporter.endStep();
+    }
+
+    async saveOnlyOneTab(): Promise<void> {
+        const pages = page.context().pages();
+
+        if (pages.length > 1) {
+            for (let i = 1; i < pages.length; i++) {
+                pages[i].close();
+            }
+        }
     }
 
     async setInputFiles(element : string, filePath: string, message: string): Promise<void> {

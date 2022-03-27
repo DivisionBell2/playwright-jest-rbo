@@ -3,7 +3,7 @@ import MainPage from "../../pages/mainPage.page";
 import CheckOnlineRegistrationPage from "../../pages/checkOnlineRegistrationPage.page";
 import PassportDataPage from "../../pages/passportDataPage.page";
 import PhoneValidationPage from "../../pages/phoneValidationPage.page";
-import LeftMenu from "../../pages/blocks/leftMenu";
+import LeftMenu from "../../pages/blocks/leftMenu.pageBlock";
 import EnterPersonalDataPage from "../../pages/enterPersonalData.page";
 
 let phoneValidationPage = new PhoneValidationPage();

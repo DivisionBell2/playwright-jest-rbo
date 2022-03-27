@@ -1,5 +1,4 @@
 import {chromium, Page} from "playwright";
-import {Protocol} from "playwright/types/protocol";
 
 describe('Navigation on main page', () =>{
     let page: Page;
@@ -19,11 +18,11 @@ describe('Navigation on main page', () =>{
             }
         });
         page = await context.newPage();
-        await page.goto("https://rbo.uat.dasreda.ru");
+        await page.goto("");
 
         await page.click("#test-landing-upper-ip_button");
-        const title = await page.$("h1");
-        expect(await title.textContent()).toContain(checkTitle);
+        const title = await (await page.waitForSelector("h1")).textContent();
+        expect(title).toContain(checkTitle);
 
         await page.close()
         await context.close()

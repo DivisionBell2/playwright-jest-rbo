@@ -12,22 +12,18 @@ export default class MainPage extends BasePage {
     }
 
     selectors = {
-        landingStartEntrepreneurButton: '#test-landing-upper-ip_button',
-        landingStartLegalEntityButton: '#test-landing-upper-ooo_button',
+        cookieButton: "#test-cookieAlert_button",
         blockStartEntrepreneurButton: "//div[@id='eighthblock']//div[contains(@class, 'landing-left-button') and contains(text(), 'Станьте ИП')]",
         blockStartLegalEntityButton: "//div[@id='eighthblock']//div[contains(@class, 'landing-right-button') and contains(text(), 'Откройте ООО')]",
         faqButton: "//div[@id='tenthblock']//a[text()='Вопросы и ответы']",
         goToSberBankButton: "//div[@id='sixth-block-wrapper']//a/img[@alt='Сбербанк']",
-        cookieButton: "#test-cookieAlert_button",
+        landingStartEntrepreneurButton: '#test-landing-upper-ip_button',
+        landingStartLegalEntityButton: '#test-landing-upper-ooo_button',
         
-        ofertaLink: "//a[contains(., 'Оферты')]",
         agreementLink: "//a[contains(., 'Согласие')]",
+        ofertaLink: "//a[contains(., 'Оферты')]",
 
-        title: "#test-landing-header-text",
-    }
-
-    public async goToMainPage() {
-        await page.goto(this.url)
+        title: "#test-landing-header-text"
     }
 
     public async getHeader(): Promise<Header> {
@@ -50,47 +46,6 @@ export default class MainPage extends BasePage {
         return new AuthPopup();
     }
 
-    public async clickLandingStartEntrepreneurButton(): Promise<void> {
-        await this.page.click(this.selectors.landingStartEntrepreneurButton);
-    }
-
-    public async clickLandingStartLegalEntityButton(): Promise<void> {
-        await this.page.click(this.selectors.landingStartLegalEntityButton);
-    }
-
-    public async clickBlockStartEntrepreneurButton(): Promise<void> {
-        await this.page.click(this.selectors.blockStartEntrepreneurButton);
-    }
-
-    public async clickBlockStartLegalEntityButton(): Promise<void> {
-        await this.page.click(this.selectors.blockStartLegalEntityButton);
-    }
-
-    public async clickFAQButton(): Promise<void> {
-        await this.page.click(this.selectors.faqButton);
-    }
-
-    public async clickSberbankButton(): Promise<void> {
-        await this.page.click(this.selectors.goToSberBankButton);
-    }
-
-    public async clickOfertaLink(): Promise<void> {
-        await this.page.click(this.selectors.ofertaLink);
-    }
-
-    public async clickAgreementLink(): Promise<void> {
-        await this.page.click(this.selectors.agreementLink);
-    }
-
-    public async clickCookieButton(): Promise<void> {
-        await this.page.click(this.selectors.cookieButton);
-    }
-
-    public async getTitleText(): Promise<string|null> {
-        return await (await this.page.waitForSelector(this.selectors.title)).textContent();
-    }
-
-    // new
     public async clickOnCookieButton(): Promise<void> {
         if (await this.isVisible(this.selectors.cookieButton, "Check is cookie button exist on page")) {
             await this.click(this.selectors.cookieButton, "Click on cookie button");

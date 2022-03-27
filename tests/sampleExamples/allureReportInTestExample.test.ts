@@ -21,22 +21,22 @@ requestTypes.forEach(requestType => {
             console.log("Test for " + requestType + " request");
 
             if (requestType == "Entrepreneur") {
-                await enterPersonalDataPage.goToEnterPersonalDataPageEntrepreneur();
+                await enterPersonalDataPage.click(enterPersonalDataPage.paths.entrepreneur, "");
             } else {
-                await enterPersonalDataPage.goToEnterPersonalDataPageLegalEntity();
+                await enterPersonalDataPage.click(enterPersonalDataPage.paths.legalEntity, "");
             }
             await reporter
             .description("Login into LetCode")
             .story("JIRA101");
 
             await reporter.startStep("Open modal window");
-            await enterPersonalDataPage.clickLawModalLink();
-            expect(await enterPersonalDataPage.getModalTitleText()).toContain(enterPersonalDataPage.checkData.modalTitle);
+            await enterPersonalDataPage.click(enterPersonalDataPage.selectors.lawLink, "");
+            expect(await enterPersonalDataPage.getTextContent("html", "")).toContain(enterPersonalDataPage.checkData.modalTitle);
             await ReportUtils.screenshot("openModalWindow");
             await reporter.endStep();
 
             await reporter.startStep("Open law link");
-            await enterPersonalDataPage.clickConsultantLink();
+            await enterPersonalDataPage.click(enterPersonalDataPage.selectors.consultantLink, "");
             const newTab = await enterPersonalDataPage.getNewTab();
             expect(newTab.url()).toContain(urlData.lawLink);
             await enterPersonalDataPage.saveOnlyOneTab();
@@ -45,8 +45,8 @@ requestTypes.forEach(requestType => {
             await reporter.endStep();
 
             await reporter.startStep("Close modal window");
-            await enterPersonalDataPage.clickCloseModalButton();
-            expect(await enterPersonalDataPage.checkModalWindowHidden()).toBeTruthy();
+            await enterPersonalDataPage.click(enterPersonalDataPage.selectors.closeModalButton, "");
+            expect(await enterPersonalDataPage.isHidden(enterPersonalDataPage.selectors.modalWindow, "")).toBeTruthy();
             await ReportUtils.screenshot("closeModalWindow");
             await reporter.endStep();
         });

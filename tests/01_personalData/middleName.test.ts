@@ -1,10 +1,5 @@
-import Header from "../../pages/blocks/header.pageBlock";
-import FAQPage from "../../pages/faqPage.page";
-import FeedbackPage from "../../pages/feedback.page";
 import User from "../../data/user";
-import MainPage from "../../pages/mainPage.page";
 import EnterPersonalDataPage from "../../pages/enterPersonalData.page";
-import SberIDPage from "../../pages/sberId.page";
 import AuthPopup from "../../pages/blocks/authPopup.pageBlock";
 
 let personalDataPage = new EnterPersonalDataPage();
@@ -15,20 +10,10 @@ const paths = [
 
 paths.forEach(path => {
     describe("Navigation tests for personal data page", () => {
-        let faqPage: FAQPage;
-        let mainPage: MainPage;
-        let header: Header;
-        let feedbackPage: FeedbackPage;
-        let sberIdPage: SberIDPage;
         let authPopup: AuthPopup;
         let user: User;
     
         beforeAll(async () => {
-            faqPage = new FAQPage();
-            mainPage = new MainPage();
-            feedbackPage = new FeedbackPage();
-            sberIdPage = new SberIDPage();
-            header = await personalDataPage.getHeader();
             authPopup = await personalDataPage.getAuthPopup();
             user = new User();
         });

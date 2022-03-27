@@ -1,10 +1,8 @@
 import Header from "../../pages/blocks/header.pageBlock";
 import FAQPage from "../../pages/faqPage.page";
 import FeedbackPage from "../../pages/feedback.page";
-import User from "../../data/user";
 import MainPage from "../../pages/mainPage.page";
 import EnterPersonalDataPage from "../../pages/enterPersonalData.page";
-import SberbankPage from "../../pages/sberbankPage";
 import SberIDPage from "../../pages/sberId.page";
 import * as urlData from "../../data/checkDataUrls.json";
 import Footer from "../../pages/blocks/footer.pageBlock";

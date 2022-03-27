@@ -1,30 +1,22 @@
-// import Footer from "./blocks/footer.pageBlock";
 import Header from "./blocks/header.pageBlock";
-// import SupportMenu from "./blocks/supportMenu.pageBlock";
-// import VideoFrame from "./blocks/videoFrame.pageBlock";
 import BasePage from "./basePage.page";
 import Footer from "./blocks/footer.pageBlock";
-// import AuthPopup from "./blocks/authPopup.pageBlock";
 import * as constants from "../data/сonstants.json";
 
 export default class PhoneValidationPage extends BasePage {
 
-    // public checkData = {
-    //     title: 'бизнес легко и быстро'
-    // }
-
     selectors = {
+        continueButton: "//button[contains(., 'Продолжить')]",
         selfRegistrationButton: "//button[contains(., 'Я регистрируюсь сам')]",
         sendSMSButton: "#test-send_sms",
-        continueButton: "//button[contains(., 'Продолжить')]",
         selectNewRequestButton: "//div[contains(., 'новую заявку')]/following-sibling::button",
 
         phoneInput: "//input[@name='phone']",
         smsCodeInput: "#code",
 
-        requestNumber: "//div[contains(@class, 'request-number-hint')]",
         getNewRequestText: "//div[contains(., 'новую заявку')]",
-
+        requestNumber: "//div[contains(@class, 'request-number-hint')]",
+        
         agreementCheckbox: "#agreement-conditions",
         personalDataCheckbox: "#agreementPersonalData"
     }
@@ -38,27 +30,13 @@ export default class PhoneValidationPage extends BasePage {
         return new Header();
     }
 
-    // public async getVideoFrame(): Promise<VideoFrame> {
-    //     return new VideoFrame();
-    // }
-
     public async getFooter(): Promise<Footer> {
         return new Footer();
     }
 
-    // public async getSupportMenu(): Promise<SupportMenu> {
-    //     return new SupportMenu();
-    // }
-
-    // public async getAuthPopup(): Promise<AuthPopup> {
-    //     return new AuthPopup();
-    // }
-
     public async basePhoneValidation(message: string) {
         await this.reporter.startStep(message);
-        //div[contains(@class, 'PersonalInformation')]/div//button[contains(., 'Выбрать')]
         await this.isVisible(this.selectors.requestNumber, "Wait for request number", 3, 2);
-        //await page.waitForTimeout(5000)
         await this.click(this.selectors.selfRegistrationButton, "Click on self registration button");
 
         await this.fill(this.selectors.phoneInput, constants.basePhone, "Enter phone number");

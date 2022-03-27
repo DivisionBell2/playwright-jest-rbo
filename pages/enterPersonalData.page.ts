@@ -11,44 +11,34 @@ export default class EnterPersonalDataPage extends BasePage {
     }
 
     selectors = {
-        title: "h2",
-        modalTitle: "//span[@class='ant-modal-confirm-title']",
         logo: "//div[contains(@class, 'topmenu-logo-pic')]",
+        modalTitle: "//span[@class='ant-modal-confirm-title']",
         modalWindow: "//div[@class='ant-modal-confirm-content']",
         noMiddleNameText: "//p[text()='Без отчества']",
+        title: "h2",
 
-
-        sberIdButton: "//button[contains(@class, 'SberIdButton')]",
         closeModalButton: "//button[contains(., 'Закрыть')]",
+        sberIdButton: "//button[contains(@class, 'SberIdButton')]",
         sendPasswordBUtton: "#test-send_password",
 
-        dasredaLink: "//div[contains(@class, 'PersonalInformation__hint-blockquote')]/a[contains(., dasreda.ru)]",
         agreementsLink: "//span[contains(@class, 'PersonalInformation')]/a[contains(., 'Согласие')]",
-        lawLink: "//span[@role='button' and contains(., 'требованиям закона')]",
         consultantLink: "//div[@class='ant-modal-confirm-content']//a",
+        dasredaLink: "//div[contains(@class, 'PersonalInformation__hint-blockquote')]/a[contains(., dasreda.ru)]",
+        lawLink: "//span[@role='button' and contains(., 'требованиям закона')]",
 
         noMiddleNameCheckbox: "//div[contains(@class, 'input-item-no-mid-name')]/label",
         personalDataCheckbox: "//label[contains(@class, 'PersonalInformation__checkbox') and contains(., 'передачу персональных данных')]/span[contains(@class, 'ant-checkbox')]",
 
+        email: "#email",
+        emailCodeInput: "#emailCode",
+        firstNameInput: "//input[@id='firstName']",
         middleNameInput: "#middleName",
         lastNameInput: "#lastName",
-        firstNameInput: "//input[@id='firstName']",
-        email: "#email",
-        emailCodeInput: "#emailCode"
-        
     }
 
     paths = {
         entrepreneur: "/rbidos/personal-information/ip/1",
         legalEntity: "/rbidos/personal-information/ooo/1"
-    }
-
-    public async goToEnterPersonalDataPageEntrepreneur() {
-        await page.goto(this.url + "/rbidos/personal-information/ip/1");
-    }
-
-    public async goToEnterPersonalDataPageLegalEntity() {
-        await this.page.goto(this.url + "/rbidos/personal-information/ooo/1");
     }
 
     public async getAuthPopup(): Promise<AuthPopup> {
@@ -61,46 +51,6 @@ export default class EnterPersonalDataPage extends BasePage {
 
     public async getFooter(): Promise<Footer> {
         return new Footer();
-    }
-
-    public async getTitleText(): Promise<string | null> {
-        return await (await this.page.waitForSelector(this.selectors.title)).textContent();
-    }
-
-    public async getModalTitleText(): Promise<string | null> {
-        return await (await this.page.waitForSelector(this.selectors.modalTitle)).textContent();
-    }
-
-    public async clickLogo(): Promise<void> {
-        await this.page.click(this.selectors.logo);
-    }
-
-    public async clickSberIdButton(): Promise<void> {
-        await this.page.click(this.selectors.sberIdButton);
-    }
-
-    public async clickDasredaLink(): Promise<void> {
-        await this.page.click(this.selectors.dasredaLink);
-    }
-
-    public async clickAgreementsLink(): Promise<void> {
-        await this.page.click(this.selectors.agreementsLink);
-    }
-
-    public async clickLawModalLink(): Promise<void> {
-        await this.page.click(this.selectors.lawLink);
-    }
-
-    public async clickConsultantLink(): Promise<void> {
-        await this.page.click(this.selectors.consultantLink);
-    }
-
-    public async clickCloseModalButton(): Promise<void> {
-        await this.page.click(this.selectors.closeModalButton);
-    }
-
-    public async checkModalWindowHidden(): Promise<boolean> {
-        return await this.checkElementHidden(this.selectors.modalWindow);
     }
 }
 

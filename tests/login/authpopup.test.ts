@@ -18,9 +18,9 @@ describe("Auth popup functional tests", () => {
     });
 
     beforeEach(async () => {
-        await mainPage.goToMainPage();
+        await mainPage.goto("/", "Go to main page");
         header = await mainPage.getHeader();
-        await header.clickEnterButton();
+        await header.click(header.selectors.enterButton, "Click enter button");
         authPopup = await mainPage.getAuthPopup();
     });
 

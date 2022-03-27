@@ -30,7 +30,7 @@ describe("Navigation on main page", () => {
     });
 
     beforeEach(async () => {
-        await mainPage.goToMainPage();
+        await mainPage.goto("/", "Go to main page");
     });
 
     test('Click on start business registration as entrepreneur', async () => {

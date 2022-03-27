@@ -22,6 +22,7 @@ describe("Navigation tests for feedback page", () => {
         await feedbackPage.fill(feedbackPage.selectors.messageTextInput, "Тестовое сообщение", "Enter text message for feedback");
         await feedbackPage.fill(feedbackPage.selectors.usermailInput, user.email, "Enter user email for feedback");
         expect(await feedbackPage.isDisabled(feedbackPage.selectors.sendButton, "Check send message button is enabled")).toBeFalsy();
+
         await feedbackPage.click(feedbackPage.selectors.sendButton, "Click on send message button");
         await feedbackPage.waitForSelector(feedbackPage.selectors.infoSendedMessageText, "Wait for info about sended message");
         expect(await feedbackPage.isDisabled(feedbackPage.selectors.sendButton, "Check send message button is disabled")).toBeTruthy();
@@ -32,6 +33,7 @@ describe("Navigation tests for feedback page", () => {
         await authPopup.login(user);
         await feedbackPage.fill(feedbackPage.selectors.messageTextInput, "Тестовое сообщение", "Enter text message for feedback");
         expect(await feedbackPage.isDisabled(feedbackPage.selectors.sendButton, "Check send message button is enabled")).toBeFalsy();
+        
         await feedbackPage.click(feedbackPage.selectors.sendButton, "Click on send message button");
         await feedbackPage.waitForSelector(feedbackPage.selectors.infoSendedMessageText, "Wait for info about sended message");
         expect(await feedbackPage.isDisabled(feedbackPage.selectors.sendButton, "Check send message button is disabled")).toBeTruthy();

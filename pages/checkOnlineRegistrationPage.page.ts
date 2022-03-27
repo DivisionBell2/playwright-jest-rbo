@@ -1,33 +1,24 @@
-// import Footer from "./blocks/footer.pageBlock";
 import Header from "./blocks/header.pageBlock";
-// import SupportMenu from "./blocks/supportMenu.pageBlock";
-// import VideoFrame from "./blocks/videoFrame.pageBlock";
 import BasePage from "./basePage.page";
-// import AuthPopup from "./blocks/authPopup.pageBlock";
 
 export default class CheckOnlineRegistrationPage extends BasePage {
-
-    // public checkData = {
-    //     title: 'бизнес легко и быстро'
-    // }
 
     selectors = {
         continueButton: "//button[contains(., 'Продолжить')]",
         modalWindowOkButton: "//div[@class='ant-modal-body']//button[contains(., 'OK')]",
         noNFCButton: "//button[contains(., 'NFC нет')]",
         
-        nfcCheckbox: "//li[contains(@class, 'PersonalInformation')]//input[@type='checkbox']",
         infoModalWindow: "//div[@class='ant-modal-body']",
-        phoneSelects: "//div[@role='combobox' and @aria-autocomplete='list']",
+        nfcCheckbox: "//li[contains(@class, 'PersonalInformation')]//input[@type='checkbox']",
         noSuitableAndroid: "//li[text()='4.0 или ниже']",
         osNameSelect: "#osName",
-
+        phoneSelects: "//div[@role='combobox' and @aria-autocomplete='list']",
+        
         hasSBOLRadio: "//input[@name='hasSbol' and @value='1']",
-        noSbolRadio: "//input[@name='hasSbol' and @value='2']",
         hasPassportRadio: "//input[@name='hasBioPassport' and @value='1']",
         noPassportRadio: "//input[@name='hasBioPassport' and @value='2']",
+        noSbolRadio: "//input[@name='hasSbol' and @value='2']",
         
-
         androidLi: "//li[text()='Android']",
 
         howToKnowAndroidVersionLink: "//a[text()='Как узнать версию Android?']",
@@ -54,20 +45,4 @@ export default class CheckOnlineRegistrationPage extends BasePage {
         await this.click(this.selectors.continueButton, "Click continue button");
         await this.reporter.endStep();
     }
-
-    // public async getVideoFrame(): Promise<VideoFrame> {
-    //     return new VideoFrame();
-    // }
-
-    // public async getFooter(): Promise<Footer> {
-    //     return new Footer();
-    // }
-
-    // public async getSupportMenu(): Promise<SupportMenu> {
-    //     return new SupportMenu();
-    // }
-
-    // public async getAuthPopup(): Promise<AuthPopup> {
-    //     return new AuthPopup();
-    // }
 }

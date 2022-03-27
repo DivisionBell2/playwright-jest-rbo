@@ -9,9 +9,8 @@ export default class FeedbackPage extends BasePage {
         messageTextInput: "#messageText",
         usermailInput: "#userMail",
 
-        sendButton: "//button[contains(., 'Отправить')]",
-        infoSendedMessageText: "//p[contains(., 'Спасибо за ваше сообщение!')]"
-        
+        infoSendedMessageText: "//p[contains(., 'Спасибо за ваше сообщение!')]",
+        sendButton: "//button[contains(., 'Отправить')]"
     }
 
     path = "/rbidos/feedback";
@@ -26,17 +25,5 @@ export default class FeedbackPage extends BasePage {
 
     public async getVideoFrame(): Promise<VideoFrame> {
         return new VideoFrame();
-    }
-
-    public async goToFeedbackPage() {
-        await this.page.goto(this.url)
-    }
-
-    public async checkMessageTextInputVisible(): Promise<boolean> {
-        return await this.page.isVisible(this.selectors.messageTextInput);
-    }
-
-    public async waitForNavigationFeedbackPage(): Promise<void> {
-        await this.page.waitForNavigation();
     }
 }

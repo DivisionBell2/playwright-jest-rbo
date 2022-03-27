@@ -12,11 +12,11 @@ describe("Example tests in some browsers", () => {
         });
         context = await browser.newContext();
         page = await context.newPage();
-        await page.goto("https://rbo.uat.dasreda.ru/");
+        await page.goto("");
 
         await page.click("#test-landing-upper-ip_button");
-        const title = await page.$("h1");
-        expect(await title.textContent()).toContain("Персональные данные");
+        const title = await (await page.waitForSelector("h1")).textContent();
+        expect(title).toContain("Персональные данные");
 
         await page.close();
         await context.close();
@@ -29,11 +29,11 @@ describe("Example tests in some browsers", () => {
         });
         context = await browser.newContext();
         page = await context.newPage();
-        await page.goto("https://rbo.uat.dasreda.ru/");
+        await page.goto("");
 
         await page.click("#test-landing-upper-ip_button");
-        const title = await page.$("h1");
-        expect(await title.textContent()).toContain("Персональные данные");
+        const title = await (await page.waitForSelector("h1")).textContent();
+        expect(title).toContain("Персональные данные");
 
         await page.close();
         await context.close();
