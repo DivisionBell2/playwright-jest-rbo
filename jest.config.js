@@ -8,7 +8,6 @@ module.exports = {
     testRunner: 'jasmine2',
     setupFilesAfterEnv: ["jest-allure/dist/setup"],
     testMatch: [
-        // 36-55
         "<rootDir>/tests/login/**.test.ts",
         "<rootDir>/tests/faqPage/**.test.ts",
         "<rootDir>/tests/feedbackPage/**.test.ts",
@@ -21,7 +20,5 @@ module.exports = {
         "<rootDir>/tests/navigationMenu/**.test.ts"
 
     ],
-    // bail: true,
-    // bail: 1,
     "testTimeout": 40000
 }
